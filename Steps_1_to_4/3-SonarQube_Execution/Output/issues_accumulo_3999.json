@@ -1,0 +1,459 @@
+[
+    {
+        "commit_sha": "c615abf55b3ccf1bd32d0645797f14286911df07",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Ubeb94DYH8rUmukzN",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/UpgradeCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5Ubeb94DYH8rUmukzL",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/UpgradeCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 239,
+                        "endLine": 239,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5Ubeb94DYH8rUmukzM",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/UpgradeCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 244,
+                        "endLine": 244,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5Ubeb94DYH8rUmukzO",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/UpgradeCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 281,
+                        "endLine": 281,
+                        "startOffset": 13,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5UbeWh4DYH8rUmuktm",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3999:server/base/src/test/java/org/apache/accumulo/server/ServerContextTest.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 140,
+                        "endLine": 140,
+                        "startOffset": 0,
+                        "endOffset": 92
+                    }
+                },
+                {
+                    "key": "AY5UbeWh4DYH8rUmuktl",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/base/src/test/java/org/apache/accumulo/server/ServerContextTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 141,
+                        "endLine": 141,
+                        "startOffset": 7,
+                        "endOffset": 83
+                    }
+                },
+                {
+                    "key": "AY5UbeSz4DYH8rUmukou",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/base/src/main/java/org/apache/accumulo/server/AccumuloDataVersion.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 13,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5UbeSz4DYH8rUmukov",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3999:server/base/src/main/java/org/apache/accumulo/server/AccumuloDataVersion.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 0,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5UbeSz4DYH8rUmukow",
+                    "rule": "java:S131",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3999:server/base/src/main/java/org/apache/accumulo/server/AccumuloDataVersion.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 4,
+                        "endOffset": 10
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-3999:server/base/src/main/java/org/apache/accumulo/server/AccumuloDataVersion.java": {
+                "ncloc": "32",
+                "complexity": "8"
+            },
+            "accumulo-3999:server/base/src/test/java/org/apache/accumulo/server/ServerContextTest.java": {
+                "ncloc": "101",
+                "complexity": "7"
+            },
+            "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/UpgradeCoordinator.java": {
+                "ncloc": "195",
+                "complexity": "26"
+            }
+        }
+    },
+    {
+        "commit_sha": "8908e5310c088be35b23a6b1a80ae67bb2ed89cf",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Ubeb94DYH8rUmukzN",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/UpgradeCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5Ubeb94DYH8rUmukzL",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/UpgradeCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 239,
+                        "endLine": 239,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5Ubeb94DYH8rUmukzM",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/UpgradeCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 244,
+                        "endLine": 244,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5Ubeb94DYH8rUmukzO",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/UpgradeCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 281,
+                        "endLine": 281,
+                        "startOffset": 13,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5UbeWh4DYH8rUmuktm",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3999:server/base/src/test/java/org/apache/accumulo/server/ServerContextTest.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 140,
+                        "endLine": 140,
+                        "startOffset": 0,
+                        "endOffset": 92
+                    }
+                },
+                {
+                    "key": "AY5UbeWh4DYH8rUmuktl",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/base/src/test/java/org/apache/accumulo/server/ServerContextTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 141,
+                        "endLine": 141,
+                        "startOffset": 7,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5UdQli4DYH8rUmu5GX",
+                    "rule": "java:S4144",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/manager/src/test/java/org/apache/accumulo/manager/upgrade/Upgrader10to11Test.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 108,
+                        "endLine": 108,
+                        "startOffset": 7,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5UdQli4DYH8rUmu5GT",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3999:server/manager/src/test/java/org/apache/accumulo/manager/upgrade/Upgrader10to11Test.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 8,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5UdQli4DYH8rUmu5GU",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3999:server/manager/src/test/java/org/apache/accumulo/manager/upgrade/Upgrader10to11Test.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 166,
+                        "endLine": 166,
+                        "startOffset": 8,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY5UdQli4DYH8rUmu5GV",
+                    "rule": "java:S117",
+                    "severity": "MINOR",
+                    "component": "accumulo-3999:server/manager/src/test/java/org/apache/accumulo/manager/upgrade/Upgrader10to11Test.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 11,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5UdQli4DYH8rUmu5GW",
+                    "rule": "java:S117",
+                    "severity": "MINOR",
+                    "component": "accumulo-3999:server/manager/src/test/java/org/apache/accumulo/manager/upgrade/Upgrader10to11Test.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 181,
+                        "endLine": 181,
+                        "startOffset": 11,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5UdQkK4DYH8rUmu5GS",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/Upgrader10to11.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 247,
+                        "endLine": 247,
+                        "startOffset": 8,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5UdQkK4DYH8rUmu5GQ",
+                    "rule": "java:S117",
+                    "severity": "MINOR",
+                    "component": "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/Upgrader10to11.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 260,
+                        "endLine": 260,
+                        "startOffset": 11,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5UdQkK4DYH8rUmu5GR",
+                    "rule": "java:S117",
+                    "severity": "MINOR",
+                    "component": "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/Upgrader10to11.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 261,
+                        "endLine": 261,
+                        "startOffset": 11,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5UdQX84DYH8rUmu5GP",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/base/src/main/java/org/apache/accumulo/server/AccumuloDataVersion.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 86,
+                        "endLine": 86,
+                        "startOffset": 5,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5UbeSz4DYH8rUmukou",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3999:server/base/src/main/java/org/apache/accumulo/server/AccumuloDataVersion.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 13,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5UbeSz4DYH8rUmukov",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3999:server/base/src/main/java/org/apache/accumulo/server/AccumuloDataVersion.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 0,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5UbeSz4DYH8rUmukow",
+                    "rule": "java:S131",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3999:server/base/src/main/java/org/apache/accumulo/server/AccumuloDataVersion.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 4,
+                        "endOffset": 10
+                    }
+                }
+            ],
+            "total": 18
+        },
+        "metrics": {
+            "accumulo-3999:server/base/src/main/java/org/apache/accumulo/server/AccumuloDataVersion.java": {
+                "ncloc": "35",
+                "complexity": "9"
+            },
+            "accumulo-3999:server/base/src/test/java/org/apache/accumulo/server/ServerContextTest.java": {
+                "ncloc": "101",
+                "complexity": "7"
+            },
+            "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/UpgradeCoordinator.java": {
+                "ncloc": "195",
+                "complexity": "26"
+            },
+            "accumulo-3999:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/Upgrader10to11.java": {
+                "ncloc": "192",
+                "complexity": "26"
+            },
+            "accumulo-3999:server/manager/src/test/java/org/apache/accumulo/manager/upgrade/Upgrader10to11Test.java": {
+                "ncloc": "139",
+                "complexity": "10"
+            }
+        }
+    }
+]

@@ -1,0 +1,218 @@
+[
+    {
+        "commit_sha": "f0898584c7a2e258af94c225a4f20cda50d6b185",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CNhX_ygGTmJJJUk6H",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/config/TlsConfig.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 24,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5CNhXlygGTmJJJUk5y",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 19,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5CNhXlygGTmJJJUk5z",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 16,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5CNhXlygGTmJJJUk50",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 27,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5CNhXlygGTmJJJUk51",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 27,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5CNhXlygGTmJJJUk5x",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 152,
+                        "endLine": 152,
+                        "startOffset": 16,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java": {
+                "ncloc": "124",
+                "complexity": "21"
+            },
+            "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/config/TlsConfig.java": {
+                "ncloc": "110",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "48fc3708d4dc84a374ab0510b5845d05a73afe71",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CNhX_ygGTmJJJUk6H",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/config/TlsConfig.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 24,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5CNhXlygGTmJJJUk5y",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 19,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5CNhXlygGTmJJJUk5z",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 16,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5CNhXlygGTmJJJUk50",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 27,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5CNhXlygGTmJJJUk51",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 27,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5CNhXlygGTmJJJUk5x",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 152,
+                        "endLine": 152,
+                        "startOffset": 16,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/AbstractClientTlsStrategy.java": {
+                "ncloc": "124",
+                "complexity": "21"
+            },
+            "httpcomponents-client-350:httpclient5/src/main/java/org/apache/hc/client5/http/config/TlsConfig.java": {
+                "ncloc": "110",
+                "complexity": "22"
+            }
+        }
+    }
+]

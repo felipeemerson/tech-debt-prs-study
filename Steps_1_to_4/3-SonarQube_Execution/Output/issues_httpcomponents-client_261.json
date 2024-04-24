@@ -1,0 +1,146 @@
+[
+    {
+        "commit_sha": "1026a1e55880f59a2dafb654347cc120f234ceaf",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CyVaQygGTmJJJhh5B",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-261:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/MinimalHttpClient.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5CyVaQygGTmJJJhh5A",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-261:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/MinimalHttpClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 12,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-261:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/MinimalHttpClient.java": {
+                "ncloc": "138",
+                "complexity": "15"
+            },
+            "httpcomponents-client-261:httpclient5-testing/src/test/java/org/apache/hc/client5/testing/sync/TestMinimalClientRequestExecution.java": {
+                "ncloc": "61",
+                "complexity": "5"
+            }
+        }
+    },
+    {
+        "commit_sha": "c0dae811cdb794fc6196aac8c7604193b37adbfb",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CyVaQygGTmJJJhh5A",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-261:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/MinimalHttpClient.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 12,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5CyVaQygGTmJJJhh5B",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-261:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/MinimalHttpClient.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-261:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/MinimalHttpClient.java": {
+                "ncloc": "138",
+                "complexity": "15"
+            },
+            "httpcomponents-client-261:httpclient5-testing/src/test/java/org/apache/hc/client5/testing/sync/TestMinimalClientRequestExecution.java": {
+                "ncloc": "75",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "7579f74f629ca397832c23123942893016dba5f2",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CyVaQygGTmJJJhh5A",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-261:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/MinimalHttpClient.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 12,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5CyVaQygGTmJJJhh5B",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-261:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/MinimalHttpClient.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-261:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/MinimalHttpClient.java": {
+                "ncloc": "138",
+                "complexity": "15"
+            },
+            "httpcomponents-client-261:httpclient5-testing/src/test/java/org/apache/hc/client5/testing/sync/TestMinimalClientRequestExecution.java": {
+                "ncloc": "76",
+                "complexity": "7"
+            }
+        }
+    }
+]

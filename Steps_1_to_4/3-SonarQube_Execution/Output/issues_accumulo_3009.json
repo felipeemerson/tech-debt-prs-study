@@ -1,0 +1,300 @@
+[
+    {
+        "commit_sha": "178f1f2e2956b429de4fa831b697589ab421d68e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt6",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 294,
+                        "endLine": 294,
+                        "startOffset": 47,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt0",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 330,
+                        "endLine": 330,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt5",
+                    "rule": "java:S3655",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 350,
+                        "endLine": 351,
+                        "startOffset": 13,
+                        "endOffset": 91
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt3",
+                    "rule": "java:S3655",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 392,
+                        "endLine": 393,
+                        "startOffset": 13,
+                        "endOffset": 91
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt2",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 442,
+                        "endLine": 442,
+                        "startOffset": 15,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt7",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 461,
+                        "endLine": 461,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt8",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 485,
+                        "endLine": 485,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt1",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 531,
+                        "endLine": 531,
+                        "startOffset": 19,
+                        "endOffset": 74
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt4",
+                    "rule": "java:S3655",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 576,
+                        "endLine": 577,
+                        "startOffset": 15,
+                        "endOffset": 93
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java": {
+                "ncloc": "510",
+                "complexity": "76"
+            }
+        }
+    },
+    {
+        "commit_sha": "abaf17a6d18059daa161d19ae398dae73498340e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt6",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 294,
+                        "endLine": 294,
+                        "startOffset": 47,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt0",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 352,
+                        "endLine": 352,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt5",
+                    "rule": "java:S3655",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 366,
+                        "endLine": 367,
+                        "startOffset": 11,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt3",
+                    "rule": "java:S3655",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 393,
+                        "endLine": 394,
+                        "startOffset": 11,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt2",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 439,
+                        "endLine": 439,
+                        "startOffset": 15,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt7",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 458,
+                        "endLine": 458,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt8",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 482,
+                        "endLine": 482,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt1",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 528,
+                        "endLine": 528,
+                        "startOffset": 19,
+                        "endOffset": 74
+                    }
+                },
+                {
+                    "key": "AY6BIzdWCUWL21ZDmUt4",
+                    "rule": "java:S3655",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 562,
+                        "endLine": 563,
+                        "startOffset": 13,
+                        "endOffset": 91
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-3009:server/base/src/main/java/org/apache/accumulo/server/client/ClientServiceHandler.java": {
+                "ncloc": "487",
+                "complexity": "67"
+            }
+        }
+    }
+]

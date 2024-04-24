@@ -1,0 +1,158 @@
+[
+    {
+        "commit_sha": "031b9c24b7781e0f54dccc57ed484ad26af4b1e4",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5wcgCS8f47XzIbvMxM",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3396:core/src/test/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 14,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5wcgCS8f47XzIbvMxN",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3396:core/src/test/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 14,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5wcgCS8f47XzIbvMxO",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3396:core/src/test/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5wcfbM8f47XzIbvJHp",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3396:core/src/main/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "accumulo-3396:core/src/main/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandler.java": {
+                "ncloc": "41",
+                "complexity": "10"
+            },
+            "accumulo-3396:core/src/test/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandlerTest.java": {
+                "ncloc": "64",
+                "complexity": "3"
+            }
+        }
+    },
+    {
+        "commit_sha": "33768e4f87da05ca509bbde42b8f8ba96a4642ba",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5wcgCS8f47XzIbvMxM",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3396:core/src/test/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 14,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5wcgCS8f47XzIbvMxN",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3396:core/src/test/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 14,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5wcgCS8f47XzIbvMxO",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3396:core/src/test/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5wcfbM8f47XzIbvJHp",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3396:core/src/main/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "accumulo-3396:core/src/main/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandler.java": {
+                "ncloc": "41",
+                "complexity": "9"
+            },
+            "accumulo-3396:core/src/test/java/org/apache/accumulo/core/util/threads/AccumuloUncaughtExceptionHandlerTest.java": {
+                "ncloc": "64",
+                "complexity": "3"
+            }
+        }
+    }
+]

@@ -1,0 +1,812 @@
+[
+    {
+        "commit_sha": "0fdb24b17c7db0392f08e1c96bf488f4bd8f2fe0",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 15,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUD",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 68,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUA",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 56,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUE",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "21min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 16,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUB",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 261,
+                        "endLine": 261,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUF",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 313,
+                        "endLine": 313,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5siJuCTNX9f26ZHBUG",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 48,
+                        "endOffset": 59
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java": {
+                "ncloc": "216",
+                "complexity": "38"
+            },
+            "wicket-487:wicket-spring/src/test/java/org/apache/wicket/spring/injection/annot/JakartaInjectAnnotProxyFieldValueFactoryTest.java": {
+                "ncloc": "27",
+                "complexity": "2"
+            },
+            "wicket-487:wicket-util/src/main/java/module-info.java": {
+                "ncloc": "40",
+                "complexity": "0"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java": {
+                "ncloc": "92",
+                "complexity": "12"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/SpringWebApplicationFactory.java": {
+                "ncloc": "102",
+                "complexity": "14"
+            }
+        }
+    },
+    {
+        "commit_sha": "3b6c455674c387a79b441f1742b2327cf3d80604",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 15,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUD",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 68,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUA",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 56,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUE",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "21min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 16,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUB",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 261,
+                        "endLine": 261,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUF",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 313,
+                        "endLine": 313,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5siJuCTNX9f26ZHBUG",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 48,
+                        "endOffset": 59
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java": {
+                "ncloc": "216",
+                "complexity": "38"
+            },
+            "wicket-487:wicket-spring/src/test/java/org/apache/wicket/spring/injection/annot/JakartaInjectAnnotProxyFieldValueFactoryTest.java": {
+                "ncloc": "27",
+                "complexity": "2"
+            },
+            "wicket-487:wicket-util/src/main/java/module-info.java": {
+                "ncloc": "40",
+                "complexity": "0"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java": {
+                "ncloc": "92",
+                "complexity": "12"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/SpringWebApplicationFactory.java": {
+                "ncloc": "102",
+                "complexity": "14"
+            }
+        }
+    },
+    {
+        "commit_sha": "cbedce37443c48de4f6ee3a133903bee4d34f352",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 15,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUD",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 68,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUA",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 56,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUE",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "21min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 16,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUB",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 261,
+                        "endLine": 261,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUF",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 313,
+                        "endLine": 313,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5siJuCTNX9f26ZHBUG",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 48,
+                        "endOffset": 59
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java": {
+                "ncloc": "216",
+                "complexity": "38"
+            },
+            "wicket-487:wicket-spring/src/test/java/org/apache/wicket/spring/injection/annot/JakartaInjectAnnotProxyFieldValueFactoryTest.java": {
+                "ncloc": "27",
+                "complexity": "2"
+            },
+            "wicket-487:wicket-util/src/main/java/module-info.java": {
+                "ncloc": "40",
+                "complexity": "0"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java": {
+                "ncloc": "92",
+                "complexity": "12"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/SpringWebApplicationFactory.java": {
+                "ncloc": "102",
+                "complexity": "14"
+            }
+        }
+    },
+    {
+        "commit_sha": "68f17003894f7c06e1a31998401300489778d164",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 15,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUD",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 68,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUA",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 56,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUE",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "21min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 16,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUB",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 261,
+                        "endLine": 261,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUF",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 313,
+                        "endLine": 313,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5siJuCTNX9f26ZHBUG",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 48,
+                        "endOffset": 59
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java": {
+                "ncloc": "216",
+                "complexity": "38"
+            },
+            "wicket-487:wicket-spring/src/test/java/org/apache/wicket/spring/injection/annot/JakartaInjectAnnotProxyFieldValueFactoryTest.java": {
+                "ncloc": "27",
+                "complexity": "2"
+            },
+            "wicket-487:wicket-util/src/main/java/module-info.java": {
+                "ncloc": "40",
+                "complexity": "0"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java": {
+                "ncloc": "92",
+                "complexity": "12"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/SpringWebApplicationFactory.java": {
+                "ncloc": "102",
+                "complexity": "14"
+            }
+        }
+    },
+    {
+        "commit_sha": "802d03963b6cd39cf2840437cea78494bb9f693b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 15,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUD",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 68,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUA",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 56,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUE",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "21min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 16,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUB",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 261,
+                        "endLine": 261,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUF",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 313,
+                        "endLine": 313,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5siJuCTNX9f26ZHBUG",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 48,
+                        "endOffset": 59
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java": {
+                "ncloc": "216",
+                "complexity": "38"
+            },
+            "wicket-487:wicket-spring/src/test/java/org/apache/wicket/spring/injection/annot/JakartaInjectAnnotProxyFieldValueFactoryTest.java": {
+                "ncloc": "27",
+                "complexity": "2"
+            },
+            "wicket-487:wicket-util/src/main/java/module-info.java": {
+                "ncloc": "40",
+                "complexity": "0"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java": {
+                "ncloc": "92",
+                "complexity": "12"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/SpringWebApplicationFactory.java": {
+                "ncloc": "102",
+                "complexity": "14"
+            }
+        }
+    },
+    {
+        "commit_sha": "53f12dcdfd253e58ed99616c0dff0f3b10cd2c48",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 15,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUD",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 68,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUA",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 56,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUE",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "21min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 16,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUB",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 261,
+                        "endLine": 261,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5siJt-TNX9f26ZHBUF",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 313,
+                        "endLine": 313,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5siJuCTNX9f26ZHBUG",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 48,
+                        "endOffset": 59
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/AnnotProxyFieldValueFactory.java": {
+                "ncloc": "216",
+                "complexity": "38"
+            },
+            "wicket-487:wicket-spring/src/test/java/org/apache/wicket/spring/injection/annot/JakartaInjectAnnotProxyFieldValueFactoryTest.java": {
+                "ncloc": "27",
+                "complexity": "2"
+            },
+            "wicket-487:wicket-util/src/main/java/module-info.java": {
+                "ncloc": "40",
+                "complexity": "0"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/injection/annot/SpringComponentInjector.java": {
+                "ncloc": "92",
+                "complexity": "12"
+            },
+            "wicket-487:wicket-spring/src/main/java/org/apache/wicket/spring/SpringWebApplicationFactory.java": {
+                "ncloc": "102",
+                "complexity": "14"
+            }
+        }
+    }
+]

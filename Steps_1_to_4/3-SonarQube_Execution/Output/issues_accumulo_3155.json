@@ -1,0 +1,39 @@
+[
+    {
+        "commit_sha": "4b5e7f28ad82c0432f78526d68d4cca4b6b93275",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {}
+    },
+    {
+        "commit_sha": "24cc011adb7b2b1c2e288a32facf9ce89cc834dc",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY529usnSqFHuiA8H_Pq",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-3155:core/src/test/java/org/apache/accumulo/core/file/FilePrefixTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 55,
+                        "endOffset": 56
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "accumulo-3155:core/src/test/java/org/apache/accumulo/core/file/FilePrefixTest.java": {
+                "ncloc": "16",
+                "complexity": "2"
+            }
+        }
+    }
+]

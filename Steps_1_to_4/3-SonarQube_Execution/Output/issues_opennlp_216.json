@@ -1,0 +1,188 @@
+[
+    {
+        "commit_sha": "226612f48bb40eb55ef5814ab9ee995fe9b30f71",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY565A4mDVfOYCVC_cBM",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-216:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceSampleTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 47,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY565A4mDVfOYCVC_cBN",
+                    "rule": "java:S1764",
+                    "severity": "MAJOR",
+                    "component": "opennlp-216:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceSampleTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 45,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY565A4mDVfOYCVC_cBO",
+                    "rule": "java:S1764",
+                    "severity": "MAJOR",
+                    "component": "opennlp-216:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceSampleTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 48,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY565AzSDVfOYCVC_a9v",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "opennlp-216:opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceSample.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 0,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "opennlp-216:opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceSample.java": {
+                "ncloc": "60",
+                "complexity": "12"
+            },
+            "opennlp-216:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceSampleTest.java": {
+                "ncloc": "27",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "d378c0656ff2374a867abe0383aa841275a47d8d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY565eszDVfOYCVC_jo2",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "opennlp-216:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceSampleTest.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 43,
+                        "startOffset": 26,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY565eszDVfOYCVC_jo3",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "opennlp-216:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceSampleTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 19,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY565A4mDVfOYCVC_cBM",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-216:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceSampleTest.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 47,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY565A4mDVfOYCVC_cBN",
+                    "rule": "java:S1764",
+                    "severity": "MAJOR",
+                    "component": "opennlp-216:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceSampleTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 45,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY565A4mDVfOYCVC_cBO",
+                    "rule": "java:S1764",
+                    "severity": "MAJOR",
+                    "component": "opennlp-216:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceSampleTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 49,
+                        "startOffset": 48,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY565AzSDVfOYCVC_a9v",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "opennlp-216:opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceSample.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 0,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "opennlp-216:opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceSample.java": {
+                "ncloc": "67",
+                "complexity": "14"
+            },
+            "opennlp-216:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceSampleTest.java": {
+                "ncloc": "32",
+                "complexity": "5"
+            }
+        }
+    }
+]

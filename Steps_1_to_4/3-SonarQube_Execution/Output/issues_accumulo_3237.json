@@ -1,0 +1,75 @@
+[
+    {
+        "commit_sha": "138bf1c92485ad8399298a0dcd6184e66dc7a0e3",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY51AiGgSqFHuiA81BmP",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3237:server/base/src/main/java/org/apache/accumulo/server/metadata/TabletMutatorBase.java",
+                    "status": "OPEN",
+                    "debt": "42min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 45,
+                        "endOffset": 88
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "accumulo-3237:server/base/src/main/java/org/apache/accumulo/server/metadata/TabletMutatorBase.java": {
+                "ncloc": "202",
+                "complexity": "29"
+            }
+        }
+    },
+    {
+        "commit_sha": "abd58dd2f0ecb2693df0cc841b6f9400e0048690",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY51C9RYSqFHuiA81YX4",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3237:server/base/src/main/java/org/apache/accumulo/server/metadata/TabletMutatorBase.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 26,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY51AiGgSqFHuiA81BmP",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3237:server/base/src/main/java/org/apache/accumulo/server/metadata/TabletMutatorBase.java",
+                    "status": "OPEN",
+                    "debt": "42min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 45,
+                        "endOffset": 88
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-3237:server/base/src/main/java/org/apache/accumulo/server/metadata/TabletMutatorBase.java": {
+                "ncloc": "201",
+                "complexity": "29"
+            }
+        }
+    }
+]

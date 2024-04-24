@@ -1,0 +1,233 @@
+[
+    {
+        "commit_sha": "665484b029cb0ec0f2481ef677796191f6776179",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5V07Ak4DYH8rUmBVY7",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/SimpleLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5V07Ak4DYH8rUmBVY8",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/SimpleLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 153,
+                        "endLine": 153,
+                        "startOffset": 17,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5V07Ti4DYH8rUmBVrB",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3959:core/src/main/java/org/apache/accumulo/core/manager/balancer/TabletStatisticsImpl.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 50,
+                        "endLine": 50,
+                        "startOffset": 0,
+                        "endOffset": 78
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/SimpleLoadBalancer.java": {
+                "ncloc": "290",
+                "complexity": "64"
+            },
+            "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/data/TabletStatistics.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            },
+            "accumulo-3959:core/src/main/java/org/apache/accumulo/core/manager/balancer/TabletStatisticsImpl.java": {
+                "ncloc": "58",
+                "complexity": "13"
+            }
+        }
+    },
+    {
+        "commit_sha": "84025a0235bd60438fb6721350f09e5202efa375",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5V257j4DYH8rUmBtTe",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/SimpleLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 24,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5V07Ak4DYH8rUmBVY7",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/SimpleLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5V07Ak4DYH8rUmBVY8",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/SimpleLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 153,
+                        "endLine": 153,
+                        "startOffset": 17,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5V07Ti4DYH8rUmBVrB",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3959:core/src/main/java/org/apache/accumulo/core/manager/balancer/TabletStatisticsImpl.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 50,
+                        "endLine": 50,
+                        "startOffset": 0,
+                        "endOffset": 78
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/SimpleLoadBalancer.java": {
+                "ncloc": "279",
+                "complexity": "61"
+            },
+            "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/data/TabletStatistics.java": {
+                "ncloc": "8",
+                "complexity": "0"
+            },
+            "accumulo-3959:core/src/main/java/org/apache/accumulo/core/manager/balancer/TabletStatisticsImpl.java": {
+                "ncloc": "54",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "b82d5e34d685bc4f91a21d24c297d9002cb4faf0",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5V257j4DYH8rUmBtTe",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/SimpleLoadBalancer.java",
+                    "status": "CLOSED",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 24,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5V07Ak4DYH8rUmBVY7",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/SimpleLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5V07Ak4DYH8rUmBVY8",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/SimpleLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 153,
+                        "endLine": 153,
+                        "startOffset": 17,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5V07Ti4DYH8rUmBVrB",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3959:core/src/main/java/org/apache/accumulo/core/manager/balancer/TabletStatisticsImpl.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 50,
+                        "endLine": 50,
+                        "startOffset": 0,
+                        "endOffset": 78
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/SimpleLoadBalancer.java": {
+                "ncloc": "276",
+                "complexity": "60"
+            },
+            "accumulo-3959:core/src/main/java/org/apache/accumulo/core/spi/balancer/data/TabletStatistics.java": {
+                "ncloc": "8",
+                "complexity": "0"
+            },
+            "accumulo-3959:core/src/main/java/org/apache/accumulo/core/manager/balancer/TabletStatisticsImpl.java": {
+                "ncloc": "54",
+                "complexity": "12"
+            }
+        }
+    }
+]

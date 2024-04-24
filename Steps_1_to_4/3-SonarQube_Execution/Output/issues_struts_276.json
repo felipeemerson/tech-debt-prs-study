@@ -1,0 +1,330 @@
+[
+    {
+        "commit_sha": "ef361b1bd0a2be5412353715960223f65f9ee51b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53P_7U1603RBiQsrGA",
+                    "rule": "java:S2157",
+                    "severity": "CRITICAL",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 13,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrF9",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 33,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrF-",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 38,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGB",
+                    "rule": "java:S3599",
+                    "severity": "MINOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 60,
+                        "startOffset": 44,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGC",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 45,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGE",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 0,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGD",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 33,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGF",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 86,
+                        "endLine": 86,
+                        "startOffset": 32,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGG",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 37,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrF_",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 189,
+                        "endLine": 189,
+                        "startOffset": 33,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java": {
+                "ncloc": "144",
+                "complexity": "34"
+            }
+        }
+    },
+    {
+        "commit_sha": "c10d62209d4ca6502e9d2f056a76a48102ed5e31",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53P_7U1603RBiQsrGD",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 33,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGE",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 0,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGG",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 37,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGA",
+                    "rule": "java:S2157",
+                    "severity": "CRITICAL",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 13,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrF9",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 33,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrF-",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 38,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGB",
+                    "rule": "java:S3599",
+                    "severity": "MINOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 60,
+                        "startOffset": 44,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGC",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 45,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrGF",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 83,
+                        "endLine": 83,
+                        "startOffset": 32,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY53P_7U1603RBiQsrF_",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 33,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "struts-276:core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java": {
+                "ncloc": "143",
+                "complexity": "34"
+            }
+        }
+    }
+]

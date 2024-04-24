@@ -1,0 +1,676 @@
+[
+    {
+        "commit_sha": "1d43b5b12fb5b5416656c1391a4c38e56332ce70",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY57PcaXSqFHuiA80Tp4",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlockQueue.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 9,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY57Pc_ESqFHuiA80XNC",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 55,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY57Pc_ESqFHuiA80XND",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 57,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNE",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 56,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNH",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 7,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNF",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 254,
+                        "endLine": 254,
+                        "startOffset": 57,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNG",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 255,
+                        "endLine": 255,
+                        "startOffset": 56,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY57PcaVSqFHuiA80Tp2",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 12,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57PcaVSqFHuiA80Tp3",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 28,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java": {
+                "ncloc": "107",
+                "complexity": "28"
+            },
+            "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlockQueue.java": {
+                "ncloc": "52",
+                "complexity": "11"
+            },
+            "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java": {
+                "ncloc": "90",
+                "complexity": "3"
+            },
+            "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java": {
+                "ncloc": "346",
+                "complexity": "31"
+            }
+        }
+    },
+    {
+        "commit_sha": "a82c05ded4b916faa4fbce5541f3b0e563729387",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY57PcaXSqFHuiA80Tp4",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlockQueue.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 9,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY57Pc_ESqFHuiA80XNC",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 55,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY57Pc_ESqFHuiA80XND",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 57,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNE",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 56,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNH",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 7,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNF",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 254,
+                        "endLine": 254,
+                        "startOffset": 57,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNG",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 255,
+                        "endLine": 255,
+                        "startOffset": 56,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY57PcaVSqFHuiA80Tp2",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 12,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57PcaVSqFHuiA80Tp3",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 28,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java": {
+                "ncloc": "106",
+                "complexity": "27"
+            },
+            "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlockQueue.java": {
+                "ncloc": "45",
+                "complexity": "10"
+            },
+            "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java": {
+                "ncloc": "131",
+                "complexity": "9"
+            },
+            "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java": {
+                "ncloc": "344",
+                "complexity": "31"
+            }
+        }
+    },
+    {
+        "commit_sha": "d0b5f0d3cba000bc4a05871c413c9023d09892e9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY57Ud6qSqFHuiA81KIm",
+                    "rule": "java:S2589",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlockQueue.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 10,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY57PcaXSqFHuiA80Tp4",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlockQueue.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 9,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY57Pc_ESqFHuiA80XNC",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 55,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY57Pc_ESqFHuiA80XND",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 57,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNE",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 56,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNH",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 7,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNF",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 254,
+                        "endLine": 254,
+                        "startOffset": 57,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNG",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 255,
+                        "endLine": 255,
+                        "startOffset": 56,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY57PcaVSqFHuiA80Tp2",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 12,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57PcaVSqFHuiA80Tp3",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 28,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java": {
+                "ncloc": "106",
+                "complexity": "27"
+            },
+            "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlockQueue.java": {
+                "ncloc": "47",
+                "complexity": "10"
+            },
+            "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java": {
+                "ncloc": "136",
+                "complexity": "9"
+            },
+            "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java": {
+                "ncloc": "344",
+                "complexity": "31"
+            }
+        }
+    },
+    {
+        "commit_sha": "bfc8f4f919816947a93a49a37b71074846b3c287",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY57Ud6qSqFHuiA81KIm",
+                    "rule": "java:S2589",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlockQueue.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 10,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY57PcaXSqFHuiA80Tp4",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlockQueue.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 9,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY57Pc_ESqFHuiA80XNC",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 55,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY57Pc_ESqFHuiA80XND",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 57,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNE",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 56,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNH",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 7,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNF",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 254,
+                        "endLine": 254,
+                        "startOffset": 57,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY57Pc_GSqFHuiA80XNG",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 255,
+                        "endLine": 255,
+                        "startOffset": 56,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY57PcaVSqFHuiA80Tp2",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 12,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57PcaVSqFHuiA80Tp3",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 28,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlock.java": {
+                "ncloc": "106",
+                "complexity": "27"
+            },
+            "accumulo-3063:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/CachedBlockQueue.java": {
+                "ncloc": "47",
+                "complexity": "9"
+            },
+            "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestCachedBlockQueue.java": {
+                "ncloc": "136",
+                "complexity": "9"
+            },
+            "accumulo-3063:core/src/test/java/org/apache/accumulo/core/file/blockfile/cache/TestLruBlockCache.java": {
+                "ncloc": "344",
+                "complexity": "31"
+            }
+        }
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "commit_sha": "7c7a5a57d527010bb977ba40e5fcaa4e8cee9217",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52OLlANC2_bWIE0bNO",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-1100:src/main/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 19,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY52OLd6NC2_bWIE0a2z",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-1100:src/test/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreakerTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 30,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY52OLd6NC2_bWIE0a20",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-1100:src/test/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreakerTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 36,
+                        "endLine": 36,
+                        "startOffset": 30,
+                        "endOffset": 43
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "commons-lang-1100:src/main/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreaker.java": {
+                "ncloc": "34",
+                "complexity": "7"
+            },
+            "commons-lang-1100:src/test/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreakerTest.java": {
+                "ncloc": "39",
+                "complexity": "5"
+            }
+        }
+    },
+    {
+        "commit_sha": "cbb64c2bf68aaf5702be541ded8daf1a2811b622",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52OLlANC2_bWIE0bNO",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-1100:src/main/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 19,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY52OLd6NC2_bWIE0a2z",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-1100:src/test/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreakerTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 30,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY52OLd6NC2_bWIE0a20",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-1100:src/test/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreakerTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 36,
+                        "endLine": 36,
+                        "startOffset": 30,
+                        "endOffset": 43
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "commons-lang-1100:src/main/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreaker.java": {
+                "ncloc": "34",
+                "complexity": "7"
+            },
+            "commons-lang-1100:src/test/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreakerTest.java": {
+                "ncloc": "39",
+                "complexity": "5"
+            }
+        }
+    }
+]

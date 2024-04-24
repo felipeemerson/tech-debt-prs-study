@@ -1,0 +1,114 @@
+[
+    {
+        "commit_sha": "97691a106d1f63d5173a2397b155527535b85764",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5yXY4WZBC6YwGxdpRL",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "struts-642:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 19,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5yXZdHZBC6YwGxdsFR",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "struts-642:apps/showcase/src/test/java/it/org/apache/struts2/showcase/DispatcherResultTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 14,
+                        "endOffset": 72
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "struts-642:apps/showcase/src/test/java/it/org/apache/struts2/showcase/DispatcherResultTest.java": {
+                "ncloc": "24",
+                "complexity": "2"
+            },
+            "struts-642:core/src/main/java/org/apache/struts2/dispatcher/PrepareOperations.java": {
+                "ncloc": "134",
+                "complexity": "27"
+            },
+            "struts-642:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsExecuteFilter.java": {
+                "ncloc": "57",
+                "complexity": "11"
+            },
+            "struts-642:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareFilter.java": {
+                "ncloc": "60",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "afd04ea5af64768ba61b941a4fdd277674196820",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5yXY4WZBC6YwGxdpRL",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "struts-642:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 19,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5yXZdHZBC6YwGxdsFR",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "struts-642:apps/showcase/src/test/java/it/org/apache/struts2/showcase/DispatcherResultTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 14,
+                        "endOffset": 72
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "struts-642:apps/showcase/src/test/java/it/org/apache/struts2/showcase/DispatcherResultTest.java": {
+                "ncloc": "25",
+                "complexity": "2"
+            },
+            "struts-642:core/src/main/java/org/apache/struts2/dispatcher/PrepareOperations.java": {
+                "ncloc": "140",
+                "complexity": "28"
+            },
+            "struts-642:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsExecuteFilter.java": {
+                "ncloc": "53",
+                "complexity": "10"
+            },
+            "struts-642:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareFilter.java": {
+                "ncloc": "60",
+                "complexity": "7"
+            }
+        }
+    }
+]

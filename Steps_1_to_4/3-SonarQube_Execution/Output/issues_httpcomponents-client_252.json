@@ -1,0 +1,90 @@
+[
+    {
+        "commit_sha": "3360a69cd2651d3389a6b52a6476fcc97bb5adc1",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5C1Ur2ygGTmJJJihLb",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-252:httpclient5/src/main/java/org/apache/hc/client5/http/config/RequestConfig.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 4,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5C1Ur2ygGTmJJJihLc",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-252:httpclient5/src/main/java/org/apache/hc/client5/http/config/RequestConfig.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 215,
+                        "endLine": 215,
+                        "startOffset": 28,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-252:httpclient5/src/main/java/org/apache/hc/client5/http/config/RequestConfig.java": {
+                "ncloc": "280",
+                "complexity": "45"
+            }
+        }
+    },
+    {
+        "commit_sha": "04f179ebcc56cd81b62cdccaeade4e4cbfd27964",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5C1Ur2ygGTmJJJihLb",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-252:httpclient5/src/main/java/org/apache/hc/client5/http/config/RequestConfig.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 4,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5C1Ur2ygGTmJJJihLc",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-252:httpclient5/src/main/java/org/apache/hc/client5/http/config/RequestConfig.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 215,
+                        "endLine": 215,
+                        "startOffset": 28,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-252:httpclient5/src/main/java/org/apache/hc/client5/http/config/RequestConfig.java": {
+                "ncloc": "280",
+                "complexity": "45"
+            }
+        }
+    }
+]

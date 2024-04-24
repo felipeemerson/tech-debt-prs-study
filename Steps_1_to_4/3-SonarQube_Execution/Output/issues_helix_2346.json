@@ -1,0 +1,4059 @@
+[
+    {
+        "commit_sha": "d379f9fc81370a6fa2b939efb1541910bc2fe553",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5pcGPSTNX9f26ZWBRv",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/IZkChildListener.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 88,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3-",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3m",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 25,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3n",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 20,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB30",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 0,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB31",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 146,
+                        "endLine": 146,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3o",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 14,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3p",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 14,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3q",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3r",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 198,
+                        "endLine": 198,
+                        "startOffset": 14,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3s",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 203,
+                        "endLine": 203,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3t",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 208,
+                        "endLine": 208,
+                        "startOffset": 14,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3u",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 213,
+                        "endLine": 213,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3v",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 218,
+                        "endLine": 218,
+                        "startOffset": 14,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3w",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 233,
+                        "endLine": 233,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB32",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 239,
+                        "endLine": 239,
+                        "startOffset": 0,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB33",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 249,
+                        "endLine": 249,
+                        "startOffset": 0,
+                        "endOffset": 96
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3x",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 293,
+                        "endLine": 293,
+                        "startOffset": 14,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3y",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 298,
+                        "endLine": 298,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3z",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 303,
+                        "endLine": 303,
+                        "startOffset": 14,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB34",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 319,
+                        "endLine": 319,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB35",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 324,
+                        "endLine": 324,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB36",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 329,
+                        "endLine": 329,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB37",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 346,
+                        "endLine": 346,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB39",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 417,
+                        "endLine": 417,
+                        "startOffset": 0,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB38",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 419,
+                        "endLine": 419,
+                        "startOffset": 10,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQD",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 0,
+                        "endOffset": 74
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQC",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 28,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPy",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 20,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQE",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 0,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPz",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 30,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP0",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 110,
+                        "endLine": 110,
+                        "startOffset": 21,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP1",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 51,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP2",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 112,
+                        "endLine": 112,
+                        "startOffset": 69,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP3",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 38,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP4",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 22,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP5",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 23,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP6",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 18,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP7",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP8",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 128,
+                        "endLine": 128,
+                        "startOffset": 24,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQF",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 0,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP9",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 130,
+                        "endLine": 130,
+                        "startOffset": 17,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP-",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 131,
+                        "endLine": 131,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP_",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 32,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQA",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 26,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQB",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 137,
+                        "endLine": 137,
+                        "startOffset": 37,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQG",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 140,
+                        "endLine": 140,
+                        "startOffset": 26,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQH",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 141,
+                        "endLine": 141,
+                        "startOffset": 18,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQI",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 25,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQJ",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 17,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQK",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 184,
+                        "endLine": 184,
+                        "startOffset": 20,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPu",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 302,
+                        "endLine": 302,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQL",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 385,
+                        "endLine": 385,
+                        "startOffset": 14,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQM",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 406,
+                        "endLine": 406,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQN",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1293,
+                        "endLine": 1293,
+                        "startOffset": 0,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQO",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1317,
+                        "endLine": 1317,
+                        "startOffset": 0,
+                        "endOffset": 99
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQP",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1363,
+                        "endLine": 1363,
+                        "startOffset": 0,
+                        "endOffset": 87
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPv",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1464,
+                        "endLine": 1464,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPt",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1540,
+                        "endLine": 1540,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQQ",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1554,
+                        "endLine": 1554,
+                        "startOffset": 17,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQR",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1571,
+                        "endLine": 1571,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQS",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1643,
+                        "endLine": 1643,
+                        "startOffset": 31,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQT",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1691,
+                        "endLine": 1691,
+                        "startOffset": 33,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQU",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1695,
+                        "endLine": 1695,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQV",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1695,
+                        "endLine": 1695,
+                        "startOffset": 34,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQW",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1708,
+                        "endLine": 1708,
+                        "startOffset": 17,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQX",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1708,
+                        "endLine": 1708,
+                        "startOffset": 17,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQY",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1759,
+                        "endLine": 1759,
+                        "startOffset": 0,
+                        "endOffset": 96
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQZ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1775,
+                        "endLine": 1775,
+                        "startOffset": 15,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQa",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1811,
+                        "endLine": 1811,
+                        "startOffset": 0,
+                        "endOffset": 100
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQb",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1829,
+                        "endLine": 1829,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQc",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1883,
+                        "endLine": 1883,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQd",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1932,
+                        "endLine": 1932,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQe",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1942,
+                        "endLine": 1942,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQf",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1960,
+                        "endLine": 1960,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPs",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1963,
+                        "endLine": 1963,
+                        "startOffset": 41,
+                        "endOffset": 90
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQg",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 2002,
+                        "endLine": 2002,
+                        "startOffset": 17,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPw",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2058,
+                        "endLine": 2058,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQh",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2470,
+                        "endLine": 2470,
+                        "startOffset": 15,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQi",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2545,
+                        "endLine": 2545,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQj",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 2577,
+                        "endLine": 2577,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPx",
+                    "rule": "java:S2589",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2624,
+                        "endLine": 2624,
+                        "startOffset": 10,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQk",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 2639,
+                        "endLine": 2639,
+                        "startOffset": 17,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQl",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2772,
+                        "endLine": 2772,
+                        "startOffset": 15,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQm",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2812,
+                        "endLine": 2812,
+                        "startOffset": 76,
+                        "endOffset": 85
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQn",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2812,
+                        "endLine": 2812,
+                        "startOffset": 59,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQo",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2815,
+                        "endLine": 2815,
+                        "startOffset": 55,
+                        "endOffset": 71
+                    }
+                }
+            ],
+            "total": 87
+        },
+        "metrics": {
+            "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/IZkChildListener.java": {
+                "ncloc": "5",
+                "complexity": "0"
+            },
+            "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java": {
+                "ncloc": "1734",
+                "complexity": "359"
+            },
+            "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java": {
+                "ncloc": "323",
+                "complexity": "68"
+            }
+        }
+    },
+    {
+        "commit_sha": "ffa57b80c1fd6a440891414d7ca035cc0293766f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5pc9MLTNX9f26ZWQ12",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/adapter/DataListenerAdapter.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 35,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5pcGPSTNX9f26ZWBRv",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/IZkChildListener.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 88,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5pc9MTTNX9f26ZWQ13",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/adapter/ChildListenerAdapter.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB37",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 346,
+                        "endLine": 346,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3-",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3m",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 25,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3n",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 20,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB30",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 113,
+                        "endLine": 113,
+                        "startOffset": 0,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB31",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3o",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 14,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3p",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 187,
+                        "endLine": 187,
+                        "startOffset": 14,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3q",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 192,
+                        "endLine": 192,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3r",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 197,
+                        "endLine": 197,
+                        "startOffset": 14,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3s",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 202,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3t",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 207,
+                        "endLine": 207,
+                        "startOffset": 14,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3u",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 212,
+                        "endLine": 212,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3v",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 217,
+                        "endLine": 217,
+                        "startOffset": 14,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3w",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 232,
+                        "endLine": 232,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB32",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 238,
+                        "endLine": 238,
+                        "startOffset": 0,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB33",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 248,
+                        "endLine": 248,
+                        "startOffset": 0,
+                        "endOffset": 96
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3x",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 14,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3y",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 297,
+                        "endLine": 297,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3z",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 302,
+                        "endLine": 302,
+                        "startOffset": 14,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB34",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 318,
+                        "endLine": 318,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB35",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 323,
+                        "endLine": 323,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB36",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 328,
+                        "endLine": 328,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB39",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 364,
+                        "endLine": 364,
+                        "startOffset": 0,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB38",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 366,
+                        "endLine": 366,
+                        "startOffset": 10,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQD",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 0,
+                        "endOffset": 74
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQC",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 28,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPy",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 20,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQE",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 0,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPz",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 30,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP0",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 110,
+                        "endLine": 110,
+                        "startOffset": 21,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP1",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 51,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP2",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 112,
+                        "endLine": 112,
+                        "startOffset": 69,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP3",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 38,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP4",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 22,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP5",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 23,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP6",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 18,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP7",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP8",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 128,
+                        "endLine": 128,
+                        "startOffset": 24,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQF",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 0,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP9",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 130,
+                        "endLine": 130,
+                        "startOffset": 17,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP-",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 131,
+                        "endLine": 131,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP_",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 32,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQA",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 26,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQB",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 137,
+                        "endLine": 137,
+                        "startOffset": 37,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQG",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 140,
+                        "endLine": 140,
+                        "startOffset": 26,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQH",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 141,
+                        "endLine": 141,
+                        "startOffset": 18,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQI",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 25,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQJ",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 17,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQK",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 184,
+                        "endLine": 184,
+                        "startOffset": 20,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPu",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 302,
+                        "endLine": 302,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQL",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 385,
+                        "endLine": 385,
+                        "startOffset": 14,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQM",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 406,
+                        "endLine": 406,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQN",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1293,
+                        "endLine": 1293,
+                        "startOffset": 0,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQO",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1317,
+                        "endLine": 1317,
+                        "startOffset": 0,
+                        "endOffset": 99
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQP",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1363,
+                        "endLine": 1363,
+                        "startOffset": 0,
+                        "endOffset": 87
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPv",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1464,
+                        "endLine": 1464,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPt",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1540,
+                        "endLine": 1540,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQQ",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1554,
+                        "endLine": 1554,
+                        "startOffset": 17,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQR",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1571,
+                        "endLine": 1571,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQS",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1643,
+                        "endLine": 1643,
+                        "startOffset": 31,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQT",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1691,
+                        "endLine": 1691,
+                        "startOffset": 33,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQU",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1695,
+                        "endLine": 1695,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQV",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1695,
+                        "endLine": 1695,
+                        "startOffset": 34,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQW",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1708,
+                        "endLine": 1708,
+                        "startOffset": 17,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQX",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1708,
+                        "endLine": 1708,
+                        "startOffset": 17,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQY",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1759,
+                        "endLine": 1759,
+                        "startOffset": 0,
+                        "endOffset": 96
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQZ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1775,
+                        "endLine": 1775,
+                        "startOffset": 15,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQa",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1811,
+                        "endLine": 1811,
+                        "startOffset": 0,
+                        "endOffset": 100
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQb",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1829,
+                        "endLine": 1829,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQc",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1884,
+                        "endLine": 1884,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQd",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1933,
+                        "endLine": 1933,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQe",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1943,
+                        "endLine": 1943,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQf",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1961,
+                        "endLine": 1961,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPs",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1964,
+                        "endLine": 1964,
+                        "startOffset": 41,
+                        "endOffset": 90
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQg",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 2003,
+                        "endLine": 2003,
+                        "startOffset": 17,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPw",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2059,
+                        "endLine": 2059,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQh",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2471,
+                        "endLine": 2471,
+                        "startOffset": 15,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQi",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2546,
+                        "endLine": 2546,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQj",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 2578,
+                        "endLine": 2578,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPx",
+                    "rule": "java:S2589",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2625,
+                        "endLine": 2625,
+                        "startOffset": 10,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQk",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 2640,
+                        "endLine": 2640,
+                        "startOffset": 17,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQl",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2773,
+                        "endLine": 2773,
+                        "startOffset": 15,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQm",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2813,
+                        "endLine": 2813,
+                        "startOffset": 76,
+                        "endOffset": 85
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQn",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2813,
+                        "endLine": 2813,
+                        "startOffset": 59,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQo",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2816,
+                        "endLine": 2816,
+                        "startOffset": 55,
+                        "endOffset": 71
+                    }
+                }
+            ],
+            "total": 89
+        },
+        "metrics": {
+            "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/adapter/ChildListenerAdapter.java": {
+                "ncloc": "44",
+                "complexity": "12"
+            },
+            "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/adapter/DataListenerAdapter.java": {
+                "ncloc": "45",
+                "complexity": "13"
+            },
+            "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/IZkChildListener.java": {
+                "ncloc": "10",
+                "complexity": "1"
+            },
+            "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java": {
+                "ncloc": "1735",
+                "complexity": "359"
+            },
+            "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java": {
+                "ncloc": "281",
+                "complexity": "55"
+            }
+        }
+    },
+    {
+        "commit_sha": "94ec434d5daa93b75c335448ff4a947a03823703",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5pc9MLTNX9f26ZWQ12",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/adapter/DataListenerAdapter.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 35,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5pcGPSTNX9f26ZWBRv",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/IZkChildListener.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 88,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5pc9MTTNX9f26ZWQ13",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/adapter/ChildListenerAdapter.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB37",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 346,
+                        "endLine": 346,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3-",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3m",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 25,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3n",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 20,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB30",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 113,
+                        "endLine": 113,
+                        "startOffset": 0,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB31",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3o",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 14,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3p",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 187,
+                        "endLine": 187,
+                        "startOffset": 14,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3q",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 192,
+                        "endLine": 192,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3r",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 197,
+                        "endLine": 197,
+                        "startOffset": 14,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3s",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 202,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3t",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 207,
+                        "endLine": 207,
+                        "startOffset": 14,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3u",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 212,
+                        "endLine": 212,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3v",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 217,
+                        "endLine": 217,
+                        "startOffset": 14,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3w",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 232,
+                        "endLine": 232,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB32",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 238,
+                        "endLine": 238,
+                        "startOffset": 0,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB33",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 248,
+                        "endLine": 248,
+                        "startOffset": 0,
+                        "endOffset": 96
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3x",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 14,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3y",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 297,
+                        "endLine": 297,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB3z",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 302,
+                        "endLine": 302,
+                        "startOffset": 14,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB34",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 318,
+                        "endLine": 318,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB35",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 323,
+                        "endLine": 323,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB36",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 328,
+                        "endLine": 328,
+                        "startOffset": 11,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB39",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 364,
+                        "endLine": 364,
+                        "startOffset": 0,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5pcGfwTNX9f26ZWB38",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 366,
+                        "endLine": 366,
+                        "startOffset": 10,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQD",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 0,
+                        "endOffset": 74
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQC",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 28,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPy",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 20,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQE",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 0,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPz",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 30,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP0",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 110,
+                        "endLine": 110,
+                        "startOffset": 21,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP1",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 51,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP2",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 112,
+                        "endLine": 112,
+                        "startOffset": 69,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP3",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 38,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP4",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 22,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP5",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 23,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP6",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 18,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP7",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP8",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 128,
+                        "endLine": 128,
+                        "startOffset": 24,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQF",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 0,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP9",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 130,
+                        "endLine": 130,
+                        "startOffset": 17,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP-",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 131,
+                        "endLine": 131,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBP_",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 32,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQA",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 26,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQB",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 137,
+                        "endLine": 137,
+                        "startOffset": 37,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQG",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 140,
+                        "endLine": 140,
+                        "startOffset": 26,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQH",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 141,
+                        "endLine": 141,
+                        "startOffset": 18,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQI",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 25,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQJ",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 17,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQK",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 184,
+                        "endLine": 184,
+                        "startOffset": 20,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPu",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 302,
+                        "endLine": 302,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQL",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 385,
+                        "endLine": 385,
+                        "startOffset": 14,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQM",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 406,
+                        "endLine": 406,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQN",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1293,
+                        "endLine": 1293,
+                        "startOffset": 0,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQO",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1317,
+                        "endLine": 1317,
+                        "startOffset": 0,
+                        "endOffset": 99
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQP",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1363,
+                        "endLine": 1363,
+                        "startOffset": 0,
+                        "endOffset": 87
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPv",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1464,
+                        "endLine": 1464,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPt",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1540,
+                        "endLine": 1540,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQQ",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1554,
+                        "endLine": 1554,
+                        "startOffset": 17,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQR",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1571,
+                        "endLine": 1571,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQS",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1643,
+                        "endLine": 1643,
+                        "startOffset": 31,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQT",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1691,
+                        "endLine": 1691,
+                        "startOffset": 33,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQU",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1695,
+                        "endLine": 1695,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQV",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1695,
+                        "endLine": 1695,
+                        "startOffset": 34,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQW",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1708,
+                        "endLine": 1708,
+                        "startOffset": 17,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQX",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1708,
+                        "endLine": 1708,
+                        "startOffset": 17,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQY",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1759,
+                        "endLine": 1759,
+                        "startOffset": 0,
+                        "endOffset": 96
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQZ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1775,
+                        "endLine": 1775,
+                        "startOffset": 15,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQa",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1811,
+                        "endLine": 1811,
+                        "startOffset": 0,
+                        "endOffset": 100
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQb",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1829,
+                        "endLine": 1829,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQc",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1884,
+                        "endLine": 1884,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQd",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1933,
+                        "endLine": 1933,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQe",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1943,
+                        "endLine": 1943,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQf",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1961,
+                        "endLine": 1961,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPs",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1964,
+                        "endLine": 1964,
+                        "startOffset": 41,
+                        "endOffset": 90
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQg",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 2003,
+                        "endLine": 2003,
+                        "startOffset": 17,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPw",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2059,
+                        "endLine": 2059,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQh",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2471,
+                        "endLine": 2471,
+                        "startOffset": 15,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQi",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2546,
+                        "endLine": 2546,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQj",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 2578,
+                        "endLine": 2578,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBPx",
+                    "rule": "java:S2589",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2625,
+                        "endLine": 2625,
+                        "startOffset": 10,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQk",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 2640,
+                        "endLine": 2640,
+                        "startOffset": 17,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQl",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2773,
+                        "endLine": 2773,
+                        "startOffset": 15,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQm",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2813,
+                        "endLine": 2813,
+                        "startOffset": 76,
+                        "endOffset": 85
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQn",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2813,
+                        "endLine": 2813,
+                        "startOffset": 59,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY5pcGNrTNX9f26ZWBQo",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 2816,
+                        "endLine": 2816,
+                        "startOffset": 55,
+                        "endOffset": 71
+                    }
+                }
+            ],
+            "total": 89
+        },
+        "metrics": {
+            "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/adapter/ChildListenerAdapter.java": {
+                "ncloc": "44",
+                "complexity": "12"
+            },
+            "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/adapter/DataListenerAdapter.java": {
+                "ncloc": "45",
+                "complexity": "13"
+            },
+            "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/IZkChildListener.java": {
+                "ncloc": "10",
+                "complexity": "1"
+            },
+            "helix-2346:zookeeper-api/src/main/java/org/apache/helix/zookeeper/zkclient/ZkClient.java": {
+                "ncloc": "1735",
+                "complexity": "359"
+            },
+            "helix-2346:meta-client/src/main/java/org/apache/helix/metaclient/impl/zk/ZkMetaClient.java": {
+                "ncloc": "281",
+                "complexity": "55"
+            }
+        }
+    }
+]

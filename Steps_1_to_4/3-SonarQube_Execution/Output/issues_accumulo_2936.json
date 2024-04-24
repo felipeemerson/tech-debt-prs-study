@@ -1,0 +1,466 @@
+[
+    {
+        "commit_sha": "fe540ae36cb6be321e9885838cf9ffcca2f60e30",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5H14bbVQIk8Wy3LrlY",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/conf/ServerConfigurationFactory.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5H14bbVQIk8Wy3LrlX",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/conf/ServerConfigurationFactory.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5H14eGVQIk8Wy3LrwX",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 198,
+                        "endLine": 198,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5H14eGVQIk8Wy3LrwZ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 310,
+                        "endLine": 310,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5H14eGVQIk8Wy3Lrwa",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 316,
+                        "endLine": 316,
+                        "startOffset": 15,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5H14eGVQIk8Wy3Lrwb",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 363,
+                        "endLine": 363,
+                        "startOffset": 14,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5H14eGVQIk8Wy3LrwY",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 384,
+                        "endLine": 384,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3LnhC",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3Lng-",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 23,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3LnhA",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 23,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3Lng_",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3LnhB",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3LnhD",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 9,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3LnhE",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 169,
+                        "endLine": 169,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java": {
+                "ncloc": "157",
+                "complexity": "11"
+            },
+            "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/conf/ServerConfigurationFactory.java": {
+                "ncloc": "179",
+                "complexity": "27"
+            },
+            "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java": {
+                "ncloc": "337",
+                "complexity": "69"
+            }
+        }
+    },
+    {
+        "commit_sha": "248e584d4c7624e57707a2b39b628af3c986e916",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5H14bbVQIk8Wy3LrlY",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/conf/ServerConfigurationFactory.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5H14bbVQIk8Wy3LrlX",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/conf/ServerConfigurationFactory.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5H14eGVQIk8Wy3LrwX",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5H14eGVQIk8Wy3LrwZ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 305,
+                        "endLine": 305,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5H14eGVQIk8Wy3Lrwa",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 311,
+                        "endLine": 311,
+                        "startOffset": 15,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5H14eGVQIk8Wy3Lrwb",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 358,
+                        "endLine": 358,
+                        "startOffset": 14,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5H14eGVQIk8Wy3LrwY",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 379,
+                        "endLine": 379,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3LnhC",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3Lng-",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 23,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3LnhA",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 23,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3Lng_",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3LnhB",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3LnhD",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 9,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5H13vTVQIk8Wy3LnhE",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 170,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-2936:test/src/main/java/org/apache/accumulo/test/functional/PerTableCryptoIT.java": {
+                "ncloc": "158",
+                "complexity": "11"
+            },
+            "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/conf/ServerConfigurationFactory.java": {
+                "ncloc": "184",
+                "complexity": "28"
+            },
+            "accumulo-2936:server/base/src/main/java/org/apache/accumulo/server/ServerContext.java": {
+                "ncloc": "332",
+                "complexity": "68"
+            }
+        }
+    }
+]

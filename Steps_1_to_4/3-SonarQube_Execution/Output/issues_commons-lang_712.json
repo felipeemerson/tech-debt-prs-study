@@ -1,0 +1,196 @@
+[
+    {
+        "commit_sha": "5689c91cf2a3a27f0a3a8a362857f2cf0919d4f6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY526Z2oNC2_bWIE9LKh",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "commons-lang-712:src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 13,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY526Z1yNC2_bWIE9LJr",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrMatcher.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 22,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY526Z12NC2_bWIE9LJs",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrLookup.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 22,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY526Z12NC2_bWIE9LJt",
+                    "rule": "java:S2326",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrLookup.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 32,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY526Z12NC2_bWIE9LJu",
+                    "rule": "java:S1452",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrLookup.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "commons-lang-712:src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java": {
+                "ncloc": "21",
+                "complexity": "4"
+            },
+            "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrLookup.java": {
+                "ncloc": "48",
+                "complexity": "10"
+            },
+            "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrMatcher.java": {
+                "ncloc": "135",
+                "complexity": "38"
+            }
+        }
+    },
+    {
+        "commit_sha": "7443a9308d6c3ce85aa6b67b16dd62e4bac95bb0",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY526Z2oNC2_bWIE9LKh",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "commons-lang-712:src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 13,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY526Z1yNC2_bWIE9LJr",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrMatcher.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 22,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY526Z12NC2_bWIE9LJs",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrLookup.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 22,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY526Z12NC2_bWIE9LJt",
+                    "rule": "java:S2326",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrLookup.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 32,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY526Z12NC2_bWIE9LJu",
+                    "rule": "java:S1452",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrLookup.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "commons-lang-712:src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java": {
+                "ncloc": "21",
+                "complexity": "4"
+            },
+            "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrLookup.java": {
+                "ncloc": "48",
+                "complexity": "10"
+            },
+            "commons-lang-712:src/main/java/org/apache/commons/lang3/text/StrMatcher.java": {
+                "ncloc": "135",
+                "complexity": "38"
+            }
+        }
+    }
+]

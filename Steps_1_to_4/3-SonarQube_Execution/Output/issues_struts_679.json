@@ -1,0 +1,144 @@
+[
+    {
+        "commit_sha": "7f3c1c29441038b39495f6e85d4968829d2e1057",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5yCBS4ZBC6YwGxMzB8",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "struts-679:core/src/main/java/com/opensymphony/xwork2/interceptor/ParameterRemoverInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 15,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5yCBY0ZBC6YwGxMzHl",
+                    "rule": "java:S2176",
+                    "severity": "CRITICAL",
+                    "component": "struts-679:core/src/main/java/org/apache/struts2/interceptor/NoParameters.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 28,
+                        "endLine": 28,
+                        "startOffset": 17,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "struts-679:core/src/main/java/com/opensymphony/xwork2/interceptor/NoParameters.java": {
+                "ncloc": "3",
+                "complexity": "0"
+            },
+            "struts-679:core/src/main/java/org/apache/struts2/interceptor/NoParameters.java": {
+                "ncloc": "3",
+                "complexity": "0"
+            },
+            "struts-679:core/src/main/java/com/opensymphony/xwork2/interceptor/ParameterRemoverInterceptor.java": {
+                "ncloc": "43",
+                "complexity": "9"
+            },
+            "struts-679:core/src/main/java/org/apache/struts2/action/NoParameters.java": {
+                "ncloc": "3",
+                "complexity": "0"
+            }
+        }
+    },
+    {
+        "commit_sha": "73eafddd73ab20bfae8ec7c4bacf49bd0c5725ab",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5yCpAtZBC6YwGxNO3W",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "struts-679:core/src/main/java/com/opensymphony/xwork2/interceptor/NoParameters.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 36,
+                        "endLine": 36,
+                        "startOffset": 17,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5yCpGNZBC6YwGxNO3X",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "struts-679:core/src/main/java/org/apache/struts2/action/NoParameters.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 28,
+                        "endLine": 28,
+                        "startOffset": 74,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5yCBY0ZBC6YwGxMzHl",
+                    "rule": "java:S2176",
+                    "severity": "CRITICAL",
+                    "component": "struts-679:core/src/main/java/org/apache/struts2/action/NoParameters.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 28,
+                        "endLine": 28,
+                        "startOffset": 17,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5yCBS4ZBC6YwGxMzB8",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "struts-679:core/src/main/java/com/opensymphony/xwork2/interceptor/ParameterRemoverInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 84,
+                        "endLine": 84,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "struts-679:core/src/main/java/com/opensymphony/xwork2/interceptor/NoParameters.java": {
+                "ncloc": "4",
+                "complexity": "0"
+            },
+            "struts-679:core/src/main/java/org/apache/struts2/action/NoParameters.java": {
+                "ncloc": "3",
+                "complexity": "0"
+            },
+            "struts-679:core/src/main/java/com/opensymphony/xwork2/interceptor/ParameterRemoverInterceptor.java": {
+                "ncloc": "43",
+                "complexity": "9"
+            },
+            "struts-679:core/src/main/java/org/apache/struts2/interceptor/NoParameters.java": {
+                "ncloc": "3",
+                "complexity": "0"
+            }
+        }
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "commit_sha": "14ed094fd9d3a4d8ec525831992709fc04bd25a9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5IDMflVQIk8Wy3PmFS",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2927:core/src/test/java/org/apache/accumulo/core/util/OpTimerTest.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 15,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5IDMflVQIk8Wy3PmFR",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2927:core/src/test/java/org/apache/accumulo/core/util/OpTimerTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 58,
+                        "endOffset": 67
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2927:core/src/test/java/org/apache/accumulo/core/util/OpTimerTest.java": {
+                "ncloc": "110",
+                "complexity": "6"
+            }
+        }
+    },
+    {
+        "commit_sha": "c02e22de88538923b8fc46054b8abfad3bd18af3",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5IDMflVQIk8Wy3PmFS",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2927:core/src/test/java/org/apache/accumulo/core/util/OpTimerTest.java",
+                    "status": "CLOSED",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 15,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5IDMflVQIk8Wy3PmFR",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2927:core/src/test/java/org/apache/accumulo/core/util/OpTimerTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 58,
+                        "endOffset": 67
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2927:core/src/test/java/org/apache/accumulo/core/util/OpTimerTest.java": {
+                "ncloc": "80",
+                "complexity": "6"
+            }
+        }
+    }
+]

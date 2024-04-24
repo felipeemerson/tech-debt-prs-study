@@ -1,0 +1,1904 @@
+[
+    {
+        "commit_sha": "59a4937fc98b5b89649e49b37f23d84f069f53f1",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5WeVIK4DYH8rUmJlt0",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/AsyncConditionalTabletsMutatorImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 17,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5WeVIK4DYH8rUmJlt1",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/AsyncConditionalTabletsMutatorImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 15,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5WeVR64DYH8rUmJl-G",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/DeleteTablets.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5WeVR64DYH8rUmJl-H",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/DeleteTablets.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 58,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJlty",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 0,
+                        "endOffset": 83
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltx",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltz",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 227,
+                        "endLine": 227,
+                        "startOffset": 15,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltv",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 18,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltw",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 284,
+                        "endLine": 284,
+                        "startOffset": 24,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5WeUK-4DYH8rUmJiDW",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/SplitMillionIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 37,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5WeUK-4DYH8rUmJiDY",
+                    "rule": "java:S2119",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/SplitMillionIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 72,
+                        "endLine": 72,
+                        "startOffset": 22,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5WeVSQ4DYH8rUmJl-d",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/delete/ReserveTablets.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl90",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl91",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "23min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 13,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl93",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 0,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl94",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 0,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl9z",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl95",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 0,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl96",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 243,
+                        "endLine": 243,
+                        "startOffset": 0,
+                        "endOffset": 93
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl92",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 260,
+                        "endLine": 260,
+                        "startOffset": 13,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl9x",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 261,
+                        "endLine": 261,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl97",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 264,
+                        "endLine": 264,
+                        "startOffset": 0,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl98",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 285,
+                        "endLine": 285,
+                        "startOffset": 15,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl9y",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 285,
+                        "endLine": 285,
+                        "startOffset": 71,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl99",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 288,
+                        "endLine": 288,
+                        "startOffset": 0,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBY",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 0,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBX",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 18,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBU",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 36,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBZ",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 203,
+                        "endLine": 203,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBa",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 338,
+                        "endLine": 338,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBb",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 417,
+                        "endLine": 417,
+                        "startOffset": 26,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBT",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 452,
+                        "endLine": 452,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBV",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 752,
+                        "endLine": 752,
+                        "startOffset": 40,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBW",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 755,
+                        "endLine": 755,
+                        "startOffset": 40,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5WeVSI4DYH8rUmJl-T",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/FinishTableRangeOp.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5WeVR44DYH8rUmJl-E",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5WeVR44DYH8rUmJl-F",
+                    "rule": "java:S3864",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 67,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY5WeVSG4DYH8rUmJl-S",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/ReserveTablets.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 50
+                    }
+                }
+            ],
+            "total": 38
+        },
+        "metrics": {
+            "accumulo-3945:core/src/main/java/org/apache/accumulo/core/metadata/schema/Ample.java": {
+                "ncloc": "242",
+                "complexity": "33"
+            },
+            "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java": {
+                "ncloc": "661",
+                "complexity": "82"
+            },
+            "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/AsyncConditionalTabletsMutatorImpl.java": {
+                "ncloc": "66",
+                "complexity": "8"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CleanUp.java": {
+                "ncloc": "65",
+                "complexity": "9"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java": {
+                "ncloc": "237",
+                "complexity": "43"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/DeleteTablets.java": {
+                "ncloc": "72",
+                "complexity": "10"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/FinishTableRangeOp.java": {
+                "ncloc": "72",
+                "complexity": "9"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/ReserveTablets.java": {
+                "ncloc": "84",
+                "complexity": "16"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/delete/ReserveTablets.java": {
+                "ncloc": "74",
+                "complexity": "13"
+            },
+            "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java": {
+                "ncloc": "271",
+                "complexity": "43"
+            },
+            "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/SplitMillionIT.java": {
+                "ncloc": "104",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "209c4778d019139d743899049a582b7010b0bf79",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5WeVIK4DYH8rUmJlt0",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/AsyncConditionalTabletsMutatorImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 17,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5WeVIK4DYH8rUmJlt1",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/AsyncConditionalTabletsMutatorImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 15,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5WeVR64DYH8rUmJl-G",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/DeleteTablets.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5WeVR64DYH8rUmJl-H",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/DeleteTablets.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 58,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJlty",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 0,
+                        "endOffset": 83
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltx",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltz",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 226,
+                        "endLine": 226,
+                        "startOffset": 15,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltv",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 18,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltw",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 283,
+                        "endLine": 283,
+                        "startOffset": 24,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5WeUK-4DYH8rUmJiDW",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/SplitMillionIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 74,
+                        "endLine": 74,
+                        "startOffset": 37,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5WeUK-4DYH8rUmJiDY",
+                    "rule": "java:S2119",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/SplitMillionIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 22,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5WeVSQ4DYH8rUmJl-d",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/delete/ReserveTablets.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl94",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 0,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl95",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 0,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl90",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl91",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "28min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 13,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl93",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 141,
+                        "endLine": 141,
+                        "startOffset": 0,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl9z",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 200,
+                        "endLine": 200,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl96",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 265,
+                        "endLine": 265,
+                        "startOffset": 0,
+                        "endOffset": 93
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl92",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 270,
+                        "endLine": 270,
+                        "startOffset": 13,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl9x",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 271,
+                        "endLine": 271,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl97",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 289,
+                        "endLine": 289,
+                        "startOffset": 0,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl98",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 310,
+                        "endLine": 310,
+                        "startOffset": 15,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl9y",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 310,
+                        "endLine": 310,
+                        "startOffset": 71,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl99",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 313,
+                        "endLine": 313,
+                        "startOffset": 0,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBY",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 0,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBX",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 18,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBU",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 36,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBZ",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 203,
+                        "endLine": 203,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBa",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 338,
+                        "endLine": 338,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBb",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 417,
+                        "endLine": 417,
+                        "startOffset": 26,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBT",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 452,
+                        "endLine": 452,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBV",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 752,
+                        "endLine": 752,
+                        "startOffset": 40,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBW",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 755,
+                        "endLine": 755,
+                        "startOffset": 40,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5WeVSI4DYH8rUmJl-T",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/FinishTableRangeOp.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5WgMmX4DYH8rUmJ6RL",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 13,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5WeVR44DYH8rUmJl-F",
+                    "rule": "java:S3864",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CleanUp.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 67,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY5WeVR44DYH8rUmJl-E",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5WeVSG4DYH8rUmJl-S",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/ReserveTablets.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 50
+                    }
+                }
+            ],
+            "total": 39
+        },
+        "metrics": {
+            "accumulo-3945:core/src/main/java/org/apache/accumulo/core/metadata/schema/Ample.java": {
+                "ncloc": "242",
+                "complexity": "33"
+            },
+            "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java": {
+                "ncloc": "661",
+                "complexity": "82"
+            },
+            "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/AsyncConditionalTabletsMutatorImpl.java": {
+                "ncloc": "66",
+                "complexity": "8"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CleanUp.java": {
+                "ncloc": "78",
+                "complexity": "9"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java": {
+                "ncloc": "269",
+                "complexity": "45"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/DeleteTablets.java": {
+                "ncloc": "72",
+                "complexity": "10"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/FinishTableRangeOp.java": {
+                "ncloc": "72",
+                "complexity": "9"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/ReserveTablets.java": {
+                "ncloc": "83",
+                "complexity": "16"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/delete/ReserveTablets.java": {
+                "ncloc": "73",
+                "complexity": "13"
+            },
+            "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java": {
+                "ncloc": "270",
+                "complexity": "43"
+            },
+            "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/SplitMillionIT.java": {
+                "ncloc": "146",
+                "complexity": "17"
+            }
+        }
+    },
+    {
+        "commit_sha": "b573f095a8fd1da80471208b42986396388853ff",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5WeVIK4DYH8rUmJlt0",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/AsyncConditionalTabletsMutatorImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 17,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5WeVIK4DYH8rUmJlt1",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/AsyncConditionalTabletsMutatorImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 15,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5WeVR64DYH8rUmJl-G",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/DeleteTablets.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5WeVR64DYH8rUmJl-H",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/DeleteTablets.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 58,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJlty",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 0,
+                        "endOffset": 83
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltx",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltz",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 226,
+                        "endLine": 226,
+                        "startOffset": 15,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltv",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 18,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5WeVIH4DYH8rUmJltw",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 283,
+                        "endLine": 283,
+                        "startOffset": 24,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5WeUK-4DYH8rUmJiDW",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/SplitMillionIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 74,
+                        "endLine": 74,
+                        "startOffset": 37,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5WeUK-4DYH8rUmJiDY",
+                    "rule": "java:S2119",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/SplitMillionIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 22,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5WeVSQ4DYH8rUmJl-d",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/delete/ReserveTablets.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl94",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 0,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl95",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 0,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl90",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl91",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "28min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 13,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl93",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 141,
+                        "endLine": 141,
+                        "startOffset": 0,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl9z",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl96",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 262,
+                        "endLine": 262,
+                        "startOffset": 0,
+                        "endOffset": 93
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl92",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 267,
+                        "endLine": 267,
+                        "startOffset": 13,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl9x",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 268,
+                        "endLine": 268,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl97",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 286,
+                        "endLine": 286,
+                        "startOffset": 0,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl98",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 307,
+                        "endLine": 307,
+                        "startOffset": 15,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl9y",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 307,
+                        "endLine": 307,
+                        "startOffset": 71,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5WeVRv4DYH8rUmJl99",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 310,
+                        "endLine": 310,
+                        "startOffset": 0,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBY",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 0,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBX",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 18,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBU",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 36,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBZ",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 203,
+                        "endLine": 203,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBa",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 338,
+                        "endLine": 338,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBb",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 417,
+                        "endLine": 417,
+                        "startOffset": 26,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBT",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 452,
+                        "endLine": 452,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBV",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 752,
+                        "endLine": 752,
+                        "startOffset": 40,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5WeUI74DYH8rUmJiBW",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 755,
+                        "endLine": 755,
+                        "startOffset": 40,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5WeVSI4DYH8rUmJl-T",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/FinishTableRangeOp.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5WgMmX4DYH8rUmJ6RL",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 13,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5WeVR44DYH8rUmJl-F",
+                    "rule": "java:S3864",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CleanUp.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 67,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY5WeVR44DYH8rUmJl-E",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5WeVSG4DYH8rUmJl-S",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/ReserveTablets.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 50
+                    }
+                }
+            ],
+            "total": 39
+        },
+        "metrics": {
+            "accumulo-3945:core/src/main/java/org/apache/accumulo/core/metadata/schema/Ample.java": {
+                "ncloc": "242",
+                "complexity": "33"
+            },
+            "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/AmpleConditionalWriterIT.java": {
+                "ncloc": "661",
+                "complexity": "82"
+            },
+            "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/AsyncConditionalTabletsMutatorImpl.java": {
+                "ncloc": "66",
+                "complexity": "8"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CleanUp.java": {
+                "ncloc": "78",
+                "complexity": "9"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactionDriver.java": {
+                "ncloc": "265",
+                "complexity": "45"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/DeleteTablets.java": {
+                "ncloc": "72",
+                "complexity": "10"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/FinishTableRangeOp.java": {
+                "ncloc": "72",
+                "complexity": "9"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/merge/ReserveTablets.java": {
+                "ncloc": "83",
+                "complexity": "16"
+            },
+            "accumulo-3945:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/delete/ReserveTablets.java": {
+                "ncloc": "73",
+                "complexity": "13"
+            },
+            "accumulo-3945:server/base/src/main/java/org/apache/accumulo/server/metadata/ServerAmpleImpl.java": {
+                "ncloc": "270",
+                "complexity": "43"
+            },
+            "accumulo-3945:test/src/main/java/org/apache/accumulo/test/functional/SplitMillionIT.java": {
+                "ncloc": "146",
+                "complexity": "17"
+            }
+        }
+    }
+]

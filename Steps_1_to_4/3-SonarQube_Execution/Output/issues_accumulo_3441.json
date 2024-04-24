@@ -1,0 +1,188 @@
+[
+    {
+        "commit_sha": "a432a8199923acf0eaaaf56dc893c235537c3729",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ucLEH8f47XzIbZE82",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 22,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5ucLEI8f47XzIbZE83",
+                    "rule": "java:S2386",
+                    "severity": "MINOR",
+                    "component": "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 42,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5ucLEI8f47XzIbZE84",
+                    "rule": "java:S2786",
+                    "severity": "MINOR",
+                    "component": "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 9,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5ucLEI8f47XzIbZE85",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 79,
+                        "endLine": 79,
+                        "startOffset": 26,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5ucLEI8f47XzIbZE86",
+                    "rule": "java:S5803",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 39,
+                        "endOffset": 49
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java": {
+                "ncloc": "60",
+                "complexity": "8"
+            },
+            "accumulo-3441:server/base/src/test/java/org/apache/accumulo/server/manager/state/TabletManagementTest.java": {
+                "ncloc": "91",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "3155f908c5ce075e82cc31abb33515b08472909d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ucLEH8f47XzIbZE82",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 22,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5ucLEI8f47XzIbZE83",
+                    "rule": "java:S2386",
+                    "severity": "MINOR",
+                    "component": "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 42,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5ucLEI8f47XzIbZE84",
+                    "rule": "java:S2786",
+                    "severity": "MINOR",
+                    "component": "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 9,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5ucLEI8f47XzIbZE85",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 26,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5ucLEI8f47XzIbZE86",
+                    "rule": "java:S5803",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 83,
+                        "endLine": 83,
+                        "startOffset": 39,
+                        "endOffset": 49
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-3441:core/src/main/java/org/apache/accumulo/core/manager/state/TabletManagement.java": {
+                "ncloc": "61",
+                "complexity": "8"
+            },
+            "accumulo-3441:server/base/src/test/java/org/apache/accumulo/server/manager/state/TabletManagementTest.java": {
+                "ncloc": "109",
+                "complexity": "6"
+            }
+        }
+    }
+]

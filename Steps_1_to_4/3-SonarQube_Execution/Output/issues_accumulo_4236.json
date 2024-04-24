@@ -1,0 +1,75 @@
+[
+    {
+        "commit_sha": "49b24bcc325892a97208715e2cfa6d28dc162bc3",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5HkB1lAESW5py-HBu_",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4236:server/base/src/main/java/org/apache/accumulo/server/compaction/RetryableThriftCall.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "accumulo-4236:server/base/src/main/java/org/apache/accumulo/server/compaction/RetryableThriftCall.java": {
+                "ncloc": "68",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "ae8409e726bd671d12ccc34954dea60bbfec4e7c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5HmjlLAESW5py-HY3h",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4236:server/base/src/main/java/org/apache/accumulo/server/compaction/RetryableThriftCall.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 96,
+                        "endLine": 96,
+                        "startOffset": 11,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5HkB1lAESW5py-HBu_",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4236:server/base/src/main/java/org/apache/accumulo/server/compaction/RetryableThriftCall.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-4236:server/base/src/main/java/org/apache/accumulo/server/compaction/RetryableThriftCall.java": {
+                "ncloc": "74",
+                "complexity": "13"
+            }
+        }
+    }
+]

@@ -1,0 +1,113 @@
+[
+    {
+        "commit_sha": "6f5c2f07a44bbbda1c33fb094654fc5644dab461",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5SDqVCy-HgqSyzvn7-",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2773:test/src/main/java/org/apache/accumulo/test/conf/PropStoreConfigIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 43,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5SDrHBy-HgqSyzvrqO",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2773:server/base/src/main/java/org/apache/accumulo/server/conf/ServerConfigurationFactory.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2773:test/src/main/java/org/apache/accumulo/test/conf/PropStoreConfigIT.java": {
+                "ncloc": "86",
+                "complexity": "7"
+            },
+            "accumulo-2773:server/base/src/main/java/org/apache/accumulo/server/conf/ServerConfigurationFactory.java": {
+                "ncloc": "72",
+                "complexity": "13"
+            }
+        }
+    },
+    {
+        "commit_sha": "934a52fc12b495e298c9eee1f6cde593d9c3390e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5SDqVCy-HgqSyzvn7-",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2773:test/src/main/java/org/apache/accumulo/test/conf/PropStoreConfigIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 43,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5SFJygy-HgqSyzwCSL",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-2773:server/base/src/main/java/org/apache/accumulo/server/conf/ServerConfigurationFactory.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5SDrHBy-HgqSyzvrqO",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2773:server/base/src/main/java/org/apache/accumulo/server/conf/ServerConfigurationFactory.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-2773:test/src/main/java/org/apache/accumulo/test/conf/PropStoreConfigIT.java": {
+                "ncloc": "125",
+                "complexity": "10"
+            },
+            "accumulo-2773:server/base/src/main/java/org/apache/accumulo/server/conf/ServerConfigurationFactory.java": {
+                "ncloc": "107",
+                "complexity": "19"
+            }
+        }
+    }
+]

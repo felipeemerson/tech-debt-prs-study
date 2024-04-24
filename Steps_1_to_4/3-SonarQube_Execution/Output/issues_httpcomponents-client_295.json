@@ -1,0 +1,90 @@
+[
+    {
+        "commit_sha": "879a063b570bb9dd15022db01c855dc71304b0f8",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Cr9bxygGTmJJJfHbb",
+                    "rule": "java:S1700",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-295:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Response.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 38,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5Cr9bxygGTmJJJfHbc",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-295:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Response.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 41,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-295:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Response.java": {
+                "ncloc": "89",
+                "complexity": "14"
+            }
+        }
+    },
+    {
+        "commit_sha": "fb0b0e0bb4a29e15569b31fc68ad546f9cfedcf3",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Cr9bxygGTmJJJfHbb",
+                    "rule": "java:S1700",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-295:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Response.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 38,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5Cr9bxygGTmJJJfHbc",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-295:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Response.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 79,
+                        "endLine": 79,
+                        "startOffset": 41,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-295:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Response.java": {
+                "ncloc": "91",
+                "complexity": "15"
+            }
+        }
+    }
+]

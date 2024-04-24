@@ -1,0 +1,59 @@
+[
+    {
+        "commit_sha": "a3444f7fda056bed6e36f8b3bc6252abbe1807cb",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "accumulo-4035:core/src/test/java/org/apache/accumulo/core/tabletserver/log/LogEntryTest.java": {
+                "ncloc": "103",
+                "complexity": "15"
+            }
+        }
+    },
+    {
+        "commit_sha": "bef32581981d3f423db70e3534721e86582b2fe6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5SJO6wAESW5py-hxm5",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "accumulo-4035:core/src/test/java/org/apache/accumulo/core/tabletserver/log/LogEntryTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 23,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5SJO6xAESW5py-hxm6",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4035:core/src/test/java/org/apache/accumulo/core/tabletserver/log/LogEntryTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 51,
+                        "endOffset": 54
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-4035:core/src/test/java/org/apache/accumulo/core/tabletserver/log/LogEntryTest.java": {
+                "ncloc": "93",
+                "complexity": "12"
+            }
+        }
+    }
+]

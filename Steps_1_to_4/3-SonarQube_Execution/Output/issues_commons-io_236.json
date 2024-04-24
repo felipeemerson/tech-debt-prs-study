@@ -1,0 +1,740 @@
+[
+    {
+        "commit_sha": "e2fa612820267dcc1cc110ffd311dab2fb7957e8",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OH",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 51,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OI",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OJ",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OK",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OL",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fx",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 23,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fy",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 21,
+                        "endOffset": 55
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java": {
+                "ncloc": "93",
+                "complexity": "25"
+            },
+            "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java": {
+                "ncloc": "125",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "d4b0d1d5553c747cc4eabda67bab16dd3c638c2a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OH",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 51,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OI",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OJ",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OK",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OL",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fx",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 170,
+                        "startOffset": 23,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fy",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 21,
+                        "endOffset": 55
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java": {
+                "ncloc": "97",
+                "complexity": "26"
+            },
+            "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java": {
+                "ncloc": "125",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "49bd4ca4a16055d3d1263209c31dfe6dde423962",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OH",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 51,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OI",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OJ",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OK",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OL",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fx",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 170,
+                        "startOffset": 23,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fy",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 21,
+                        "endOffset": 55
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java": {
+                "ncloc": "97",
+                "complexity": "26"
+            },
+            "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java": {
+                "ncloc": "125",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "1896a12e3737f06846873646162fecb7ce55f732",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OH",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 51,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OI",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OJ",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OK",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OL",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fx",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 175,
+                        "endLine": 175,
+                        "startOffset": 23,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fy",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 204,
+                        "endLine": 204,
+                        "startOffset": 21,
+                        "endOffset": 55
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java": {
+                "ncloc": "102",
+                "complexity": "26"
+            },
+            "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java": {
+                "ncloc": "125",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "c484e24c46db9fef3457207e29ad3fca658dbe47",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OH",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 51,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OI",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OJ",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OK",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OL",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fx",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 175,
+                        "endLine": 175,
+                        "startOffset": 23,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fy",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 204,
+                        "endLine": 204,
+                        "startOffset": 21,
+                        "endOffset": 55
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java": {
+                "ncloc": "102",
+                "complexity": "26"
+            },
+            "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java": {
+                "ncloc": "146",
+                "complexity": "14"
+            }
+        }
+    },
+    {
+        "commit_sha": "65aae9f7926f642d581c9523d870accab1f91314",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OH",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 51,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OI",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OJ",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OK",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 8,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY55Ld1tv_E88BfBg-OL",
+                    "rule": "java:S4042",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fx",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 23,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY55Ld9av_E88BfBg-fy",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 21,
+                        "endOffset": 55
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-io-236:src/main/java/org/apache/commons/io/monitor/FileAlterationMonitor.java": {
+                "ncloc": "102",
+                "complexity": "26"
+            },
+            "commons-io-236:src/test/java/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.java": {
+                "ncloc": "146",
+                "complexity": "14"
+            }
+        }
+    }
+]

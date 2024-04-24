@@ -1,0 +1,120 @@
+[
+    {
+        "commit_sha": "d89b27533411866804cd8fb978046b3780a30da8",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DDRzoygGTmJJJmXcH",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "httpcomponents-client-217:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 74,
+                        "endLine": 74,
+                        "startOffset": 16,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5DDRzoygGTmJJJmXcF",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-217:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 38,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5DDRzoygGTmJJJmXcG",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-217:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 39,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "httpcomponents-client-217:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient.java": {
+                "ncloc": "112",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "4b7a2a096bf6cb89cbb3c1b54d785b812be5b5a3",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DDRzoygGTmJJJmXcH",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "httpcomponents-client-217:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 16,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5DDRzoygGTmJJJmXcF",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-217:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 92,
+                        "startOffset": 38,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5DDRzoygGTmJJJmXcG",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-217:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 39,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "httpcomponents-client-217:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient.java": {
+                "ncloc": "96",
+                "complexity": "8"
+            }
+        }
+    }
+]

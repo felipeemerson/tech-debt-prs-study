@@ -1,0 +1,128 @@
+[
+    {
+        "commit_sha": "a432a8199923acf0eaaaf56dc893c235537c3729",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5uXmBc8f47XzIbYWQZ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3442:server/base/src/main/java/org/apache/accumulo/server/manager/state/AbstractTabletStateStore.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 15,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5uXmBi8f47XzIbYWQb",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3442:server/base/src/main/java/org/apache/accumulo/server/manager/state/MetaDataStateStore.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 0,
+                        "endOffset": 96
+                    }
+                },
+                {
+                    "key": "AY5uXmBi8f47XzIbYWQa",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3442:server/base/src/main/java/org/apache/accumulo/server/manager/state/MetaDataStateStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-3442:server/base/src/main/java/org/apache/accumulo/server/manager/state/AbstractTabletStateStore.java": {
+                "ncloc": "123",
+                "complexity": "27"
+            },
+            "accumulo-3442:server/base/src/main/java/org/apache/accumulo/server/manager/state/MetaDataStateStore.java": {
+                "ncloc": "64",
+                "complexity": "15"
+            }
+        }
+    },
+    {
+        "commit_sha": "258dcaaf18c6c5197a9fc9da96ebc364e3377511",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5uXmBc8f47XzIbYWQZ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3442:server/base/src/main/java/org/apache/accumulo/server/manager/state/AbstractTabletStateStore.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 15,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5uXmBi8f47XzIbYWQb",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3442:server/base/src/main/java/org/apache/accumulo/server/manager/state/MetaDataStateStore.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 0,
+                        "endOffset": 96
+                    }
+                },
+                {
+                    "key": "AY5uXmBi8f47XzIbYWQa",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3442:server/base/src/main/java/org/apache/accumulo/server/manager/state/MetaDataStateStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-3442:server/base/src/main/java/org/apache/accumulo/server/manager/state/AbstractTabletStateStore.java": {
+                "ncloc": "125",
+                "complexity": "27"
+            },
+            "accumulo-3442:server/base/src/main/java/org/apache/accumulo/server/manager/state/MetaDataStateStore.java": {
+                "ncloc": "65",
+                "complexity": "15"
+            }
+        }
+    }
+]

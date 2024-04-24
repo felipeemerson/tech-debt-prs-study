@@ -1,0 +1,98 @@
+[
+    {
+        "commit_sha": "afa8f5ecd11314337b42b63a98bd55138f7012c7",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DHZVHygGTmJJJnknL",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-204:httpclient5/src/main/java/org/apache/hc/client5/http/classic/methods/ClassicHttpRequests.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 19,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5DHZghygGTmJJJnk0S",
+                    "rule": "java:S3878",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-204:httpclient5/src/test/java/org/apache/hc/client5/http/classic/methods/TestClassicHttpRequests.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 60,
+                        "startOffset": 25,
+                        "endOffset": 5
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-204:httpclient5/src/main/java/org/apache/hc/client5/http/classic/methods/ClassicHttpRequests.java": {
+                "ncloc": "52",
+                "complexity": "16"
+            },
+            "httpcomponents-client-204:httpclient5/src/test/java/org/apache/hc/client5/http/classic/methods/TestClassicHttpRequests.java": {
+                "ncloc": "47",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "d397845865322084fcd79f7cb425f716f1e06dfd",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DHZVHygGTmJJJnknL",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-204:httpclient5/src/main/java/org/apache/hc/client5/http/classic/methods/ClassicHttpRequests.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 19,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5DHZghygGTmJJJnk0S",
+                    "rule": "java:S3878",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-204:httpclient5/src/test/java/org/apache/hc/client5/http/classic/methods/TestClassicHttpRequests.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 60,
+                        "startOffset": 25,
+                        "endOffset": 5
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-204:httpclient5/src/main/java/org/apache/hc/client5/http/classic/methods/ClassicHttpRequests.java": {
+                "ncloc": "101",
+                "complexity": "35"
+            },
+            "httpcomponents-client-204:httpclient5/src/test/java/org/apache/hc/client5/http/classic/methods/TestClassicHttpRequests.java": {
+                "ncloc": "55",
+                "complexity": "6"
+            }
+        }
+    }
+]

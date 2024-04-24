@@ -1,0 +1,182 @@
+[
+    {
+        "commit_sha": "4d933f1a285fb1a5c323bf58062fb05d3110dd91",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5vy4XV8f47XzIbnxQq",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/NullRateLimiter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 14,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5vy4Xb8f47XzIbnxQr",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/SharedRateLimiterFactory.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 99,
+                        "endLine": 99,
+                        "startOffset": 23,
+                        "endOffset": 47
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/GuavaRateLimiter.java": {
+                "ncloc": "30",
+                "complexity": "9"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "105",
+                "complexity": "5"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/NullRateLimiter.java": {
+                "ncloc": "11",
+                "complexity": "3"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/RateLimiter.java": {
+                "ncloc": "5",
+                "complexity": "0"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/SharedRateLimiterFactory.java": {
+                "ncloc": "120",
+                "complexity": "21"
+            }
+        }
+    },
+    {
+        "commit_sha": "7225efb8288293faa8101826d4e90014f5037551",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5vy4XV8f47XzIbnxQq",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/NullRateLimiter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 14,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5vy4Xb8f47XzIbnxQr",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/SharedRateLimiterFactory.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 99,
+                        "endLine": 99,
+                        "startOffset": 23,
+                        "endOffset": 47
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/GuavaRateLimiter.java": {
+                "ncloc": "30",
+                "complexity": "9"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "105",
+                "complexity": "5"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/NullRateLimiter.java": {
+                "ncloc": "11",
+                "complexity": "3"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/RateLimiter.java": {
+                "ncloc": "5",
+                "complexity": "0"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/SharedRateLimiterFactory.java": {
+                "ncloc": "120",
+                "complexity": "21"
+            }
+        }
+    },
+    {
+        "commit_sha": "cdf991dae6db0a46b089a4a5af7811b209fa5dfc",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5vy4XV8f47XzIbnxQq",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/NullRateLimiter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 14,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5vy4Xb8f47XzIbnxQr",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/SharedRateLimiterFactory.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 99,
+                        "endLine": 99,
+                        "startOffset": 23,
+                        "endOffset": 47
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/GuavaRateLimiter.java": {
+                "ncloc": "30",
+                "complexity": "9"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "105",
+                "complexity": "5"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/NullRateLimiter.java": {
+                "ncloc": "11",
+                "complexity": "3"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/RateLimiter.java": {
+                "ncloc": "5",
+                "complexity": "0"
+            },
+            "accumulo-3419:core/src/main/java/org/apache/accumulo/core/util/ratelimit/SharedRateLimiterFactory.java": {
+                "ncloc": "120",
+                "complexity": "21"
+            }
+        }
+    }
+]

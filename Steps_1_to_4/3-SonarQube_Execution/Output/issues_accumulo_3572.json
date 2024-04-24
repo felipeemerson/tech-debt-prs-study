@@ -1,0 +1,1224 @@
+[
+    {
+        "commit_sha": "a8cc689a77c50413f0780ae58f8db7ae1b227206",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5n6PYb8f47XzIbm5d7",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/AccumuloRecordWriter.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5n6PYb8f47XzIbm5d8",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/AccumuloRecordWriter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 39,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08Q",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 13,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08R",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 108,
+                        "endLine": 108,
+                        "startOffset": 50,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08S",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08T",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 146,
+                        "endLine": 146,
+                        "startOffset": 13,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08U",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08V",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 30,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08W",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08X",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 181,
+                        "endLine": 181,
+                        "startOffset": 26,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08Y",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 192,
+                        "endLine": 192,
+                        "startOffset": 26,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08Z",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 207,
+                        "endLine": 207,
+                        "startOffset": 51,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08a",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 208,
+                        "endLine": 208,
+                        "startOffset": 30,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08b",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 223,
+                        "endLine": 223,
+                        "startOffset": 21,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08c",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 239,
+                        "endLine": 239,
+                        "startOffset": 23,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08d",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 252,
+                        "endLine": 252,
+                        "startOffset": 30,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08e",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 263,
+                        "endLine": 263,
+                        "startOffset": 23,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08f",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 275,
+                        "endLine": 275,
+                        "startOffset": 30,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08g",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 416,
+                        "endLine": 416,
+                        "startOffset": 41,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08h",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 556,
+                        "endLine": 556,
+                        "startOffset": 44,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5n6PYw8f47XzIbm5ec",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapred/AccumuloRecordWriter.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5n6PYw8f47XzIbm5ed",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapred/AccumuloRecordWriter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 39,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08i",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 13,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08j",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 50,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08k",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 130,
+                        "endLine": 130,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08l",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08m",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 30,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08n",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 172,
+                        "endLine": 172,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08o",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 26,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08p",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 26,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08q",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 27,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08r",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 30,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08s",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 21,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08t",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 241,
+                        "endLine": 241,
+                        "startOffset": 23,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08u",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 253,
+                        "endLine": 253,
+                        "startOffset": 30,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08v",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 264,
+                        "endLine": 264,
+                        "startOffset": 23,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08w",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 276,
+                        "endLine": 276,
+                        "startOffset": 30,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08x",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 417,
+                        "endLine": 417,
+                        "startOffset": 41,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08y",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 557,
+                        "endLine": 557,
+                        "startOffset": 44,
+                        "endOffset": 50
+                    }
+                }
+            ],
+            "total": 39
+        },
+        "metrics": {
+            "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java": {
+                "ncloc": "289",
+                "complexity": "56"
+            },
+            "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java": {
+                "ncloc": "293",
+                "complexity": "57"
+            },
+            "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/AccumuloRecordWriter.java": {
+                "ncloc": "156",
+                "complexity": "29"
+            },
+            "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapred/AccumuloRecordWriter.java": {
+                "ncloc": "155",
+                "complexity": "29"
+            }
+        }
+    },
+    {
+        "commit_sha": "03b8e98724dda735964e03be06919434ea0baa76",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5n6PYb8f47XzIbm5d7",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/AccumuloRecordWriter.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5n6PYb8f47XzIbm5d8",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/AccumuloRecordWriter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 39,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08Q",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 13,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08R",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 108,
+                        "endLine": 108,
+                        "startOffset": 50,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08S",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08T",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 146,
+                        "endLine": 146,
+                        "startOffset": 13,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08U",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08V",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 30,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08W",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08X",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 181,
+                        "endLine": 181,
+                        "startOffset": 26,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCF8f47XzIbm08Y",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 192,
+                        "endLine": 192,
+                        "startOffset": 26,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08Z",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 207,
+                        "endLine": 207,
+                        "startOffset": 51,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08a",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 208,
+                        "endLine": 208,
+                        "startOffset": 30,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08b",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 223,
+                        "endLine": 223,
+                        "startOffset": 21,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08c",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 239,
+                        "endLine": 239,
+                        "startOffset": 23,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08d",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 252,
+                        "endLine": 252,
+                        "startOffset": 30,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08e",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 263,
+                        "endLine": 263,
+                        "startOffset": 23,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08f",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 275,
+                        "endLine": 275,
+                        "startOffset": 30,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08g",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 416,
+                        "endLine": 416,
+                        "startOffset": 41,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5n6OCG8f47XzIbm08h",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 556,
+                        "endLine": 556,
+                        "startOffset": 44,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5n6PYw8f47XzIbm5ec",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapred/AccumuloRecordWriter.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5n6PYw8f47XzIbm5ed",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapred/AccumuloRecordWriter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 39,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08i",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 13,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08j",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 50,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08k",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 130,
+                        "endLine": 130,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08l",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08m",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 30,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08n",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 172,
+                        "endLine": 172,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08o",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 26,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08p",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 26,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08q",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 27,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08r",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 30,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08s",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 21,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08t",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 241,
+                        "endLine": 241,
+                        "startOffset": 23,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08u",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 253,
+                        "endLine": 253,
+                        "startOffset": 30,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08v",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 264,
+                        "endLine": 264,
+                        "startOffset": 23,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08w",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 276,
+                        "endLine": 276,
+                        "startOffset": 30,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08x",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 417,
+                        "endLine": 417,
+                        "startOffset": 41,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5n6OCL8f47XzIbm08y",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 557,
+                        "endLine": 557,
+                        "startOffset": 44,
+                        "endOffset": 50
+                    }
+                }
+            ],
+            "total": 39
+        },
+        "metrics": {
+            "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapred/AccumuloOutputFormat.java": {
+                "ncloc": "289",
+                "complexity": "56"
+            },
+            "accumulo-3572:core/src/main/java/org/apache/accumulo/core/client/mapreduce/AccumuloOutputFormat.java": {
+                "ncloc": "293",
+                "complexity": "57"
+            },
+            "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/AccumuloRecordWriter.java": {
+                "ncloc": "156",
+                "complexity": "29"
+            },
+            "accumulo-3572:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapred/AccumuloRecordWriter.java": {
+                "ncloc": "155",
+                "complexity": "29"
+            }
+        }
+    }
+]

@@ -1,0 +1,430 @@
+[
+    {
+        "commit_sha": "bfe177fc59e8109e7e629df2a8ea8d7f7679f1dd",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CD-WnygGTmJJJQVPN",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-373:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 17,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5CD-WnygGTmJJJQVPM",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 20,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5CD-JkygGTmJJJQVCE",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/CachingExecBase.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 10,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5CD-JkygGTmJJJQVCD",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/CachingExecBase.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 4,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5CD-JKygGTmJJJQVBu",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 24,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5CD-JKygGTmJJJQVBv",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "36min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 96,
+                        "endLine": 96,
+                        "startOffset": 23,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5CD-JKygGTmJJJQVBs",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 32,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5CD-JKygGTmJJJQVBw",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 23,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY5CD-JKygGTmJJJQVBt",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 212,
+                        "endLine": 212,
+                        "startOffset": 32,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5CD-JNygGTmJJJQVBz",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "25min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 83,
+                        "endLine": 83,
+                        "startOffset": 16,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5CD-JNygGTmJJJQVBx",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 24,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5CD-JNygGTmJJJQVBy",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 187,
+                        "endLine": 187,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/CachedHttpResponseGenerator.java": {
+                "ncloc": "107",
+                "complexity": "23"
+            },
+            "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/CachingExecBase.java": {
+                "ncloc": "266",
+                "complexity": "61"
+            },
+            "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java": {
+                "ncloc": "201",
+                "complexity": "53"
+            },
+            "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultCacheInvalidator.java": {
+                "ncloc": "144",
+                "complexity": "37"
+            },
+            "httpcomponents-client-373:httpclient5/src/main/java/org/apache/hc/client5/http/impl/DefaultRedirectStrategy.java": {
+                "ncloc": "82",
+                "complexity": "13"
+            },
+            "httpcomponents-client-373:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java": {
+                "ncloc": "108",
+                "complexity": "17"
+            }
+        }
+    },
+    {
+        "commit_sha": "53d2224b64328ac3cd2b1ccb7d98a5b3bb7282d9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CD-WnygGTmJJJQVPN",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-373:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 104,
+                        "endLine": 104,
+                        "startOffset": 17,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5CD-WnygGTmJJJQVPM",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 20,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5CD-JkygGTmJJJQVCE",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/CachingExecBase.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 10,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5CD-JkygGTmJJJQVCD",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/CachingExecBase.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 4,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5CD-JKygGTmJJJQVBu",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 24,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5CD-JKygGTmJJJQVBv",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "36min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 97,
+                        "endLine": 97,
+                        "startOffset": 23,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5CD-JKygGTmJJJQVBs",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 128,
+                        "endLine": 128,
+                        "startOffset": 32,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5CD-JKygGTmJJJQVBw",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 23,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY5CD-JKygGTmJJJQVBt",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 213,
+                        "endLine": 213,
+                        "startOffset": 32,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5CD-JNygGTmJJJQVBz",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "25min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 84,
+                        "endLine": 84,
+                        "startOffset": 16,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5CD-JNygGTmJJJQVBx",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 112,
+                        "endLine": 112,
+                        "startOffset": 24,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5CD-JNygGTmJJJQVBy",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultCacheInvalidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/CachedHttpResponseGenerator.java": {
+                "ncloc": "107",
+                "complexity": "23"
+            },
+            "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/CachingExecBase.java": {
+                "ncloc": "266",
+                "complexity": "61"
+            },
+            "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheInvalidator.java": {
+                "ncloc": "202",
+                "complexity": "53"
+            },
+            "httpcomponents-client-373:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultCacheInvalidator.java": {
+                "ncloc": "145",
+                "complexity": "37"
+            },
+            "httpcomponents-client-373:httpclient5/src/main/java/org/apache/hc/client5/http/impl/DefaultRedirectStrategy.java": {
+                "ncloc": "82",
+                "complexity": "13"
+            },
+            "httpcomponents-client-373:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java": {
+                "ncloc": "109",
+                "complexity": "17"
+            }
+        }
+    }
+]

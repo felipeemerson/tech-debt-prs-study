@@ -1,0 +1,520 @@
+[
+    {
+        "commit_sha": "c99a22387bfe3f2de93c6a27727d7b38054a699b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5bctxO3doAqESEKDnP",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/TestClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 40,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5bcubM3doAqESEKGxR",
+                    "rule": "java:S2093",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1322:shell/src/main/java/org/apache/accumulo/shell/ShellOptionsJC.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5bcubM3doAqESEKGxS",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-1322:shell/src/main/java/org/apache/accumulo/shell/ShellOptionsJC.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 189,
+                        "endLine": 189,
+                        "startOffset": 0,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY5bcubM3doAqESEKGxT",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:shell/src/main/java/org/apache/accumulo/shell/ShellOptionsJC.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 276,
+                        "endLine": 276,
+                        "startOffset": 10,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5bct0z3doAqESEKDpz",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/util/CreateToken.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5bct0z3doAqESEKDp0",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/util/CreateToken.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 112,
+                        "endLine": 112,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5bct0z3doAqESEKDp1",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/util/CreateToken.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 113,
+                        "endLine": 113,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5bct0z3doAqESEKDpy",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/util/CreateToken.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5bcubq3doAqESEKGxY",
+                    "rule": "java:S1700",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:shell/src/test/java/org/apache/accumulo/shell/PasswordConverterTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 11,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5bcubq3doAqESEKGxZ",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1322:shell/src/test/java/org/apache/accumulo/shell/PasswordConverterTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 26,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5bcubq3doAqESEKGxa",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1322:shell/src/test/java/org/apache/accumulo/shell/PasswordConverterTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 29,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5bcuUB3doAqESEKGqx",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/cli/ClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 18,
+                        "endOffset": 23
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-1322:core/src/main/java/org/apache/accumulo/core/cli/ClientOpts.java": {
+                "ncloc": "131",
+                "complexity": "24"
+            },
+            "accumulo-1322:core/src/main/java/org/apache/accumulo/core/util/CreateToken.java": {
+                "ncloc": "84",
+                "complexity": "13"
+            },
+            "accumulo-1322:shell/src/test/java/org/apache/accumulo/shell/PasswordConverterTest.java": {
+                "ncloc": "82",
+                "complexity": "8"
+            },
+            "accumulo-1322:shell/src/main/java/org/apache/accumulo/shell/ShellOptionsJC.java": {
+                "ncloc": "247",
+                "complexity": "45"
+            },
+            "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/TestClientOpts.java": {
+                "ncloc": "29",
+                "complexity": "1"
+            },
+            "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/PasswordConverterTest.java": {
+                "ncloc": "82",
+                "complexity": "8"
+            }
+        }
+    },
+    {
+        "commit_sha": "49cab617a30e97bf0cf5748a28b767520ddda927",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5bcubq3doAqESEKGxY",
+                    "rule": "java:S1700",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/PasswordConverterTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 11,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5bcubq3doAqESEKGxZ",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/PasswordConverterTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 26,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5bcubq3doAqESEKGxa",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/PasswordConverterTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 29,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5be2I13doAqESEKaK9",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/TestClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 57,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5be2I13doAqESEKaK_",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/TestClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 8,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5be2I03doAqESEKaK8",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/TestClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 17,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5be2I13doAqESEKaK-",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/TestClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 45,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5bctxO3doAqESEKDnP",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/TestClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 40,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5bcubM3doAqESEKGxR",
+                    "rule": "java:S2093",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1322:shell/src/main/java/org/apache/accumulo/shell/ShellOptionsJC.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5bcubM3doAqESEKGxS",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-1322:shell/src/main/java/org/apache/accumulo/shell/ShellOptionsJC.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 112,
+                        "endLine": 112,
+                        "startOffset": 0,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY5bcubM3doAqESEKGxT",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:shell/src/main/java/org/apache/accumulo/shell/ShellOptionsJC.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 10,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5bct0z3doAqESEKDpz",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/util/CreateToken.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 110,
+                        "endLine": 110,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5bct0z3doAqESEKDp0",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/util/CreateToken.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5bct0z3doAqESEKDp1",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/util/CreateToken.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 112,
+                        "endLine": 112,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5bct0z3doAqESEKDpy",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/util/CreateToken.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5be22n3doAqESEKaLA",
+                    "rule": "java:S2093",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/cli/ClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5be22o3doAqESEKaLB",
+                    "rule": "java:S1858",
+                    "severity": "MINOR",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/cli/ClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 232,
+                        "endLine": 232,
+                        "startOffset": 48,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5bcuUB3doAqESEKGqx",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-1322:core/src/main/java/org/apache/accumulo/core/cli/ClientOpts.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 18,
+                        "endOffset": 23
+                    }
+                }
+            ],
+            "total": 18
+        },
+        "metrics": {
+            "accumulo-1322:core/src/main/java/org/apache/accumulo/core/cli/ClientOpts.java": {
+                "ncloc": "184",
+                "complexity": "33"
+            },
+            "accumulo-1322:core/src/main/java/org/apache/accumulo/core/util/CreateToken.java": {
+                "ncloc": "83",
+                "complexity": "13"
+            },
+            "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/PasswordConverterTest.java": {
+                "ncloc": "87",
+                "complexity": "9"
+            },
+            "accumulo-1322:shell/src/main/java/org/apache/accumulo/shell/ShellOptionsJC.java": {
+                "ncloc": "182",
+                "complexity": "33"
+            },
+            "accumulo-1322:core/src/test/java/org/apache/accumulo/core/cli/TestClientOpts.java": {
+                "ncloc": "42",
+                "complexity": "2"
+            },
+            "accumulo-1322:shell/src/test/java/org/apache/accumulo/shell/PasswordConverterTest.java": {
+                "ncloc": "87",
+                "complexity": "9"
+            }
+        }
+    }
+]

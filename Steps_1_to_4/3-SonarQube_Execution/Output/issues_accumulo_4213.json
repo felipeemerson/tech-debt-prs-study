@@ -1,0 +1,210 @@
+[
+    {
+        "commit_sha": "4eff7353c646d90ae3b8be9e2df2b05c6d3c8c1e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5IQJJZAESW5py-PMdv",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 412,
+                        "endLine": 412,
+                        "startOffset": 60,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY5IQJJZAESW5py-PMdu",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 413,
+                        "endLine": 413,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5IQJJZAESW5py-PMdw",
+                    "rule": "java:S131",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 451,
+                        "endLine": 451,
+                        "startOffset": 10,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5IQJJZAESW5py-PMdx",
+                    "rule": "java:S131",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 465,
+                        "endLine": 465,
+                        "startOffset": 10,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5IQJJZAESW5py-PMdy",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 574,
+                        "endLine": 574,
+                        "startOffset": 54,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5IQJJZAESW5py-PMdz",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 613,
+                        "endLine": 613,
+                        "startOffset": 49,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java": {
+                "ncloc": "495",
+                "complexity": "100"
+            }
+        }
+    },
+    {
+        "commit_sha": "81ba901038a318b20ea18dcd1dd732deb86910be",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5IQJJZAESW5py-PMdw",
+                    "rule": "java:S131",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 451,
+                        "endLine": 451,
+                        "startOffset": 10,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5IQJJZAESW5py-PMdv",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 412,
+                        "endLine": 412,
+                        "startOffset": 60,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY5IQJJZAESW5py-PMdu",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 413,
+                        "endLine": 413,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5IQJJZAESW5py-PMdx",
+                    "rule": "java:S131",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 467,
+                        "endLine": 467,
+                        "startOffset": 10,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5IQJJZAESW5py-PMdy",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 576,
+                        "endLine": 576,
+                        "startOffset": 54,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5IQJJZAESW5py-PMdz",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 615,
+                        "endLine": 615,
+                        "startOffset": 49,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-4213:core/src/main/java/org/apache/accumulo/core/metadata/schema/TabletMetadata.java": {
+                "ncloc": "497",
+                "complexity": "100"
+            }
+        }
+    }
+]

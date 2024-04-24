@@ -1,0 +1,286 @@
+[
+    {
+        "commit_sha": "252059043776efa3725d95796679b58cf2380d12",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5C2GrCygGTmJJJivEA",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/NTLMScheme.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 26,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDq",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 26,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDt",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 203,
+                        "endLine": 203,
+                        "startOffset": 30,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDu",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "45min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 220,
+                        "endLine": 220,
+                        "startOffset": 19,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDs",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 227,
+                        "endLine": 227,
+                        "startOffset": 45,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDr",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 243,
+                        "endLine": 243,
+                        "startOffset": 50,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDv",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 377,
+                        "endLine": 377,
+                        "startOffset": 30,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5C2GqaygGTmJJJivDp",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicScheme.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 195,
+                        "endLine": 195,
+                        "startOffset": 17,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicScheme.java": {
+                "ncloc": "145",
+                "complexity": "22"
+            },
+            "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java": {
+                "ncloc": "345",
+                "complexity": "61"
+            },
+            "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/NTLMScheme.java": {
+                "ncloc": "127",
+                "complexity": "23"
+            }
+        }
+    },
+    {
+        "commit_sha": "3360a69cd2651d3389a6b52a6476fcc97bb5adc1",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5C2GrCygGTmJJJivEA",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/NTLMScheme.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 134,
+                        "endLine": 134,
+                        "startOffset": 26,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDq",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 26,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDt",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 30,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDu",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "45min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 227,
+                        "endLine": 227,
+                        "startOffset": 19,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDs",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 234,
+                        "endLine": 234,
+                        "startOffset": 45,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDr",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 250,
+                        "endLine": 250,
+                        "startOffset": 50,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5C2GqgygGTmJJJivDv",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 384,
+                        "endLine": 384,
+                        "startOffset": 30,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5C2GqaygGTmJJJivDp",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicScheme.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 202,
+                        "startOffset": 17,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicScheme.java": {
+                "ncloc": "150",
+                "complexity": "22"
+            },
+            "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/DigestScheme.java": {
+                "ncloc": "350",
+                "complexity": "61"
+            },
+            "httpcomponents-client-251:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/NTLMScheme.java": {
+                "ncloc": "132",
+                "complexity": "23"
+            }
+        }
+    }
+]

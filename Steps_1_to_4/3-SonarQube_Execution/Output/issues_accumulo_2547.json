@@ -1,0 +1,1905 @@
+[
+    {
+        "commit_sha": "7fb1b5df9e3abe18304039fb3e781b2617eec4b5",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5cG5GGPFaAboFi-gjw",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/util/threads/Threads.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqD",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 19,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqE",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 157,
+                        "endLine": 157,
+                        "startOffset": 17,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqC",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 158,
+                        "endLine": 158,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqF",
+                    "rule": "java:S2438",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 165,
+                        "startOffset": 8,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqH",
+                    "rule": "java:S2236",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 538,
+                        "endLine": 538,
+                        "startOffset": 17,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqG",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 539,
+                        "endLine": 539,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqI",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 539,
+                        "endLine": 539,
+                        "startOffset": 43,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqJ",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 541,
+                        "endLine": 541,
+                        "startOffset": 22,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqK",
+                    "rule": "java:S2446",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 551,
+                        "endLine": 551,
+                        "startOffset": 13,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqL",
+                    "rule": "java:S2236",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 551,
+                        "endLine": 551,
+                        "startOffset": 13,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh8",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "1h18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh1",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "40min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 215,
+                        "endLine": 215,
+                        "startOffset": 8,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh3",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 260,
+                        "endLine": 260,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh0",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 309,
+                        "endLine": 309,
+                        "startOffset": 35,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh9",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 353,
+                        "endLine": 353,
+                        "startOffset": 12,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh-",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 443,
+                        "endLine": 443,
+                        "startOffset": 15,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh6",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 455,
+                        "endLine": 455,
+                        "startOffset": 24,
+                        "endOffset": 87
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh7",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 484,
+                        "endLine": 484,
+                        "startOffset": 27,
+                        "endOffset": 72
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh_",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 508,
+                        "endLine": 508,
+                        "startOffset": 15,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh2",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 521,
+                        "endLine": 521,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiA",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 15,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiB",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 576,
+                        "endLine": 576,
+                        "startOffset": 20,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh4",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 590,
+                        "endLine": 590,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiD",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 598,
+                        "endLine": 598,
+                        "startOffset": 19,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiC",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 602,
+                        "endLine": 602,
+                        "startOffset": 15,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiE",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 609,
+                        "endLine": 609,
+                        "startOffset": 15,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "7min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 694,
+                        "endLine": 694,
+                        "startOffset": 15,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh5",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 747,
+                        "endLine": 747,
+                        "startOffset": 16,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 885,
+                        "endLine": 885,
+                        "startOffset": 15,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 30
+        },
+        "metrics": {
+            "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java": {
+                "ncloc": "441",
+                "complexity": "89"
+            },
+            "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java": {
+                "ncloc": "794",
+                "complexity": "158"
+            },
+            "accumulo-2547:core/src/main/java/org/apache/accumulo/core/util/threads/Threads.java": {
+                "ncloc": "20",
+                "complexity": "3"
+            }
+        }
+    },
+    {
+        "commit_sha": "feccda56b91e7383f1befe32b4511d5d0721b823",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5cG5GGPFaAboFi-gjw",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/util/threads/Threads.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqD",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 19,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqE",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 158,
+                        "endLine": 158,
+                        "startOffset": 17,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqC",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqF",
+                    "rule": "java:S2438",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 166,
+                        "endLine": 166,
+                        "startOffset": 8,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqH",
+                    "rule": "java:S2236",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 539,
+                        "endLine": 539,
+                        "startOffset": 17,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqG",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 540,
+                        "endLine": 540,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqI",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 540,
+                        "endLine": 540,
+                        "startOffset": 43,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqJ",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 542,
+                        "endLine": 542,
+                        "startOffset": 22,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqK",
+                    "rule": "java:S2446",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 552,
+                        "endLine": 552,
+                        "startOffset": 13,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqL",
+                    "rule": "java:S2236",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 552,
+                        "endLine": 552,
+                        "startOffset": 13,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh8",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "1h18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh1",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "40min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 215,
+                        "endLine": 215,
+                        "startOffset": 8,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh3",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 260,
+                        "endLine": 260,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh0",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 309,
+                        "endLine": 309,
+                        "startOffset": 35,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh9",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 353,
+                        "endLine": 353,
+                        "startOffset": 12,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh-",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 443,
+                        "endLine": 443,
+                        "startOffset": 15,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh6",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 455,
+                        "endLine": 455,
+                        "startOffset": 24,
+                        "endOffset": 87
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh7",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 484,
+                        "endLine": 484,
+                        "startOffset": 27,
+                        "endOffset": 72
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh_",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 508,
+                        "endLine": 508,
+                        "startOffset": 15,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh2",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 521,
+                        "endLine": 521,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiA",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 15,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiB",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 576,
+                        "endLine": 576,
+                        "startOffset": 20,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh4",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 590,
+                        "endLine": 590,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiD",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 598,
+                        "endLine": 598,
+                        "startOffset": 19,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiC",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 602,
+                        "endLine": 602,
+                        "startOffset": 15,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiE",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 609,
+                        "endLine": 609,
+                        "startOffset": 15,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "7min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 694,
+                        "endLine": 694,
+                        "startOffset": 15,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh5",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 747,
+                        "endLine": 747,
+                        "startOffset": 16,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 885,
+                        "endLine": 885,
+                        "startOffset": 15,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 30
+        },
+        "metrics": {
+            "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java": {
+                "ncloc": "442",
+                "complexity": "89"
+            },
+            "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java": {
+                "ncloc": "794",
+                "complexity": "158"
+            },
+            "accumulo-2547:core/src/main/java/org/apache/accumulo/core/util/threads/Threads.java": {
+                "ncloc": "25",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "ed31ab4aa8729ee0c9159c2329cc28ff302967e6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5cG5GGPFaAboFi-gjw",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/util/threads/Threads.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqD",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 19,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqE",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 158,
+                        "endLine": 158,
+                        "startOffset": 17,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqC",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqF",
+                    "rule": "java:S2438",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 166,
+                        "endLine": 166,
+                        "startOffset": 8,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqH",
+                    "rule": "java:S2236",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 539,
+                        "endLine": 539,
+                        "startOffset": 17,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqG",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 540,
+                        "endLine": 540,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqI",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 540,
+                        "endLine": 540,
+                        "startOffset": 43,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqJ",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 542,
+                        "endLine": 542,
+                        "startOffset": 22,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqK",
+                    "rule": "java:S2446",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 552,
+                        "endLine": 552,
+                        "startOffset": 13,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqL",
+                    "rule": "java:S2236",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 552,
+                        "endLine": 552,
+                        "startOffset": 13,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh8",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "1h18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh1",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "40min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 215,
+                        "endLine": 215,
+                        "startOffset": 8,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh3",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 260,
+                        "endLine": 260,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh0",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 309,
+                        "endLine": 309,
+                        "startOffset": 35,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh9",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 353,
+                        "endLine": 353,
+                        "startOffset": 12,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh-",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 443,
+                        "endLine": 443,
+                        "startOffset": 15,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh6",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 455,
+                        "endLine": 455,
+                        "startOffset": 24,
+                        "endOffset": 87
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh7",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 484,
+                        "endLine": 484,
+                        "startOffset": 27,
+                        "endOffset": 72
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh_",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 508,
+                        "endLine": 508,
+                        "startOffset": 15,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh2",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 521,
+                        "endLine": 521,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiA",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 15,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiB",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 576,
+                        "endLine": 576,
+                        "startOffset": 20,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh4",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 590,
+                        "endLine": 590,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiD",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 598,
+                        "endLine": 598,
+                        "startOffset": 19,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiC",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 602,
+                        "endLine": 602,
+                        "startOffset": 15,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiE",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 609,
+                        "endLine": 609,
+                        "startOffset": 15,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "7min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 694,
+                        "endLine": 694,
+                        "startOffset": 15,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh5",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 747,
+                        "endLine": 747,
+                        "startOffset": 16,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 885,
+                        "endLine": 885,
+                        "startOffset": 15,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 30
+        },
+        "metrics": {
+            "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java": {
+                "ncloc": "442",
+                "complexity": "89"
+            },
+            "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java": {
+                "ncloc": "794",
+                "complexity": "158"
+            },
+            "accumulo-2547:core/src/main/java/org/apache/accumulo/core/util/threads/Threads.java": {
+                "ncloc": "24",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "40a1945c60dbfdef01170f1a4b79136d6f83d91f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5cLljgPFaAboFi_wX-",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/util/threads/Threads.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 22,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5cG5GGPFaAboFi-gjw",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/util/threads/Threads.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqD",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 19,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqE",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 158,
+                        "endLine": 158,
+                        "startOffset": 17,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqC",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqF",
+                    "rule": "java:S2438",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 166,
+                        "endLine": 166,
+                        "startOffset": 8,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqH",
+                    "rule": "java:S2236",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 538,
+                        "endLine": 538,
+                        "startOffset": 17,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqG",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 539,
+                        "endLine": 539,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqI",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 539,
+                        "endLine": 539,
+                        "startOffset": 43,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqJ",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 541,
+                        "endLine": 541,
+                        "startOffset": 22,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqK",
+                    "rule": "java:S2446",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 551,
+                        "endLine": 551,
+                        "startOffset": 13,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5cG5J4PFaAboFi-gqL",
+                    "rule": "java:S2236",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 551,
+                        "endLine": 551,
+                        "startOffset": 13,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh8",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "1h18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh1",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "40min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 215,
+                        "endLine": 215,
+                        "startOffset": 8,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh3",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 260,
+                        "endLine": 260,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh0",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 309,
+                        "endLine": 309,
+                        "startOffset": 35,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh9",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 353,
+                        "endLine": 353,
+                        "startOffset": 12,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh-",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 443,
+                        "endLine": 443,
+                        "startOffset": 15,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh6",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 455,
+                        "endLine": 455,
+                        "startOffset": 24,
+                        "endOffset": 87
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh7",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 484,
+                        "endLine": 484,
+                        "startOffset": 27,
+                        "endOffset": 72
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh_",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 508,
+                        "endLine": 508,
+                        "startOffset": 15,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh2",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 521,
+                        "endLine": 521,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiA",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 15,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiB",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 576,
+                        "endLine": 576,
+                        "startOffset": 20,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh4",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 590,
+                        "endLine": 590,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiD",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 598,
+                        "endLine": 598,
+                        "startOffset": 19,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiC",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 602,
+                        "endLine": 602,
+                        "startOffset": 15,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiE",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 609,
+                        "endLine": 609,
+                        "startOffset": 15,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "7min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 694,
+                        "endLine": 694,
+                        "startOffset": 15,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kh5",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 747,
+                        "endLine": 747,
+                        "startOffset": 16,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY5cG5liPFaAboFi-kiG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 885,
+                        "endLine": 885,
+                        "startOffset": 15,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 31
+        },
+        "metrics": {
+            "accumulo-2547:core/src/main/java/org/apache/accumulo/core/file/blockfile/cache/lru/LruBlockCache.java": {
+                "ncloc": "440",
+                "complexity": "89"
+            },
+            "accumulo-2547:server/manager/src/main/java/org/apache/accumulo/manager/TabletGroupWatcher.java": {
+                "ncloc": "794",
+                "complexity": "158"
+            },
+            "accumulo-2547:core/src/main/java/org/apache/accumulo/core/util/threads/Threads.java": {
+                "ncloc": "33",
+                "complexity": "6"
+            }
+        }
+    }
+]

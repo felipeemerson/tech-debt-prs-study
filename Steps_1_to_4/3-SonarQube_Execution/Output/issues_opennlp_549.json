@@ -1,0 +1,188 @@
+[
+    {
+        "commit_sha": "9dc0131b4ed3d28364e7e7525c5b73e979953f6c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY531yPQ1603RBiQ-pTO",
+                    "rule": "java:S1226",
+                    "severity": "MINOR",
+                    "component": "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractConverterTool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 6,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY531yGw1603RBiQ-oMb",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStream.java",
+                    "status": "OPEN",
+                    "debt": "36min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 20,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY531yGw1603RBiQ-oMe",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStream.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 8,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY531yGw1603RBiQ-oMd",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStream.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 23,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY531yGw1603RBiQ-oMc",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStream.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 21,
+                        "endOffset": 25
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractConverterTool.java": {
+                "ncloc": "83",
+                "complexity": "20"
+            },
+            "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStream.java": {
+                "ncloc": "136",
+                "complexity": "33"
+            }
+        }
+    },
+    {
+        "commit_sha": "93e28ebca706fd87602300723866ca6e8c345749",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY531yPQ1603RBiQ-pTO",
+                    "rule": "java:S1226",
+                    "severity": "MINOR",
+                    "component": "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractConverterTool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 6,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY531yGw1603RBiQ-oMb",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStream.java",
+                    "status": "OPEN",
+                    "debt": "36min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 135,
+                        "endLine": 135,
+                        "startOffset": 20,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY531yGw1603RBiQ-oMe",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStream.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 168,
+                        "endLine": 168,
+                        "startOffset": 8,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY531yGw1603RBiQ-oMd",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStream.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 195,
+                        "endLine": 195,
+                        "startOffset": 23,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY531yGw1603RBiQ-oMc",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStream.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 196,
+                        "endLine": 196,
+                        "startOffset": 21,
+                        "endOffset": 25
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractConverterTool.java": {
+                "ncloc": "83",
+                "complexity": "20"
+            },
+            "opennlp-549:opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStream.java": {
+                "ncloc": "136",
+                "complexity": "33"
+            }
+        }
+    }
+]

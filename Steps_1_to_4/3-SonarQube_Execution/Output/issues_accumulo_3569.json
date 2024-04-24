@@ -1,0 +1,1027 @@
+[
+    {
+        "commit_sha": "19c81d8249969cc6ee11a41330cc3d0a9215932a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5oAneH8f47XzIbnxTi",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 21,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTj",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 84,
+                        "endLine": 88,
+                        "startOffset": 4,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTk",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 137,
+                        "endLine": 137,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTl",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 157,
+                        "endLine": 167,
+                        "startOffset": 4,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTh",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 268,
+                        "endLine": 268,
+                        "startOffset": 23,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTm",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 338,
+                        "endLine": 338,
+                        "startOffset": 26,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5oAnd_8f47XzIbnxTe",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 14,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5oAnd_8f47XzIbnxTf",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 14,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5oAnd58f47XzIbnxTX",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5oAnd58f47XzIbnxTY",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                }
+            ],
+            "total": 11
+        },
+        "metrics": {
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java": {
+                "ncloc": "140",
+                "complexity": "25"
+            },
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java": {
+                "ncloc": "26",
+                "complexity": "4"
+            },
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java": {
+                "ncloc": "331",
+                "complexity": "68"
+            }
+        }
+    },
+    {
+        "commit_sha": "8634191b5a729a2406d8ef75054defb9d7e11d03",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5oAneH8f47XzIbnxTi",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 67,
+                        "endLine": 67,
+                        "startOffset": 21,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTj",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 86,
+                        "endLine": 90,
+                        "startOffset": 4,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTk",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTl",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 169,
+                        "startOffset": 4,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTh",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 264,
+                        "endLine": 264,
+                        "startOffset": 23,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTm",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 332,
+                        "endLine": 332,
+                        "startOffset": 26,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5oAnd_8f47XzIbnxTe",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 14,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5oAnd_8f47XzIbnxTf",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 14,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5oAnd58f47XzIbnxTX",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5oAnd58f47XzIbnxTY",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                }
+            ],
+            "total": 11
+        },
+        "metrics": {
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java": {
+                "ncloc": "140",
+                "complexity": "25"
+            },
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java": {
+                "ncloc": "26",
+                "complexity": "4"
+            },
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java": {
+                "ncloc": "325",
+                "complexity": "68"
+            }
+        }
+    },
+    {
+        "commit_sha": "ad253d10bdbddc71791a0e399301b7ab581b229c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5oGxPd8f47XzIbokB7",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 239,
+                        "endLine": 239,
+                        "startOffset": 40,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5oGxPd8f47XzIbokB6",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 242,
+                        "endLine": 242,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTi",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 21,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTj",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 96,
+                        "startOffset": 4,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTk",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 144,
+                        "endLine": 144,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTl",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 175,
+                        "startOffset": 4,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTh",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 23,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTm",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 360,
+                        "endLine": 360,
+                        "startOffset": 26,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5oAnd_8f47XzIbnxTe",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 14,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5oAnd_8f47XzIbnxTf",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 14,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5oAnd58f47XzIbnxTX",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5oAnd58f47XzIbnxTY",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java": {
+                "ncloc": "144",
+                "complexity": "26"
+            },
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java": {
+                "ncloc": "30",
+                "complexity": "5"
+            },
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java": {
+                "ncloc": "346",
+                "complexity": "70"
+            }
+        }
+    },
+    {
+        "commit_sha": "2bfd042161c387c675e5f3dec2e2cf1bb84c69b6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5oGxPd8f47XzIbokB7",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "CLOSED",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 239,
+                        "endLine": 239,
+                        "startOffset": 40,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5oGxPd8f47XzIbokB6",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 242,
+                        "endLine": 242,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTi",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 21,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTj",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 96,
+                        "startOffset": 4,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTk",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 144,
+                        "endLine": 144,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTl",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 175,
+                        "startOffset": 4,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTh",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 23,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTm",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 360,
+                        "endLine": 360,
+                        "startOffset": 26,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5oAnd_8f47XzIbnxTe",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 14,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5oAnd_8f47XzIbnxTf",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 14,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5oAnd58f47XzIbnxTX",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5oAnd58f47XzIbnxTY",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java": {
+                "ncloc": "144",
+                "complexity": "26"
+            },
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java": {
+                "ncloc": "30",
+                "complexity": "5"
+            },
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java": {
+                "ncloc": "346",
+                "complexity": "70"
+            }
+        }
+    },
+    {
+        "commit_sha": "041fba61f336d360d1286bd2a4bae7813f2284c5",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5oGxPd8f47XzIbokB7",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "CLOSED",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 239,
+                        "endLine": 239,
+                        "startOffset": 40,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5oGxPd8f47XzIbokB6",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 242,
+                        "endLine": 242,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTi",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 21,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTj",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 96,
+                        "startOffset": 4,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTk",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 144,
+                        "endLine": 144,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTl",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 175,
+                        "startOffset": 4,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTh",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 23,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5oAneH8f47XzIbnxTm",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 360,
+                        "endLine": 360,
+                        "startOffset": 26,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5oAnd_8f47XzIbnxTe",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 14,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5oAnd_8f47XzIbnxTf",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 14,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5oAnd58f47XzIbnxTX",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5oAnd58f47XzIbnxTY",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/ScanSession.java": {
+                "ncloc": "144",
+                "complexity": "26"
+            },
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/Session.java": {
+                "ncloc": "31",
+                "complexity": "5"
+            },
+            "accumulo-3569:server/tserver/src/main/java/org/apache/accumulo/tserver/session/SessionManager.java": {
+                "ncloc": "346",
+                "complexity": "70"
+            }
+        }
+    }
+]

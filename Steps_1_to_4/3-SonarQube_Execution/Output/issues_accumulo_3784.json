@@ -1,0 +1,180 @@
+[
+    {
+        "commit_sha": "8cd7c59412887b4d06b40610e51412293fca870d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5fy4hIdrqrap6tVAj1",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java",
+                    "status": "OPEN",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 305,
+                        "endLine": 305,
+                        "startOffset": 21,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5fy4hIdrqrap6tVAj2",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 369,
+                        "endLine": 369,
+                        "startOffset": 75,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5fy4hIdrqrap6tVAj3",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 420,
+                        "endLine": 420,
+                        "startOffset": 36,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5fy4hIdrqrap6tVAj4",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 464,
+                        "endLine": 464,
+                        "startOffset": 20,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5fy4hIdrqrap6tVAj0",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 593,
+                        "endLine": 593,
+                        "startOffset": 25,
+                        "endOffset": 88
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java": {
+                "ncloc": "464",
+                "complexity": "74"
+            }
+        }
+    },
+    {
+        "commit_sha": "7caf6eef662fac6e67cb794c6c33ec04dc5a1a79",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5fy4hIdrqrap6tVAj3",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 420,
+                        "endLine": 420,
+                        "startOffset": 36,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5fy4hIdrqrap6tVAj1",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java",
+                    "status": "OPEN",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 306,
+                        "endLine": 306,
+                        "startOffset": 21,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5fy4hIdrqrap6tVAj2",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 370,
+                        "endLine": 370,
+                        "startOffset": 75,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5fy4hIdrqrap6tVAj4",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 464,
+                        "endLine": 464,
+                        "startOffset": 20,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5fy4hIdrqrap6tVAj0",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 593,
+                        "endLine": 593,
+                        "startOffset": 25,
+                        "endOffset": 88
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-3784:server/base/src/main/java/org/apache/accumulo/server/util/MetadataTableUtil.java": {
+                "ncloc": "464",
+                "complexity": "74"
+            }
+        }
+    }
+]

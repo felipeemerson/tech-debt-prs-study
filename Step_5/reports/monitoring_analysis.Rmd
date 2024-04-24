@@ -1,0 +1,94 @@
+---
+title: "Monitoring Analysis"
+author: "omitted"
+date: "2024-04-05"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(tidyverse)
+
+theme_set(theme_bw())
+
+monitoring_data <- read.csv("../data/prs_monitoring.csv")
+monitoring_data$duration_formatted <- as.POSIXct(strptime(monitoring_data$duration, format = "%H:%M:%OS"))
+
+duration_to_seconds <- function(duration_string) {
+  parts <- strsplit(duration_string, "[:,.]")[[1]]
+  hours <- as.numeric(parts[1])
+  minutes <- as.numeric(parts[2])
+  seconds <- as.numeric(parts[3])
+  milliseconds <- as.numeric(parts[4])
+  return(hours * 3600 + minutes * 60 + seconds + milliseconds / 1000)
+}
+
+monitoring_data$duration_in_seconds <- sapply(monitoring_data$duration, duration_to_seconds)
+```
+
+# Total analyzed commits
+```{r}
+nrow(monitoring_data)
+```
+
+# Total time to execute all commits analysis
+```{r}
+total_in_seconds <- sum(monitoring_data$duration_in_seconds)
+total_days <- total_in_seconds / (60*60*24)
+total_days
+```
+
+# Execution duration of commits
+
+```{r}
+monitoring_data %>%
+    select(duration_formatted) %>%
+    summary()
+```
+
+# Execution duration of commits by repo
+
+```{r}
+monitoring_data %>%
+    group_by(repo) %>%
+    pivot_wider(names_from = repo, values_from = c("duration_formatted")) %>%
+    select("accumulo", "cayenne", "commons-collections", "commons-io", "commons-lang", "helix", "httpcomponents-client", "maven-surefire", "opennlp", "struts", "wicket", "zookeeper") %>%
+    summary()
+```
+
+## Mean duration of commits by PR - Accumulo
+
+PRs with pr_number >= 2000 and pr_number < 3000 was executed on Intel Core i5-12500H cores, while the rest on Ryzen 5 5600G cores.
+
+
+```{r}
+monitoring_data %>%
+    filter(repo == "accumulo") %>%
+    group_by(pr_number) %>%
+    summarise(mean_duration = mean(duration_formatted)) %>%
+    ggplot(aes(y=mean_duration, x=pr_number)) +
+    geom_point() +
+     labs(title = "Mean duration of commits by PR - Accumulo",
+       x = "PR Number",
+       y = "Mean duration")
+```
+
+## Mean duration of commits by PR - Helix
+
+PRs with pr_number <= 2549 was executed on Intel Core i5-12500H cores, while the rest on Ryzen 5 5600G cores.
+
+```{r}
+monitoring_data %>%
+    filter(repo == "helix") %>%
+    group_by(pr_number) %>%
+    summarise(mean_duration = mean(duration_formatted)) %>%
+    ggplot(aes(y=mean_duration, x=pr_number)) +
+    geom_point() +
+     labs(title = "Mean duration of commits by PR - Helix",
+       x = "PR Number",
+       y = "Mean duration")
+```

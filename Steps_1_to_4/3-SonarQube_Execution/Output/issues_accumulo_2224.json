@@ -1,0 +1,988 @@
+[
+    {
+        "commit_sha": "a9100ac35f3d72677b767d7670dfb032c7e7d733",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {}
+    },
+    {
+        "commit_sha": "fbcc787feba1c53e0438ab7da875f22722371e2d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Y7LIlJnzqHnwcHgKZ",
+                    "rule": "java:S1301",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 6,
+                        "endOffset": 12
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java": {
+                "ncloc": "51",
+                "complexity": "9"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java": {
+                "ncloc": "23",
+                "complexity": "0"
+            }
+        }
+    },
+    {
+        "commit_sha": "acbcd06409fd26c9900b2922158d5fbf478f6934",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Y8xgAJnzqHnwcH7Dw",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5Y8xgAJnzqHnwcH7Dx",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 15,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5Y8xaRJnzqHnwcH7Du",
+                    "rule": "java:S3599",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 167,
+                        "startOffset": 69,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5Y8xaRJnzqHnwcH7Dv",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 10,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5Y8xZUJnzqHnwcH7Dq",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 26,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5Y8xZUJnzqHnwcH7Dr",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 32,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5Y7LIlJnzqHnwcHgKZ",
+                    "rule": "java:S1301",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 6,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5Y8xgGJnzqHnwcH7Dy",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5Y8xgGJnzqHnwcH7Dz",
+                    "rule": "java:S1144",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 247,
+                        "endLine": 247,
+                        "startOffset": 17,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5Y8xaNJnzqHnwcH7Ds",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5Y8xaNJnzqHnwcH7Dt",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 22,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 11
+        },
+        "metrics": {
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java": {
+                "ncloc": "37",
+                "complexity": "7"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java": {
+                "ncloc": "114",
+                "complexity": "16"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropCodecTest.java": {
+                "ncloc": "35",
+                "complexity": "4"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java": {
+                "ncloc": "142",
+                "complexity": "5"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java": {
+                "ncloc": "81",
+                "complexity": "17"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropertiesTest.java": {
+                "ncloc": "102",
+                "complexity": "9"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodec.java": {
+                "ncloc": "53",
+                "complexity": "7"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java": {
+                "ncloc": "80",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "2ead8eee5fcfc172ad6b2785c0e4645f5991cbeb",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Y8xgAJnzqHnwcH7Dw",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5Y8xgAJnzqHnwcH7Dx",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 15,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5Y-VMoJnzqHnwcIV-G",
+                    "rule": "java:S3599",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 175,
+                        "startOffset": 69,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5Y-VMoJnzqHnwcIV-H",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 10,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5Y8xaRJnzqHnwcH7Du",
+                    "rule": "java:S3599",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 192,
+                        "endLine": 197,
+                        "startOffset": 69,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5Y8xaRJnzqHnwcH7Dv",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 10,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5Y8xZUJnzqHnwcH7Dq",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 26,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5Y8xZUJnzqHnwcH7Dr",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 32,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5Y7LIlJnzqHnwcHgKZ",
+                    "rule": "java:S1301",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 6,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5Y8xgGJnzqHnwcH7Dy",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5Y8xgGJnzqHnwcH7Dz",
+                    "rule": "java:S1144",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 247,
+                        "endLine": 247,
+                        "startOffset": 17,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5Y8xaNJnzqHnwcH7Ds",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5Y8xaNJnzqHnwcH7Dt",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 22,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java": {
+                "ncloc": "37",
+                "complexity": "7"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java": {
+                "ncloc": "114",
+                "complexity": "16"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropCodecTest.java": {
+                "ncloc": "35",
+                "complexity": "4"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodec.java": {
+                "ncloc": "142",
+                "complexity": "13"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java": {
+                "ncloc": "142",
+                "complexity": "5"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java": {
+                "ncloc": "96",
+                "complexity": "19"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropertiesTest.java": {
+                "ncloc": "116",
+                "complexity": "11"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodec.java": {
+                "ncloc": "53",
+                "complexity": "7"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java": {
+                "ncloc": "80",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "9fc6f2654d295cb6ab5899751d98f05de605c50a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Y8xgAJnzqHnwcH7Dw",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5Y8xgAJnzqHnwcH7Dx",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 15,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5Y-VMoJnzqHnwcIV-G",
+                    "rule": "java:S3599",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 172,
+                        "endLine": 177,
+                        "startOffset": 69,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5Y-VMoJnzqHnwcIV-H",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 173,
+                        "endLine": 173,
+                        "startOffset": 10,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5Y8xaRJnzqHnwcH7Du",
+                    "rule": "java:S3599",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 195,
+                        "endLine": 200,
+                        "startOffset": 69,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5Y8xaRJnzqHnwcH7Dv",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 196,
+                        "endLine": 196,
+                        "startOffset": 10,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5Y8xZUJnzqHnwcH7Dq",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 26,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5Y8xZUJnzqHnwcH7Dr",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 32,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5Y7LIlJnzqHnwcHgKZ",
+                    "rule": "java:S1301",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 6,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5Y8xgGJnzqHnwcH7Dy",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5Y8xgGJnzqHnwcH7Dz",
+                    "rule": "java:S1144",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 247,
+                        "endLine": 247,
+                        "startOffset": 17,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5Y8xaNJnzqHnwcH7Ds",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5Y8xaNJnzqHnwcH7Dt",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 22,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java": {
+                "ncloc": "37",
+                "complexity": "7"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java": {
+                "ncloc": "115",
+                "complexity": "16"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropCodecTest.java": {
+                "ncloc": "35",
+                "complexity": "4"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodec.java": {
+                "ncloc": "142",
+                "complexity": "13"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java": {
+                "ncloc": "142",
+                "complexity": "5"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java": {
+                "ncloc": "96",
+                "complexity": "19"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropertiesTest.java": {
+                "ncloc": "116",
+                "complexity": "11"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodec.java": {
+                "ncloc": "53",
+                "complexity": "7"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java": {
+                "ncloc": "80",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "80129dd461cd42d8a1015699e8721d0c520857ff",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Y8xgAJnzqHnwcH7Dw",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 49,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5Y8xgAJnzqHnwcH7Dx",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 15,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5Y-VMoJnzqHnwcIV-G",
+                    "rule": "java:S3599",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 172,
+                        "endLine": 177,
+                        "startOffset": 69,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5Y-VMoJnzqHnwcIV-H",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "CLOSED",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 173,
+                        "endLine": 173,
+                        "startOffset": 10,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5Y8xaRJnzqHnwcH7Du",
+                    "rule": "java:S3599",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 195,
+                        "endLine": 200,
+                        "startOffset": 69,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5Y8xaRJnzqHnwcH7Dv",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java",
+                    "status": "CLOSED",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 196,
+                        "endLine": 196,
+                        "startOffset": 10,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5Y8xZUJnzqHnwcH7Dq",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 26,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5Y8xZUJnzqHnwcH7Dr",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 32,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5Y7LIlJnzqHnwcHgKZ",
+                    "rule": "java:S1301",
+                    "severity": "MINOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 6,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5Y8xgGJnzqHnwcH7Dz",
+                    "rule": "java:S1144",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 247,
+                        "endLine": 247,
+                        "startOffset": 17,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5Y8xgGJnzqHnwcH7Dy",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 113,
+                        "endLine": 113,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5ZBV94JnzqHnwcJLyK",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 22,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5Y8xaNJnzqHnwcH7Dt",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 22,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5Y8xaNJnzqHnwcH7Ds",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/EncodingOptions.java": {
+                "ncloc": "35",
+                "complexity": "7"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropCodec.java": {
+                "ncloc": "115",
+                "complexity": "16"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropCodecTest.java": {
+                "ncloc": "33",
+                "complexity": "6"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodec.java": {
+                "ncloc": "142",
+                "complexity": "13"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropEncryptCodecTest.java": {
+                "ncloc": "124",
+                "complexity": "4"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedProperties.java": {
+                "ncloc": "78",
+                "complexity": "19"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropertiesTest.java": {
+                "ncloc": "116",
+                "complexity": "11"
+            },
+            "accumulo-2224:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodec.java": {
+                "ncloc": "53",
+                "complexity": "7"
+            },
+            "accumulo-2224:server/base/src/test/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodecTest.java": {
+                "ncloc": "71",
+                "complexity": "4"
+            }
+        }
+    }
+]

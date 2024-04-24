@@ -1,0 +1,426 @@
+[
+    {
+        "commit_sha": "969fc52f1c5e0c195a8cef800a87e0fab13cd89c",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {}
+    },
+    {
+        "commit_sha": "7a9efac3e5b4b8ee002a20ee06ce25755f78dab0",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5u_2c78f47XzIbezzr",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 78,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzt",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 9,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzu",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzs",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 166,
+                        "endLine": 166,
+                        "startOffset": 78,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzp",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 204,
+                        "endLine": 204,
+                        "startOffset": 88,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzq",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 231,
+                        "endLine": 231,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java": {
+                "ncloc": "164",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "6f7d4a9cab733d3cd486781adf7374450e56bee1",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5u_2c78f47XzIbezzu",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzr",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 78,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzt",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 97,
+                        "endLine": 97,
+                        "startOffset": 9,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzs",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 165,
+                        "startOffset": 78,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzp",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 205,
+                        "endLine": 205,
+                        "startOffset": 88,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzq",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 232,
+                        "endLine": 232,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java": {
+                "ncloc": "165",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "eba749b13a08fe655ba54688c93149fc694d9798",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5u_2c78f47XzIbezzu",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzr",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 78,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzt",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 97,
+                        "endLine": 97,
+                        "startOffset": 9,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzs",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 165,
+                        "startOffset": 78,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzp",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 205,
+                        "endLine": 205,
+                        "startOffset": 88,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzq",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 232,
+                        "endLine": 232,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java": {
+                "ncloc": "164",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "3553ecd1fc80e8545bcdca48804fe0da1bca90d5",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5u_2c78f47XzIbezzt",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 97,
+                        "endLine": 97,
+                        "startOffset": 9,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzu",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzr",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 78,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzs",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 78,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzp",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 202,
+                        "startOffset": 88,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5u_2c78f47XzIbezzq",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 229,
+                        "endLine": 229,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3435:test/src/main/java/org/apache/accumulo/test/functional/FileNormalizationIT.java": {
+                "ncloc": "165",
+                "complexity": "12"
+            }
+        }
+    }
+]

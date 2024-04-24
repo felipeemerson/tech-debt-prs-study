@@ -1,0 +1,308 @@
+[
+    {
+        "commit_sha": "388d3ffe11b3eaffe5a0022907d10e18bef73253",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5M58O5Fhtk00z4KNbc",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/TimedOutException.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 30,
+                        "endLine": 30,
+                        "startOffset": 22,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbL",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 43,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbP",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 43,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbM",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 47,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbQ",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 47,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbN",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 29,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbO",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbR",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 9,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbK",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 110,
+                        "endLine": 110,
+                        "startOffset": 11,
+                        "endOffset": 40
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java": {
+                "ncloc": "68",
+                "complexity": "9"
+            },
+            "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/TimedOutException.java": {
+                "ncloc": "25",
+                "complexity": "5"
+            }
+        }
+    },
+    {
+        "commit_sha": "f3e4d67a917895b89fad3f07b51bd746d68bfae6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5M58O5Fhtk00z4KNbc",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/TimedOutException.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 30,
+                        "endLine": 30,
+                        "startOffset": 22,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbL",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 43,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbM",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 47,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbN",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 29,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbO",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbP",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "CLOSED",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 43,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbQ",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "CLOSED",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 47,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbR",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 9,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5M58OvFhtk00z4KNbK",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 11,
+                        "endOffset": 40
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/MutationsRejectedException.java": {
+                "ncloc": "69",
+                "complexity": "9"
+            },
+            "accumulo-2832:core/src/main/java/org/apache/accumulo/core/client/TimedOutException.java": {
+                "ncloc": "25",
+                "complexity": "5"
+            }
+        }
+    }
+]

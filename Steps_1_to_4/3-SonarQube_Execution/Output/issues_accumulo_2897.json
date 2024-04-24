@@ -1,0 +1,75 @@
+[
+    {
+        "commit_sha": "b454e0c1e4ff0bde55ad9e7a6d9ced517d1c3943",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5I8OjZVQIk8Wy3gEok",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2897:core/src/main/java/org/apache/accumulo/core/metadata/TabletLocationState.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 17,
+                        "endOffset": 35
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "accumulo-2897:core/src/main/java/org/apache/accumulo/core/metadata/TabletLocationState.java": {
+                "ncloc": "86",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "0daccbdc0393c24aae5c0a9ba1b6606a05787045",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5I9xBKVQIk8Wy3gexS",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-2897:core/src/main/java/org/apache/accumulo/core/metadata/TabletLocationState.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 22,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5I8OjZVQIk8Wy3gEok",
+                    "rule": "java:S1165",
+                    "severity": "MINOR",
+                    "component": "accumulo-2897:core/src/main/java/org/apache/accumulo/core/metadata/TabletLocationState.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 17,
+                        "endOffset": 35
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2897:core/src/main/java/org/apache/accumulo/core/metadata/TabletLocationState.java": {
+                "ncloc": "86",
+                "complexity": "22"
+            }
+        }
+    }
+]

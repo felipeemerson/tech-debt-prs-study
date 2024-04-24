@@ -1,0 +1,120 @@
+[
+    {
+        "commit_sha": "2831c292fdb714b02b779531851b940b1179d92f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5iJfr04lPmHcDWmoE4",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2060:core/src/main/java/org/apache/accumulo/core/spi/balancer/TableLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5iJfr04lPmHcDWmoE5",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2060:core/src/main/java/org/apache/accumulo/core/spi/balancer/TableLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 76,
+                        "endLine": 76,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5iJfr04lPmHcDWmoE6",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2060:core/src/main/java/org/apache/accumulo/core/spi/balancer/TableLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-2060:core/src/main/java/org/apache/accumulo/core/spi/balancer/TableLoadBalancer.java": {
+                "ncloc": "98",
+                "complexity": "17"
+            }
+        }
+    },
+    {
+        "commit_sha": "275fe808cd33542b73510ffee2e12a458e282b8c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5iJfr04lPmHcDWmoE4",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2060:core/src/main/java/org/apache/accumulo/core/spi/balancer/TableLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5iJfr04lPmHcDWmoE5",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2060:core/src/main/java/org/apache/accumulo/core/spi/balancer/TableLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 76,
+                        "endLine": 76,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5iJfr04lPmHcDWmoE6",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2060:core/src/main/java/org/apache/accumulo/core/spi/balancer/TableLoadBalancer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 123,
+                        "endLine": 123,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-2060:core/src/main/java/org/apache/accumulo/core/spi/balancer/TableLoadBalancer.java": {
+                "ncloc": "96",
+                "complexity": "17"
+            }
+        }
+    }
+]

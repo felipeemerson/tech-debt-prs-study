@@ -1,0 +1,237 @@
+[
+    {
+        "commit_sha": "b31f065d2371f0bbe9dca4fc2f322e7baae9b8ac",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Rjj1Ky-HgqSyzmJOU",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2800:core/src/main/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionAlgorithm.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 202,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5Rjj1Ky-HgqSyzmJOV",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2800:core/src/main/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionAlgorithm.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 230,
+                        "endLine": 230,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5RjkrFy-HgqSyzmMpI",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionTest.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 42,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5RjkrFy-HgqSyzmMpH",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 42,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY5RjkrFy-HgqSyzmMpG",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 187,
+                        "endLine": 187,
+                        "startOffset": 34,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5RjkrFy-HgqSyzmMpJ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 19,
+                        "endOffset": 82
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-2800:core/src/main/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionAlgorithm.java": {
+                "ncloc": "205",
+                "complexity": "41"
+            },
+            "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionTest.java": {
+                "ncloc": "194",
+                "complexity": "39"
+            }
+        }
+    },
+    {
+        "commit_sha": "b85cda85dfba7b5a099e2ecb4aaa7154ad18f94b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Rjj1Ky-HgqSyzmJOU",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2800:core/src/main/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionAlgorithm.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 202,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5Rjj1Ky-HgqSyzmJOV",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2800:core/src/main/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionAlgorithm.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 230,
+                        "endLine": 230,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5RlPe5y-HgqSyzmjbt",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 313,
+                        "endLine": 313,
+                        "startOffset": 58,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5RjkrFy-HgqSyzmMpI",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionTest.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 146,
+                        "endLine": 146,
+                        "startOffset": 42,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5RjkrFy-HgqSyzmMpH",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 42,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY5RjkrFy-HgqSyzmMpG",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 34,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5RjkrFy-HgqSyzmMpJ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 211,
+                        "endLine": 211,
+                        "startOffset": 19,
+                        "endOffset": 82
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "accumulo-2800:core/src/main/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionAlgorithm.java": {
+                "ncloc": "204",
+                "complexity": "39"
+            },
+            "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/CompressionTest.java": {
+                "ncloc": "231",
+                "complexity": "42"
+            },
+            "accumulo-2800:core/src/test/java/org/apache/accumulo/core/file/rfile/bcfile/DummyCodec.java": {
+                "ncloc": "60",
+                "complexity": "11"
+            }
+        }
+    }
+]

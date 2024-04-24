@@ -1,0 +1,1004 @@
+[
+    {
+        "commit_sha": "c29c102b2de156d3ffdbc204271d602706b2339d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5LRulMr8bbHvncst9c",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/MemoryManagementActions.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 25,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9Y",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 9,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9Z",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "34min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 33,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9W",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 170,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9a",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 192,
+                        "endLine": 192,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9b",
+                    "rule": "java:S1119",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 237,
+                        "endLine": 237,
+                        "startOffset": 6,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9X",
+                    "rule": "java:S127",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 249,
+                        "endLine": 249,
+                        "startOffset": 10,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5LRudyr8bbHvncstzY",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/LargestFirstMemoryManagerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 50,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5LRudyr8bbHvncstzZ",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/LargestFirstMemoryManagerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 49,
+                        "startOffset": 44,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5LRudyr8bbHvncstzX",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/LargestFirstMemoryManagerTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 16,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5LRudyr8bbHvncstza",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/LargestFirstMemoryManagerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 203,
+                        "endLine": 203,
+                        "startOffset": 21,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrN",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrO",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 123,
+                        "endLine": 123,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrP",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrL",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrM",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 335,
+                        "endLine": 335,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrQ",
+                    "rule": "java:S1215",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 365,
+                        "endLine": 365,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrR",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 515,
+                        "endLine": 515,
+                        "startOffset": 27,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrT",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrS",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 584,
+                        "endLine": 584,
+                        "startOffset": 17,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrU",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "29min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 590,
+                        "endLine": 590,
+                        "startOffset": 17,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrV",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 641,
+                        "endLine": 641,
+                        "startOffset": 15,
+                        "endOffset": 83
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrW",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 695,
+                        "endLine": 695,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrX",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 695,
+                        "endLine": 695,
+                        "startOffset": 43,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrY",
+                    "rule": "java:S1610",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 845,
+                        "endLine": 845,
+                        "startOffset": 32,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrZ",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 845,
+                        "endLine": 845,
+                        "startOffset": 17,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstra",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 856,
+                        "endLine": 856,
+                        "startOffset": 0,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrb",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 860,
+                        "endLine": 860,
+                        "startOffset": 0,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 28
+        },
+        "metrics": {
+            "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/LargestFirstMemoryManager.java": {
+                "ncloc": "199",
+                "complexity": "42"
+            },
+            "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/LargestFirstMemoryManagerTest.java": {
+                "ncloc": "208",
+                "complexity": "17"
+            },
+            "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/MemoryManagementActions.java": {
+                "ncloc": "6",
+                "complexity": "0"
+            },
+            "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java": {
+                "ncloc": "716",
+                "complexity": "132"
+            },
+            "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/TabletState.java": {
+                "ncloc": "8",
+                "complexity": "0"
+            },
+            "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManager.java": {
+                "ncloc": "199",
+                "complexity": "42"
+            },
+            "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManagerTest.java": {
+                "ncloc": "208",
+                "complexity": "17"
+            }
+        }
+    },
+    {
+        "commit_sha": "3a753fffc3a88f5fc598be5bdba2fe5918434187",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5LRulMr8bbHvncst9c",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/MemoryManagementActions.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 25,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5LTezNr8bbHvnctGNT",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 169,
+                        "endLine": 169,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9W",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManager.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 170,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9Y",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 9,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9Z",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "34min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 25,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9a",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9b",
+                    "rule": "java:S1119",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 6,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5LRulHr8bbHvncst9X",
+                    "rule": "java:S127",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManager.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 248,
+                        "endLine": 248,
+                        "startOffset": 10,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5LTe1wr8bbHvnctGNV",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManagerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 50,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5LTe1wr8bbHvnctGNW",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManagerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 44,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5LTe1wr8bbHvnctGNU",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManagerTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 16,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5LTe1wr8bbHvnctGNX",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManagerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 200,
+                        "endLine": 200,
+                        "startOffset": 21,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5LTezDr8bbHvnctGNS",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/memory/TabletMemoryReport.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 28,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5LRudyr8bbHvncstzX",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/LargestFirstMemoryManagerTest.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 16,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5LRudyr8bbHvncstzY",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/LargestFirstMemoryManagerTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 50,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5LRudyr8bbHvncstzZ",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/LargestFirstMemoryManagerTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 49,
+                        "startOffset": 44,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5LRudyr8bbHvncstza",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/LargestFirstMemoryManagerTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 203,
+                        "endLine": 203,
+                        "startOffset": 21,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrR",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "CLOSED",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 515,
+                        "endLine": 515,
+                        "startOffset": 27,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrN",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrO",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 123,
+                        "endLine": 123,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrP",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrL",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrM",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 335,
+                        "endLine": 335,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrQ",
+                    "rule": "java:S1215",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 365,
+                        "endLine": 365,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrT",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 531,
+                        "endLine": 531,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrS",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 540,
+                        "endLine": 540,
+                        "startOffset": 17,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrU",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "29min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 546,
+                        "endLine": 546,
+                        "startOffset": 17,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrV",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 596,
+                        "endLine": 596,
+                        "startOffset": 15,
+                        "endOffset": 83
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrW",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 650,
+                        "endLine": 650,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrX",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 650,
+                        "endLine": 650,
+                        "startOffset": 43,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrY",
+                    "rule": "java:S1610",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 800,
+                        "endLine": 800,
+                        "startOffset": 32,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrZ",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 800,
+                        "endLine": 800,
+                        "startOffset": 17,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstra",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 811,
+                        "endLine": 811,
+                        "startOffset": 0,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5LRuXfr8bbHvncstrb",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 815,
+                        "endLine": 815,
+                        "startOffset": 0,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 34
+        },
+        "metrics": {
+            "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManager.java": {
+                "ncloc": "198",
+                "complexity": "42"
+            },
+            "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/memory/LargestFirstMemoryManagerTest.java": {
+                "ncloc": "182",
+                "complexity": "13"
+            },
+            "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/memory/TabletMemoryReport.java": {
+                "ncloc": "35",
+                "complexity": "7"
+            },
+            "accumulo-1826:server/tserver/src/main/java/org/apache/accumulo/tserver/TabletServerResourceManager.java": {
+                "ncloc": "680",
+                "complexity": "124"
+            },
+            "accumulo-1826:server/base/src/main/java/org/apache/accumulo/server/tabletserver/LargestFirstMemoryManager.java": {
+                "ncloc": "198",
+                "complexity": "42"
+            },
+            "accumulo-1826:server/tserver/src/test/java/org/apache/accumulo/tserver/LargestFirstMemoryManagerTest.java": {
+                "ncloc": "182",
+                "complexity": "13"
+            }
+        }
+    }
+]

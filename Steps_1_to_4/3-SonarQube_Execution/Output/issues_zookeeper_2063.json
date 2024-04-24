@@ -1,0 +1,240 @@
+[
+    {
+        "commit_sha": "b31f776471fef79ab161f416d58367bdffaf37a9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfY",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "29min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 68,
+                        "endLine": 68,
+                        "startOffset": 9,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfZ",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 68,
+                        "endLine": 68,
+                        "startOffset": 66,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfa",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 128,
+                        "startOffset": 24,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfb",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 215,
+                        "endLine": 215,
+                        "startOffset": 17,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfX",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 245,
+                        "endLine": 245,
+                        "startOffset": 15,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfW",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 354,
+                        "endLine": 354,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfc",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 361,
+                        "endLine": 361,
+                        "startOffset": 0,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java": {
+                "ncloc": "302",
+                "complexity": "65"
+            }
+        }
+    },
+    {
+        "commit_sha": "116e3daf955291912a2b017c4b846c376e35c62e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfY",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "29min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 68,
+                        "endLine": 68,
+                        "startOffset": 9,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfZ",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 68,
+                        "endLine": 68,
+                        "startOffset": 66,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfa",
+                    "rule": "java:S2445",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 128,
+                        "startOffset": 24,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfb",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 215,
+                        "endLine": 215,
+                        "startOffset": 17,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfX",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 245,
+                        "endLine": 245,
+                        "startOffset": 15,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfW",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 354,
+                        "endLine": 354,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY58Nu9k0GCajHYXcgfc",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 361,
+                        "endLine": 361,
+                        "startOffset": 0,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "zookeeper-2063:zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java": {
+                "ncloc": "302",
+                "complexity": "66"
+            }
+        }
+    }
+]

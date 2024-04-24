@@ -1,0 +1,128 @@
+[
+    {
+        "commit_sha": "17b1a71089523c16e2032c8164bcdcf75c2a6471",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56pBzCDVfOYCVC6fLX",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "opennlp-414:opennlp-tools/src/test/java/opennlp/tools/tokenize/TokenizerMETest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 95,
+                        "endLine": 96,
+                        "startOffset": 40,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY56pBx6DVfOYCVC6fJn",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-414:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceDetectorMETest.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 33,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY56pBx6DVfOYCVC6fJm",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-414:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceDetectorMETest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 33,
+                        "endOffset": 54
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "opennlp-414:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceDetectorMETest.java": {
+                "ncloc": "169",
+                "complexity": "3"
+            },
+            "opennlp-414:opennlp-tools/src/test/java/opennlp/tools/tokenize/TokenizerMETest.java": {
+                "ncloc": "88",
+                "complexity": "6"
+            }
+        }
+    },
+    {
+        "commit_sha": "71e310414f2f2721c178a934a887e1ff21767043",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56pBzCDVfOYCVC6fLX",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "opennlp-414:opennlp-tools/src/test/java/opennlp/tools/tokenize/TokenizerMETest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 83,
+                        "endLine": 84,
+                        "startOffset": 40,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY56pBx6DVfOYCVC6fJm",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-414:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceDetectorMETest.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 33,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY56pBx6DVfOYCVC6fJn",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-414:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceDetectorMETest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 33,
+                        "endOffset": 50
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "opennlp-414:opennlp-tools/src/test/java/opennlp/tools/sentdetect/SentenceDetectorMETest.java": {
+                "ncloc": "102",
+                "complexity": "2"
+            },
+            "opennlp-414:opennlp-tools/src/test/java/opennlp/tools/tokenize/TokenizerMETest.java": {
+                "ncloc": "80",
+                "complexity": "5"
+            }
+        }
+    }
+]

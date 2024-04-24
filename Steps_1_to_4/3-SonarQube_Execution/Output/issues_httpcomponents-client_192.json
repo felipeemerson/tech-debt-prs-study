@@ -1,0 +1,981 @@
+[
+    {
+        "commit_sha": "2a6d55111efb486609e603665d192281475a70f2",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/cache/ResourceIOException.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            }
+        }
+    },
+    {
+        "commit_sha": "81bc836463d658d9f97b9b89bde3357c1b3169fe",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DLfYKygGTmJJJo81L",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 6,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81M",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 18,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 70,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 276,
+                        "endLine": 276,
+                        "startOffset": 161,
+                        "endOffset": 170
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81N",
+                    "rule": "java:S2093",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 280,
+                        "endLine": 280,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81F",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 11,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81G",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 105,
+                        "endOffset": 117
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81H",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 252,
+                        "endLine": 252,
+                        "startOffset": 11,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5DLfX3ygGTmJJJo81I",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 26,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "228",
+                "complexity": "35"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java": {
+                "ncloc": "169",
+                "complexity": "23"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/cache/ResourceIOException.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "213",
+                "complexity": "23"
+            }
+        }
+    },
+    {
+        "commit_sha": "647343871469d637182788af5fd8ff56622281f7",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DLfYKygGTmJJJo81L",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 6,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81M",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 18,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 70,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 161,
+                        "endOffset": 170
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81N",
+                    "rule": "java:S2093",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 282,
+                        "endLine": 282,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81F",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 11,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81G",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 105,
+                        "endOffset": 117
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81H",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 252,
+                        "endLine": 252,
+                        "startOffset": 11,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5DLfX3ygGTmJJJo81I",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 26,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "228",
+                "complexity": "35"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java": {
+                "ncloc": "170",
+                "complexity": "23"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/cache/ResourceIOException.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "213",
+                "complexity": "23"
+            }
+        }
+    },
+    {
+        "commit_sha": "1b49c8fb204ef24a7225686bdd4513ada397b76e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DLfYKygGTmJJJo81L",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 6,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81M",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 18,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 70,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 284,
+                        "endLine": 284,
+                        "startOffset": 161,
+                        "endOffset": 170
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81N",
+                    "rule": "java:S2093",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 288,
+                        "endLine": 288,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81F",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 11,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81G",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 105,
+                        "endOffset": 117
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81H",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 252,
+                        "endLine": 252,
+                        "startOffset": 11,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5DLfX3ygGTmJJJo81I",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 26,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "228",
+                "complexity": "35"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java": {
+                "ncloc": "177",
+                "complexity": "25"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/cache/ResourceIOException.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "213",
+                "complexity": "23"
+            }
+        }
+    },
+    {
+        "commit_sha": "be9513075012b55ce6b54d3ad1498a0753db6eb4",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DLfYKygGTmJJJo81L",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 6,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81M",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 18,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 70,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 284,
+                        "endLine": 284,
+                        "startOffset": 161,
+                        "endOffset": 170
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81N",
+                    "rule": "java:S2093",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 288,
+                        "endLine": 288,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81F",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 11,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81G",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 105,
+                        "endOffset": 117
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81H",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 252,
+                        "endLine": 252,
+                        "startOffset": 11,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5DLfX3ygGTmJJJo81I",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 26,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "231",
+                "complexity": "36"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java": {
+                "ncloc": "177",
+                "complexity": "25"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/cache/ResourceIOException.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "213",
+                "complexity": "23"
+            }
+        }
+    },
+    {
+        "commit_sha": "05029173346d31bd8967e0ec0c1e83ddd38844b8",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DLfYKygGTmJJJo81L",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 6,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81M",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 18,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 70,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 283,
+                        "endLine": 283,
+                        "startOffset": 161,
+                        "endOffset": 170
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81N",
+                    "rule": "java:S2093",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81F",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 11,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81G",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 187,
+                        "endLine": 187,
+                        "startOffset": 105,
+                        "endOffset": 117
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81H",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 253,
+                        "endLine": 253,
+                        "startOffset": 11,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5DLfX3ygGTmJJJo81I",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 26,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "231",
+                "complexity": "36"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java": {
+                "ncloc": "176",
+                "complexity": "25"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/cache/ResourceIOException.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "213",
+                "complexity": "23"
+            }
+        }
+    },
+    {
+        "commit_sha": "8ab60f80709704926f46b4e5756441b15a15fa2b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DLfYKygGTmJJJo81L",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 6,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81M",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 18,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 70,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 283,
+                        "endLine": 283,
+                        "startOffset": 161,
+                        "endOffset": 170
+                    }
+                },
+                {
+                    "key": "AY5DLfYKygGTmJJJo81N",
+                    "rule": "java:S2093",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81F",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 11,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81G",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 187,
+                        "endLine": 187,
+                        "startOffset": 105,
+                        "endOffset": 117
+                    }
+                },
+                {
+                    "key": "AY5DLfUOygGTmJJJo81H",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 253,
+                        "endLine": 253,
+                        "startOffset": 11,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5DLfX3ygGTmJJJo81I",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 26,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "231",
+                "complexity": "36"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java": {
+                "ncloc": "176",
+                "complexity": "25"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/main/java/org/apache/hc/client5/http/cache/ResourceIOException.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "httpcomponents-client-192:httpclient5-cache/src/test/java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java": {
+                "ncloc": "213",
+                "complexity": "23"
+            }
+        }
+    }
+]

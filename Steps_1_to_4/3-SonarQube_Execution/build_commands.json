@@ -1,0 +1,14 @@
+{
+    "accumulo": "mvn clean install -DskipTests -Dspotbugs.skip -Dcheckstyle.skip -DskipFormat -Dformatter.skip -Drat.skip -Denforcer.skip -Dmaven.javadoc.skip -Dfindbugs.skip",
+    "cayenne": "mvn clean install -DskipTests -Denforcer.skip -Drat.skip",
+    "commons-collections": "mvn clean install -DskipTests -Dcheckstyle.skip -Drat.skip -Dspotbugs.skip -Dpmd.skip -Djapicmp.skip",
+    "commons-io": "mvn clean install -DskipTests",
+    "commons-lang": "mvn clean install -DskipTests -Drat.skip -Dcheckstyle.skip -Djapicmp.skip -Dspotbugs.skip -Dpmd.skip -Dmaven.javadoc.skip -Dfindbugs.skip",
+    "helix": "mvn clean install -Dmaven.test.skip.exec=true -Drat.skip -Dmaven.javadoc.skip",
+    "httpcomponents-client": "mvn clean install -DskipTests -Dcheckstyle.skip",
+    "maven-surefire": "mvn clean install -DskipTests -Dspotless.check.skip -Dcheckstyle.skip -Drat.skip -Dfindbugs.skip",
+    "opennlp": "mvn clean install -DskipTests",
+    "struts": "mvn clean install -DskipTests",
+    "wicket": "mvn clean install -DskipTests -Dfindbugs.skip -Denforcer.skip -Dmaven.javadoc.skip",
+    "zookeeper": "mvn clean install -DskipTests"
+}

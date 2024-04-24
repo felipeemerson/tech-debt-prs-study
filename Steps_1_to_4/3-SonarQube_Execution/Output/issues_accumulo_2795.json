@@ -1,0 +1,75 @@
+[
+    {
+        "commit_sha": "b31f065d2371f0bbe9dca4fc2f322e7baae9b8ac",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5RsTNzy-HgqSyzou1J",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2795:core/src/main/java/org/apache/accumulo/core/crypto/streams/NoFlushOutputStream.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 14,
+                        "endOffset": 19
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "accumulo-2795:core/src/main/java/org/apache/accumulo/core/crypto/streams/NoFlushOutputStream.java": {
+                "ncloc": "15",
+                "complexity": "3"
+            }
+        }
+    },
+    {
+        "commit_sha": "94138a530c859533c5b0818b8222b656a1dc971a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5RtzdYy-HgqSyzpJFd",
+                    "rule": "java:S3551",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2795:core/src/main/java/org/apache/accumulo/core/crypto/streams/NoFlushOutputStream.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 36,
+                        "endLine": 36,
+                        "startOffset": 14,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5RsTNzy-HgqSyzou1J",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2795:core/src/main/java/org/apache/accumulo/core/crypto/streams/NoFlushOutputStream.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 14,
+                        "endOffset": 19
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2795:core/src/main/java/org/apache/accumulo/core/crypto/streams/NoFlushOutputStream.java": {
+                "ncloc": "15",
+                "complexity": "3"
+            }
+        }
+    }
+]

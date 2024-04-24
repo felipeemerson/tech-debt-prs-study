@@ -1,0 +1,428 @@
+---
+title: "RQ Answers"
+author: "omitted"
+date: "2024-04-05"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+pct_format = scales::percent_format(accuracy = .01)
+
+library(knitr)
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(tidyverse)
+library(ggsci)
+
+ggplot2::ggplot()
+
+options(kableExtra.latex.next.table.width = "0.5\\linewidth")
+options(dplyr.summarise.inform = FALSE)
+
+theme_set(theme_bw())
+
+all_data <- read.csv("../data/processed_issues.csv", encoding = "UTF-8")
+```
+
+
+# Data overview
+
+```{r}
+glimpse(all_data)
+```
+
+# RQ1
+
+## TDD (Technical Debt Density) by PR Distribution
+```{r, echo = FALSE}
+all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(total_debt = sum(debt), .groups = 'drop') %>%
+    left_join(all_data %>%
+              group_by(repo, pr_number) %>%
+              select(file, ncloc_affected_file, repo, pr_number) %>%
+              distinct(file, .keep_all = TRUE) %>%
+              summarise(total_ncloc = sum(ncloc_affected_file), .groups = 'drop'),
+            by = c("repo", "pr_number")) %>%
+    ungroup() %>%
+    mutate(tdd = total_debt / total_ncloc) %>%
+    ggplot(aes(x=tdd, after_stat(density))) +
+    geom_density(fill="steelblue", alpha = .75) +
+    geom_vline(aes(xintercept=mean(tdd), color="Mean"), alpha = .75, linetype="dashed", linewidth=1) +
+    geom_vline(aes(xintercept=median(tdd), color="Median"), alpha = .75,linetype="dashed", linewidth=1) +
+    geom_text(aes(x=0, y= 0, label=paste("Mean:", round(mean(tdd), 4))), vjust=-28, hjust = -4.8, color="black") +
+    geom_text(aes(x=0, y= 0, label=paste("Median:", round(median(tdd), 4))), vjust=-26, hjust = -4.2, color="black") +
+    scale_color_manual(name = "Statistics", values = c(Median = "springgreen2", Mean = "red")) +
+    labs(
+        #title = "TDD per PR Distribution",
+        x = "TDD"
+    )
+```
+
+
+## TDV (Technical Debt Variation)
+
+### TDV Distribution
+
+```{r, echo = FALSE}
+all_data %>%
+    group_by(pr_number, repo) %>%
+    summarise(
+        new_unfixed_debt = sum(debt[status == "OPEN" & origin == "NEW"]),
+        preexisting_fixed_debt = sum(debt[status == "CLOSED" & origin == "PRE-EXISTING"]),
+        tdv = new_unfixed_debt - preexisting_fixed_debt,
+        .groups = "drop"
+    ) %>%
+    select(pr_number, repo, tdv) %>%
+    ungroup() %>%
+    ggplot(aes(x = tdv, after_stat(density))) +
+    geom_density(fill = "steelblue", alpha = .75) +
+    geom_vline(aes(xintercept=median(tdv), color="Median"), alpha = .75,linetype="dashed", linewidth=1) +
+    geom_text(aes(x=0, y= 0, label=paste("Mean:", round(mean(tdv), 4))), vjust=-28, hjust = -0.8, color="black") +
+    geom_text(aes(x=0, y= 0, label=paste("Median:", round(median(tdv), 4))), vjust=-26, hjust = -1.6, color="black") +
+    scale_color_manual(name = "Statistics", values = c(Median = "red")) +
+    labs(
+        #title = "TDV per PR Distribution",
+        x = "TDV"
+    )
+```
+
+### Percentages for TDV < 0 (TD decrease), TDV = 0 (TD unchanged) and TDV > 0 (TD increased) by repo
+```{r, echo = FALSE}
+all_data %>%
+    group_by(pr_number, repo) %>%
+    summarise(
+        new_unfixed_debt = sum(debt[status == "OPEN" & origin == "NEW"]),
+        preexisting_fixed_debt = sum(debt[status == "CLOSED" & origin == "PRE-EXISTING"]),
+        tdv = new_unfixed_debt - preexisting_fixed_debt,
+        .groups = "drop"
+    ) %>%
+    group_by(repo) %>%
+    summarise(
+        tdv_lower_than_zero = round((sum(tdv < 0) / n()) * 100, 2),
+        tdv_equal_to_zero = round((sum(tdv == 0) / n()) * 100, 2),
+        tdv_greater_than_zero = round((sum(tdv > 0) / n()) * 100, 2)
+    )
+```
+
+### Mean of percentages of TDV (mean of repo percentages)
+```{r echo=FALSE}
+all_data %>%
+    group_by(pr_number, repo) %>%
+    summarise(
+        new_unfixed_debt = sum(debt[status == "OPEN" & origin == "NEW"]),
+        preexisting_fixed_debt = sum(debt[status == "CLOSED" & origin == "PRE-EXISTING"]),
+        tdv = new_unfixed_debt - preexisting_fixed_debt,
+        .groups = "drop"
+    ) %>%
+    group_by(repo) %>%
+    summarise(
+        tdv_lower_than_zero = round((sum(tdv < 0) / n()) * 100, 2),
+        tdv_equal_to_zero = round((sum(tdv == 0) / n()) * 100, 2),
+        tdv_greater_than_zero = round((sum(tdv > 0) / n()) * 100, 2)
+    ) %>%
+    summarise(
+        mean_tdv_lower_than_zero = round(mean(tdv_lower_than_zero), 2),
+        mean_tdv_equal_to_zero = round(mean(tdv_equal_to_zero), 2),
+        mean_tdv_greater_than_zero = round(mean(tdv_greater_than_zero), 2)
+    )
+```
+
+### Percentages of pre-existing TDV by repo
+
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "PRE-EXISTING") %>%
+    group_by(pr_number, repo) %>%
+    summarise(
+        preexisting_fixed_debt = sum(debt[status == "CLOSED" & origin == "PRE-EXISTING"]),
+        preexisting_tdv = preexisting_fixed_debt,
+        .groups = "drop"
+    ) %>%
+    group_by(repo) %>%
+    summarize(
+        preexisting_tdv_equal_to_zero = round((sum(preexisting_tdv == 0) / n()) * 100, 2),
+        preexisting_tdv_greater_than_zero = round((sum(preexisting_tdv > 0) / n()) * 100, 2)
+    )
+```
+
+## Mean of percentages of pre-existing TDV (mean of repo percentages)
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "PRE-EXISTING") %>%
+    group_by(pr_number, repo) %>%
+    summarise(
+        preexisting_fixed_debt = sum(debt[status == "CLOSED" & origin == "PRE-EXISTING"]),
+        preexisting_tdv = preexisting_fixed_debt,
+        .groups = "drop"
+    ) %>%
+    group_by(repo) %>%
+    summarize(
+        preexisting_tdv_equal_to_zero = (sum(preexisting_tdv == 0) / n()) * 100,
+        preexisting_tdv_greater_than_zero = (sum(preexisting_tdv > 0) / n()) * 100
+    ) %>%
+    summarise(
+        preexisting_tdv_equal_to_zero = round(mean(preexisting_tdv_equal_to_zero), 2),
+        mean_preexisting_tdv_greater_than_zero = round(mean(preexisting_tdv_greater_than_zero), 2),
+    )
+```
+
+### Percentages for new TDV by repo
+
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "NEW") %>%
+    group_by(pr_number, repo) %>%
+    summarise(
+        new_fixed_debt = sum(debt[status == "CLOSED" & origin == "NEW"]),
+        new_tdv = new_fixed_debt,
+        .groups = "drop"
+    ) %>%
+    group_by(repo) %>%
+    summarize(
+        new_tdv_equal_to_zero = round((sum(new_tdv == 0) / n()) * 100, 2),
+        new_tdv_greater_than_zero = round((sum(new_tdv > 0) / n()) * 100, 2)
+    ) %>%
+    group_by(repo)
+```
+
+## Mean of percentages of new TDV (mean of repo percentages)
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "NEW") %>%
+    group_by(pr_number, repo) %>%
+    summarise(
+        new_fixed_debt = sum(debt[status == "CLOSED" & origin == "NEW"]),
+        new_tdv = new_fixed_debt,
+        .groups = "drop"
+    ) %>%
+    group_by(repo) %>%
+    summarize(
+        new_tdv_equal_to_zero = round((sum(new_tdv == 0) / n()) * 100, 2),
+        new_tdv_greater_than_zero = round((sum(new_tdv > 0) / n()) * 100, 2)
+    ) %>%
+    summarise(
+        mean_new_tdv_equal_to_zero = round(mean(new_tdv_equal_to_zero), 2),
+        mean_new_tdv_greater_than_zero = round(mean(new_tdv_greater_than_zero), 2),
+    )
+```
+
+## RQ2
+As data is unbalanced across repositories, as shown in the issue characterization (../issues_characterization.Rmd), we will examine the top 10 fixed issues and the top 10 unfixed issues for each repository, and then aggregate them into a rank using the $PositionScore$ metric given by the following formula:
+
+$PositionScore_{i} = \sum\limits_{j=1}^{k} Position_{j}$
+
+given a rule $i$, its $PositionScore_{i}$ will be the sum of its position across all $k$ repositiries.After calculating the metrics for all rules, we rank them in a TOP 10 of the most frequent rules (fixed or unfixed, depending on the context) across repositories. The lower the PositionScore, the more frequent the rule across repositories.
+
+### TOP 10 fixed per repo ranked by count
+
+All top 10 fixed rules for each repo.
+
+```{r, echo = FALSE}
+all_data %>%
+    filter(status == "CLOSED") %>%
+    group_by(repo, rule) %>%
+    summarise(count = n()) %>%
+    mutate(rank = rank(-count, ties.method = "random")) %>%
+    filter(rank <= 10) %>%
+    group_by(repo, rank) %>%
+    mutate(rule_count = paste(rule, " - ", count)) %>%
+    select(repo, rule_count, rank) %>%
+    pivot_wider(names_from = repo, values_from = rule_count) %>%
+    arrange(rank)
+```
+
+
+### TOP 10 fixed
+
+TOP 10 fixed rules by PositionScore metric.
+
+```{r, echo = FALSE}
+positions_fixed <- data.frame(
+  rule = character(),
+  position = integer(),
+  stringsAsFactors = FALSE
+)
+
+for (current_repo in unique(all_data$repo)) {
+    mapped_fixed_rules <- all_data %>%
+        filter(repo == current_repo & status == "CLOSED") %>%
+        group_by(rule, repo) %>%
+        summarise(count = n()) %>%
+        arrange(desc(count)) %>%
+        head(10) %>%
+        ungroup() %>%
+        mutate(position = row_number()) %>%
+        select(rule, position)
+    
+    positions_fixed <- bind_rows(positions_fixed, mapped_fixed_rules)
+}
+
+freq <- table(positions_fixed$rule)
+
+missing_rules <- names(freq)[freq < 12]
+
+missing_data <- data.frame(rule = character(), position = integer())
+
+for (rule in missing_rules) {
+  missing_count <- 12 - freq[rule]
+  missing_instances <- data.frame(rule = rep(rule, missing_count), position = rep(11, missing_count))
+  missing_data <- rbind(missing_data, missing_instances)
+}
+
+positions_fixed <- rbind(positions_fixed, missing_data)
+
+positions_fixed %>%
+  group_by(rule) %>%
+  summarise(
+     position_score = sum(position),
+  ) %>% arrange(position_score)
+```
+
+
+### TOP 10 unfixed per repo ranked by count
+
+All top 10 unfixed rules for each repo.
+
+
+```{r, echo = FALSE}
+all_data %>%
+    filter(status == "OPEN") %>%
+    group_by(repo, rule) %>%
+    summarise(count = n()) %>%
+    mutate(rank = rank(-count, ties.method = "random")) %>%
+    filter(rank <= 10) %>%
+    group_by(repo, rank) %>%
+    mutate(rule_count = paste(rule, " - ", count)) %>%
+    select(repo, rule_count, rank) %>%
+    pivot_wider(names_from = repo, values_from = rule_count) %>%
+    arrange(rank)
+
+```
+
+### TOP 10 unfixed
+
+TOP 10 unfixed rules by PositionScore metric.
+
+```{r, echo = FALSE}
+positions_unfixed <- data.frame(
+  rule = character(),
+  position = integer(),
+  stringsAsFactors = FALSE
+)
+
+for (current_repo in unique(all_data$repo)) {
+    mapped_unfixed_rules <- all_data %>%
+        filter(repo == current_repo & status == "OPEN") %>%
+        group_by(rule, repo) %>%
+        summarise(count = n()) %>%
+        arrange(desc(count)) %>%
+        head(10) %>%
+        ungroup() %>%
+        mutate(position = row_number()) %>%
+        select(rule, position)
+    
+    positions_unfixed <- bind_rows(positions_unfixed, mapped_unfixed_rules)
+}
+
+freq <- table(positions_unfixed$rule)
+
+missing_rules <- names(freq)[freq < 12]
+
+missing_data <- data.frame(rule = character(), position = integer())
+
+for (rule in missing_rules) {
+  missing_count <- 12 - freq[rule]
+  missing_instances <- data.frame(rule = rep(rule, missing_count), position = rep(11, missing_count))
+  missing_data <- rbind(missing_data, missing_instances)
+}
+
+positions_unfixed <- rbind(positions_unfixed, missing_data)
+
+positions_unfixed %>%
+  group_by(rule) %>%
+  summarise(
+     position_score = sum(position),
+  ) %>% arrange(position_score)
+```
+
+
+# Outliers
+
+## Higher TDD
+
+```{r, echo = FALSE}
+all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(total_debt = sum(debt), .groups = 'drop') %>%
+    left_join(all_data %>%
+              group_by(repo, pr_number) %>%
+              select(file, ncloc_affected_file, repo, pr_number) %>%
+              distinct(file, .keep_all = TRUE) %>%
+              summarise(total_ncloc = sum(ncloc_affected_file), .groups = 'drop'),
+            by = c("repo", "pr_number")) %>%
+    ungroup() %>%
+    mutate(tdd = total_debt / total_ncloc) %>% arrange(desc(tdd))
+```
+
+
+## Higher TDV
+```{r, echo = FALSE}
+all_data %>%
+    group_by(pr_number, repo) %>%
+    summarise(
+        new_unfixed_debt = sum(debt[status == "OPEN" & origin == "NEW"]),
+        preexisting_fixed_debt = sum(debt[status == "CLOSED" & origin == "PRE-EXISTING"]),
+        tdv = new_unfixed_debt - preexisting_fixed_debt,
+        .groups = "drop"
+    ) %>%
+    select(pr_number, repo, tdv) %>%
+    arrange(desc(tdv))
+```
+
+
+## Lower TDV
+```{r, echo = FALSE}
+all_data %>%
+    group_by(pr_number, repo) %>%
+    summarise(
+        new_unfixed_debt = sum(debt[status == "OPEN" & origin == "NEW"]),
+        preexisting_fixed_debt = sum(debt[status == "CLOSED" & origin == "PRE-EXISTING"]),
+        tdv = new_unfixed_debt - preexisting_fixed_debt,
+        .groups = "drop"
+    ) %>%
+    select(pr_number, repo, tdv) %>%
+    arrange(tdv)
+```
+
+# Extra
+
+## Number of PRs with pre-existing TD
+```{r, echo = FALSE}
+all_data %>% filter(origin == "PRE-EXISTING") %>% distinct(repo,pr_number) %>% count()
+```
+## Number of java:S1192 issues that affect test code
+
+```{r, echo = FALSE}
+all_data %>% filter(rule == "java:S1192") %>% filter(grepl("test", file)) %>% count()
+```
+
+## Number of java:S1192 issues that affect not test code
+```{r, echo = FALSE}
+all_data %>% filter(rule == "java:S1192") %>% filter(!grepl("test", file)) %>% count()
+```
+
+## Summary NCLOC
+```{r, echo = FALSE}
+all_data %>%
+    group_by(pr_number, repo) %>%
+    summarise(
+        ncloc = sum(unique(ncloc_affected_file) %>% unlist()),
+        debt = sum(debt),
+        tdd = debt/ncloc,
+        .groups = "drop"
+    ) %>% select(ncloc) %>%
+    summary()
+```

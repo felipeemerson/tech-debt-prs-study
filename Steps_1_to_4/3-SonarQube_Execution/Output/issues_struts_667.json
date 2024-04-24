@@ -1,0 +1,386 @@
+[
+    {
+        "commit_sha": "2a5257bc4c41542217da745339db1d808e68c750",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5yKkrGZBC6YwGxTewj",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareAndExecuteFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 113,
+                        "endLine": 113,
+                        "startOffset": 19,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5yKkrmZBC6YwGxTeyE",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "struts-667:core/src/main/java/org/apache/struts2/dispatcher/PrepareOperations.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 32,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5yKkrHZBC6YwGxTewk",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 19,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5yKkzWZBC6YwGxTfAg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/PrepareOperationsTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 26,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5yKkzTZBC6YwGxTe_r",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/StrutsPrepareAndExecuteFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 21,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5yKkzTZBC6YwGxTe_s",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/StrutsPrepareAndExecuteFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 30,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5yKkzWZBC6YwGxTfAi",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/TwoFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 79,
+                        "endLine": 79,
+                        "startOffset": 47,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5yKkzWZBC6YwGxTfAh",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/TwoFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 165,
+                        "startOffset": 34,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5yKkzWZBC6YwGxTfAj",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/TwoFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 184,
+                        "endLine": 184,
+                        "startOffset": 24,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5yKkzWZBC6YwGxTfAk",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/TwoFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 24,
+                        "endOffset": 31
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "struts-667:core/src/main/java/com/opensymphony/xwork2/config/ConfigurationManager.java": {
+                "ncloc": "148",
+                "complexity": "35"
+            },
+            "struts-667:core/src/main/java/org/apache/struts2/dispatcher/PrepareOperations.java": {
+                "ncloc": "151",
+                "complexity": "36"
+            },
+            "struts-667:core/src/test/java/org/apache/struts2/dispatcher/PrepareOperationsTest.java": {
+                "ncloc": "50",
+                "complexity": "7"
+            },
+            "struts-667:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsExecuteFilter.java": {
+                "ncloc": "67",
+                "complexity": "13"
+            },
+            "struts-667:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareAndExecuteFilter.java": {
+                "ncloc": "101",
+                "complexity": "13"
+            },
+            "struts-667:core/src/test/java/org/apache/struts2/dispatcher/StrutsPrepareAndExecuteFilterIntegrationTest.java": {
+                "ncloc": "191",
+                "complexity": "19"
+            },
+            "struts-667:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareFilter.java": {
+                "ncloc": "73",
+                "complexity": "9"
+            },
+            "struts-667:core/src/test/java/org/apache/struts2/dispatcher/TwoFilterIntegrationTest.java": {
+                "ncloc": "153",
+                "complexity": "23"
+            }
+        }
+    },
+    {
+        "commit_sha": "d0bc243c9730fd3ed9bce786da379c4248f1340d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5yKkrGZBC6YwGxTewj",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareAndExecuteFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 113,
+                        "endLine": 113,
+                        "startOffset": 19,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5yKkrmZBC6YwGxTeyE",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "struts-667:core/src/main/java/org/apache/struts2/dispatcher/PrepareOperations.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 32,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5yKkrHZBC6YwGxTewk",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 19,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5yKkzWZBC6YwGxTfAg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/PrepareOperationsTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 26,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5yKkzTZBC6YwGxTe_r",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/StrutsPrepareAndExecuteFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 21,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5yKkzTZBC6YwGxTe_s",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/StrutsPrepareAndExecuteFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 30,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5yKkzWZBC6YwGxTfAi",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/TwoFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 79,
+                        "endLine": 79,
+                        "startOffset": 47,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5yKkzWZBC6YwGxTfAh",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/TwoFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 165,
+                        "startOffset": 34,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5yKkzWZBC6YwGxTfAj",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/TwoFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 184,
+                        "endLine": 184,
+                        "startOffset": 24,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5yKkzWZBC6YwGxTfAk",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "struts-667:core/src/test/java/org/apache/struts2/dispatcher/TwoFilterIntegrationTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 24,
+                        "endOffset": 31
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "struts-667:core/src/main/java/com/opensymphony/xwork2/config/ConfigurationManager.java": {
+                "ncloc": "148",
+                "complexity": "35"
+            },
+            "struts-667:core/src/main/java/org/apache/struts2/dispatcher/PrepareOperations.java": {
+                "ncloc": "151",
+                "complexity": "36"
+            },
+            "struts-667:core/src/test/java/org/apache/struts2/dispatcher/PrepareOperationsTest.java": {
+                "ncloc": "50",
+                "complexity": "7"
+            },
+            "struts-667:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsExecuteFilter.java": {
+                "ncloc": "67",
+                "complexity": "13"
+            },
+            "struts-667:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareAndExecuteFilter.java": {
+                "ncloc": "101",
+                "complexity": "13"
+            },
+            "struts-667:core/src/test/java/org/apache/struts2/dispatcher/StrutsPrepareAndExecuteFilterIntegrationTest.java": {
+                "ncloc": "191",
+                "complexity": "19"
+            },
+            "struts-667:core/src/main/java/org/apache/struts2/dispatcher/filter/StrutsPrepareFilter.java": {
+                "ncloc": "73",
+                "complexity": "9"
+            },
+            "struts-667:core/src/test/java/org/apache/struts2/dispatcher/TwoFilterIntegrationTest.java": {
+                "ncloc": "153",
+                "complexity": "23"
+            }
+        }
+    }
+]

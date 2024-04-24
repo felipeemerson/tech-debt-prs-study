@@ -1,0 +1,90 @@
+[
+    {
+        "commit_sha": "effa08f46aa2de38fe6c1470658cd75526007b0f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5TmEeSAESW5py-wgsY",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4014:test/src/main/java/org/apache/accumulo/test/LargeSplitRowIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5TmEeSAESW5py-wgsX",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4014:test/src/main/java/org/apache/accumulo/test/LargeSplitRowIT.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 26,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-4014:test/src/main/java/org/apache/accumulo/test/LargeSplitRowIT.java": {
+                "ncloc": "215",
+                "complexity": "20"
+            }
+        }
+    },
+    {
+        "commit_sha": "ef30d116bea298778667e6687fcf339238aea7a3",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5TmEeSAESW5py-wgsY",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4014:test/src/main/java/org/apache/accumulo/test/LargeSplitRowIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5TmEeSAESW5py-wgsX",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4014:test/src/main/java/org/apache/accumulo/test/LargeSplitRowIT.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 26,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-4014:test/src/main/java/org/apache/accumulo/test/LargeSplitRowIT.java": {
+                "ncloc": "213",
+                "complexity": "20"
+            }
+        }
+    }
+]

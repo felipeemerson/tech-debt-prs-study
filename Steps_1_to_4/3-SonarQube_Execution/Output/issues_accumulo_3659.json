@@ -1,0 +1,2326 @@
+[
+    {
+        "commit_sha": "edc16e5734c2d7291731b409de3c0f45a3fbc4a1",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5k285r8f47XzIbHNwA",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 17,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5k285r8f47XzIbHNwB",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "13min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 74,
+                        "endLine": 74,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5k285r8f47XzIbHNwC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 226,
+                        "endLine": 226,
+                        "startOffset": 15,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI77",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8C",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 84,
+                        "endLine": 84,
+                        "startOffset": 12,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8B",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 14,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8D",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 12,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI78",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 53,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI79",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 47,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI7-",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 201,
+                        "endLine": 201,
+                        "startOffset": 48,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI7_",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 208,
+                        "endLine": 208,
+                        "startOffset": 38,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8A",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 218,
+                        "endLine": 218,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8G",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 92,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8O",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "2h6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 12,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8R",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 21,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8M",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "22min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 14,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8S",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 28,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8W",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 168,
+                        "endLine": 168,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8a",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 17,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Y",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 172,
+                        "endLine": 172,
+                        "startOffset": 12,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8V",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 173,
+                        "endLine": 173,
+                        "startOffset": 21,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8N",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 174,
+                        "endLine": 174,
+                        "startOffset": 31,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8X",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 12,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Q",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 57,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8T",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 43,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8P",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 297,
+                        "endLine": 297,
+                        "startOffset": 43,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8c",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 648,
+                        "endLine": 648,
+                        "startOffset": 15,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8d",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 696,
+                        "endLine": 696,
+                        "startOffset": 29,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8U",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 709,
+                        "endLine": 709,
+                        "startOffset": 12,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Z",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 712,
+                        "endLine": 712,
+                        "startOffset": 61,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8b",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 715,
+                        "endLine": 715,
+                        "startOffset": 12,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8H",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 829,
+                        "endLine": 829,
+                        "startOffset": 53,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8I",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 840,
+                        "endLine": 840,
+                        "startOffset": 47,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 847,
+                        "endLine": 847,
+                        "startOffset": 48,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 854,
+                        "endLine": 854,
+                        "startOffset": 38,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8L",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 865,
+                        "endLine": 865,
+                        "startOffset": 42,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8e",
+                    "rule": "java:S5361",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 895,
+                        "endLine": 895,
+                        "startOffset": 42,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 37
+        },
+        "metrics": {
+            "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateNamespaceCommand.java": {
+                "ncloc": "80",
+                "complexity": "16"
+            },
+            "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java": {
+                "ncloc": "280",
+                "complexity": "42"
+            },
+            "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java": {
+                "ncloc": "150",
+                "complexity": "13"
+            },
+            "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java": {
+                "ncloc": "665",
+                "complexity": "59"
+            }
+        }
+    },
+    {
+        "commit_sha": "bbb9402486bf802cbbb51a8e92b15264d9f06460",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5k285r8f47XzIbHNwA",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 17,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5k285r8f47XzIbHNwB",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "13min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 74,
+                        "endLine": 74,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5k285r8f47XzIbHNwC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 226,
+                        "endLine": 226,
+                        "startOffset": 15,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI77",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8C",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 84,
+                        "endLine": 84,
+                        "startOffset": 12,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8B",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 14,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8D",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 12,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI78",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 53,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI79",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 47,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI7-",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 201,
+                        "endLine": 201,
+                        "startOffset": 48,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI7_",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 208,
+                        "endLine": 208,
+                        "startOffset": 38,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8A",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 218,
+                        "endLine": 218,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8G",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 92,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8O",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "2h6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 12,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8R",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 21,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8M",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "22min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 14,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8S",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 28,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8W",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 168,
+                        "endLine": 168,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8a",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 17,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Y",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 172,
+                        "endLine": 172,
+                        "startOffset": 12,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8V",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 173,
+                        "endLine": 173,
+                        "startOffset": 21,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8N",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 174,
+                        "endLine": 174,
+                        "startOffset": 31,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8X",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 12,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Q",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 57,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8T",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 43,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8P",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 297,
+                        "endLine": 297,
+                        "startOffset": 43,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8c",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 648,
+                        "endLine": 648,
+                        "startOffset": 15,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8d",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 696,
+                        "endLine": 696,
+                        "startOffset": 29,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8U",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 709,
+                        "endLine": 709,
+                        "startOffset": 12,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Z",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 712,
+                        "endLine": 712,
+                        "startOffset": 61,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8b",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 715,
+                        "endLine": 715,
+                        "startOffset": 12,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8H",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 829,
+                        "endLine": 829,
+                        "startOffset": 53,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8I",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 840,
+                        "endLine": 840,
+                        "startOffset": 47,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 847,
+                        "endLine": 847,
+                        "startOffset": 48,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 854,
+                        "endLine": 854,
+                        "startOffset": 38,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8L",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 865,
+                        "endLine": 865,
+                        "startOffset": 42,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8e",
+                    "rule": "java:S5361",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 895,
+                        "endLine": 895,
+                        "startOffset": 42,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 37
+        },
+        "metrics": {
+            "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateNamespaceCommand.java": {
+                "ncloc": "80",
+                "complexity": "16"
+            },
+            "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java": {
+                "ncloc": "280",
+                "complexity": "42"
+            },
+            "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java": {
+                "ncloc": "150",
+                "complexity": "13"
+            },
+            "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java": {
+                "ncloc": "665",
+                "complexity": "59"
+            }
+        }
+    },
+    {
+        "commit_sha": "969db918bb371c9fe7f30958d57d81039270d71a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5k285r8f47XzIbHNwA",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 17,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5k285r8f47XzIbHNwB",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "13min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 74,
+                        "endLine": 74,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5k285r8f47XzIbHNwC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 226,
+                        "endLine": 226,
+                        "startOffset": 15,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI77",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8C",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 84,
+                        "endLine": 84,
+                        "startOffset": 12,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8B",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 14,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8D",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 12,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI78",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 53,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI79",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 47,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI7-",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 201,
+                        "endLine": 201,
+                        "startOffset": 48,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI7_",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 208,
+                        "endLine": 208,
+                        "startOffset": 38,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8A",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 218,
+                        "endLine": 218,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8G",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 92,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8O",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "2h6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 12,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8R",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 21,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8M",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "22min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 14,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8S",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 28,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8W",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 168,
+                        "endLine": 168,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8a",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 17,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Y",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 172,
+                        "endLine": 172,
+                        "startOffset": 12,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8V",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 173,
+                        "endLine": 173,
+                        "startOffset": 21,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8N",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 174,
+                        "endLine": 174,
+                        "startOffset": 31,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8X",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 12,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Q",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 57,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8T",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 43,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8P",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 297,
+                        "endLine": 297,
+                        "startOffset": 43,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8c",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 648,
+                        "endLine": 648,
+                        "startOffset": 15,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8d",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 696,
+                        "endLine": 696,
+                        "startOffset": 29,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8U",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 709,
+                        "endLine": 709,
+                        "startOffset": 12,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Z",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 712,
+                        "endLine": 712,
+                        "startOffset": 61,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8b",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 715,
+                        "endLine": 715,
+                        "startOffset": 12,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8H",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 830,
+                        "endLine": 830,
+                        "startOffset": 53,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8I",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 841,
+                        "endLine": 841,
+                        "startOffset": 47,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 848,
+                        "endLine": 848,
+                        "startOffset": 48,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 855,
+                        "endLine": 855,
+                        "startOffset": 38,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8L",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 866,
+                        "endLine": 866,
+                        "startOffset": 42,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8e",
+                    "rule": "java:S5361",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 896,
+                        "endLine": 896,
+                        "startOffset": 42,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 37
+        },
+        "metrics": {
+            "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateNamespaceCommand.java": {
+                "ncloc": "80",
+                "complexity": "16"
+            },
+            "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java": {
+                "ncloc": "280",
+                "complexity": "42"
+            },
+            "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java": {
+                "ncloc": "150",
+                "complexity": "13"
+            },
+            "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java": {
+                "ncloc": "666",
+                "complexity": "59"
+            }
+        }
+    },
+    {
+        "commit_sha": "cb709afbfebdea7a1d67c1545a125df7e29834e6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5k285r8f47XzIbHNwA",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 17,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5k285r8f47XzIbHNwB",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "13min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 74,
+                        "endLine": 74,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5k285r8f47XzIbHNwC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 226,
+                        "endLine": 226,
+                        "startOffset": 15,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI77",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8C",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 84,
+                        "endLine": 84,
+                        "startOffset": 12,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8B",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 14,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8D",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 12,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI78",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 53,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI79",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 47,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI7-",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 201,
+                        "endLine": 201,
+                        "startOffset": 48,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI7_",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 208,
+                        "endLine": 208,
+                        "startOffset": 38,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5k27MM8f47XzIbHI8A",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 218,
+                        "endLine": 218,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8G",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 92,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8O",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "2h6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 12,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8R",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 21,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8M",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "22min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 14,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8S",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 28,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8W",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 168,
+                        "endLine": 168,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8a",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 17,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Y",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 172,
+                        "endLine": 172,
+                        "startOffset": 12,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8V",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 173,
+                        "endLine": 173,
+                        "startOffset": 21,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8N",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 174,
+                        "endLine": 174,
+                        "startOffset": 31,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8X",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 12,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Q",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 57,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8T",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 43,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8P",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 297,
+                        "endLine": 297,
+                        "startOffset": 43,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8c",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 648,
+                        "endLine": 648,
+                        "startOffset": 15,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8d",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 696,
+                        "endLine": 696,
+                        "startOffset": 29,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8U",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 709,
+                        "endLine": 709,
+                        "startOffset": 12,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8Z",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 712,
+                        "endLine": 712,
+                        "startOffset": 61,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8b",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 715,
+                        "endLine": 715,
+                        "startOffset": 12,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8H",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 830,
+                        "endLine": 830,
+                        "startOffset": 53,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8I",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 841,
+                        "endLine": 841,
+                        "startOffset": 47,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 848,
+                        "endLine": 848,
+                        "startOffset": 48,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 855,
+                        "endLine": 855,
+                        "startOffset": 38,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8L",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 866,
+                        "endLine": 866,
+                        "startOffset": 42,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5k27MY8f47XzIbHI8e",
+                    "rule": "java:S5361",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 896,
+                        "endLine": 896,
+                        "startOffset": 42,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 37
+        },
+        "metrics": {
+            "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateNamespaceCommand.java": {
+                "ncloc": "80",
+                "complexity": "16"
+            },
+            "accumulo-3659:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java": {
+                "ncloc": "280",
+                "complexity": "42"
+            },
+            "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateNamespaceIT.java": {
+                "ncloc": "150",
+                "complexity": "13"
+            },
+            "accumulo-3659:test/src/main/java/org/apache/accumulo/test/shell/ShellCreateTableIT.java": {
+                "ncloc": "666",
+                "complexity": "59"
+            }
+        }
+    }
+]

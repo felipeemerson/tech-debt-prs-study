@@ -1,0 +1,240 @@
+---
+title: "Characterization of the PRs"
+author: "omitted"
+date: "2024-04-05"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(GGally)
+
+theme_set(theme_bw())
+prs_characterization <- read.csv("../data/prs_characterization.csv")
+
+prs_characterization <- prs_characterization %>%
+    mutate(
+        code_churn = additions + deletions,
+        merged_at = as_datetime(merged_at),
+        created_at = as_datetime(created_at),
+        duration = difftime(created_at, merged_at, units = "days")
+    )
+
+prs_characterization <- prs_characterization %>%
+    mutate(
+        duration = abs(as.numeric(duration)),
+    )
+```
+
+# Data overview
+
+```{r}
+glimpse(prs_characterization)
+```
+
+## PRs count
+
+```{r}
+prs_characterization %>% count()
+```
+
+## PRs count by repo
+
+```{r}
+prs_characterization %>%
+    group_by(repo) %>%
+    count()
+```
+
+## Commits count
+
+```{r}
+sum(prs_characterization$commits_count)
+```
+
+## Commits count by repo
+
+```{r}
+prs_characterization %>%
+    group_by(repo) %>%
+    summarise(sum(commits_count))
+```
+
+## General data statistics by repo
+
+```{r}
+prs_characterization %>%
+    group_by(repo) %>%
+    summarise(
+        min_date = min(merged_at),
+        max_date = max(merged_at),
+        age_in_days = difftime(min(merged_at), max(merged_at), units = "days")
+    ) %>%
+    mutate(
+    age_in_days = abs(as.numeric(age_in_days)),
+    age_in_years = abs(as.numeric(age_in_days))/365.25
+    )
+
+prs_characterization %>%
+    group_by(repo) %>%
+    summarise(
+        mean_commits = mean(commits_count),
+        median_commits = median(commits_count),
+        mean_changed_files = mean(changed_files_count),
+        median_changed_files = median(changed_files_count)
+    )
+
+prs_characterization %>%
+    group_by(repo) %>%
+    summarise(
+        mean_code_churn = mean(code_churn),
+        median_code_churn = median(code_churn),
+        mean_duration = mean(duration)
+    )
+```
+
+## NCLOC and classes count by repo
+
+* All values are related to the last commit of the last PR that was successfully executed by SonarQube.
+
+```{r}
+data.frame(repo = c("accumulo", "cayenne", "commons-collections","commons-io", "commons-lang", "helix", "httpcomponents-client", "maven-surefire", "opennlp", "struts", "wicket", "zookeeper"), NCLOC = c(440441, 318428, 67690, 30501, 95929, 189487, 76964, 110481, 155900, 234331, 251505, 131712), classes = c(5164, 4716, 839, 288, 918, 2106, 879, 3036, 2478, 3419, 5254, 1542))
+```
+
+## PRs and commits count through the years
+
+```{r}
+prs_characterization %>%
+    mutate(year = lubridate::year(merged_at)) %>%
+    group_by(year, repo) %>%
+    summarise(PRs_quantity = n(), .groups = 'drop') %>%
+    ggplot(aes(x = year, y = PRs_quantity, color=repo)) + 
+    geom_line() +
+    labs(x = "Year", y = "PRs count") + 
+    ggtitle("PRs count by year") +
+    scale_x_continuous(breaks = unique(lubridate::year(prs_characterization$merged_at)))
+
+prs_characterization %>%
+    mutate(year = lubridate::year(merged_at)) %>%
+    group_by(year, repo) %>%
+    summarise(commits_quantity = sum(commits_count), .groups = 'drop') %>%
+    ggplot(aes(x = year, y = commits_quantity, color=repo)) + 
+    geom_line() +
+    labs(x = "Year", y = "Commits count") + 
+    ggtitle("Commits count by year") +
+    scale_x_continuous(breaks = unique(lubridate::year(prs_characterization$merged_at)))
+```
+
+# Distribution of features
+
+## Commits count by PR
+
+```{r}
+tapply(prs_characterization$commits_count, prs_characterization$repo, summary)
+
+prs_characterization %>%
+    ggplot(aes(x = "", y = commits_count, color=repo)) +
+      geom_boxplot() +
+      facet_wrap(~repo) +
+      labs(title = "Commits count by PR ~ repo")
+```
+
+## Code churn by PR
+
+```{r}
+tapply(prs_characterization$code_churn, prs_characterization$repo, summary)
+
+prs_characterization %>%
+    ggplot(aes(x = "", y = code_churn, color=repo)) +
+      geom_boxplot() +
+      facet_wrap(~repo) +
+      labs(title = "Code churn by PR ~ repo")
+```
+
+## Added lines
+
+```{r}
+tapply(prs_characterization$additions, prs_characterization$repo, summary)
+
+prs_characterization %>%
+    ggplot(aes(x = "", y = additions, color=repo)) +
+      geom_boxplot() +
+      facet_wrap(~repo) +
+      labs(title = "Added lines by PR ~ repo")
+```
+
+## Deleted lines
+
+```{r}
+tapply(prs_characterization$deletions, prs_characterization$repo, summary)
+
+prs_characterization %>%
+    ggplot(aes(x = "", y = deletions, color=repo)) +
+      geom_boxplot() +
+      facet_wrap(~repo) +
+      labs(title = "Deleted lines by PR ~ repo")
+```
+
+## Changed files count
+
+```{r}
+tapply(prs_characterization$changed_files_count, prs_characterization$repo, summary)
+
+prs_characterization %>%
+    ggplot(aes(y = changed_files_count, color=repo)) +
+      geom_boxplot() +
+      facet_wrap(~repo) +
+      labs(title = "Changed files count by PR ~ repo")
+```
+
+## PR duration
+
+```{r}
+tapply(prs_characterization$duration, prs_characterization$repo, summary)
+
+prs_characterization %>%
+    ggplot(aes(y = duration, color=repo)) +
+      geom_boxplot() +
+      facet_wrap(~repo) +
+      labs(title = "PR duration ~ repo")
+```
+
+# Scatters
+
+```{r}
+prs_characterization %>%
+    ggplot(aes(x = duration, y = commits_count, color=repo)) + 
+    geom_point(alpha=0.75) +
+    labs(x = "Duration", y = "Commits count") + 
+    ggtitle("Commits count per duration")
+
+prs_characterization %>%
+    ggplot(aes(x = duration, y = changed_files_count, color=repo)) + 
+    geom_point(alpha=0.75) +
+    labs(x = "Duration", y = "Changed files count") + 
+    ggtitle("Changed files count per duration")
+
+prs_characterization %>%
+    ggplot(aes(x = duration, y = code_churn, color=repo)) + 
+    geom_point(alpha=0.75) +
+    labs(x = "Duration", y = "Code churn") + 
+    ggtitle("Code churn per duration")
+
+prs_characterization %>%
+    ggplot(aes(x = changed_files_count, y = code_churn, color=repo)) + 
+    geom_point(alpha=0.75) +
+    labs(x = "Changed files count", y = "Code churn") + 
+    ggtitle("Code churn per changed files count")
+```
+
+# Correlations
+
+```{r}
+prs_characterization %>%
+    select(additions, deletions, changed_files_count, commits_count, code_churn, duration) %>%
+    ggpairs(title="Correlation between features")
+```

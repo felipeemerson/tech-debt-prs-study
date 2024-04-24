@@ -1,0 +1,998 @@
+[
+    {
+        "commit_sha": "b5cc49e86a26fad0d466949b50df7c4ca2311eba",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5m0VUkDBMLZa5DAIwr",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/task/JobContext.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 29,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5m0VUkDBMLZa5DAIwq",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/task/JobContext.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 229,
+                        "endLine": 229,
+                        "startOffset": 51,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHL",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 50,
+                        "endLine": 50,
+                        "startOffset": 35,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHO",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 33,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHP",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 37,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHQ",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 38,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHW",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 0,
+                        "endOffset": 101
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHR",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 32,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHS",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHT",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHU",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 42,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHV",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 68,
+                        "endLine": 68,
+                        "startOffset": 22,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHX",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 95,
+                        "endLine": 95,
+                        "startOffset": 30,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHY",
+                    "rule": "java:S2864",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHM",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHZ",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 0,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHa",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 270,
+                        "endLine": 270,
+                        "startOffset": 59,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHb",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 314,
+                        "endLine": 314,
+                        "startOffset": 0,
+                        "endOffset": 94
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHc",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 320,
+                        "endLine": 320,
+                        "startOffset": 0,
+                        "endOffset": 85
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHN",
+                    "rule": "java:S1301",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 374,
+                        "endLine": 374,
+                        "startOffset": 4,
+                        "endOffset": 10
+                    }
+                }
+            ],
+            "total": 20
+        },
+        "metrics": {
+            "helix-1611:helix-core/src/main/java/org/apache/helix/task/JobContext.java": {
+                "ncloc": "245",
+                "complexity": "64"
+            },
+            "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java": {
+                "ncloc": "236",
+                "complexity": "58"
+            },
+            "helix-1611:helix-core/src/test/java/org/apache/helix/integration/task/TestContextRedundantUpdates.java": {
+                "ncloc": "84",
+                "complexity": "3"
+            }
+        }
+    },
+    {
+        "commit_sha": "59c8c489d37cdf1c38c010f418d8f6ebeb8b02e6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5m01cDDBMLZa5DAYek",
+                    "rule": "java:S2160",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/task/JobContext.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 13,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5m0VUkDBMLZa5DAIwr",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/task/JobContext.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 29,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5m0VUkDBMLZa5DAIwq",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/task/JobContext.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 263,
+                        "endLine": 263,
+                        "startOffset": 51,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHL",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 50,
+                        "endLine": 50,
+                        "startOffset": 35,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHO",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 33,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHP",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 37,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHQ",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 38,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHW",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 0,
+                        "endOffset": 101
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHR",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 32,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHS",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHT",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHU",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 42,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHV",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 68,
+                        "endLine": 68,
+                        "startOffset": 22,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHX",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 95,
+                        "endLine": 95,
+                        "startOffset": 30,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHY",
+                    "rule": "java:S2864",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHM",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHZ",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 0,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHa",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 272,
+                        "endLine": 272,
+                        "startOffset": 59,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHb",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 316,
+                        "endLine": 316,
+                        "startOffset": 0,
+                        "endOffset": 94
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHc",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 322,
+                        "endLine": 322,
+                        "startOffset": 0,
+                        "endOffset": 85
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHN",
+                    "rule": "java:S1301",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 376,
+                        "endLine": 376,
+                        "startOffset": 4,
+                        "endOffset": 10
+                    }
+                }
+            ],
+            "total": 21
+        },
+        "metrics": {
+            "helix-1611:helix-core/src/main/java/org/apache/helix/task/JobContext.java": {
+                "ncloc": "294",
+                "complexity": "85"
+            },
+            "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java": {
+                "ncloc": "238",
+                "complexity": "60"
+            },
+            "helix-1611:helix-core/src/test/java/org/apache/helix/integration/task/TestContextRedundantUpdates.java": {
+                "ncloc": "159",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "cd09363dc7d10f758c688e6fa925f326642220af",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5m01cDDBMLZa5DAYek",
+                    "rule": "java:S2160",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/task/JobContext.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 13,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5m0VUkDBMLZa5DAIwr",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/task/JobContext.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 29,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5m0VUkDBMLZa5DAIwq",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/task/JobContext.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 262,
+                        "endLine": 262,
+                        "startOffset": 51,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHL",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 50,
+                        "endLine": 50,
+                        "startOffset": 35,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHO",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 33,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHP",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 37,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHQ",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 38,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHW",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 0,
+                        "endOffset": 101
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHR",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 32,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHS",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHT",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHU",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 42,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHV",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 68,
+                        "endLine": 68,
+                        "startOffset": 22,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHX",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 95,
+                        "endLine": 95,
+                        "startOffset": 30,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHY",
+                    "rule": "java:S2864",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHM",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHZ",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 0,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHa",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 272,
+                        "endLine": 272,
+                        "startOffset": 59,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHb",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 316,
+                        "endLine": 316,
+                        "startOffset": 0,
+                        "endOffset": 94
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHc",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 322,
+                        "endLine": 322,
+                        "startOffset": 0,
+                        "endOffset": 85
+                    }
+                },
+                {
+                    "key": "AY5m0VY8DBMLZa5DAJHN",
+                    "rule": "java:S1301",
+                    "severity": "MINOR",
+                    "component": "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 376,
+                        "endLine": 376,
+                        "startOffset": 4,
+                        "endOffset": 10
+                    }
+                }
+            ],
+            "total": 21
+        },
+        "metrics": {
+            "helix-1611:helix-core/src/main/java/org/apache/helix/task/JobContext.java": {
+                "ncloc": "293",
+                "complexity": "85"
+            },
+            "helix-1611:helix-core/src/main/java/org/apache/helix/common/caches/TaskDataCache.java": {
+                "ncloc": "238",
+                "complexity": "60"
+            },
+            "helix-1611:helix-core/src/test/java/org/apache/helix/integration/task/TestContextRedundantUpdates.java": {
+                "ncloc": "159",
+                "complexity": "7"
+            }
+        }
+    }
+]

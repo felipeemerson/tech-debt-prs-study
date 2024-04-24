@@ -1,0 +1,210 @@
+[
+    {
+        "commit_sha": "89b411c391675cb3f1faed83f2dd4451b2ac6d12",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5b-iSl4Ky70PpByL9A",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5b-iSl4Ky70PpByL9B",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 90,
+                        "endOffset": 93
+                    }
+                },
+                {
+                    "key": "AY5b-iSl4Ky70PpByL9C",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 42,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5b-iSl4Ky70PpByL8_",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 146,
+                        "endLine": 146,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5b-iSl4Ky70PpByL9E",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 42,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5b-iSl4Ky70PpByL9D",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java": {
+                "ncloc": "132",
+                "complexity": "20"
+            }
+        }
+    },
+    {
+        "commit_sha": "868e1b810d69f842f97484677f667db04c61f74c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5b-iSl4Ky70PpByL8_",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 146,
+                        "endLine": 146,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5b-iSl4Ky70PpByL9A",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5b-iSl4Ky70PpByL9B",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 90,
+                        "endOffset": 93
+                    }
+                },
+                {
+                    "key": "AY5b-iSl4Ky70PpByL9C",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 42,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5b-iSl4Ky70PpByL9E",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 42,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5b-iSl4Ky70PpByL9D",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-2178:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/compact/CompactRange.java": {
+                "ncloc": "136",
+                "complexity": "20"
+            }
+        }
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "commit_sha": "60792b8f369b73316fce6310330c28a7a0d45246",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "opennlp-197:opennlp-tools/src/main/java/opennlp/tools/lemmatizer/DictionaryLemmatizer.java": {
+                "ncloc": "67",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "cb6ee2cbdeadad5d277a6e7293d88bb915090c4f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY568CY0DVfOYCVCAt98",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "opennlp-197:opennlp-tools/src/test/java/opennlp/tools/lemmatizer/DictionaryLemmatizerTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 29,
+                        "endLine": 29,
+                        "startOffset": 45,
+                        "endOffset": 54
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "opennlp-197:opennlp-tools/src/main/java/opennlp/tools/lemmatizer/DictionaryLemmatizer.java": {
+                "ncloc": "67",
+                "complexity": "13"
+            },
+            "opennlp-197:opennlp-tools/src/test/java/opennlp/tools/lemmatizer/DictionaryLemmatizerTest.java": {
+                "ncloc": "23",
+                "complexity": "4"
+            }
+        }
+    }
+]

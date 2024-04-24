@@ -1,0 +1,120 @@
+[
+    {
+        "commit_sha": "6a0dc585708e8c8c7ec4bb186f4159c8b03359b1",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DX5hIygGTmJJJsm_z",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-124:httpclient5/src/main/java/org/apache/hc/client5/http/impl/nio/PoolingAsyncClientConnectionManagerBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 100,
+                        "endOffset": 114
+                    }
+                },
+                {
+                    "key": "AY5DX5hIygGTmJJJsm_y",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-124:httpclient5/src/main/java/org/apache/hc/client5/http/impl/nio/PoolingAsyncClientConnectionManagerBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 128,
+                        "endLine": 128,
+                        "startOffset": 8,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5DX5hIygGTmJJJsm_0",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-124:httpclient5/src/main/java/org/apache/hc/client5/http/impl/nio/PoolingAsyncClientConnectionManagerBuilder.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 47,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "httpcomponents-client-124:httpclient5/src/main/java/org/apache/hc/client5/http/impl/nio/PoolingAsyncClientConnectionManagerBuilder.java": {
+                "ncloc": "107",
+                "complexity": "20"
+            }
+        }
+    },
+    {
+        "commit_sha": "0c2b8e8a49be2c47eb4ebaac84e130628e789b8a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DX5hIygGTmJJJsm_y",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-124:httpclient5/src/main/java/org/apache/hc/client5/http/impl/nio/PoolingAsyncClientConnectionManagerBuilder.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 128,
+                        "endLine": 128,
+                        "startOffset": 8,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5DX5hIygGTmJJJsm_z",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-124:httpclient5/src/main/java/org/apache/hc/client5/http/impl/nio/PoolingAsyncClientConnectionManagerBuilder.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 100,
+                        "endOffset": 114
+                    }
+                },
+                {
+                    "key": "AY5DX5hIygGTmJJJsm_0",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-124:httpclient5/src/main/java/org/apache/hc/client5/http/impl/nio/PoolingAsyncClientConnectionManagerBuilder.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 47,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "httpcomponents-client-124:httpclient5/src/main/java/org/apache/hc/client5/http/impl/nio/PoolingAsyncClientConnectionManagerBuilder.java": {
+                "ncloc": "107",
+                "complexity": "20"
+            }
+        }
+    }
+]

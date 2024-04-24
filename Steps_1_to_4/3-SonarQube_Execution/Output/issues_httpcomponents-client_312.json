@@ -1,0 +1,180 @@
+[
+    {
+        "commit_sha": "755b69ea3cc44557ed0517b7348ab16870a39975",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CoVtZygGTmJJJdyKl",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 10,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5CoVtZygGTmJJJdyKm",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 67,
+                        "endLine": 67,
+                        "startOffset": 25,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5CoVtZygGTmJJJdyKj",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 12,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5CoVtZygGTmJJJdyKk",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 86,
+                        "endLine": 86,
+                        "startOffset": 12,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5CoVtZygGTmJJJdyKi",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 47,
+                        "endOffset": 63
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java": {
+                "ncloc": "160",
+                "complexity": "28"
+            }
+        }
+    },
+    {
+        "commit_sha": "366b36f3527e9461aa3f5e5db925852737b75a8c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CoVtZygGTmJJJdyKm",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 67,
+                        "endLine": 67,
+                        "startOffset": 25,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5CoVtZygGTmJJJdyKl",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 10,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5CoVtZygGTmJJJdyKj",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 12,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5CoVtZygGTmJJJdyKk",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 12,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5CoVtZygGTmJJJdyKi",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 47,
+                        "endOffset": 63
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "httpcomponents-client-312:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Executor.java": {
+                "ncloc": "163",
+                "complexity": "28"
+            }
+        }
+    }
+]

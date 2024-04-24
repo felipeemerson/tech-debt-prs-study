@@ -1,0 +1,106 @@
+[
+    {
+        "commit_sha": "497a7f025b3022f1a3d80854ce8bd0e76a4808d8",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53hxlG1603RBiQv5pm",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-572:opennlp-tools/src/main/java/opennlp/tools/dictionary/Dictionary.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 306,
+                        "endLine": 306,
+                        "startOffset": 21,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53hxkw1603RBiQv5pD",
+                    "rule": "java:S127",
+                    "severity": "MAJOR",
+                    "component": "opennlp-572:opennlp-tools/src/main/java/opennlp/tools/namefind/DictionaryNameFinder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "opennlp-572:opennlp-tools/src/main/java/opennlp/tools/dictionary/Dictionary.java": {
+                "ncloc": "230",
+                "complexity": "52"
+            },
+            "opennlp-572:opennlp-tools/src/main/java/opennlp/tools/namefind/DictionaryNameFinder.java": {
+                "ncloc": "49",
+                "complexity": "9"
+            },
+            "opennlp-572:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "92",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "1b4940a4bf88a411297a507bce32d2e979e76c7e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53hxlG1603RBiQv5pm",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-572:opennlp-tools/src/main/java/opennlp/tools/dictionary/Dictionary.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 256,
+                        "endLine": 256,
+                        "startOffset": 21,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53hxkw1603RBiQv5pD",
+                    "rule": "java:S127",
+                    "severity": "MAJOR",
+                    "component": "opennlp-572:opennlp-tools/src/main/java/opennlp/tools/namefind/DictionaryNameFinder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "opennlp-572:opennlp-tools/src/main/java/opennlp/tools/dictionary/Dictionary.java": {
+                "ncloc": "203",
+                "complexity": "47"
+            },
+            "opennlp-572:opennlp-tools/src/main/java/opennlp/tools/namefind/DictionaryNameFinder.java": {
+                "ncloc": "51",
+                "complexity": "9"
+            },
+            "opennlp-572:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "113",
+                "complexity": "29"
+            }
+        }
+    }
+]

@@ -1,0 +1,332 @@
+[
+    {
+        "commit_sha": "d34404aadabb06ee3a76efdb6f5e449eae2ab8ad",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56rD_3DVfOYCVC7-iU",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 19,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY56rD_3DVfOYCVC7-iT",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 9,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY56rD_3DVfOYCVC7-iV",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 9,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY56rD_3DVfOYCVC7-iW",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java",
+                    "status": "OPEN",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 16,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY56rD_nDVfOYCVC7-iL",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY56rD_nDVfOYCVC7-iK",
+                    "rule": "java:S1845",
+                    "severity": "BLOCKER",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 96,
+                        "endLine": 96,
+                        "startOffset": 24,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY56rD_nDVfOYCVC7-iM",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 9,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY56rD_nDVfOYCVC7-iN",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 9,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY56rD_nDVfOYCVC7-iO",
+                    "rule": "java:S1871",
+                    "severity": "MAJOR",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 203,
+                        "endLine": 206,
+                        "startOffset": 87,
+                        "endOffset": 7
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/AbstractTokenizer.java": {
+                "ncloc": "7",
+                "complexity": "1"
+            },
+            "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java": {
+                "ncloc": "79",
+                "complexity": "19"
+            },
+            "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/Tokenizer.java": {
+                "ncloc": "6",
+                "complexity": "0"
+            },
+            "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java": {
+                "ncloc": "124",
+                "complexity": "17"
+            },
+            "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/WhitespaceTokenizer.java": {
+                "ncloc": "46",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "357493663dc59db2ce9b287305d29d7c62e8f002",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56rD_3DVfOYCVC7-iU",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 19,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY56rD_3DVfOYCVC7-iT",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 9,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY56rD_3DVfOYCVC7-iV",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 9,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY56rD_3DVfOYCVC7-iW",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java",
+                    "status": "OPEN",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 16,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY56rD_nDVfOYCVC7-iL",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY56rD_nDVfOYCVC7-iK",
+                    "rule": "java:S1845",
+                    "severity": "BLOCKER",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 96,
+                        "endLine": 96,
+                        "startOffset": 24,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY56rD_nDVfOYCVC7-iM",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 9,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY56rD_nDVfOYCVC7-iN",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 9,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY56rD_nDVfOYCVC7-iO",
+                    "rule": "java:S1871",
+                    "severity": "MAJOR",
+                    "component": "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 205,
+                        "startOffset": 87,
+                        "endOffset": 7
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/AbstractTokenizer.java": {
+                "ncloc": "11",
+                "complexity": "2"
+            },
+            "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java": {
+                "ncloc": "75",
+                "complexity": "18"
+            },
+            "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/Tokenizer.java": {
+                "ncloc": "6",
+                "complexity": "0"
+            },
+            "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java": {
+                "ncloc": "120",
+                "complexity": "16"
+            },
+            "opennlp-409:opennlp-tools/src/main/java/opennlp/tools/tokenize/WhitespaceTokenizer.java": {
+                "ncloc": "42",
+                "complexity": "11"
+            }
+        }
+    }
+]

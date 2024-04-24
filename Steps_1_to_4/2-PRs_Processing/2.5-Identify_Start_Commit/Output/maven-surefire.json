@@ -1,0 +1,2454 @@
+[
+    {
+        "pr_number": 669,
+        "created_at": "2023-08-19 21:14:05+00:00",
+        "commits": [
+            {
+                "sha": "30731a2136058da9ceb1ac9090b06c469e2df5cf",
+                "created_at": "2023-08-19 20:47:30+00:00",
+                "is_pull": false
+            },
+            {
+                "sha": "9a8f7b7dc169b5c581f7217a9ed4be4449e47607",
+                "created_at": "2023-08-19 23:01:10+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "9a8f7b7dc169b5c581f7217a9ed4be4449e47607",
+        "changed_files": [
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/SharedThreadPoolStrategy.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/OutputValidator.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/report/FileReporterTest.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/SurefireReflectorTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/AbstractSurefireMojoTest.java",
+            "surefire-its/src/test/resources/surefire-1179-testng-parallel-dataprovider/src/test/java/debug/ParallelTest.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/AsynchronousRunner.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/ConfigurableParallelComputer.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/SurefireReflector.java",
+            "surefire-providers/surefire-junit4/src/test/java/org/apache/maven/surefire/junit4/JUnit4ProviderTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/util/DependenciesScannerTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "30731a2136058da9ceb1ac9090b06c469e2df5cf",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 668,
+        "created_at": "2023-08-19 05:51:45+00:00",
+        "commits": [
+            {
+                "sha": "229ba28d727e7bbefe8eed527280697979e89c32",
+                "created_at": "2023-08-18 22:36:03-07:00",
+                "is_pull": false
+            },
+            {
+                "sha": "d4d0d850a452fe73c5046e9a9f3c82bc010a7f80",
+                "created_at": "2023-08-20 16:45:22-07:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "229ba28d727e7bbefe8eed527280697979e89c32",
+        "changed_files": [
+            "surefire-its/src/test/resources/surefire-2190/src/test/java/surefirebug/thing/MainTest.java",
+            "surefire-its/src/test/resources/surefire-2190/src/main/java/surefirebug/thing/Main.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/ModularClasspathForkConfigurationTest.java",
+            "surefire-its/src/test/resources/surefire-2190/src/main/java/module-info.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/ForkConfigurationTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/ModularClasspathForkConfiguration.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire2190JUnitIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "27548ec1c2db6874da68d959a7afd796f84556ce",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 643,
+        "created_at": "2023-05-24 20:41:43+00:00",
+        "commits": [
+            {
+                "sha": "56ebd61d8af355ad630625ff8044e93ce6d9dfef",
+                "created_at": "2023-05-24 22:41:07+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "56ebd61d8af355ad630625ff8044e93ce6d9dfef",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/WrappedReportEntry.java"
+        ],
+        "moved_files": [],
+        "start_commit": "3ff4afd7af9f136b9806f7545a8ce87b9383ee63",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 641,
+        "created_at": "2023-05-22 15:28:45+00:00",
+        "commits": [
+            {
+                "sha": "60aaa1ab36886632a683bf7170aea60e175a2f02",
+                "created_at": "2023-05-22 15:28:26+00:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "60aaa1ab36886632a683bf7170aea60e175a2f02",
+        "changed_files": [
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/AbstractSurefireReportMojo.java"
+        ],
+        "moved_files": [],
+        "start_commit": "e27ff14531dbaa5fa5ccae48f2e5d9cd1a8a9672",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 636,
+        "created_at": "2023-05-20 08:19:39+00:00",
+        "commits": [
+            {
+                "sha": "4e6a85d36a24fc6d003fb2e40ce18e005eed4513",
+                "created_at": "2023-05-19 22:04:37+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "3580f849dc06023dabf230c993a5b0f429d40b1e",
+                "created_at": "2023-05-19 22:04:37+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "e27ff14531dbaa5fa5ccae48f2e5d9cd1a8a9672",
+                "created_at": "2023-05-19 22:04:37+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "e27ff14531dbaa5fa5ccae48f2e5d9cd1a8a9672",
+        "changed_files": [
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/SurefireReportRenderer.java",
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/stubs/DependencyArtifactStubFactory.java"
+        ],
+        "moved_files": [],
+        "start_commit": "3580f849dc06023dabf230c993a5b0f429d40b1e",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 619,
+        "created_at": "2023-03-09 21:37:53+00:00",
+        "commits": [
+            {
+                "sha": "0f9f27a49c2755a251658f66d7d3b6ce0cdd34d7",
+                "created_at": "2023-03-09 22:35:29+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "0f9f27a49c2755a251658f66d7d3b6ce0cdd34d7",
+        "changed_files": [
+            "surefire-api/src/test/java/org/apache/maven/surefire/api/testdata/DataZT2A.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ResultCountingIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgListenerReporterIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/BalancerFactory.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/SharedThreadPoolStrategy.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1396CustomProviderClassPathIT.java",
+            "surefire-report-parser/src/main/java/org/apache/maven/plugins/surefire/report/ReportTestSuite.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/JUnit47SuiteTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire772BothReportsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire985ParameterizedRunnerAndCategoriesIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/JUnitCore.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1535TestNGParallelSuitesIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/MavenSurefireJUnit47RunnerTest.java",
+            "maven-failsafe-plugin/src/main/java/org/apache/maven/plugin/failsafe/VerifyMojo.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/OutputValidator.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire817SystemExitIT.java",
+            "surefire-logger-api/src/main/java/org/apache/maven/plugin/surefire/log/api/NullConsoleLogger.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/SystemPropertiesTestIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/NoRunnableTestsInClassIT.java",
+            "surefire-report-parser/src/test/java/org/apache/maven/plugins/surefire/report/TestSuiteXmlParserTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/report/TestOutputReportEntry.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ForkConsoleOutputIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/SiblingAggregatorIT.java",
+            "surefire-providers/surefire-testng-utils/src/main/java/org/apache/maven/surefire/testng/utils/FailFastEventsSingleton.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgBeforeMethodIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1490ReportTitleDescriptionIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1967CheckTestNgMethodParallelOrderingIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/DiagnosticRunListener.java",
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/FailsafeReportMojo.java",
+            "surefire-providers/common-java5/src/test/java/org/apache/maven/surefire/report/TestClass2.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire803MultiFailsafeExecsIT.java",
+            "surefire-providers/common-junit48/src/test/java/org/apache/maven/surefire/common/junit48/tests/group/marker/CategoryA.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/Settings.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/FailFastTestNgIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1144XmlRunTimeIT.java",
+            "surefire-report-parser/src/main/java/org/apache/maven/plugins/surefire/report/SurefireReportParser.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire510TestClassPathForkModesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1211JUnitTestNgIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/Surefire1602IT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/IncludesExcludesFromFileIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit4RunListenerIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire2036IT.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/report/SafeThrowable.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/AbstractThreadPoolStrategy.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/JUnit47SuiteTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ModulePathIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/TestMethod.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/TestNgParallelWithAnnotationsIT.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/ReportEntryType.java",
+            "surefire-providers/surefire-testng-utils/src/main/java/org/apache/maven/surefire/testng/utils/FailFastNotifier.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1534ReuseForksFalseWithJavaModuleIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit47StaticInnerClassTestsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/TestMethodPatternIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire801ForkNeverClassLoaderIT.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/util/RunOrderCalculator.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire673MockitoIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/pc/OptimizedParallelComputerTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit4VersionsIT.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/TestNGProvider.java",
+            "surefire-report-parser/src/test/java/org/apache/maven/plugins/surefire/report/ReportTestCaseTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/util/internal/TestClassMethodNameUtils.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/AdditionalClasspathIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/TestMultipleMethodPatternsIT.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/RunListenerAdapter.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/report/OutputReportEntry.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1209RerunAndForkCountIT.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/booter/Shutdown.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/Surefire813IncorrectResultTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/SurefireJUnit4IntegrationTestCase.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/stream/SegmentType.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit4ForkAlwaysStaticInitPollutionIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CrashDetectionIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/EnvironmentVariablesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1712ExtractedModulenameWithoutASMIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/WorkingDirectoryMissingIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire943ReportContentIT.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/LazyLauncher.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit4IgnoreIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/TestNgSuccessPercentageIT.java",
+            "surefire-providers/surefire-testng/src/test/java/org/apache/maven/surefire/testng/conf/TestNG60ConfiguratorTest.java",
+            "maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/VerifyMojoTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/NullStatelessXmlReporter.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/AbstractTestMultipleMethodPatterns.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1295AttributeJvmCrashesToTestsIT.java",
+            "surefire-providers/common-junit48/src/test/java/org/apache/maven/surefire/common/junit48/tests/group/marker/CategoryC.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformRerunFailingTestsIT.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProvider.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgExecuteErrorIT.java",
+            "maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/IntegrationTestMojoTest.java",
+            "surefire-providers/common-java5/src/test/java/org/apache/maven/surefire/report/TestClass1.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/ParallelComputerBuilder.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgReportTestIT.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/BooterConstants.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire42NotExtendingTestCaseIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/MavenLauncherTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1082ParallelJUnitParameterizedIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitVersion.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1733JUnitIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire772NoSurefireReportsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1202RerunAndSkipIT.java",
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/SurefireReportMojo.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/spi/CustomizedImpl.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/XmlReporterRunTimeIT.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/spi/NoServiceInterface.java",
+            "surefire-providers/surefire-testng-utils/src/main/java/org/apache/maven/surefire/testng/utils/FailFastListener.java",
+            "surefire-providers/surefire-testng/src/test/java/org/apache/maven/surefire/testng/conf/TestNGMapConfiguratorTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/report/TestOutputReceiver.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1177TestngParallelSuitesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/FailFastJUnitIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1179IT.java",
+            "surefire-providers/surefire-testng/src/test/java/org/apache/maven/surefire/testng/conf/TestNG5143ConfiguratorTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire257NotRerunningTestsIT.java",
+            "surefire-report-parser/src/main/java/org/apache/maven/plugins/surefire/report/TestSuiteXmlParser.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1787JUnit5IT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/JUnitCoreParameters.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/NonConcurrentRunListener.java",
+            "surefire-providers/common-java5/src/test/java/org/apache/maven/surefire/report/SomeMockedException.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/PlexusConflictIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/SmartStackTraceIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/SingleThreadScheduler.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire685CommaSeparatedIncludesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire697NiceSummaryIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1152RerunFailingTestsInSuiteIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/SchedulingStrategy.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/ConfigurableParallelComputer.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/JUnit4Reflector481Test.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1146RerunFailedAndParameterizedIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire2006ShadefireTransformersIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire141PluggableProvidersIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire733AllOverrridesCapturedIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire828EmptyGroupExprIT.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/runorder/PrioritizedTest.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/Scheduler.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/ConcurrentRunListener.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/NullBalancer.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgVersionsIT.java",
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/SurefireSchemaValidationTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire376TestNgAfterSuiteFailureIT.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/stream/MalformedChannelException.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire839TestWithoutCategoriesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire818NpeIgnoresTestsIT.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/testset/TestFilter.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1733TestngIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1964IT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/UnicodeTestNamesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformEnginesIT.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/booter/ProviderParameterNames.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1158RemoveInfoLinesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire674BuildFailingWhenErrorsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ArgLinePropertiesIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/pc/ParallelComputerBuilderTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/spi/SPImpl2.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/RunnerCounter.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1585IT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/Balancer.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/UseIsolatedClassLoaderIT.java",
+            "surefire-providers/common-junit48/src/test/java/org/apache/maven/surefire/common/junit48/tests/ATest.java",
+            "surefire-grouper/src/main/java/org/apache/maven/surefire/group/match/InverseGroupMatcher.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/spi/ExistingServiceInterface.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgCustomTestRunnerFactoryIT.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/TestPlanScannerFilter.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/api/testdata/java/javascript/DataJavaZT4A.java",
+            "surefire-providers/common-java5/src/test/java/org/apache/maven/surefire/report/OutermostClass.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire930TestNgSuiteXmlIT.java",
+            "surefire-providers/common-junit48/src/test/java/org/apache/maven/surefire/common/junit48/tests/a/ATest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/util/DirectoryScanner.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/api/testdata/DataZT1A.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformStreamCorruptionIT.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/conf/TestNG60Configurator.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/SurefireExecutionException.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire628ConsoleOutputBeforeAndAfterClassIT.java",
+            "maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/RunResultTest.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/JUnitCoreRunListener.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestFailIfNoTestsIT.java",
+            "surefire-report-parser/src/test/java/org/apache/maven/plugins/surefire/report/ReportTestSuiteTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1055CorrectConcurrentTestCountIT.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/NativeStdErrStreamConsumer.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire740TruncatedCommaIT.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/RunListenerAdapterTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1364SystemPropertiesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1993JpmsProvidingModulesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1570ModularFailsafeIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire705ParallelForkTimeoutIT.java",
+            "surefire-providers/common-java5/src/main/java/org/apache/maven/surefire/report/StackTraceFilter.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1367AssumptionLogsIT.java",
+            "surefire-providers/surefire-testng-utils/src/main/java/org/apache/maven/surefire/testng/utils/MethodSelector.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/conf/TestNG5143Configurator.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/ForkedProcessEventListener.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire812Log4JClassLoaderIT.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/TestMethodFilter.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/testset/TestArtifactInfo.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire146ForkPerTestNoSetupIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit47RerunFailingTestWithCucumberIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/ParallelComputerUtil.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire2095FailsafeJvmCrashShouldNotBeIgnoredIT.java",
+            "surefire-providers/surefire-testng/src/test/java/org/apache/maven/surefire/testng/conf/TestNG5141ConfiguratorTest.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/ShutdownStatus.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ClasspathScopeFilteringIT.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/conf/TestNG740Configurator.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/IncludesExcludesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit47ParallelNotThreadSafeIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire901MIssingResultfileWhenNoTestsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ForkConsoleOutputWithErrorsIT.java",
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/JUnit4SuiteTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1095NpeInRunListenerIT.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/conf/TestNG5141Configurator.java",
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/SurefireReportGenerator.java",
+            "surefire-providers/common-junit48/src/test/java/org/apache/maven/surefire/common/junit48/tests/group/marker/CategoryB.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/testset/IncludedExcludedPatterns.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/conf/Configurator.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1080ParallelForkDoubleTestIT.java",
+            "surefire-providers/common-java5/src/main/java/org/apache/maven/surefire/report/ClassNameStackTraceFilter.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/ClassLoaderConfiguration.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1383ScanSessionDependenciesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ConsoleOutputIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/HelperAssertions.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/TestFramework.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/ConfigurationAwareTestNGReporter.java",
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/PluginConsoleLogger.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire772NoFailsafeReportsIT.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/ForkedProcessStringEventListener.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/TestMultipleMethodsIT.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/TestMethodFilterTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/runorder/Priority.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgGroupThreadParallelIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/WorkingDirectoryIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire621TestCountingJunit3InParallelIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/SynchronousRunner.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire832ProviderSelectionIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/pc/SchedulingStrategiesTest.java",
+            "surefire-report-parser/src/main/java/org/apache/maven/plugins/surefire/report/ReportTestCase.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/FailsafeOutputValidator.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/TestSet.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/testset/TestSetFailedException.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit44HamcrestIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire408ManualProviderSelectionIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgSuiteXmlSingleIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/TestMultipleMethodPatternsTestNGIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/Configuration.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/spi/EmptyServiceInterface.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/TestSuite.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/RunOrderIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/JUnitCoreRunListenerTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire855AllowFailsafeUseArtifactFileIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit47ParallelIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire500PuzzlingErrorIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNg740ParallelIT.java",
+            "surefire-grouper/src/main/java/org/apache/maven/surefire/group/match/GroupMatcher.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/spi/DefaultImpl.java",
+            "maven-surefire-plugin/src/test/java/org/apache/maven/plugin/surefire/SurefirePluginTest.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/pc/ParallelComputerUtilTest.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/TestNGReporter.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/TestSingleMethodIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/JUnit4SuiteTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/report/ConsoleOutputReceiverForCurrentThread.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/WrappedRunners.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire674BuildFailingWhenFailsafeErrorsIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/Concurrency.java",
+            "maven-surefire-plugin/src/main/java/org/apache/maven/plugin/surefire/SurefirePlugin.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire2032NestedSkippedIT.java",
+            "surefire-providers/common-java5/src/test/java/org/apache/maven/surefire/report/SmartStackTraceParserTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/Java9FullApiIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit4RerunFailingTestsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire649EmptyStringSystemPropertiesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire920TestFailureIgnoreWithTimeoutIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ClassPathOrderIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/AsynchronousRunner.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/PlainOldJavaClasspathIT.java",
+            "maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/JUnit4SuiteTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/DataZT2A.java",
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/AbstractSurefireReportMojo.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/LongWindowsPathIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/NonSharedThreadPoolStrategy.java",
+            "surefire-providers/surefire-testng-utils/src/test/java/testng/utils/MethodSelectorTest.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/ClassesParallelRunListener.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1036NonFilterableJUnitRunnerWithCategoriesIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/FilteringRequest.java",
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/SurefireReportOnlyMojo.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/DataZT1A.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1122ParallelAndFlakyTestsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire975DefaultVMEncodingIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/AggregateReportIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/pc/RangeMatcher.java",
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/stubs/SurefireRepMavenProjectStub2.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire162CharsetProviderIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/SpockIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/AbstractFailFastIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1265Java9IT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/JUnitCoreParametersTest.java",
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/Surefire597Test.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/PojoSimpleIT.java",
+            "surefire-providers/common-java5/src/test/java/org/apache/maven/surefire/report/ASubClass.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire634UnsettableSystemPropertiesWarningIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/TwoTestCasesIT.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/conf/TestNG510Configurator.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/NativeStdOutStreamConsumer.java",
+            "surefire-providers/common-java5/src/test/java/org/apache/maven/surefire/report/ABaseClass.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1004RunTestFromDependencyJarsTypeAndClassifierIT.java",
+            "surefire-providers/surefire-testng-utils/src/main/java/org/apache/maven/surefire/testng/utils/Stoppable.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1881IT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire2065IT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/IsRegex.java",
+            "surefire-providers/surefire-testng/src/test/java/org/apache/maven/surefire/testng/TestNGReporterTest.java",
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/stubs/SurefireRepMavenProjectStub.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ReportersIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgSuiteXmlIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/UmlautDirIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire224WellFormedXmlFailuresIT.java",
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/SurefireReportMojoTest.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/ParallelComputer.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire809GroupExpressionsIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/LogicalStream.java",
+            "surefire-providers/common-java5/src/main/java/org/apache/maven/surefire/report/NullStackTraceFilter.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/TestMethodTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire260TestWithIdenticalNamesIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/ConcurrentRunListenerTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1914XmlReportingParameterizedTestIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ForkCountTestNGIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire972BizarreNoClassDefIT.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/provider/AbstractProvider.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire926FailureWith2ProvidersIT.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/surefire/providerapi/ProviderRequirements.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire2117XmlReportingNestedIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/IntegrationTestSuiteResults.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/InvokerStrategy.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/Surefire746Test.java",
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/Utils.java",
+            "surefire-report-parser/src/test/java/org/apache/maven/plugins/surefire/report/JUnit4SuiteTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1260NewTestsPattern.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/MethodsParallelRunListener.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit47ConcurrencyIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/ExecutionStatus.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/MavenLauncher.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1136CwdPropagationInForkedModeIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/TimeoutForkedTestIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/Destroyable.java",
+            "surefire-providers/surefire-testng-utils/src/test/java/testng/utils/BaseClassSample.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/util/SurefireReflectionException.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/conf/TestNGMapConfigurator.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1053SystemPropertiesIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/MavenSurefireJUnit48RunnerTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit47RedirectOutputIT.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/TestPlanScannerFilterTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire772SpecifiedReportsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestFailIfNoTestsForkCountIT.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/util/ScannerFilter.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire847AdditionalFailureIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/AbstractJava9PlusIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit48TestCategoriesIT.java",
+            "surefire-logger-api/src/main/java/org/apache/maven/plugin/surefire/log/api/ConsoleLoggerDecorator.java",
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/LocalizedProperties.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/AbstractTestCaseIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire747MethodParallelWithSuiteCountIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgBeforeMethodFailureIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/DefaultConfigurationIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire34SecurityManagerIT.java",
+            "maven-failsafe-plugin/src/main/java/org/apache/maven/plugin/failsafe/util/FailsafeSummaryXmlUtils.java",
+            "maven-failsafe-plugin/src/main/java/org/apache/maven/plugin/failsafe/IntegrationTestMojo.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ClasspathFilteringIT.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/TestNGExecutor.java",
+            "surefire-providers/surefire-testng/src/test/java/org/apache/maven/surefire/testng/conf/TestNG513ConfiguratorTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/report/StackTraceWriter.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/report/ReporterException.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire569RunTestFromDependencyJarsIT.java",
+            "surefire-logger-api/src/main/java/org/apache/maven/plugin/surefire/log/api/ConsoleLogger.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ArgLineIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1185DoNotSpawnTestsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1426JvmCrashShouldNotBeIgnoredIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/ShutdownResult.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/booter/BiProperty.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/conf/TestNG4751Configurator.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire995CategoryInheritanceIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/JUnitCoreWrapper.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire570MultipleReportDirectoriesIT.java",
+            "surefire-providers/surefire-testng-utils/src/main/java/org/apache/maven/surefire/testng/utils/GroupMatcherMethodSelector.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgCustomObjectFactoryIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit47WithCucumberIT.java",
+            "surefire-providers/common-java5/src/test/java/org/apache/maven/surefire/report/ADifferen0tTestClass.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/spi/IDefault.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1153IncludesAndSpecifiedTestIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1024VerifyFailsafeIfTestedIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/Type.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire735ForkFailWithRedirectConsoleOutputIT.java",
+            "surefire-report-parser/src/test/java/org/apache/maven/plugins/surefire/report/SurefireReportParserTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1744AlwaysIncludeOutputLogsIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/JUnitCoreTester.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1264IT.java",
+            "maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/MarshallerUnmarshallerTest.java",
+            "surefire-providers/surefire-testng-utils/src/test/java/testng/utils/ChildClassSample.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/TestNgGroupsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/EnvironmentVariableIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/SurefireLauncher.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire2143ParameterizedSkippedIT.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/TestNGDirectoryTestSuite.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/conf/AbstractDirectConfigurator.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1135ImproveIgnoreMessageForTestNGIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire806SpecifiedTestControlsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgJdk14IT.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/conf/TestNG513Configurator.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/TestFile.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1278GroupNameEndingIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire946KillMainProcessInReusableForkIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/Junit5ModulePathIT.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/surefire/providerapi/ConfigurableProviderInfo.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgListenersIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/SurefireVerifierException.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire44InnerClassTestIT.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/spi/SPImpl1.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/AssumptionFailureReportIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ForkCountMultiModuleIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgPathWithSpacesIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/ConfigurableParallelComputerTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/WorkingDirectoryIsInvalidPropertyIT.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/DataZT3A.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/SurefireLauncherTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitDepIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1028UnableToRunSingleIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/ThreadResourcesBalancer.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/MultiModuleProjectWithJPMSIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/JUnitCoreProvider.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProviderTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/ForkCountIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1098BalancedRunOrderIT.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/MockReporter.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire377TestNgAndJUnitTogetherIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire613TestCountInParallelIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/RunOrderParallelForksIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckSingleTestIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1041FailingJUnitRunnerIT.java",
+            "surefire-logger-api/src/main/java/org/apache/maven/plugin/surefire/log/api/Level.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/api/testdata/DataZT3A.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/SchedulingStrategies.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire979WrongClassLoaderIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "c6ccef3f23185ee5d1ccc3dd46ad2690f0311867",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 608,
+        "created_at": "2023-02-05 18:13:54+00:00",
+        "commits": [
+            {
+                "sha": "7ec86f0ad17a0a79d7372a841beefc5f1c440aa8",
+                "created_at": "2023-02-05 17:47:45+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "42e168824cd73626fc3668451ce0a883b3ee9eb0",
+                "created_at": "2023-02-05 17:47:45+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "42e168824cd73626fc3668451ce0a883b3ee9eb0",
+        "changed_files": [
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire2065IT.java",
+            "surefire-its/src/test/resources/surefire-2065-junit5/src/test/java/pkg/junit5/ParameterizedWithDisplayNameTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/TestFile.java",
+            "surefire-its/src/test/resources/surefire-2065-common/src/test/java/pkg/junit4/ParameterizedWithDisplayNameTest.java",
+            "surefire-its/src/test/resources/surefire-2065-junit4/src/test/java/pkg/junit4/ParameterizedWithDisplayNameTest.java",
+            "surefire-its/src/test/resources/surefire-2065-junit5/src/test/java/pkg/junit5/ParameterizedTest.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/RunListenerAdapter.java",
+            "surefire-its/src/test/resources/surefire-2065-common/src/test/java/pkg/junit5/ParameterizedTest.java",
+            "surefire-its/src/test/resources/surefire-2065-common/src/test/java/pkg/junit5/ParameterizedWithDisplayNameTest.java",
+            "surefire-its/src/test/resources/surefire-2065-junit4/src/test/java/pkg/junit4/ParameterizedTest.java",
+            "surefire-its/src/test/resources/surefire-2065-common/src/test/java/pkg/junit4/ParameterizedTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "7ec86f0ad17a0a79d7372a841beefc5f1c440aa8",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 596,
+        "created_at": "2023-01-26 18:42:00+00:00",
+        "commits": [
+            {
+                "sha": "7e6f5fb332615181d37d7b80b2b3a89d0d4e4dfb",
+                "created_at": "2023-01-26 19:40:11+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "7e6f5fb332615181d37d7b80b2b3a89d0d4e4dfb",
+        "changed_files": [
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/Surefire597Test.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/api/testset/FundamentalFilterTest.java",
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/SurefireReportGenerator.java"
+        ],
+        "moved_files": [],
+        "start_commit": "2c8fe402c11773c1bc75166327c3b5c4bf520d9e",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 564,
+        "created_at": "2022-09-19 12:29:28+00:00",
+        "commits": [
+            {
+                "sha": "0498b2ef68b5b6854d4741254a06dcc3083db104",
+                "created_at": "2022-09-19 14:28:49+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "2523eef51e8fab034e8ec151e28d8b92ab882294",
+                "created_at": "2022-09-19 15:10:55+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "0498b2ef68b5b6854d4741254a06dcc3083db104",
+        "changed_files": [
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/RunListenerAdapterTest.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/RunListenerAdapter.java"
+        ],
+        "moved_files": [],
+        "start_commit": "a0944d06431f230e6b50d96c7a2ddc6abbb72631",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 555,
+        "created_at": "2022-07-10 10:41:19+00:00",
+        "commits": [
+            {
+                "sha": "35a772467131bdee4a4af06524723daa7eb9296d",
+                "created_at": "2022-07-10 12:07:40+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "35a772467131bdee4a4af06524723daa7eb9296d",
+        "changed_files": [
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/SurefireReportMojoTest.java",
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/SurefireReportGenerator.java"
+        ],
+        "moved_files": [],
+        "start_commit": "6f0fb404f89728fb65f37c9db7711fff6af55d5d",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 548,
+        "created_at": "2022-06-17 12:37:06+00:00",
+        "commits": [
+            {
+                "sha": "54cc010b353402e8767222b89e07712a481d9fe3",
+                "created_at": "2022-06-17 14:35:01+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "54cc010b353402e8767222b89e07712a481d9fe3",
+        "changed_files": [
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/AbstractSurefireReportMojo.java"
+        ],
+        "moved_files": [],
+        "start_commit": "6f0fb404f89728fb65f37c9db7711fff6af55d5d",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 545,
+        "created_at": "2022-06-07 09:13:16+00:00",
+        "commits": [
+            {
+                "sha": "9fe7276b20d1a297adde5130bb2fa3c4fa614a8a",
+                "created_at": "2022-06-07 01:51:56-07:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "9fe7276b20d1a297adde5130bb2fa3c4fa614a8a",
+        "changed_files": [
+            "maven-failsafe-plugin/src/main/java/org/apache/maven/plugin/failsafe/VerifyMojo.java",
+            "maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/VerifyMojoTest.java",
+            "surefire-its/src/test/resources/surefire-2095-failsafe-jvm-crash/src/test/java/PojoIT.java",
+            "maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/JUnit4SuiteTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire2095FailsafeJvmCrashShouldNotBeIgnoredIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "7668133b0cae848cdcd0368618e0f99dc1a532ce",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 527,
+        "created_at": "2022-04-24 14:08:46+00:00",
+        "commits": [
+            {
+                "sha": "ce3d3ffbf09b9a19b6fbd4ffc37dd3452cc048e3",
+                "created_at": "2022-04-24 16:05:14+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "a8a020cf85e1c4eaca71aa88d8c056d5b416ecef",
+                "created_at": "2022-04-24 22:05:06+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "ce3d3ffbf09b9a19b6fbd4ffc37dd3452cc048e3",
+        "changed_files": [
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/DefaultForkConfigurationTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/DefaultForkConfiguration.java"
+        ],
+        "moved_files": [],
+        "start_commit": "0e08169214b78fc107c547728c5dd684b5d32d55",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 515,
+        "created_at": "2022-04-06 19:07:56+00:00",
+        "commits": [
+            {
+                "sha": "69aaf56b24634795339d6aecd55d63184a35eea0",
+                "created_at": "2022-04-06 21:00:18+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "69aaf56b24634795339d6aecd55d63184a35eea0",
+        "changed_files": [
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformRerunFailingTestsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformStreamCorruptionIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNgListenerReporterIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/CheckTestNg740ParallelIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/RunOrderIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/SurefireLauncherTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/SpockIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire673MockitoIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit47WithCucumberIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit47RerunFailingTestWithCucumberIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformEnginesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/SurefireLauncher.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/SurefireJUnit4IntegrationTestCase.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire260TestWithIdenticalNamesIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1914XmlReportingParameterizedTestIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1585IT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "f2d28b80218dc3f9b1222d212ef4fce080faed57",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 508,
+        "created_at": "2022-04-04 23:09:54+00:00",
+        "commits": [
+            {
+                "sha": "b0fac300837374f538d64ad216c4d50cb5316787",
+                "created_at": "2022-04-05 09:09:24+10:00",
+                "is_pull": false
+            },
+            {
+                "sha": "ca7b84f8163d1a0edd3fb60b855031bcb101022f",
+                "created_at": "2022-04-05 09:18:55+10:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "b0fac300837374f538d64ad216c4d50cb5316787",
+        "changed_files": [
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/AbstractSurefireMojoJava7PlusTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java"
+        ],
+        "moved_files": [],
+        "start_commit": "6e60b0389814d8361e453092d3b18f52c3e4bcb1",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 507,
+        "created_at": "2022-04-04 20:09:29+00:00",
+        "commits": [
+            {
+                "sha": "002aa3e9dcc71797cf7436348c83c2329d8d5bf4",
+                "created_at": "2022-04-04 22:07:06+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "002aa3e9dcc71797cf7436348c83c2329d8d5bf4",
+        "changed_files": [
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/MavenLauncher.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire772NoFailsafeReportsIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "b1615a95e46cadbc62d3cf5d52ee08a2f3f205fe",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 502,
+        "created_at": "2022-03-27 22:54:46+00:00",
+        "commits": [
+            {
+                "sha": "0bbbe354ea101502ef3074405fd59970f5a239f4",
+                "created_at": "2022-03-28 00:51:05+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "0bbbe354ea101502ef3074405fd59970f5a239f4",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java"
+        ],
+        "moved_files": [],
+        "start_commit": "a38bfcc03bb9fe9cfb73ddf1dd60e8522982a973",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 497,
+        "created_at": "2022-03-23 17:40:09+00:00",
+        "commits": [
+            {
+                "sha": "7ede48c0fdf4ec7ea65f0a9589d313609459f2f7",
+                "created_at": "2022-03-23 18:38:20+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "7ede48c0fdf4ec7ea65f0a9589d313609459f2f7",
+        "changed_files": [
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/testset/TestListResolver.java"
+        ],
+        "moved_files": [],
+        "start_commit": "d3e1fcb5d780026fea385b41486c4191d6d81112",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 490,
+        "created_at": "2022-03-14 22:30:37+00:00",
+        "commits": [
+            {
+                "sha": "96d4eef46826f8db860401c84012c6d8009e3963",
+                "created_at": "2022-03-14 21:58:40+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "f4ee9aa809fc5b41ac24d468b400f9e26605be2a",
+                "created_at": "2022-03-14 23:22:12+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "f4ee9aa809fc5b41ac24d468b400f9e26605be2a",
+        "changed_files": [
+            "maven-surefire-plugin/src/main/java/org/apache/maven/plugin/surefire/SurefirePlugin.java",
+            "maven-failsafe-plugin/src/main/java/org/apache/maven/plugin/failsafe/IntegrationTestMojo.java"
+        ],
+        "moved_files": [],
+        "start_commit": "96d4eef46826f8db860401c84012c6d8009e3963",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 473,
+        "created_at": "2022-02-17 13:23:06+00:00",
+        "commits": [
+            {
+                "sha": "7e90855da20e6b27781e7cae0ccd7834010850c5",
+                "created_at": "2022-02-17 14:07:15+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "7e90855da20e6b27781e7cae0ccd7834010850c5",
+        "changed_files": [
+            "surefire-its/src/test/resources/junit5-modulepath/src/test/java/com/app/AppTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/ModularClasspathForkConfigurationTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/Junit5ModulePathIT.java",
+            "surefire-its/src/test/resources/junit5-modulepath/src/main/java/com/app/Main.java",
+            "surefire-its/src/test/resources/junit5-modulepath/src/main/java/module-info.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/ModularClasspathForkConfiguration.java"
+        ],
+        "moved_files": [],
+        "start_commit": "283ce4f37d1bcffe82b9528fcfd8abd875d01197",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 468,
+        "created_at": "2022-02-12 10:11:11+00:00",
+        "commits": [
+            {
+                "sha": "21b7e2bf82abfd494f6c84e5ee3a1d4f9a8ee6e9",
+                "created_at": "2022-02-11 18:45:46+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "21b7e2bf82abfd494f6c84e5ee3a1d4f9a8ee6e9",
+        "changed_files": [
+            "surefire-api/src/test/java/org/apache/maven/surefire/api/stream/AbstractStreamDecoderTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "f243cd2799af5a7d5e4468726a9b466eaec8038f",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 454,
+        "created_at": "2022-01-31 01:22:28+00:00",
+        "commits": [
+            {
+                "sha": "f49b3bd42ff78f15d8021dc05b316ea29f5a2900",
+                "created_at": "2022-01-31 02:21:04+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "f49b3bd42ff78f15d8021dc05b316ea29f5a2900",
+        "changed_files": [
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/ForkedBooterTest.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/PpidCheckerTest.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/ProcessInfo.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/ForkedBooter.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/ForkedBooterMockTest.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/PpidChecker.java"
+        ],
+        "moved_files": [],
+        "start_commit": "54a9b170106fc1d07ce48bf574c9c1b025dd872e",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 444,
+        "created_at": "2022-01-18 14:38:10+00:00",
+        "commits": [
+            {
+                "sha": "a974951253211d3b3f1949728ea18f39c94b2f5d",
+                "created_at": "2022-01-18 13:34:37+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "cd0db5bb4e7d8c1070dddea35643c0f04819cf41",
+                "created_at": "2022-01-18 13:52:47+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "0e7a836ef12e4ed6296e530d9eef91b49fa70fa4",
+                "created_at": "2022-01-18 13:53:56+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "b1e7a78f7611bd01d593a95eb63b9af377ff5b8d",
+                "created_at": "2022-01-18 23:16:04+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "0e7a836ef12e4ed6296e530d9eef91b49fa70fa4",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/StatelessXmlReporter.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/DefaultForkConfiguration.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/ForkConfigurationTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/ThreadedStreamConsumer.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1367AssumptionLogsIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "cd0db5bb4e7d8c1070dddea35643c0f04819cf41",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 435,
+        "created_at": "2022-01-08 15:43:51+00:00",
+        "commits": [
+            {
+                "sha": "bd5c6304a2382d2804f1afe7dd1fbb5bbce2af83",
+                "created_at": "2022-01-08 16:36:23+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "bd5c6304a2382d2804f1afe7dd1fbb5bbce2af83",
+        "changed_files": [
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/ClasspathTest.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/NewClassLoaderRunner.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/Classpath.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/IsolatedClassLoaderTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "e969bef5bb7fbfa53cc80d546198205bebbe460b",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 412,
+        "created_at": "2021-12-20 19:13:27+00:00",
+        "commits": [
+            {
+                "sha": "ea96b528e3d07a3db009df9e707571f5bbce9ecc",
+                "created_at": "2021-12-20 18:02:43+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "ea96b528e3d07a3db009df9e707571f5bbce9ecc",
+        "changed_files": [
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/SurefireDependencyResolverTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "0fb5ab5a1767b0987943fee2286ffc4f57e0d0f9",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 396,
+        "created_at": "2021-11-15 19:41:35+00:00",
+        "commits": [
+            {
+                "sha": "9fc48765ce15ff6940bd7f2dd6e46cf5d7aab36f",
+                "created_at": "2021-11-15 20:35:49+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "9fc48765ce15ff6940bd7f2dd6e46cf5d7aab36f",
+        "changed_files": [
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/SurefireDependencyResolverTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/SurefireDependencyResolver.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/AbstractSurefireMojoTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "970103a9a8738cadaa282f62ef67644c0169e680",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 392,
+        "created_at": "2021-11-02 18:02:59+00:00",
+        "commits": [
+            {
+                "sha": "66cc77ddeba946619d2077ddd662f2f61051576a",
+                "created_at": "2021-11-02 18:51:26+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "66cc77ddeba946619d2077ddd662f2f61051576a",
+        "changed_files": [
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/report/ReportEntry.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire621TestCountingJunit3InParallelIT.java",
+            "maven-failsafe-plugin/src/main/java/org/apache/maven/plugin/failsafe/VerifyMojo.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/SystemUtils.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/SchedulingStrategies.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/ThreadResourcesBalancer.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/SchedulingStrategy.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/AbstractPathConfiguration.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/Scheduler.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/ParallelComputerBuilder.java"
+        ],
+        "moved_files": [],
+        "start_commit": "573d44926a28ce13345da19ed813510f1725f159",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 332,
+        "created_at": "2021-01-26 10:11:14+00:00",
+        "commits": [
+            {
+                "sha": "47878b9f43ccab00f4d24a89a44d16b31b24fc91",
+                "created_at": "2021-01-26 17:10:13+07:00",
+                "is_pull": false
+            },
+            {
+                "sha": "c749b63509fce01ec3bec01e381c1ac22ed6df85",
+                "created_at": "2021-01-27 08:42:50+07:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "47878b9f43ccab00f4d24a89a44d16b31b24fc91",
+        "changed_files": [
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/stream/AbstractStreamDecoder.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/spi/EventChannelEncoder.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/spi/EventChannelEncoderTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/stream/AbstractStreamEncoder.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/api/util/internal/ChannelsReaderTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/util/internal/Channels.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/api/stream/AbstractStreamEncoderTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/report/StatelessXmlReporterTest.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/ForkedBooterMockTest.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/api/stream/AbstractStreamDecoderTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/Utf8RecodingDeferredFileOutputStream.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/extensions/StreamFeederTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/extensions/EventConsumerThreadTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/extensions/SurefireForkChannel.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/util/internal/AbstractNoninterruptibleWritableChannel.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/api/util/internal/ChannelsWriterTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "f14fa54b9eba073c8c896a829fac1c2037b34222",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 314,
+        "created_at": "2020-09-21 16:47:21+00:00",
+        "commits": [
+            {
+                "sha": "dc007b78303ec75a3c03761678f4a241e374d225",
+                "created_at": "2020-09-21 17:41:19+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "dc007b78303ec75a3c03761678f4a241e374d225",
+        "changed_files": [
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/JUnitCoreProviderTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/util/TestsToRun.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/api/provider/ProviderParameters.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/JUnitCoreProvider.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/api/booter/BaseProviderFactoryTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "5b09e9472576608ca27796b12ae7935f5d7bce82",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 302,
+        "created_at": "2020-06-21 00:38:02+00:00",
+        "commits": [
+            {
+                "sha": "4fccdd18b8451a4ec985689942896870cc56fc4a",
+                "created_at": "2020-06-21 02:36:31+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "4fccdd18b8451a4ec985689942896870cc56fc4a",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/extensions/SurefireForkChannel.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/extensions/ForkChannelTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "501896cf3022ec7becdfda63b6269a2be654e663",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 298,
+        "created_at": "2020-05-13 17:19:41+00:00",
+        "commits": [
+            {
+                "sha": "637ec3f660e36536ab75a94fa2350c930093ece6",
+                "created_at": "2020-05-13 19:07:30+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "637ec3f660e36536ab75a94fa2350c930093ece6",
+        "changed_files": [
+            "maven-surefire-plugin/src/main/java/org/apache/maven/plugin/surefire/SurefirePlugin.java"
+        ],
+        "moved_files": [],
+        "start_commit": "7468f5c01105c026ee48f89724c52a884ed4f9e9",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 287,
+        "created_at": "2020-04-26 13:56:33+00:00",
+        "commits": [
+            {
+                "sha": "7ad0d2e23bb4d8a75a21e33099f611486d167863",
+                "created_at": "2020-04-26 09:55:47-04:00",
+                "is_pull": false
+            },
+            {
+                "sha": "0a204362202ac787fbbebc2ca6247ac0dc4a3edc",
+                "created_at": "2020-04-26 10:24:40-04:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "7ad0d2e23bb4d8a75a21e33099f611486d167863",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/lazytestprovider/OutputStreamFlushableCommandline.java"
+        ],
+        "moved_files": [],
+        "start_commit": "f64ca98a09e378318118bbd984d3ebacf8749318",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 286,
+        "created_at": "2020-04-25 15:31:49+00:00",
+        "commits": [
+            {
+                "sha": "a71e86a8f49116140b24aa40eeacf2a828620b2d",
+                "created_at": "2020-04-25 17:31:27+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "a71e86a8f49116140b24aa40eeacf2a828620b2d",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java"
+        ],
+        "moved_files": [],
+        "start_commit": "deb9586f0d5779ee12650ac5460305ab8202a940",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 277,
+        "created_at": "2020-03-23 14:18:23+00:00",
+        "commits": [
+            {
+                "sha": "0b035fec6010ac4877cd6adeef3cc52097155d1e",
+                "created_at": "2020-03-23 15:17:34+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "0b035fec6010ac4877cd6adeef3cc52097155d1e",
+        "changed_files": [
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/TestNGExecutor.java"
+        ],
+        "moved_files": [],
+        "start_commit": "5534bd7590af1e3ff8b7706e788a1c2214e70141",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 276,
+        "created_at": "2020-03-22 20:14:49+00:00",
+        "commits": [
+            {
+                "sha": "8ae235f8f9099f6f07f7fc23d3c0e971448a7192",
+                "created_at": "2020-03-22 21:02:31+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "8ae235f8f9099f6f07f7fc23d3c0e971448a7192",
+        "changed_files": [
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/TestNGExecutor.java"
+        ],
+        "moved_files": [],
+        "start_commit": "10b257825cafcbc0ea8e99902989b2497f606d38",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 273,
+        "created_at": "2020-03-02 13:31:46+00:00",
+        "commits": [
+            {
+                "sha": "2b827a5722ac1bfbbfbc0d547c4fee93d44bc494",
+                "created_at": "2020-03-02 14:07:11+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "2b827a5722ac1bfbbfbc0d547c4fee93d44bc494",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java"
+        ],
+        "moved_files": [],
+        "start_commit": "220652a04acf12f02245ef51b740b82c64d16c15",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 270,
+        "created_at": "2020-02-10 17:28:37+00:00",
+        "commits": [
+            {
+                "sha": "eaf5ade13dbab7bd75e8a5ed301011f3de6d7155",
+                "created_at": "2020-02-10 18:21:06+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "eaf5ade13dbab7bd75e8a5ed301011f3de6d7155",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java"
+        ],
+        "moved_files": [],
+        "start_commit": "a341e1327dea792917d5a8678323ad8eee003e63",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 269,
+        "created_at": "2020-02-05 10:33:35+00:00",
+        "commits": [
+            {
+                "sha": "08f457cf5a27bbd91cf19d2a574db3aae2ca46f0",
+                "created_at": "2020-02-05 01:32:48-08:00",
+                "is_pull": false
+            },
+            {
+                "sha": "7cd7c860c2ae11e04badb6a5d7848b7a29a9baee",
+                "created_at": "2020-02-05 01:39:54-08:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "7cd7c860c2ae11e04badb6a5d7848b7a29a9baee",
+        "changed_files": [
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/output/ForkedChannelDecoderTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformEnginesIT.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/ForkedChannelDecoder.java",
+            "surefire-its/src/test/resources/surefire-1748-fail-no-parameters/src/test/java/jira1748/AssertionsFailNoParametersJupiterTest.java",
+            "surefire-its/src/test/resources/surefire-1748/src/test/java/jira1748/AssertionsFailEmptyStringParameterJupiterTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "08f457cf5a27bbd91cf19d2a574db3aae2ca46f0",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 267,
+        "created_at": "2020-01-24 10:39:08+00:00",
+        "commits": [
+            {
+                "sha": "136f79ee4ca739129f408a581398018bbf774247",
+                "created_at": "2020-01-24 00:47:18-08:00",
+                "is_pull": false
+            },
+            {
+                "sha": "38ad13f5a6a628282064d1b0976e1ea69a135b0e",
+                "created_at": "2020-01-24 00:53:27-08:00",
+                "is_pull": false
+            },
+            {
+                "sha": "6df45c50e06b396504b0a846a59a60052f0177ff",
+                "created_at": "2020-01-25 02:57:08-08:00",
+                "is_pull": false
+            },
+            {
+                "sha": "3a9b530e872f729cf9c97f60308dad380f522ff4",
+                "created_at": "2020-01-29 21:53:31-08:00",
+                "is_pull": false
+            },
+            {
+                "sha": "fe6cf7d9039f22da57ab6555d5a299aa5f9fe74b",
+                "created_at": "2020-01-30 00:18:12-08:00",
+                "is_pull": false
+            },
+            {
+                "sha": "5d4f74eb5def3a7fb41b11c20e1754368c8e18e5",
+                "created_at": "2020-01-30 23:32:54-08:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "38ad13f5a6a628282064d1b0976e1ea69a135b0e",
+        "changed_files": [
+            "surefire-its/src/test/resources/surefire-1741/src/test/java/jira1741/ErrorInParameterizedSourceJupiterTest.java",
+            "surefire-its/src/test/resources/surefire-1727/src/test/java/jira1727/ErrorInTestProvider.java",
+            "surefire-its/src/test/resources/surefire-1741/src/test/java/jira1741/ErrorInBeforeAllJupiterTest.java",
+            "surefire-its/src/test/resources/surefire-1727/src/test/java/jira1727/ErrorInTestTemplateProviderTest.java",
+            "surefire-its/src/test/resources/surefire-1727/src/test/java/jira1727/ErrorInTestFactoryJupiterTest.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/RunListenerAdapterTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformEnginesIT.java",
+            "surefire-its/src/test/resources/surefire-1741/src/test/java/jira1741/FailureInParameterizedSourceJupiterTest.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProviderTest.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/RunListenerAdapter.java",
+            "surefire-its/src/test/resources/surefire-1727/src/test/java/jira1727/FailureInTestFactoryJupiterTest.java",
+            "surefire-its/src/test/resources/surefire-1727/src/test/java/jira1727/FailureInTestTemplateProviderTest.java",
+            "surefire-its/src/test/resources/surefire-1727/src/test/java/jira1727/FailureInTestProvider.java"
+        ],
+        "moved_files": [],
+        "start_commit": "136f79ee4ca739129f408a581398018bbf774247",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 266,
+        "created_at": "2020-01-20 21:32:56+00:00",
+        "commits": [
+            {
+                "sha": "1f2812923474169986cba520041ae142df349122",
+                "created_at": "2020-01-20 22:32:38+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "1f2812923474169986cba520041ae142df349122",
+        "changed_files": [
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "acf7733a798359c6570a194fd21951eae9b0d7ab",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 265,
+        "created_at": "2020-01-20 14:06:18+00:00",
+        "commits": [
+            {
+                "sha": "4a297a3f2151a72bc14af2cde6396b779116f4ad",
+                "created_at": "2020-01-20 15:05:32+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "4a297a3f2151a72bc14af2cde6396b779116f4ad",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/util/FileScanner.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/ProcessCheckerType.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/booter/Command.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/SurefireBooterForkException.java",
+            "maven-failsafe-plugin/src/main/java/org/apache/maven/plugin/failsafe/util/FailsafeSummaryXmlUtils.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/util/internal/StringUtils.java",
+            "surefire-extensions-api/src/main/java/org/apache/maven/surefire/extensions/ConsoleOutputReporter.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/WrappedReportEntry.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/TestNGExecutor.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/SurefireProperties.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/booter/CommandReader.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/FileReporter.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/util/internal/ClassMethod.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/PropertiesWrapper.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/TestNGDirectoryTestSuite.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/ForkClient.java",
+            "surefire-providers/common-junit48/src/main/java/org/apache/maven/surefire/common/junit48/FilterFactory.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/StatelessXmlReporter.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/ForkedChannelDecoder.java",
+            "surefire-extensions-api/src/main/java/org/apache/maven/surefire/extensions/StatelessReporter.java",
+            "surefire-providers/common-junit4/src/main/java/org/apache/maven/surefire/common/junit4/JUnit4RunListenerFactory.java"
+        ],
+        "moved_files": [],
+        "start_commit": "acf7733a798359c6570a194fd21951eae9b0d7ab",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 260,
+        "created_at": "2020-01-03 01:44:39+00:00",
+        "commits": [
+            {
+                "sha": "d250347f09932d142d9f270d418432b797973b83",
+                "created_at": "2020-01-02 19:30:33+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "d250347f09932d142d9f270d418432b797973b83",
+        "changed_files": [
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit4VersionsIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit47RerunFailingTestWithCucumberIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitVersion.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnit4RerunFailingTestsIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "5148b02ba552cd79ac212b869dec10d01ba4d2e6",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 258,
+        "created_at": "2019-11-29 02:00:28+00:00",
+        "commits": [
+            {
+                "sha": "a14ba0875fe3b2ee97b0741d05b16f6c92173a15",
+                "created_at": "2019-11-29 02:50:58+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "a14ba0875fe3b2ee97b0741d05b16f6c92173a15",
+        "changed_files": [
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformIT.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/RunListenerAdapterTest.java",
+            "surefire-its/src/test/resources/junit-platform-tags/src/test/java/tags/JUnitPlatformWithTagsTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformEnginesIT.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProviderTest.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/RunListenerAdapter.java",
+            "surefire-its/src/test/resources/surefire-1688/src/test/java/jira1688/FailingBeforeAllJupiterTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "f673d2422105d4f2f3b60ae70e107c56c022ceff",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 252,
+        "created_at": "2019-11-03 22:45:05+00:00",
+        "commits": [
+            {
+                "sha": "fb52242afed4b84d4bc169b6e6c7c9f0ee5da4e7",
+                "created_at": "2019-11-03 17:41:16-05:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "fb52242afed4b84d4bc169b6e6c7c9f0ee5da4e7",
+        "changed_files": [
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProvider.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProviderTest.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/RunListenerAdapter.java"
+        ],
+        "moved_files": [],
+        "start_commit": "2bea7c81f16a4ebe6026f0a629340cc1fe63d5e5",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 244,
+        "created_at": "2019-08-15 11:05:54+00:00",
+        "commits": [
+            {
+                "sha": "014810a7535b75303c267d4e0b0bf823d9761c99",
+                "created_at": "2019-08-15 12:02:13+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "014810a7535b75303c267d4e0b0bf823d9761c99",
+        "changed_files": [
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/AbstractSurefireMojoTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/ClasspathCache.java"
+        ],
+        "moved_files": [],
+        "start_commit": "12a10d2cb84525299485db394ffb318c640df5ba",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 239,
+        "created_at": "2019-06-10 08:53:59+00:00",
+        "commits": [
+            {
+                "sha": "3b8e997d2745da1c4e1cccecc02f26d83d003b81",
+                "created_at": "2019-06-09 23:31:47+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "3b8e997d2745da1c4e1cccecc02f26d83d003b81",
+        "changed_files": [
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/SurefireReportMojoTest.java",
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/Surefire597Test.java",
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/Surefire1183Test.java"
+        ],
+        "moved_files": [],
+        "start_commit": "3fec166a81ac200c6b5854c96785abad27024c57",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 232,
+        "created_at": "2019-05-23 17:15:26+00:00",
+        "commits": [
+            {
+                "sha": "fd2f7fd8a2676303b2feaede3f7af032e023f723",
+                "created_at": "2019-05-23 18:04:05+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "d1325d14c5e05f52a2fb125e4ef557dfb9e9d0dd",
+                "created_at": "2019-05-23 18:04:16+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "ad1b306c33dc541f1b63a2ffb8e68712aa31f3e5",
+                "created_at": "2019-05-23 18:04:16+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "deae79575b6846dddee53ccd3d4e28fc8133dc6f",
+                "created_at": "2019-05-23 18:27:09+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "d624dadcaaac18e8a26517400e16143fa6cc2f11",
+                "created_at": "2019-05-23 19:03:52+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "d624dadcaaac18e8a26517400e16143fa6cc2f11",
+        "changed_files": [
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/report/DefaultReporterFactoryTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/extensions/SurefireStatelessTestsetInfoReporter.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/output/ForkClientTest.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/NonConcurrentRunListener.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/extensions/junit5/JUnit5StatelessTestsetInfoReporter.java",
+            "surefire-providers/surefire-junit3/src/main/java/org/apache/maven/surefire/junit/JUnit3Provider.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/output/ForkedChannelDecoderTest.java",
+            "surefire-providers/surefire-junit4/src/main/java/org/apache/maven/surefire/junit4/JUnit4Provider.java",
+            "surefire-report-parser/src/test/java/org/apache/maven/plugins/surefire/report/JUnit4SuiteTest.java",
+            "surefire-extensions-api/src/main/java/org/apache/maven/surefire/extensions/ConsoleOutputReporter.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/JUnit47SuiteTest.java",
+            "surefire-extensions-api/src/main/java/org/apache/maven/surefire/extensions/StatelessTestsetInfoFileReportEventListener.java",
+            "surefire-logger-api/src/test/java/org/apache/maven/plugin/surefire/log/api/LoggersTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/FileReporter.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/CommonReflector.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/TestSet.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/JUnit4SuiteTest.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/booter/NewClassLoaderRunner.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/SurefireReflectorTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/report/StatelessXmlReporterTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/MojoMocklessTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/ForkedChannelDecoder.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/SurefireDependencyResolver.java",
+            "surefire-extensions-api/src/main/java/org/apache/maven/surefire/extensions/StatelessReporter.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/SystemUtilsTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/extensions/SurefireConsoleOutputReporter.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/TestSuite.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/runorder/RunEntryStatisticsMapTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformEnginesIT.java",
+            "surefire-logger-api/src/main/java/org/apache/maven/plugin/surefire/log/api/ConsoleLoggerDecorator.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/TestcycleConsoleOutputReceiver.java",
+            "surefire-extensions-api/src/main/java/org/apache/maven/surefire/extensions/StatelessReportMojoConfiguration.java",
+            "surefire-providers/common-junit48/src/test/java/org/apache/maven/surefire/common/junit48/JUnit4SuiteTest.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/booter/Foo.java",
+            "maven-surefire-plugin/src/test/java/org/apache/maven/plugin/surefire/SurefirePluginTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/DirectConsoleOutput.java",
+            "surefire-providers/surefire-testng/src/main/java/org/apache/maven/surefire/testng/TestNGReporter.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/extensions/StatelessTestsetInfoReporterTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/extensions/ConsoleOutputReporterTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/JarManifestForkConfigurationTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/DefaultReporterFactory.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/NewClassLoaderRunner.java",
+            "surefire-providers/common-junit4/src/main/java/org/apache/maven/surefire/common/junit4/JUnit4RunListener.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/NullConsoleReporter.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/report/FileReporterTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/NullConsoleOutputReceiver.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/NullFileReporter.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/Foo.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/extensions/StatelessReporterTest.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/JUnit47SuiteTest.java",
+            "maven-surefire-plugin/src/main/java/org/apache/maven/plugin/surefire/SurefirePlugin.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformIT.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/report/CategorizedReportEntry.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/report/ReportEntry.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/AbstractSurefireMojoTest.java",
+            "surefire-api/src/test/java/org/apache/maven/JUnit4SuiteTest.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/booter/ForkedChannelEncoderTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/SurefireDependencyResolverTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/report/WrappedReportEntryTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/booter/ForkedChannelEncoder.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/ThreadedStreamConsumer.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/RunListenerAdapterTest.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/JUnitCoreTester.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/RunListenerAdapter.java",
+            "surefire-its/src/test/resources/junit-platform-engine-jupiter/src/test/java/junitplatformenginejupiter/DisplayNameTest.java",
+            "surefire-extensions-api/src/main/java/org/apache/maven/surefire/extensions/ConsoleOutputReportEventListener.java",
+            "surefire-logger-api/src/test/java/org/apache/maven/plugin/surefire/log/api/LevelTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/AbstractSurefireMojoJava7PlusTest.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/util/ReflectionUtilsTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/report/SimpleReportEntry.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/TestSetRunListener.java",
+            "surefire-extensions-api/src/main/java/org/apache/maven/surefire/extensions/StatelessReportEventListener.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/ForkClient.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/util/ReflectionUtils.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/report/TestSetStatsTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/extensions/junit5/JUnit5ConsoleOutputReporter.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/SurefireReflectorTest.java",
+            "surefire-extensions-api/src/main/java/org/apache/maven/surefire/extensions/StatelessTestsetInfoConsoleReportEventListener.java",
+            "surefire-extensions-api/src/main/java/org/apache/maven/surefire/extensions/StatelessTestsetInfoReporter.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/SurefireHelperTest.java",
+            "surefire-providers/surefire-junit3/src/main/java/org/apache/maven/surefire/junit/PojoTestSet.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/NullStatelessXmlReporter.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/CommonReflectorTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/extensions/DefaultStatelessReportMojoConfiguration.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/report/ConsoleOutputFileReporterTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/ConsoleOutputFileReporter.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/extensions/SurefireStatelessReporter.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/TestSetMockReporterFactory.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/TestSetStats.java",
+            "surefire-providers/surefire-junit4/src/test/java/org/apache/maven/surefire/junit4/JUnit4SuiteTest.java",
+            "maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/IntegrationTestMojoTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/surefire/JUnit4SuiteTest.java",
+            "surefire-providers/surefire-junit4/src/test/java/org/apache/maven/surefire/junit4/JUnit4ProviderTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/ConsoleReporter.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/WrappedReportEntry.java",
+            "maven-surefire-report-plugin/src/test/java/org/apache/maven/plugins/surefire/report/JUnit4SuiteTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/ForkingRunListenerTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/DefaultForkConfigurationTest.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/booter/CommandReaderTest.java",
+            "surefire-logger-api/src/test/java/org/apache/maven/plugin/surefire/log/api/JUnit4SuiteTest.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/booter/SurefireReflector.java",
+            "surefire-providers/surefire-junit3/src/main/java/org/apache/maven/surefire/junit/TestListenerInvocationHandler.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/StatelessXmlReporter.java",
+            "surefire-booter/src/test/java/org/apache/maven/surefire/booter/CommandReaderTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/StartupReportConfiguration.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/extensions/junit5/JUnit5Xml30StatelessReporter.java",
+            "surefire-providers/surefire-junit47/src/test/java/org/apache/maven/surefire/junitcore/TestMethodTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/surefire/report/RunStatistics.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/booter/SurefireReflectorTest.java",
+            "surefire-logger-api/src/test/java/org/apache/maven/plugin/surefire/log/api/ConsoleLoggerUtilsTest.java"
+        ],
+        "moved_files": [
+            {
+                "old_filename": "surefire-booter/src/test/java/org/apache/maven/surefire/booter/CommandReaderTest.java",
+                "new_filename": "surefire-api/src/test/java/org/apache/maven/surefire/booter/CommandReaderTest.java"
+            },
+            {
+                "old_filename": "surefire-booter/src/test/java/org/apache/maven/surefire/booter/Foo.java",
+                "new_filename": "surefire-api/src/test/java/org/apache/maven/surefire/booter/Foo.java"
+            },
+            {
+                "old_filename": "surefire-booter/src/test/java/org/apache/maven/surefire/booter/NewClassLoaderRunner.java",
+                "new_filename": "surefire-api/src/test/java/org/apache/maven/surefire/booter/NewClassLoaderRunner.java"
+            }
+        ],
+        "start_commit": "deae79575b6846dddee53ccd3d4e28fc8133dc6f",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 228,
+        "created_at": "2019-04-03 13:46:27+00:00",
+        "commits": [
+            {
+                "sha": "370294b933ea9f265bce14eaa1490d14b071ac3e",
+                "created_at": "2019-04-03 15:41:51+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "370294b933ea9f265bce14eaa1490d14b071ac3e",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java"
+        ],
+        "moved_files": [],
+        "start_commit": "9b8c30c5ccb5f6c0bb35456c50fdca35abe212da",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 211,
+        "created_at": "2018-12-15 12:47:10+00:00",
+        "commits": [
+            {
+                "sha": "faa473d17ef9c40c74e268c5ce9f682791225efd",
+                "created_at": "2018-12-15 13:38:29+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "8cef8fe9137224e626f356ffe261d5b0e5c37f31",
+                "created_at": "2018-12-15 13:38:29+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "820f950972f6030e5b3d7e748a0ded4b757bfa1f",
+                "created_at": "2018-12-15 13:38:30+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "820f950972f6030e5b3d7e748a0ded4b757bfa1f",
+        "changed_files": [
+            "surefire-providers/common-java5/src/test/java/org/apache/maven/surefire/report/OutermostClass.java",
+            "surefire-providers/common-java5/src/test/java/org/apache/maven/surefire/report/SmartStackTraceParserTest.java",
+            "surefire-providers/common-java5/src/main/java/org/apache/maven/surefire/report/SmartStackTraceParser.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/Java9FullApiIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "8cef8fe9137224e626f356ffe261d5b0e5c37f31",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 195,
+        "created_at": "2018-10-06 15:38:27+00:00",
+        "commits": [
+            {
+                "sha": "82201fb7c5de6be97874eb2eed22a8a52d5a1355",
+                "created_at": "2018-10-06 12:11:46+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "82201fb7c5de6be97874eb2eed22a8a52d5a1355",
+        "changed_files": [
+            "surefire-its/src/test/resources/junit-platform/src/test/java/junitplatform/JUnitPlatformTest.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformEnginesIT.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/Classpath.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/TestMethodFilterTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/ClasspathCache.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/RunListenerAdapterTest.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/ClasspathConfiguration.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/ProviderInfo.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/IsRegex.java",
+            "surefire-its/src/test/resources/junit-platform-1.2.0/src/test/java/junitplatform_1_2_0/JUnitPlatform_1_2_0_Test.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/AbstractSurefireMojoJava7PlusTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/TestClassPath.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1082ParallelJUnitParameterizedIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/JUnitPlatformIT.java",
+            "surefire-its/src/test/java/org/apache/maven/surefire/its/fixture/OutputValidator.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java",
+            "surefire-booter/src/main/java/org/apache/maven/surefire/booter/ForkedBooter.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/AbstractSurefireMojoTest.java",
+            "surefire-its/src/test/resources/junit-platform-1.1.1/src/test/java/junitplatform_1_1_1/JUnitPlatform_1_1_1_Test.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/SurefireDependencyResolver.java",
+            "surefire-its/src/test/resources/junit-platform-1.0.0/src/test/java/junitplatform_1_0_0/JUnitPlatform_1_0_0_Test.java"
+        ],
+        "moved_files": [
+            {
+                "old_filename": "surefire-its/src/test/resources/junit-platform-1.0.0/src/test/java/junitplatform_1_0_0/JUnitPlatform_1_0_0_Test.java",
+                "new_filename": "surefire-its/src/test/resources/junit-platform/src/test/java/junitplatform/JUnitPlatformTest.java"
+            }
+        ],
+        "start_commit": "25fadfca1c9aeaf2fd0a2c209484800dcaea4024",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 186,
+        "created_at": "2018-05-26 20:40:25+00:00",
+        "commits": [
+            {
+                "sha": "8436faa62f23afa2a02dc1c2777bad64c94dc429",
+                "created_at": "2018-05-25 21:13:15+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "8436faa62f23afa2a02dc1c2777bad64c94dc429",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/StatelessXmlReporter.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/FilteringRequest.java",
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/SurefireReportMojo.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/ForkStarter.java",
+            "surefire-providers/common-junit4/src/main/java/org/apache/maven/surefire/common/junit4/JUnit4Reflector.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/AbstractClasspathForkConfiguration.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/Utf8RecodingDeferredFileOutputStream.java",
+            "surefire-api/src/main/java/org/apache/maven/surefire/booter/SurefireReflector.java",
+            "maven-surefire-report-plugin/src/main/java/org/apache/maven/plugins/surefire/report/FailsafeReportMojo.java"
+        ],
+        "moved_files": [],
+        "start_commit": "a8dfec2fcf3f1ca14658883d8ba72524f48b35a8",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 182,
+        "created_at": "2018-04-11 22:01:12+00:00",
+        "commits": [
+            {
+                "sha": "b6debff6ad5360587b6bb696c1b693c6bce2ac84",
+                "created_at": "2018-04-11 15:00:04-07:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "b6debff6ad5360587b6bb696c1b693c6bce2ac84",
+        "changed_files": [
+            "surefire-api/src/main/java/org/apache/maven/surefire/util/internal/StringUtils.java",
+            "surefire-api/src/test/java/org/apache/maven/surefire/util/internal/StringUtilsTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "c546235573817a32155b0413029b4d0a8b1f80d6",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 162,
+        "created_at": "2017-08-19 09:45:55+00:00",
+        "commits": [
+            {
+                "sha": "1a7dd9b84f8462fa841e015826b44c553ff64b5e",
+                "created_at": "2017-08-19 11:42:54+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "59d32392920d9f7753073184aaed772e5e089a84",
+                "created_at": "2017-08-19 11:48:38+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "05b42861b856a123fde83a31ab47f0c8d70b9fc7",
+                "created_at": "2017-08-19 11:53:50+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "1a7dd9b84f8462fa841e015826b44c553ff64b5e",
+        "changed_files": [
+            "surefire-integration-tests/src/test/resources/junit-plattform/src/test/java/junitplattform/BasicTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/JUnitPlattformIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "9580f5ef25c0d4736046165275f2d57d31686ae9",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 156,
+        "created_at": "2017-06-14 10:55:59+00:00",
+        "commits": [
+            {
+                "sha": "7176d3c17b438c60e48a525ef96e6812f00bec46",
+                "created_at": "2017-06-14 12:54:34+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "7176d3c17b438c60e48a525ef96e6812f00bec46",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/output/MultipleFailureException.java"
+        ],
+        "moved_files": [],
+        "start_commit": "dd518d2b14e797014ec740360afc3d2c79642b3a",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 155,
+        "created_at": "2017-06-12 06:32:15+00:00",
+        "commits": [
+            {
+                "sha": "6636b0693de852a029961bbe676a61c6edfd4293",
+                "created_at": "2017-06-12 08:25:00+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "6636b0693de852a029961bbe676a61c6edfd4293",
+        "changed_files": [
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/TestPlanScannerFilter.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProvider.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/RunListenerAdapterTests.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/RunListenerAdapter.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/TestPlanScannerFilterTests.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProviderTests.java"
+        ],
+        "moved_files": [],
+        "start_commit": "70c8843e935882b0a78916894cb9f042964f2717",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 154,
+        "created_at": "2017-06-12 06:20:36+00:00",
+        "commits": [
+            {
+                "sha": "4bf43aab9726f387a35bff40ee0c872110e03d52",
+                "created_at": "2017-06-12 08:18:29+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "91e6d96593af11bcd7d80183caa6c9ef838fd8bc",
+                "created_at": "2017-06-12 08:18:33+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "68722a859522efbc9654a7dd6881108c86dafe1d",
+                "created_at": "2017-06-12 08:18:33+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "9ac9198760e0b7682534e84220d9210ca4b8a80a",
+                "created_at": "2017-06-12 08:18:34+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "c4e77a85f498cd4fc3e3fb5a79e1a717201dd02e",
+                "created_at": "2017-06-12 08:18:34+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "e842f9b361845176a6e883d7bf12838f94e89872",
+                "created_at": "2017-06-12 08:18:34+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "61dbc6c79c5fea357bda999d1cbeb647bca5494b",
+                "created_at": "2017-06-12 08:18:34+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "78229d505cf515aa90652ab630bea11ae1c6ce69",
+                "created_at": "2017-06-12 08:18:35+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "4b8c1a47ab348e16f3f9ec0938d8312cb7546f4c",
+                "created_at": "2017-06-12 08:18:35+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "acef2c3207da233c03bef600bf7467c92e8ee897",
+                "created_at": "2017-06-12 08:18:35+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "04b482ca6403696e9d118a3f05bd086dc82691ad",
+                "created_at": "2017-06-12 08:18:35+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "6a9f36e6a403f376b8088f8e7f4345e2c190b3ec",
+                "created_at": "2017-06-12 08:18:35+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "841d67f9f0bbb8291d5d20120f6b91f58c634e95",
+                "created_at": "2017-06-12 08:18:36+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "da384e987c73ebbe4767f19427c021bced5f1c0e",
+                "created_at": "2017-06-12 08:18:36+02:00",
+                "is_pull": false
+            },
+            {
+                "sha": "9580f5ef25c0d4736046165275f2d57d31686ae9",
+                "created_at": "2017-06-12 08:18:36+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "9580f5ef25c0d4736046165275f2d57d31686ae9",
+        "changed_files": [
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/TestPlanScannerFilter.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProvider.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/RunListenerAdapterTests.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/RunListenerAdapter.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/TestPlanScannerFilterTests.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProviderTests.java"
+        ],
+        "moved_files": [],
+        "start_commit": "da384e987c73ebbe4767f19427c021bced5f1c0e",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 142,
+        "created_at": "2017-02-06 19:05:10+00:00",
+        "commits": [
+            {
+                "sha": "73e09a8b2b245e76e072c1809e7fa50be02e95b6",
+                "created_at": "2017-02-06 14:02:48+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "0c329812e71f149bb7c92bfaa3fa37c6d2ec6eec",
+                "created_at": "2017-02-06 14:20:54+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "a0d0325db046f266abc401abe3e0047f6ce908c3",
+                "created_at": "2017-02-06 14:23:03+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "62d00dca5709c0a089a65f810c1c66c2897b5003",
+                "created_at": "2017-02-06 14:25:01+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "9283dee30decf62e12edd5eaea08abd811ee811f",
+                "created_at": "2017-02-06 15:20:30+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "caceca16772c6d11302c2d8627c7f5b7d913878a",
+                "created_at": "2017-02-06 18:55:49+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "43fb41e8d4115830fbeb6d29f1f17efe8e04de5f",
+                "created_at": "2017-02-06 18:56:20+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "30ee7b94c3421411aa6257e78f77fe8b88aa125e",
+                "created_at": "2017-02-06 19:06:23+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "c197b926a5f02ab2a3842d4a8a736315c3c8eb33",
+                "created_at": "2017-02-06 19:14:53+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "97f97167ea0aa07bba4bd864b1f686c2f79ca33d",
+                "created_at": "2017-02-06 19:17:36+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "b08b1aeae4ad01582fd6264462a4a9345bfd065d",
+                "created_at": "2017-02-06 19:54:40+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "ef6a391006ab1fa672dc26fc234b6411a7dfa888",
+                "created_at": "2017-02-06 19:54:59+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "6e83aa3808bcb4accce54a1b1c0ba91dd01a8812",
+                "created_at": "2017-02-10 19:59:23+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "c9a1f973e334b402d59f9944c5a58d1db9c8da45",
+                "created_at": "2017-02-10 21:00:14+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "ef6a391006ab1fa672dc26fc234b6411a7dfa888",
+        "changed_files": [
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/TestPlanScannerFilter.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProvider.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/RunListenerAdapterTests.java",
+            "surefire-providers/surefire-junit-platform/src/main/java/org/apache/maven/surefire/junitplatform/RunListenerAdapter.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/TestPlanScannerFilterTests.java",
+            "surefire-providers/surefire-junit-platform/src/test/java/org/apache/maven/surefire/junitplatform/JUnitPlatformProviderTests.java"
+        ],
+        "moved_files": [],
+        "start_commit": "b08b1aeae4ad01582fd6264462a4a9345bfd065d",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 135,
+        "created_at": "2016-11-25 07:11:55+00:00",
+        "commits": [
+            {
+                "sha": "108538bae9fd5957aea47135f232ac2529167ff8",
+                "created_at": "2016-11-19 14:02:02+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "8995a2894488d6ca3796f274498b1516cd2ed131",
+                "created_at": "2016-11-19 14:02:07+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "1ab033afb89c1646c64e4b95ed184179c1670c62",
+                "created_at": "2016-11-19 14:02:10+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "81f3dda52af9805a46bab2e608c62ed1b0e6b9fd",
+                "created_at": "2016-11-19 14:02:13+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "a50c823baba16f0bc5e4b7c08993d1bf706ce1dc",
+                "created_at": "2016-11-19 14:02:17+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "31b55924060c9b8994a28761c8d8722a6f1d491c",
+                "created_at": "2016-11-19 14:02:19+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "e4a5247a74ad95d4b79c074402c959414dfa2732",
+                "created_at": "2016-11-22 21:16:37+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "e4a5247a74ad95d4b79c074402c959414dfa2732",
+        "changed_files": [
+            "surefire-integration-tests/src/test/resources/junit4/src/test/java/junit5/JUnit5Test.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/JUnit4VersionsIT.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/JUnitVersion.java"
+        ],
+        "moved_files": [],
+        "start_commit": "31b55924060c9b8994a28761c8d8722a6f1d491c",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 128,
+        "created_at": "2016-10-13 06:51:54+00:00",
+        "commits": [
+            {
+                "sha": "b1d11c64b05273f0a802a4ddcb1935f2c5de0a35",
+                "created_at": "2016-10-13 08:50:51+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "b1d11c64b05273f0a802a4ddcb1935f2c5de0a35",
+        "changed_files": [
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/JUnit4VersionsIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "5e9f5637cead161f5e210b86febcc23d502d3f67",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 100,
+        "created_at": "2015-07-22 22:00:37+00:00",
+        "commits": [
+            {
+                "sha": "cf64b1137ad6a941f157face8991b9e24774b716",
+                "created_at": "2015-07-22 23:51:16+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "cf64b1137ad6a941f157face8991b9e24774b716",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1053SystemPropertiesIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "e8f0de332a82340205befb86a25f33c95f205d9e",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 84,
+        "created_at": "2015-01-31 09:16:39+00:00",
+        "commits": [
+            {
+                "sha": "d6a8af593fc03e12ecf2dc8047669472f7ca263b",
+                "created_at": "2015-01-28 03:25:14+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "9a8bb172cae84fe89f597843560056def30bd351",
+                "created_at": "2015-01-31 10:08:10+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "2b4629c71e5c82716d99a738f02063c90413253f",
+                "created_at": "2015-01-31 22:21:55+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "9a8bb172cae84fe89f597843560056def30bd351",
+        "changed_files": [
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1136CwdPropagationInForkedModeIT.java",
+            "surefire-integration-tests/src/test/resources/surefire-1136-cwd-propagation-in-forked-mode/src/test/java/cwd/CurrentWorkingDirectoryInForkedModeTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/ForkConfigurationTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "d6a8af593fc03e12ecf2dc8047669472f7ca263b",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 82,
+        "created_at": "2015-01-22 00:49:17+00:00",
+        "commits": [
+            {
+                "sha": "15da3495d5c7be46cf247e4edc0d0c519f1848b6",
+                "created_at": "2015-01-22 00:53:02+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "15da3495d5c7be46cf247e4edc0d0c519f1848b6",
+        "changed_files": [
+            "surefire-integration-tests/src/test/resources/surefire-1136-cwd-propagation-in-forked-mode/src/test/java/cwd/CurrentWorkingDirectoryInForkedModeTest.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/ForkConfigurationTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "cebce291f454fd5df528a8da37b4e81e407b1082",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 80,
+        "created_at": "2015-01-20 00:19:13+00:00",
+        "commits": [
+            {
+                "sha": "cebce291f454fd5df528a8da37b4e81e407b1082",
+                "created_at": "2015-01-20 01:08:21+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "cebce291f454fd5df528a8da37b4e81e407b1082",
+        "changed_files": [
+            "surefire-integration-tests/src/test/resources/surefire-1136-cwd-propagation-in-forked-mode/src/test/java/cwd/CurrentWorkingDirectoryInForkedModeTest.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1136CwdPropagationInForkedModeIT.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/ForkConfiguration.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/ForkConfigurationTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "9b7ca5a2bb214da1e36a86eb4a64bb1194e697e2",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 75,
+        "created_at": "2014-12-16 08:24:38+00:00",
+        "commits": [
+            {
+                "sha": "7c6f63a0d7c52c7abcaaf483c325b2a423971a09",
+                "created_at": "2014-12-16 09:14:38+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "650ee1565ba504294a6fbcd1acf8e48e3efb7e2b",
+                "created_at": "2014-12-16 09:16:55+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "a439d07c2e95fe4275d74f7c13a630b5dd08f6df",
+                "created_at": "2014-12-18 00:30:23+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "bbf9b25189ca4a87db3cb2573b3715ed554557f1",
+                "created_at": "2014-12-21 15:34:33+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "dbcb32ea7bbae17cdeed74bd42236e189f3079de",
+                "created_at": "2014-12-21 17:02:56+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "1a0cb37172dcdcee236c0551122f597ae04caa8c",
+                "created_at": "2014-12-21 17:15:06+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "9e5cafa349c377b1c0a9d491e8bc7a8ec6170eaf",
+                "created_at": "2014-12-24 12:13:59+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "dcaf38bb9d2a516be392ba04f201dd68c083bdf3",
+                "created_at": "2014-12-25 21:17:02+01:00",
+                "is_pull": false
+            },
+            {
+                "sha": "870d229b5a1756e050aad66203b1c7dfa1bec49c",
+                "created_at": "2014-12-26 13:13:15+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "650ee1565ba504294a6fbcd1acf8e48e3efb7e2b",
+        "changed_files": [
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/TestMultipleMethodsIT.java",
+            "surefire-integration-tests/src/test/resources/junit48-multiple-method-patterns/src/test/java/junit4/BasicTest.java",
+            "surefire-integration-tests/src/test/resources/junit48-multiple-method-patterns/src/test/java/junit4/TestFour.java",
+            "surefire-integration-tests/src/test/resources/junit48-multiple-method-patterns/src/test/java/junit4/TestFive.java",
+            "surefire-integration-tests/src/test/resources/junit48-multiple-method-patterns/src/test/java/junit4/TestTwo.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/TestSingleMethodIT.java",
+            "surefire-providers/common-junit48/src/test/java/org/apache/maven/surefire/common/junit48/FilterFactoryTest.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/TestMultipleMethodPatternsIT.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/TestMethodPatternIT.java",
+            "surefire-integration-tests/src/test/resources/junit48-multiple-method-patterns/src/test/java/junit4/TestThree.java",
+            "surefire-providers/common-junit48/src/main/java/org/apache/maven/surefire/common/junit48/FilterFactory.java"
+        ],
+        "moved_files": [],
+        "start_commit": "7c6f63a0d7c52c7abcaaf483c325b2a423971a09",
+        "is_pr_commit_first": false
+    },
+    {
+        "pr_number": 60,
+        "created_at": "2014-10-21 22:18:50+00:00",
+        "commits": [
+            {
+                "sha": "2e62ff47277afe3f8445699a96343fcb3f72efac",
+                "created_at": "2014-10-22 00:14:24+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "2e62ff47277afe3f8445699a96343fcb3f72efac",
+        "changed_files": [
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/ForkStarter.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/report/DefaultReporterFactory.java"
+        ],
+        "moved_files": [],
+        "start_commit": "898475f88253dcf751651c2d76d3f693ccc093a1",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 59,
+        "created_at": "2014-10-16 21:21:35+00:00",
+        "commits": [
+            {
+                "sha": "40b4b48a323c46e1b2ace3d5acb4add183b12d02",
+                "created_at": "2014-10-16 23:18:51+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "40b4b48a323c46e1b2ace3d5acb4add183b12d02",
+        "changed_files": [
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/SingleThreadScheduler.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/JUnit47ParallelIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/ExecutionStatus.java",
+            "surefire-integration-tests/src/test/resources/junit47-parallel/src/test/java/surefireparallel/TestClass.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1082ParallelJUnitParameterizedIT.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1095NpeInRunListener.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1098BalancedRunOrderIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/ShutdownStatus.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1028UnableToRunSingleTest.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1080ParallelForkDoubleTestIT.java",
+            "surefire-integration-tests/src/test/resources/surefire-817-system-exit/src/test/java/jiras/surefire817/Test.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire817SystemExitIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/pc/Destroyable.java"
+        ],
+        "moved_files": [],
+        "start_commit": "3fd14a9bf2cb5be28f7b8b0d51f89620f958908f",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 56,
+        "created_at": "2014-10-10 21:51:57+00:00",
+        "commits": [
+            {
+                "sha": "f961485fe305b5f13f00468ef0dedc9fa380c994",
+                "created_at": "2014-10-10 23:47:37+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "f961485fe305b5f13f00468ef0dedc9fa380c994",
+        "changed_files": [
+            "surefire-integration-tests/src/test/resources/surefire-1080-parallel-fork-double-test/src/test/java/com/cal/HelloWorldTest.java",
+            "surefire-integration-tests/src/test/resources/surefire-1080-parallel-fork-double-test/src/test/java/com/cal/HelloWorldFlakyErrorTest.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1080ParallelForkDoubleTestIT.java",
+            "surefire-providers/surefire-junit47/src/main/java/org/apache/maven/surefire/junitcore/JUnitCoreWrapper.java",
+            "surefire-integration-tests/src/test/resources/surefire-1080-parallel-fork-double-test/src/test/java/com/cal/HelloWorldFlakyCotTest.java",
+            "surefire-integration-tests/src/test/resources/surefire-1080-parallel-fork-double-test/src/test/java/com/cal/SimpleTest.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/fixture/HelperAssertions.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/fixture/OutputValidator.java"
+        ],
+        "moved_files": [],
+        "start_commit": "072cb7a7eb6750ee2a4bd6305c9e8f697b5e292f",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 54,
+        "created_at": "2014-10-08 18:48:41+00:00",
+        "commits": [
+            {
+                "sha": "3cecbd360e74aff19b838e4c8d86bc99c4ad2bee",
+                "created_at": "2014-10-08 20:36:33+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "3cecbd360e74aff19b838e4c8d86bc99c4ad2bee",
+        "changed_files": [
+            "surefire-integration-tests/src/test/resources/junit47-parallel-with-suite/src/test/java/surefire747/TestSuite.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire747MethodParallelWithSuiteCountIT.java",
+            "surefire-integration-tests/src/test/resources/junit47-parallel-with-suite/src/test/java/surefire747/SuiteTest2.java",
+            "surefire-integration-tests/src/test/resources/junit47-parallel-with-suite/src/test/java/surefire747/SuiteTest1.java"
+        ],
+        "moved_files": [],
+        "start_commit": "1c2698a7527401a4a68a97e905886075fe6c4efa",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 52,
+        "created_at": "2014-10-07 22:40:24+00:00",
+        "commits": [
+            {
+                "sha": "1c2698a7527401a4a68a97e905886075fe6c4efa",
+                "created_at": "2014-10-08 00:34:53+02:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "1c2698a7527401a4a68a97e905886075fe6c4efa",
+        "changed_files": [
+            "surefire-integration-tests/src/test/resources/surefire-1082-parallel-junit-parameterized/src/test/java/jiras/surefire1082/Jira1082Test.java",
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/jiras/Surefire1082ParallelJUnitParameterizedIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "99438ac9dd995176b64a872dc628fd66f74f90ed",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 33,
+        "created_at": "2014-02-19 02:37:32+00:00",
+        "commits": [
+            {
+                "sha": "55b8d9117a3d3bb580e509a8f5dd982d5ace7829",
+                "created_at": "2014-02-19 02:55:56+01:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "55b8d9117a3d3bb580e509a8f5dd982d5ace7829",
+        "changed_files": [
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/JUnit47ParallelIT.java"
+        ],
+        "moved_files": [],
+        "start_commit": "9ef1843ba4851b82b5c8eb8271ad352690be0cc9",
+        "is_pr_commit_first": true
+    },
+    {
+        "pr_number": 30,
+        "created_at": "2013-12-18 05:18:05+00:00",
+        "commits": [
+            {
+                "sha": "f0d7ea72f477e7bf1661747edc8163127680cbc4",
+                "created_at": "2013-12-17 21:17:02-08:00",
+                "is_pull": false
+            },
+            {
+                "sha": "4683d4d1a208a30ff3beb24c2da93d8b3674da7b",
+                "created_at": "2013-12-18 19:37:27-08:00",
+                "is_pull": false
+            }
+        ],
+        "pr_commit": "f0d7ea72f477e7bf1661747edc8163127680cbc4",
+        "changed_files": [
+            "surefire-integration-tests/src/test/java/org/apache/maven/surefire/its/ArgLinePropertiesIT.java",
+            "surefire-integration-tests/src/test/resources/argLine-properties/src/test/java/argLine-properties/TestSurefireArgLineProperties.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java",
+            "maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/booterclient/ForkConfiguration.java",
+            "maven-surefire-common/src/test/java/org/apache/maven/plugin/surefire/booterclient/ForkConfigurationTest.java"
+        ],
+        "moved_files": [],
+        "start_commit": "75f05d7941ab28b63c1a5c8703a547e52c3c3bc9",
+        "is_pr_commit_first": true
+    }
+]

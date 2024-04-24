@@ -1,0 +1,63 @@
+[
+    {
+        "commit_sha": "918bb92eb21827b73a51c487fb35db45c32ac008",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "accumulo-2582:shell/src/main/java/org/apache/accumulo/shell/commands/BulkImportListIterator.java": {
+                "ncloc": "45",
+                "complexity": "10"
+            }
+        }
+    },
+    {
+        "commit_sha": "fd5badc70243dc07cd011bedf14646e9b576f96a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZlEKEJWnNUe1V1iqp",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2582:shell/src/test/java/org/apache/accumulo/shell/commands/ListBulkCommandTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 20,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5ZlEKEJWnNUe1V1iqo",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2582:shell/src/test/java/org/apache/accumulo/shell/commands/ListBulkCommandTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 20,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2582:shell/src/main/java/org/apache/accumulo/shell/commands/BulkImportListIterator.java": {
+                "ncloc": "45",
+                "complexity": "10"
+            },
+            "accumulo-2582:shell/src/test/java/org/apache/accumulo/shell/commands/ListBulkCommandTest.java": {
+                "ncloc": "73",
+                "complexity": "4"
+            }
+        }
+    }
+]

@@ -1,0 +1,482 @@
+[
+    {
+        "commit_sha": "e8ea60dfb5b432b7e6bc1aef6664e958fa5f051a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5IYwFgbDlNcRJDz95-",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/RestartIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 0,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5IYwFgbDlNcRJDz959",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/RestartIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 19,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JB",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JC",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JF",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JD",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 128,
+                        "endLine": 128,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JE",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 10,
+                        "endOffset": 12
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/LateLastContactIT.java": {
+                "ncloc": "22",
+                "complexity": "3"
+            },
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java": {
+                "ncloc": "118",
+                "complexity": "18"
+            },
+            "accumulo-2437:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "95",
+                "complexity": "5"
+            },
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/RestartIT.java": {
+                "ncloc": "237",
+                "complexity": "25"
+            },
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/WatchTheWatchCountIT.java": {
+                "ncloc": "60",
+                "complexity": "8"
+            }
+        }
+    },
+    {
+        "commit_sha": "4819c912ce06f3a0152f030f67e4c4b7c768aa70",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5IYwFgbDlNcRJDz95-",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/RestartIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 0,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5IYwFgbDlNcRJDz959",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/RestartIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 19,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5IaUYwbDlNcRJD0X8h",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 48,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JD",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 128,
+                        "endLine": 128,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JE",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 10,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "CLOSED",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JB",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JC",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JF",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/LateLastContactIT.java": {
+                "ncloc": "22",
+                "complexity": "3"
+            },
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java": {
+                "ncloc": "106",
+                "complexity": "14"
+            },
+            "accumulo-2437:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "95",
+                "complexity": "5"
+            },
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/RestartIT.java": {
+                "ncloc": "238",
+                "complexity": "25"
+            },
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/WatchTheWatchCountIT.java": {
+                "ncloc": "60",
+                "complexity": "8"
+            }
+        }
+    },
+    {
+        "commit_sha": "b00fcb861691ff546f359cdff05a90adfb453117",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5IYwFgbDlNcRJDz95-",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/RestartIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 0,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5IYwFgbDlNcRJDz959",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/RestartIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 19,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5IaUYwbDlNcRJD0X8h",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 48,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JD",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 128,
+                        "endLine": 128,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JE",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 10,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "CLOSED",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JB",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JC",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5IYwLabDlNcRJDz-JF",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/LateLastContactIT.java": {
+                "ncloc": "22",
+                "complexity": "3"
+            },
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java": {
+                "ncloc": "106",
+                "complexity": "14"
+            },
+            "accumulo-2437:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "95",
+                "complexity": "5"
+            },
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/RestartIT.java": {
+                "ncloc": "238",
+                "complexity": "25"
+            },
+            "accumulo-2437:test/src/main/java/org/apache/accumulo/test/functional/WatchTheWatchCountIT.java": {
+                "ncloc": "60",
+                "complexity": "8"
+            }
+        }
+    }
+]

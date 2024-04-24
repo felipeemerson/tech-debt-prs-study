@@ -1,0 +1,117 @@
+[
+    {
+        "commit_sha": "0a419ceac415166c20bb37ff93e18ecdbeb1a4c6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY562SaVDVfOYCVC-O7m",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-240:opennlp-tools/src/test/java/opennlp/tools/eval/Conll00ChunkerEval.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 8,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY562SaVDVfOYCVC-O7n",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-240:opennlp-tools/src/test/java/opennlp/tools/eval/Conll00ChunkerEval.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 76,
+                        "endLine": 76,
+                        "startOffset": 47,
+                        "endOffset": 65
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "opennlp-240:opennlp-tools/src/test/java/opennlp/tools/eval/Conll00ChunkerEval.java": {
+                "ncloc": "61",
+                "complexity": "5"
+            },
+            "opennlp-240:opennlp-tools/src/test/java/opennlp/tools/eval/ConllXPosTaggerEval.java": {
+                "ncloc": "98",
+                "complexity": "10"
+            }
+        }
+    },
+    {
+        "commit_sha": "c5b8162aea8cec2204983d85f544782fe87f9336",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY562SaVDVfOYCVC-O7m",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-240:opennlp-tools/src/test/java/opennlp/tools/eval/Conll00ChunkerEval.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 8,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY562SaVDVfOYCVC-O7n",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-240:opennlp-tools/src/test/java/opennlp/tools/eval/Conll00ChunkerEval.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 47,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY562m2tDVfOYCVC-XCK",
+                    "rule": "java:S2094",
+                    "severity": "MINOR",
+                    "component": "opennlp-240:opennlp-tools/src/test/java/opennlp/tools/HighMemoryUsage.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 23,
+                        "endLine": 23,
+                        "startOffset": 13,
+                        "endOffset": 28
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "opennlp-240:opennlp-tools/src/test/java/opennlp/tools/eval/Conll00ChunkerEval.java": {
+                "ncloc": "64",
+                "complexity": "5"
+            },
+            "opennlp-240:opennlp-tools/src/test/java/opennlp/tools/eval/ConllXPosTaggerEval.java": {
+                "ncloc": "99",
+                "complexity": "10"
+            },
+            "opennlp-240:opennlp-tools/src/test/java/opennlp/tools/HighMemoryUsage.java": {
+                "ncloc": "3",
+                "complexity": "0"
+            }
+        }
+    }
+]

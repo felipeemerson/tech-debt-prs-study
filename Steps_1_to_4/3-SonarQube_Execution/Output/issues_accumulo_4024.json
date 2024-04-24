@@ -1,0 +1,662 @@
+[
+    {
+        "commit_sha": "38da5ce0dd12be8780514c0671b4baabeebc20a9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5S9-F_AESW5py-p01i",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMajCIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 83,
+                        "endLine": 83,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5S9-F_AESW5py-p01h",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMajCIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 108,
+                        "endLine": 108,
+                        "startOffset": 35,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5S9-JhAESW5py-p08k",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMinCIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5S9-JhAESW5py-p08j",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMinCIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 35,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5S9-HnAESW5py-p05L",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5S9-HnAESW5py-p05M",
+                    "rule": "java:S1215",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 50,
+                        "endLine": 50,
+                        "startOffset": 11,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5S9-LlAESW5py-p1EP",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/CloseScannerIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5S9-LlAESW5py-p1EO",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/CloseScannerIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04N",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "17min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 134,
+                        "endLine": 134,
+                        "startOffset": 35,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04L",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 61,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04M",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 227,
+                        "endLine": 227,
+                        "startOffset": 63,
+                        "endOffset": 74
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/CloseScannerIT.java": {
+                "ncloc": "58",
+                "complexity": "10"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java": {
+                "ncloc": "65",
+                "complexity": "7"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMajCIT.java": {
+                "ncloc": "116",
+                "complexity": "14"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMinCIT.java": {
+                "ncloc": "117",
+                "complexity": "14"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java": {
+                "ncloc": "365",
+                "complexity": "57"
+            }
+        }
+    },
+    {
+        "commit_sha": "4665cb29d5927759dc2f2b69778e89ef90424bf5",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5S9-F_AESW5py-p01i",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMajCIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5S9-F_AESW5py-p01h",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMajCIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 35,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5S9-JhAESW5py-p08k",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMinCIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 79,
+                        "endLine": 79,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5S9-JhAESW5py-p08j",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMinCIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 104,
+                        "endLine": 104,
+                        "startOffset": 35,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5TARHaAESW5py-qM8W",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 80,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5S9-HnAESW5py-p05L",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5S9-HnAESW5py-p05M",
+                    "rule": "java:S1215",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 11,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5S9-LlAESW5py-p1EP",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/CloseScannerIT.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5S9-LlAESW5py-p1EO",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/CloseScannerIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04N",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "17min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 35,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04L",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 175,
+                        "endLine": 175,
+                        "startOffset": 61,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04M",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 63,
+                        "endOffset": 74
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/CloseScannerIT.java": {
+                "ncloc": "55",
+                "complexity": "10"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java": {
+                "ncloc": "57",
+                "complexity": "5"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMajCIT.java": {
+                "ncloc": "116",
+                "complexity": "14"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMinCIT.java": {
+                "ncloc": "117",
+                "complexity": "14"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java": {
+                "ncloc": "365",
+                "complexity": "57"
+            }
+        }
+    },
+    {
+        "commit_sha": "95becf06a53b65ab44556fb07e3a55eabe295920",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5S9-F_AESW5py-p01i",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMajCIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5S9-F_AESW5py-p01h",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMajCIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 35,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5S9-JhAESW5py-p08k",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMinCIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 79,
+                        "endLine": 79,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5S9-JhAESW5py-p08j",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMinCIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 104,
+                        "endLine": 104,
+                        "startOffset": 35,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5TARHaAESW5py-qM8W",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 80,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5S9-HnAESW5py-p05L",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5S9-HnAESW5py-p05M",
+                    "rule": "java:S1215",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 11,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5S9-LlAESW5py-p1EP",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/CloseScannerIT.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5S9-LlAESW5py-p1EO",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/CloseScannerIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04N",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "17min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 21,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 35,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04L",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 175,
+                        "endLine": 175,
+                        "startOffset": 61,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY5S9-HNAESW5py-p04M",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 63,
+                        "endOffset": 74
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/CloseScannerIT.java": {
+                "ncloc": "55",
+                "complexity": "10"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java": {
+                "ncloc": "57",
+                "complexity": "5"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMajCIT.java": {
+                "ncloc": "116",
+                "complexity": "14"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedMinCIT.java": {
+                "ncloc": "117",
+                "complexity": "14"
+            },
+            "accumulo-4024:test/src/main/java/org/apache/accumulo/test/functional/MemoryStarvedScanIT.java": {
+                "ncloc": "365",
+                "complexity": "57"
+            }
+        }
+    }
+]

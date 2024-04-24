@@ -1,0 +1,363 @@
+[
+    {
+        "commit_sha": "3db7514535b2a773ae0eaf016ca46e545a1a2cc0",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Cexc-ygGTmJJJZ8c_",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/classic/AuthenticatingDecorator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 19,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5Cexc-ygGTmJJJZ8dA",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/classic/AuthenticatingDecorator.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5CexXDygGTmJJJZ8UZ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-506:httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestBasicScheme.java",
+                    "status": "OPEN",
+                    "debt": "22min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 44,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5CexKCygGTmJJJZ8Mr",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicScheme.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 26,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5CexKCygGTmJJJZ8Mq",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicScheme.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 239,
+                        "endLine": 239,
+                        "startOffset": 17,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5CexdOygGTmJJJZ8dJ",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/async/AuthenticatingAsyncDecorator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 86,
+                        "endLine": 86,
+                        "startOffset": 19,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5CexcyygGTmJJJZ8c8",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/auth/BasicAuthenticationHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 11,
+                        "endOffset": 37
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/async/AuthenticatingAsyncDecorator.java": {
+                "ncloc": "151",
+                "complexity": "24"
+            },
+            "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/classic/AuthenticatingDecorator.java": {
+                "ncloc": "84",
+                "complexity": "13"
+            },
+            "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/auth/BasicAuthenticationHandler.java": {
+                "ncloc": "26",
+                "complexity": "4"
+            },
+            "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicScheme.java": {
+                "ncloc": "185",
+                "complexity": "33"
+            },
+            "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicSchemeFactory.java": {
+                "ncloc": "23",
+                "complexity": "3"
+            },
+            "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/ContextBuilder.java": {
+                "ncloc": "86",
+                "complexity": "15"
+            },
+            "httpcomponents-client-506:httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestBasicScheme.java": {
+                "ncloc": "180",
+                "complexity": "18"
+            }
+        }
+    },
+    {
+        "commit_sha": "fc73364cdf3d23550401acb4f0d5d57b8ce73d54",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Cexc-ygGTmJJJZ8c_",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/classic/AuthenticatingDecorator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 76,
+                        "endLine": 76,
+                        "startOffset": 19,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5Cexc-ygGTmJJJZ8dA",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/classic/AuthenticatingDecorator.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5CfEEgygGTmJJJaCyp",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-506:httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestBasicScheme.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 32,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5CfEEgygGTmJJJaCyq",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-506:httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestBasicScheme.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 43,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5CexXDygGTmJJJZ8UZ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-506:httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestBasicScheme.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 44,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5CfDz4ygGTmJJJaCyo",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicSchemeFactory.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 11,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5CfDztygGTmJJJaCyn",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicScheme.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 11,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5CexKCygGTmJJJZ8Mr",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicScheme.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 161,
+                        "endLine": 161,
+                        "startOffset": 26,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5CexKCygGTmJJJZ8Mq",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicScheme.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 250,
+                        "endLine": 250,
+                        "startOffset": 17,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5CexdOygGTmJJJZ8dJ",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/async/AuthenticatingAsyncDecorator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 19,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5CfEMaygGTmJJJaCyr",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/auth/BasicAuthenticationHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 11,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5CexcyygGTmJJJZ8c8",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/auth/BasicAuthenticationHandler.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 11,
+                        "endOffset": 37
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/async/AuthenticatingAsyncDecorator.java": {
+                "ncloc": "150",
+                "complexity": "24"
+            },
+            "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/classic/AuthenticatingDecorator.java": {
+                "ncloc": "83",
+                "complexity": "13"
+            },
+            "httpcomponents-client-506:httpclient5-testing/src/main/java/org/apache/hc/client5/testing/auth/BasicAuthenticationHandler.java": {
+                "ncloc": "25",
+                "complexity": "4"
+            },
+            "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicScheme.java": {
+                "ncloc": "188",
+                "complexity": "32"
+            },
+            "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicSchemeFactory.java": {
+                "ncloc": "25",
+                "complexity": "3"
+            },
+            "httpcomponents-client-506:httpclient5/src/main/java/org/apache/hc/client5/http/ContextBuilder.java": {
+                "ncloc": "85",
+                "complexity": "15"
+            },
+            "httpcomponents-client-506:httpclient5/src/test/java/org/apache/hc/client5/http/impl/auth/TestBasicScheme.java": {
+                "ncloc": "170",
+                "complexity": "17"
+            }
+        }
+    }
+]

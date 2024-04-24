@@ -1,0 +1,90 @@
+[
+    {
+        "commit_sha": "2edb73a943928e0716b91e8a1d06a9c226fa393c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58P-Dq0GCajHYXdjZg",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2031:zookeeper-server/src/main/java/org/apache/zookeeper/server/util/SerializeUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 13,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY58P-Dq0GCajHYXdjZh",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2031:zookeeper-server/src/main/java/org/apache/zookeeper/server/util/SerializeUtils.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 19,
+                        "endOffset": 23
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "zookeeper-2031:zookeeper-server/src/main/java/org/apache/zookeeper/server/util/SerializeUtils.java": {
+                "ncloc": "150",
+                "complexity": "27"
+            }
+        }
+    },
+    {
+        "commit_sha": "a6550885f4e6dbb7b0b2f31ceabb0c6be157bd73",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58P-Dq0GCajHYXdjZg",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2031:zookeeper-server/src/main/java/org/apache/zookeeper/server/util/SerializeUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 13,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY58P-Dq0GCajHYXdjZh",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2031:zookeeper-server/src/main/java/org/apache/zookeeper/server/util/SerializeUtils.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 19,
+                        "endOffset": 23
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "zookeeper-2031:zookeeper-server/src/main/java/org/apache/zookeeper/server/util/SerializeUtils.java": {
+                "ncloc": "151",
+                "complexity": "27"
+            }
+        }
+    }
+]

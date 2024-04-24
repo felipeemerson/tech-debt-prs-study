@@ -1,0 +1,1325 @@
+[
+    {
+        "commit_sha": "66e2b1ccbae4ad46c1c59861a9c97ef4d5190f50",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "accumulo-1765:core/src/main/java/org/apache/accumulo/core/client/ScannerBase.java": {
+                "ncloc": "54",
+                "complexity": "3"
+            },
+            "accumulo-1765:test/src/main/java/org/apache/accumulo/test/functional/ScannerIT.java": {
+                "ncloc": "77",
+                "complexity": "5"
+            }
+        }
+    },
+    {
+        "commit_sha": "5b60b8cb384c3cae7d3b5af9c5ecf9c1411d3225",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5MtlCxr8bbHvncBlh7",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1765:test/src/main/java/org/apache/accumulo/test/functional/ScannerIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 18,
+                        "endOffset": 40
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "accumulo-1765:core/src/main/java/org/apache/accumulo/core/client/ScannerBase.java": {
+                "ncloc": "60",
+                "complexity": "5"
+            },
+            "accumulo-1765:test/src/main/java/org/apache/accumulo/test/functional/ScannerIT.java": {
+                "ncloc": "115",
+                "complexity": "8"
+            }
+        }
+    },
+    {
+        "commit_sha": "5f7d7007e483fe6ff528b55271fbdb566bca22c3",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5MvVuor8bbHvncB-vI",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vN",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 25,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vK",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 41,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vL",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vO",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 16,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vM",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 32,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vJ",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 24,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5MvVunr8bbHvncB-vH",
+                    "rule": "java:S101",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 23,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5MtlCxr8bbHvncBlh7",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1765:test/src/main/java/org/apache/accumulo/test/functional/ScannerIT.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 18,
+                        "endOffset": 40
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-1765:core/src/main/java/org/apache/accumulo/core/client/ScannerBase.java": {
+                "ncloc": "60",
+                "complexity": "5"
+            },
+            "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java": {
+                "ncloc": "73",
+                "complexity": "7"
+            },
+            "accumulo-1765:test/src/main/java/org/apache/accumulo/test/functional/ScannerIT.java": {
+                "ncloc": "77",
+                "complexity": "5"
+            }
+        }
+    },
+    {
+        "commit_sha": "126c53fb1168faa72a1587bf2682663a3b10b12c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5MxJz_r8bbHvncCX83",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 26,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vJ",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 24,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vK",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 41,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vL",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vM",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 32,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vN",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 25,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vO",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 16,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vI",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5MvVunr8bbHvncB-vH",
+                    "rule": "java:S101",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 23,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5MtlCxr8bbHvncBlh7",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1765:test/src/main/java/org/apache/accumulo/test/functional/ScannerIT.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 18,
+                        "endOffset": 40
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-1765:core/src/main/java/org/apache/accumulo/core/client/ScannerBase.java": {
+                "ncloc": "60",
+                "complexity": "5"
+            },
+            "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java": {
+                "ncloc": "55",
+                "complexity": "5"
+            },
+            "accumulo-1765:test/src/main/java/org/apache/accumulo/test/functional/ScannerIT.java": {
+                "ncloc": "77",
+                "complexity": "5"
+            }
+        }
+    },
+    {
+        "commit_sha": "dc1755fdec7b0366f738f6b0e2db73f16b21d776",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5My_I1r8bbHvncCxK1",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 47,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKm",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 67,
+                        "endLine": 67,
+                        "startOffset": 18,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKn",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 69,
+                        "endLine": 69,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKo",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 18,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKp",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 18,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKq",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 18,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKr",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 18,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKs",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 79,
+                        "endLine": 79,
+                        "startOffset": 18,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKt",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKu",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 18,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKv",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 18,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKw",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 99,
+                        "endLine": 99,
+                        "startOffset": 18,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKx",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 18,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKy",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 18,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKz",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 113,
+                        "endLine": 113,
+                        "startOffset": 18,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxK0",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 18,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKl",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 30,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKk",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 130,
+                        "endLine": 130,
+                        "startOffset": 8,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxK2",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 30,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5MxJz_r8bbHvncCX83",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 26,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5MvVunr8bbHvncB-vH",
+                    "rule": "java:S101",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 23,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vJ",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 24,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vK",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 41,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vL",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vM",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 32,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vN",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 25,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vO",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 16,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vI",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5MtlCxr8bbHvncBlh7",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1765:test/src/main/java/org/apache/accumulo/test/functional/ScannerIT.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 18,
+                        "endOffset": 40
+                    }
+                }
+            ],
+            "total": 29
+        },
+        "metrics": {
+            "accumulo-1765:core/src/main/java/org/apache/accumulo/core/client/ScannerBase.java": {
+                "ncloc": "60",
+                "complexity": "5"
+            },
+            "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java": {
+                "ncloc": "106",
+                "complexity": "25"
+            },
+            "accumulo-1765:test/src/main/java/org/apache/accumulo/test/functional/ScannerIT.java": {
+                "ncloc": "77",
+                "complexity": "5"
+            }
+        }
+    },
+    {
+        "commit_sha": "339d1ad06896f299eb54847707bdf69229e45adf",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5M1Omzr8bbHvncDKYr",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 130,
+                        "startOffset": 21,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5M1Omzr8bbHvncDKYq",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 131,
+                        "endLine": 131,
+                        "startOffset": 8,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxK1",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 47,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKk",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 130,
+                        "endLine": 130,
+                        "startOffset": 8,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKl",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 30,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKm",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 18,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKn",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKo",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 18,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKp",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 18,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKq",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 18,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKr",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 68,
+                        "endLine": 68,
+                        "startOffset": 18,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKs",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 18,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKt",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 74,
+                        "endLine": 74,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKu",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 18,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKv",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 18,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKw",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 18,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKx",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 18,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKy",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 18,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxKz",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 18,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxK0",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 18,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5My_I1r8bbHvncCxK2",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 22,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5MxJz_r8bbHvncCX83",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 26,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5MvVunr8bbHvncB-vH",
+                    "rule": "java:S101",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 23,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vJ",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 24,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vK",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 41,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vL",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vM",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 32,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vN",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 25,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vO",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 16,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5MvVuor8bbHvncB-vI",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5MtlCxr8bbHvncBlh7",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1765:test/src/main/java/org/apache/accumulo/test/functional/ScannerIT.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 18,
+                        "endOffset": 40
+                    }
+                }
+            ],
+            "total": 31
+        },
+        "metrics": {
+            "accumulo-1765:core/src/main/java/org/apache/accumulo/core/client/ScannerBase.java": {
+                "ncloc": "60",
+                "complexity": "5"
+            },
+            "accumulo-1765:core/src/test/java/org/apache/accumulo/core/clientImpl/ScannerBaseTest.java": {
+                "ncloc": "88",
+                "complexity": "25"
+            },
+            "accumulo-1765:test/src/main/java/org/apache/accumulo/test/functional/ScannerIT.java": {
+                "ncloc": "77",
+                "complexity": "5"
+            }
+        }
+    }
+]

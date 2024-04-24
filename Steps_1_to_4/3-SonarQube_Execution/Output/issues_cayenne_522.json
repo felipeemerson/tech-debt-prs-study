@@ -1,0 +1,795 @@
+[
+    {
+        "commit_sha": "9a3cd2f468bfe63b5795abb25370665f3033bb1e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5usXF4Rz3v4LOqZ7UI",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 0,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY5usXF4Rz3v4LOqZ7UG",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 3,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5usXF4Rz3v4LOqZ7UH",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 338,
+                        "endLine": 338,
+                        "startOffset": 25,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5usXF4Rz3v4LOqZ7UF",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 426,
+                        "endLine": 426,
+                        "startOffset": 55,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5usXF4Rz3v4LOqZ7UE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 435,
+                        "endLine": 435,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5usWvaRz3v4LOqZ60G",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplatePreferences.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 25,
+                        "endOffset": 31
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java": {
+                "ncloc": "292",
+                "complexity": "78"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplatePreferences.java": {
+                "ncloc": "134",
+                "complexity": "20"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplatePreferencesView.java": {
+                "ncloc": "47",
+                "complexity": "5"
+            }
+        }
+    },
+    {
+        "commit_sha": "652ede9647d0db7508995b11304312d5b2cc4884",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5utPPXRz3v4LOqagnm",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 27,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnZ",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 92,
+                        "startOffset": 11,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagna",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 11,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnP",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 178,
+                        "endLine": 178,
+                        "startOffset": 4,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnR",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 4,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnK",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 197,
+                        "endLine": 197,
+                        "startOffset": 4,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnQ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 4,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnO",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 206,
+                        "endLine": 206,
+                        "startOffset": 4,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnI",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 248,
+                        "endLine": 248,
+                        "startOffset": 4,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnJ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 252,
+                        "endLine": 252,
+                        "startOffset": 4,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnL",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 258,
+                        "endLine": 258,
+                        "startOffset": 4,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnN",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 261,
+                        "endLine": 261,
+                        "startOffset": 4,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnM",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 263,
+                        "endLine": 263,
+                        "startOffset": 4,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnS",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 335,
+                        "endLine": 335,
+                        "startOffset": 4,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnb",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 448,
+                        "endLine": 448,
+                        "startOffset": 11,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnc",
+                    "rule": "java:S1197",
+                    "severity": "MINOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 472,
+                        "endLine": 472,
+                        "startOffset": 30,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnd",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 498,
+                        "endLine": 498,
+                        "startOffset": 11,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnV",
+                    "rule": "java:S4144",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 502,
+                        "endLine": 502,
+                        "startOffset": 21,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnY",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 518,
+                        "endLine": 518,
+                        "startOffset": 14,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagne",
+                    "rule": "java:S1197",
+                    "severity": "MINOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 525,
+                        "endLine": 525,
+                        "startOffset": 15,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnX",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 531,
+                        "endLine": 531,
+                        "startOffset": 14,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnn",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 544,
+                        "endLine": 544,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagno",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 547,
+                        "endLine": 547,
+                        "startOffset": 14,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnp",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 553,
+                        "endLine": 553,
+                        "startOffset": 14,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnW",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 558,
+                        "endLine": 558,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnq",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 558,
+                        "endLine": 558,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnf",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 652,
+                        "endLine": 652,
+                        "startOffset": 12,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnU",
+                    "rule": "java:S1301",
+                    "severity": "MINOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 653,
+                        "endLine": 653,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnh",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 707,
+                        "endLine": 707,
+                        "startOffset": 4,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnH",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 836,
+                        "endLine": 836,
+                        "startOffset": 14,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagni",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "31min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 863,
+                        "endLine": 863,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnj",
+                    "rule": "java:S1119",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 888,
+                        "endLine": 888,
+                        "startOffset": 6,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnT",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 889,
+                        "endLine": 889,
+                        "startOffset": 8,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnk",
+                    "rule": "java:S1479",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 932,
+                        "endLine": 932,
+                        "startOffset": 6,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5utPPXRz3v4LOqagnl",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1030,
+                        "endLine": 1030,
+                        "startOffset": 10,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5usXF4Rz3v4LOqZ7UI",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 0,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY5usXF4Rz3v4LOqZ7UG",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 3,
+                        "endOffset": 5
+                    }
+                },
+                {
+                    "key": "AY5usXF4Rz3v4LOqZ7UH",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 341,
+                        "endLine": 341,
+                        "startOffset": 25,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5usXF4Rz3v4LOqZ7UF",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 429,
+                        "endLine": 429,
+                        "startOffset": 55,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5usXF4Rz3v4LOqZ7UE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 438,
+                        "endLine": 438,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5usWvaRz3v4LOqZ60G",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplatePreferences.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 25,
+                        "endOffset": 31
+                    }
+                }
+            ],
+            "total": 41
+        },
+        "metrics": {
+            "cayenne-522:cayenne-cgen/src/main/java/org/apache/cayenne/gen/ClassGenerationAction.java": {
+                "ncloc": "295",
+                "complexity": "79"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/FileTemplateSaver.java": {
+                "ncloc": "33",
+                "complexity": "1"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/FindAndReplaceController.java": {
+                "ncloc": "85",
+                "complexity": "14"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/FindAndReplaceView.java": {
+                "ncloc": "51",
+                "complexity": "6"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/FindController.java": {
+                "ncloc": "70",
+                "complexity": "10"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/FindView.java": {
+                "ncloc": "64",
+                "complexity": "9"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/PreviewClassGenerationFactory.java": {
+                "ncloc": "24",
+                "complexity": "1"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/PreviewGenerationAction.java": {
+                "ncloc": "30",
+                "complexity": "5"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/TemplateEditorController.java": {
+                "ncloc": "158",
+                "complexity": "26"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/TemplateEditorView.java": {
+                "ncloc": "137",
+                "complexity": "17"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/TemplateLoader.java": {
+                "ncloc": "31",
+                "complexity": "3"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplatePreferences.java": {
+                "ncloc": "140",
+                "complexity": "21"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplatePreferencesView.java": {
+                "ncloc": "53",
+                "complexity": "6"
+            },
+            "cayenne-522:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/templateeditor/VelocityTokenMaker.java": {
+                "ncloc": "743",
+                "complexity": "109"
+            }
+        }
+    }
+]

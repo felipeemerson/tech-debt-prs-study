@@ -1,0 +1,374 @@
+[
+    {
+        "commit_sha": "3091b5ebb870abf80c8c6765c3b6f995346b16f3",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Ti",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 201,
+                        "endLine": 201,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Tf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Tg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 213,
+                        "endLine": 213,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Th",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 220,
+                        "endLine": 220,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5HRy3Yr8bbHvnc--3x",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:core/src/main/java/org/apache/accumulo/core/volume/VolumeImpl.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-1921:core/src/main/java/org/apache/accumulo/core/volume/VolumeImpl.java": {
+                "ncloc": "101",
+                "complexity": "24"
+            },
+            "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java": {
+                "ncloc": "124",
+                "complexity": "15"
+            }
+        }
+    },
+    {
+        "commit_sha": "2f5683be619693b77669820c6a26e8c6f81ded67",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Ti",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 201,
+                        "endLine": 201,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Tf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Tg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 213,
+                        "endLine": 213,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Th",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 220,
+                        "endLine": 220,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5HRy3Yr8bbHvnc--3x",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:core/src/main/java/org/apache/accumulo/core/volume/VolumeImpl.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-1921:core/src/main/java/org/apache/accumulo/core/volume/VolumeImpl.java": {
+                "ncloc": "101",
+                "complexity": "24"
+            },
+            "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java": {
+                "ncloc": "124",
+                "complexity": "15"
+            }
+        }
+    },
+    {
+        "commit_sha": "d6033286251a93629262812d3cb9cb416cf64e76",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Ti",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 201,
+                        "endLine": 201,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Tf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Tg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 213,
+                        "endLine": 213,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Th",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 220,
+                        "endLine": 220,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5HRy3Yr8bbHvnc--3x",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:core/src/main/java/org/apache/accumulo/core/volume/VolumeImpl.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-1921:core/src/main/java/org/apache/accumulo/core/volume/VolumeImpl.java": {
+                "ncloc": "101",
+                "complexity": "24"
+            },
+            "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java": {
+                "ncloc": "124",
+                "complexity": "15"
+            }
+        }
+    },
+    {
+        "commit_sha": "665314de9f10d08fda5852f9355d467126ad32be",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Ti",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 201,
+                        "endLine": 201,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Tf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Tg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 213,
+                        "endLine": 213,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5HRxr2r8bbHvnc-8Th",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 220,
+                        "endLine": 220,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5HRy3Yr8bbHvnc--3x",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1921:core/src/main/java/org/apache/accumulo/core/volume/VolumeImpl.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-1921:core/src/main/java/org/apache/accumulo/core/volume/VolumeImpl.java": {
+                "ncloc": "102",
+                "complexity": "24"
+            },
+            "accumulo-1921:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManager.java": {
+                "ncloc": "124",
+                "complexity": "15"
+            }
+        }
+    }
+]

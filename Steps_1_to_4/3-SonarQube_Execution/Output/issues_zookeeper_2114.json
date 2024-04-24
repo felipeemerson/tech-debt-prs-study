@@ -1,0 +1,598 @@
+[
+    {
+        "commit_sha": "9e40464d98319b4553d93b12c6d7db4d240bbce9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY57__uY0GCajHYXV-vZ",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 15,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vc",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 21,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vb",
+                    "rule": "java:S1149",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 231,
+                        "endLine": 231,
+                        "startOffset": 16,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vd",
+                    "rule": "java:S1149",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 231,
+                        "endLine": 231,
+                        "startOffset": 34,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-ve",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 351,
+                        "endLine": 351,
+                        "startOffset": 9,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vf",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "55min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 446,
+                        "endLine": 446,
+                        "startOffset": 17,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-va",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 475,
+                        "endLine": 475,
+                        "startOffset": 41,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vY",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 521,
+                        "endLine": 521,
+                        "startOffset": 28,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vg",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 636,
+                        "endLine": 636,
+                        "startOffset": 19,
+                        "endOffset": 23
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java": {
+                "ncloc": "482",
+                "complexity": "103"
+            }
+        }
+    },
+    {
+        "commit_sha": "52fcf8ac7673a278c9ae1f178aff5ea76f602926",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY57__uY0GCajHYXV-vZ",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 15,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vc",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 21,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vb",
+                    "rule": "java:S1149",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 231,
+                        "endLine": 231,
+                        "startOffset": 16,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vd",
+                    "rule": "java:S1149",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 231,
+                        "endLine": 231,
+                        "startOffset": 34,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-ve",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 351,
+                        "endLine": 351,
+                        "startOffset": 9,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vf",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 446,
+                        "endLine": 446,
+                        "startOffset": 17,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-va",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 475,
+                        "endLine": 475,
+                        "startOffset": 41,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vY",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 521,
+                        "endLine": 521,
+                        "startOffset": 28,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vg",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 636,
+                        "endLine": 636,
+                        "startOffset": 19,
+                        "endOffset": 23
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java": {
+                "ncloc": "482",
+                "complexity": "104"
+            }
+        }
+    },
+    {
+        "commit_sha": "656d5876ef8ab0a772e9ddc2b693502a9577d62d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY57__uY0GCajHYXV-vZ",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 15,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vc",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 21,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vb",
+                    "rule": "java:S1149",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 231,
+                        "endLine": 231,
+                        "startOffset": 16,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vd",
+                    "rule": "java:S1149",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 231,
+                        "endLine": 231,
+                        "startOffset": 34,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-ve",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 351,
+                        "endLine": 351,
+                        "startOffset": 9,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vf",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 446,
+                        "endLine": 446,
+                        "startOffset": 17,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-va",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 475,
+                        "endLine": 475,
+                        "startOffset": 41,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vY",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 521,
+                        "endLine": 521,
+                        "startOffset": 28,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vg",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 636,
+                        "endLine": 636,
+                        "startOffset": 19,
+                        "endOffset": 23
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java": {
+                "ncloc": "482",
+                "complexity": "104"
+            }
+        }
+    },
+    {
+        "commit_sha": "1acb7e02e8a812e56027d869eaff8f2e0207eb73",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY57__uY0GCajHYXV-vZ",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 15,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vc",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 21,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vb",
+                    "rule": "java:S1149",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 231,
+                        "endLine": 231,
+                        "startOffset": 16,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vd",
+                    "rule": "java:S1149",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 231,
+                        "endLine": 231,
+                        "startOffset": 34,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-ve",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 351,
+                        "endLine": 351,
+                        "startOffset": 9,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vf",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 446,
+                        "endLine": 446,
+                        "startOffset": 17,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-va",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 475,
+                        "endLine": 475,
+                        "startOffset": 41,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vY",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 521,
+                        "endLine": 521,
+                        "startOffset": 28,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY57__uY0GCajHYXV-vg",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 636,
+                        "endLine": 636,
+                        "startOffset": 19,
+                        "endOffset": 23
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "zookeeper-2114:zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java": {
+                "ncloc": "482",
+                "complexity": "104"
+            }
+        }
+    }
+]

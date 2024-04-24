@@ -1,0 +1,128 @@
+[
+    {
+        "commit_sha": "7be5b5921b7b65e6d50413f73872341cbb557e6a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY54_Zncv_E88BfBdneI",
+                    "rule": "java:S4929",
+                    "severity": "MINOR",
+                    "component": "commons-io-453:src/main/java/org/apache/commons/io/input/QueueInputStream.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 13,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY54_Zb7v_E88BfBdnGZ",
+                    "rule": "java:S3400",
+                    "severity": "MINOR",
+                    "component": "commons-io-453:src/test/java/org/apache/commons/io/input/QueueInputStreamTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 15,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY54_Zb7v_E88BfBdnGa",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-453:src/test/java/org/apache/commons/io/input/QueueInputStreamTest.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 175,
+                        "endLine": 175,
+                        "startOffset": 12,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "commons-io-453:src/main/java/org/apache/commons/io/input/QueueInputStream.java": {
+                "ncloc": "68",
+                "complexity": "16"
+            },
+            "commons-io-453:src/test/java/org/apache/commons/io/input/QueueInputStreamTest.java": {
+                "ncloc": "171",
+                "complexity": "24"
+            }
+        }
+    },
+    {
+        "commit_sha": "0a339febea93cee7a7230319addca00002709f9f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY54_Zncv_E88BfBdneI",
+                    "rule": "java:S4929",
+                    "severity": "MINOR",
+                    "component": "commons-io-453:src/main/java/org/apache/commons/io/input/QueueInputStream.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 13,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY54_Zb7v_E88BfBdnGZ",
+                    "rule": "java:S3400",
+                    "severity": "MINOR",
+                    "component": "commons-io-453:src/test/java/org/apache/commons/io/input/QueueInputStreamTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 15,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY54_Zb7v_E88BfBdnGa",
+                    "rule": "java:S899",
+                    "severity": "MINOR",
+                    "component": "commons-io-453:src/test/java/org/apache/commons/io/input/QueueInputStreamTest.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 175,
+                        "endLine": 175,
+                        "startOffset": 12,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "commons-io-453:src/main/java/org/apache/commons/io/input/QueueInputStream.java": {
+                "ncloc": "68",
+                "complexity": "16"
+            },
+            "commons-io-453:src/test/java/org/apache/commons/io/input/QueueInputStreamTest.java": {
+                "ncloc": "173",
+                "complexity": "24"
+            }
+        }
+    }
+]

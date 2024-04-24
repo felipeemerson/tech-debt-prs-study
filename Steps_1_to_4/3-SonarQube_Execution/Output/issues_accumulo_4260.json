@@ -1,0 +1,881 @@
+[
+    {
+        "commit_sha": "101ae815f129efaf26cfc95eff0266861b561b49",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5GiltEAESW5py-5-hN",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 66,
+                        "endLine": 66,
+                        "startOffset": 13,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5GiltEAESW5py-5-hM",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 21,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5GiltEAESW5py-5-hO",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 39,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597R",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597O",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 170,
+                        "startOffset": 36,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597P",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 170,
+                        "startOffset": 47,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597Q",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 200,
+                        "endLine": 200,
+                        "startOffset": 15,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597E",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 257,
+                        "endLine": 257,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597F",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 261,
+                        "endLine": 261,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597N",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 293,
+                        "endLine": 293,
+                        "startOffset": 6,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597G",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 298,
+                        "endLine": 298,
+                        "startOffset": 20,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597H",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 305,
+                        "endLine": 305,
+                        "startOffset": 22,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597I",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 317,
+                        "endLine": 317,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 325,
+                        "endLine": 325,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597M",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 337,
+                        "endLine": 337,
+                        "startOffset": 75,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 341,
+                        "endLine": 341,
+                        "startOffset": 16,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597L",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 350,
+                        "endLine": 350,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 17
+        },
+        "metrics": {
+            "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java": {
+                "ncloc": "223",
+                "complexity": "34"
+            },
+            "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java": {
+                "ncloc": "275",
+                "complexity": "39"
+            }
+        }
+    },
+    {
+        "commit_sha": "97480feedf1de4af0e269eda43115d5ea3025ae8",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5GiltEAESW5py-5-hM",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 21,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5GiltEAESW5py-5-hO",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 39,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5GiltEAESW5py-5-hN",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 13,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5GkgW0AESW5py-6TGx",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 385,
+                        "endLine": 385,
+                        "startOffset": 21,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5GkgW0AESW5py-6TGy",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 39,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597R",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597O",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 47,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597P",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 36,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597Q",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 211,
+                        "endLine": 211,
+                        "startOffset": 15,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597E",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 268,
+                        "endLine": 268,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597F",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 272,
+                        "endLine": 272,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597N",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 303,
+                        "endLine": 303,
+                        "startOffset": 6,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597G",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 308,
+                        "endLine": 308,
+                        "startOffset": 20,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597H",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 315,
+                        "endLine": 315,
+                        "startOffset": 22,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597I",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 327,
+                        "endLine": 327,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 335,
+                        "endLine": 335,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597M",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 347,
+                        "endLine": 347,
+                        "startOffset": 75,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 351,
+                        "endLine": 351,
+                        "startOffset": 16,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597L",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 360,
+                        "endLine": 360,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 19
+        },
+        "metrics": {
+            "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java": {
+                "ncloc": "180",
+                "complexity": "27"
+            },
+            "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java": {
+                "ncloc": "315",
+                "complexity": "47"
+            }
+        }
+    },
+    {
+        "commit_sha": "f1c773804d2764b0e17df2152636fca2b10af01f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5GiltEAESW5py-5-hM",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 21,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5GiltEAESW5py-5-hO",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 39,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5GiltEAESW5py-5-hN",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 13,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5GkgW0AESW5py-6TGx",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 386,
+                        "endLine": 386,
+                        "startOffset": 21,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5GkgW0AESW5py-6TGy",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 405,
+                        "endLine": 405,
+                        "startOffset": 39,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597R",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597O",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 168,
+                        "endLine": 168,
+                        "startOffset": 36,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597P",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 168,
+                        "endLine": 168,
+                        "startOffset": 47,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597Q",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 212,
+                        "endLine": 212,
+                        "startOffset": 15,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597E",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 269,
+                        "endLine": 269,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597F",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 273,
+                        "endLine": 273,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597N",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 304,
+                        "endLine": 304,
+                        "startOffset": 6,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597G",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 309,
+                        "endLine": 309,
+                        "startOffset": 20,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597H",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 316,
+                        "endLine": 316,
+                        "startOffset": 22,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597I",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 328,
+                        "endLine": 328,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597J",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 336,
+                        "endLine": 336,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597M",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 348,
+                        "endLine": 348,
+                        "startOffset": 75,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597K",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 352,
+                        "endLine": 352,
+                        "startOffset": 16,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5GilRhAESW5py-597L",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 361,
+                        "endLine": 361,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 19
+        },
+        "metrics": {
+            "accumulo-4260:server/manager/src/main/java/org/apache/accumulo/manager/upgrade/SplitRecovery12to13.java": {
+                "ncloc": "180",
+                "complexity": "27"
+            },
+            "accumulo-4260:test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryIT.java": {
+                "ncloc": "316",
+                "complexity": "47"
+            }
+        }
+    }
+]

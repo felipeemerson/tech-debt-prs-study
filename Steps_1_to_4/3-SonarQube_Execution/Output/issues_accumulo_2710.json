@@ -1,0 +1,908 @@
+[
+    {
+        "commit_sha": "250fdaa0a9d2c9956ce2c89e8bff873a15545af8",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91dt",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 67,
+                        "endLine": 67,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91du",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 67,
+                        "endLine": 67,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91dv",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 9,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91dw",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 0,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91dx",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 0,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91ds",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 201,
+                        "endLine": 201,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91dy",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 32,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ao",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 86,
+                        "endLine": 86,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91al",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91am",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91aj",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ap",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91aq",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 104,
+                        "endLine": 104,
+                        "startOffset": 16,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ar",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 113,
+                        "endLine": 113,
+                        "startOffset": 16,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91as",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 16,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91at",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 16,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91au",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 158,
+                        "endLine": 158,
+                        "startOffset": 16,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91av",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 166,
+                        "endLine": 166,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91aw",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 248,
+                        "endLine": 248,
+                        "startOffset": 61,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91an",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 272,
+                        "endLine": 272,
+                        "startOffset": 58,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91af",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 282,
+                        "endLine": 282,
+                        "startOffset": 73,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ag",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 282,
+                        "endLine": 282,
+                        "startOffset": 86,
+                        "endOffset": 93
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ah",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 282,
+                        "endLine": 282,
+                        "startOffset": 47,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ai",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 282,
+                        "endLine": 282,
+                        "startOffset": 60,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ak",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 282,
+                        "endLine": 282,
+                        "startOffset": 34,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ae",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 283,
+                        "endLine": 283,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ax",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 343,
+                        "endLine": 343,
+                        "startOffset": 26,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ay",
+                    "rule": "java:S3457",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 407,
+                        "endLine": 408,
+                        "startOffset": 8,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91az",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 407,
+                        "endLine": 407,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 29
+        },
+        "metrics": {
+            "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java": {
+                "ncloc": "322",
+                "complexity": "55"
+            },
+            "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java": {
+                "ncloc": "129",
+                "complexity": "16"
+            }
+        }
+    },
+    {
+        "commit_sha": "c119d1dd58db8b53c74a703684614daaebac7e9c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91dw",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 0,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91dx",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 0,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91dt",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91du",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91dv",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 9,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91ds",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5Tg2nhl4CmRMVe91dy",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 32,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ap",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91aq",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 104,
+                        "endLine": 104,
+                        "startOffset": 16,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ar",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 113,
+                        "endLine": 113,
+                        "startOffset": 16,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91as",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 16,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91at",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 16,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91au",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 158,
+                        "endLine": 158,
+                        "startOffset": 16,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91av",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 166,
+                        "endLine": 166,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ao",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 76,
+                        "endLine": 76,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91al",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91am",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91aj",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 79,
+                        "endLine": 79,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91aw",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 61,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91an",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 179,
+                        "endLine": 179,
+                        "startOffset": 58,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91af",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 189,
+                        "endLine": 189,
+                        "startOffset": 73,
+                        "endOffset": 80
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ag",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 189,
+                        "endLine": 189,
+                        "startOffset": 86,
+                        "endOffset": 93
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ah",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 189,
+                        "endLine": 189,
+                        "startOffset": 47,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ai",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 189,
+                        "endLine": 189,
+                        "startOffset": 60,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ak",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 189,
+                        "endLine": 189,
+                        "startOffset": 34,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ae",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 190,
+                        "endLine": 190,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ax",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 250,
+                        "endLine": 250,
+                        "startOffset": 26,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91ay",
+                    "rule": "java:S3457",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 314,
+                        "endLine": 315,
+                        "startOffset": 8,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5Tg2mrl4CmRMVe91az",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 314,
+                        "endLine": 314,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 29
+        },
+        "metrics": {
+            "accumulo-2710:server/tserver/src/test/java/org/apache/accumulo/tserver/compaction/DefaultCompactionStrategyTest.java": {
+                "ncloc": "249",
+                "complexity": "36"
+            },
+            "accumulo-2710:server/tserver/src/main/java/org/apache/accumulo/tserver/compaction/MajorCompactionRequest.java": {
+                "ncloc": "116",
+                "complexity": "15"
+            }
+        }
+    }
+]

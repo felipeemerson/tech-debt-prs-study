@@ -1,0 +1,84 @@
+[
+    {
+        "commit_sha": "7df8e069e8cf927901f513b3b7897c3d91053143",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {}
+    },
+    {
+        "commit_sha": "270d273cc9e4a5d5665855debf509ec25d16862a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5plFvoTNX9f26ZZiQr",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2326:meta-client/src/test/java/org/apache/helix/metaclient/impl/zk/TestZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 19,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5plFvoTNX9f26ZZiQs",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "helix-2326:meta-client/src/test/java/org/apache/helix/metaclient/impl/zk/TestZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 19,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5plFvoTNX9f26ZZiQv",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "helix-2326:meta-client/src/test/java/org/apache/helix/metaclient/impl/zk/TestZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 19,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5plFvoTNX9f26ZZiQu",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "helix-2326:meta-client/src/test/java/org/apache/helix/metaclient/impl/zk/TestZkMetaClient.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 66,
+                        "endLine": 66,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "helix-2326:meta-client/src/test/java/org/apache/helix/metaclient/impl/zk/TestZkMetaClient.java": {
+                "ncloc": "39",
+                "complexity": "4"
+            }
+        }
+    }
+]

@@ -1,0 +1,708 @@
+[
+    {
+        "commit_sha": "04aa38cc75daf5cd00a8508ce2c80f91a0fa7262",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53FhUSSqFHuiA8JMm_",
+                    "rule": "java:S2786",
+                    "severity": "MINOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooserEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 36,
+                        "endLine": 36,
+                        "startOffset": 9,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY53FhUUSqFHuiA8JMnA",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 83,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY53FhUUSqFHuiA8JMnB",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 10,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnH",
+                    "rule": "java:S3655",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 67,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY53FhUWSqFHuiA8JMnC",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 92,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 118,
+                        "endLine": 118,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnG",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 11,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnF",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 142,
+                        "endLine": 142,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java": {
+                "ncloc": "86",
+                "complexity": "19"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/RandomVolumeChooser.java": {
+                "ncloc": "15",
+                "complexity": "2"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java": {
+                "ncloc": "90",
+                "complexity": "13"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooser.java": {
+                "ncloc": "7",
+                "complexity": "0"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooserEnvironment.java": {
+                "ncloc": "14",
+                "complexity": "0"
+            }
+        }
+    },
+    {
+        "commit_sha": "b529a787b47e7e16569b9d489ed22d19d8134bc2",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53FhUSSqFHuiA8JMm_",
+                    "rule": "java:S2786",
+                    "severity": "MINOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooserEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 36,
+                        "endLine": 36,
+                        "startOffset": 9,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY53FhUUSqFHuiA8JMnA",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 83,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY53FhUUSqFHuiA8JMnB",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 10,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnH",
+                    "rule": "java:S3655",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 67,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY53FhUWSqFHuiA8JMnC",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 211,
+                        "endLine": 211,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnG",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 217,
+                        "endLine": 217,
+                        "startOffset": 11,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 229,
+                        "endLine": 229,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnF",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java": {
+                "ncloc": "87",
+                "complexity": "19"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/RandomVolumeChooser.java": {
+                "ncloc": "16",
+                "complexity": "2"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java": {
+                "ncloc": "90",
+                "complexity": "13"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooser.java": {
+                "ncloc": "7",
+                "complexity": "0"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooserEnvironment.java": {
+                "ncloc": "14",
+                "complexity": "0"
+            }
+        }
+    },
+    {
+        "commit_sha": "3dce2cf63a9ccfdd7ae7e88ddd934cdb472f5e25",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53FhUSSqFHuiA8JMm_",
+                    "rule": "java:S2786",
+                    "severity": "MINOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooserEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 36,
+                        "endLine": 36,
+                        "startOffset": 9,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY53FhUUSqFHuiA8JMnA",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 83,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY53FhUUSqFHuiA8JMnB",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 10,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53LRstSqFHuiA8KDIj",
+                    "rule": "java:S1128",
+                    "severity": "MINOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/RandomVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 24,
+                        "endLine": 24,
+                        "startOffset": 7,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnH",
+                    "rule": "java:S3655",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 67,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY53FhUWSqFHuiA8JMnC",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 211,
+                        "endLine": 211,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnG",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 217,
+                        "endLine": 217,
+                        "startOffset": 11,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 229,
+                        "endLine": 229,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnF",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java": {
+                "ncloc": "87",
+                "complexity": "19"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/RandomVolumeChooser.java": {
+                "ncloc": "16",
+                "complexity": "2"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java": {
+                "ncloc": "90",
+                "complexity": "13"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooser.java": {
+                "ncloc": "7",
+                "complexity": "0"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooserEnvironment.java": {
+                "ncloc": "14",
+                "complexity": "0"
+            }
+        }
+    },
+    {
+        "commit_sha": "3e54eeaf7086ed5dfd319d06efc8e5eb979c4c45",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53FhUSSqFHuiA8JMm_",
+                    "rule": "java:S2786",
+                    "severity": "MINOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooserEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 36,
+                        "endLine": 36,
+                        "startOffset": 9,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY53FhUUSqFHuiA8JMnA",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 83,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY53FhUUSqFHuiA8JMnB",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 10,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53LRstSqFHuiA8KDIj",
+                    "rule": "java:S1128",
+                    "severity": "MINOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/RandomVolumeChooser.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 24,
+                        "endLine": 24,
+                        "startOffset": 7,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnH",
+                    "rule": "java:S3655",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 67,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY53FhUWSqFHuiA8JMnC",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 211,
+                        "endLine": 211,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnG",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 217,
+                        "endLine": 217,
+                        "startOffset": 11,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 229,
+                        "endLine": 229,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53FhUXSqFHuiA8JMnF",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/PreferredVolumeChooser.java": {
+                "ncloc": "87",
+                "complexity": "19"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/RandomVolumeChooser.java": {
+                "ncloc": "15",
+                "complexity": "2"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/SpaceAwareVolumeChooser.java": {
+                "ncloc": "90",
+                "complexity": "13"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooser.java": {
+                "ncloc": "7",
+                "complexity": "0"
+            },
+            "accumulo-3152:core/src/main/java/org/apache/accumulo/core/spi/fs/VolumeChooserEnvironment.java": {
+                "ncloc": "14",
+                "complexity": "0"
+            }
+        }
+    }
+]

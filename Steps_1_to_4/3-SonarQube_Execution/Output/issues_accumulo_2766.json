@@ -1,0 +1,923 @@
+[
+    {
+        "commit_sha": "37e1c6f275cca0b118ed6ab631345c0699515552",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKA",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 94,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKB",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 42,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKC",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKD",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "24min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 14,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaJ_",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "40min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKE",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 0,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaJ8",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 352,
+                        "endLine": 352,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKF",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 440,
+                        "endLine": 440,
+                        "startOffset": 75,
+                        "endOffset": 78
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaJ9",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 506,
+                        "endLine": 506,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaJ-",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 524,
+                        "endLine": 524,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 544,
+                        "endLine": 544,
+                        "startOffset": 20,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKH",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 544,
+                        "endLine": 544,
+                        "startOffset": 20,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKI",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 544,
+                        "endLine": 544,
+                        "startOffset": 20,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKJ",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 546,
+                        "endLine": 546,
+                        "startOffset": 33,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVx8",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 39,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyC",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 39,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyD",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 95,
+                        "endLine": 95,
+                        "startOffset": 14,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyE",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 118,
+                        "endLine": 118,
+                        "startOffset": 14,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyF",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 169,
+                        "endLine": 169,
+                        "startOffset": 14,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVx_",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 42,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyA",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 85,
+                        "endOffset": 93
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyG",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 237,
+                        "endLine": 237,
+                        "startOffset": 14,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyB",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 242,
+                        "endLine": 242,
+                        "startOffset": 10,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyH",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 264,
+                        "endLine": 264,
+                        "startOffset": 14,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyI",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 14,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyK",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 316,
+                        "endLine": 316,
+                        "startOffset": 5,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyJ",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 319,
+                        "endLine": 319,
+                        "startOffset": 14,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVx9",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 348,
+                        "endLine": 348,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVx-",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 358,
+                        "endLine": 358,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                }
+            ],
+            "total": 29
+        },
+        "metrics": {
+            "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java": {
+                "ncloc": "310",
+                "complexity": "41"
+            },
+            "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java": {
+                "ncloc": "482",
+                "complexity": "80"
+            }
+        }
+    },
+    {
+        "commit_sha": "8bda1db08d8f9e31b91645d10178b513858bc931",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKA",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 94,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKB",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 42,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKC",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 129,
+                        "endLine": 129,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKD",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "24min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 14,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaJ_",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "40min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKE",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 0,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaJ8",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 356,
+                        "endLine": 356,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKF",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 444,
+                        "endLine": 444,
+                        "startOffset": 75,
+                        "endOffset": 78
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaJ9",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 510,
+                        "endLine": 510,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaJ-",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 528,
+                        "endLine": 528,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 548,
+                        "endLine": 548,
+                        "startOffset": 20,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKH",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 548,
+                        "endLine": 548,
+                        "startOffset": 20,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKI",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 548,
+                        "endLine": 548,
+                        "startOffset": 20,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5SJceCy-HgqSyzxaKJ",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 550,
+                        "endLine": 550,
+                        "startOffset": 33,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5SK3cLy-HgqSyzxwaN",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 317,
+                        "endLine": 317,
+                        "startOffset": 44,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVx8",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 39,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyC",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 39,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyD",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 95,
+                        "endLine": 95,
+                        "startOffset": 14,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyE",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 118,
+                        "endLine": 118,
+                        "startOffset": 14,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyF",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 169,
+                        "endLine": 169,
+                        "startOffset": 14,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVx_",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 42,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyA",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 85,
+                        "endOffset": 93
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyG",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 237,
+                        "endLine": 237,
+                        "startOffset": 14,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyB",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 242,
+                        "endLine": 242,
+                        "startOffset": 10,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyH",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 264,
+                        "endLine": 264,
+                        "startOffset": 14,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyI",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 292,
+                        "endLine": 292,
+                        "startOffset": 14,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyK",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 330,
+                        "endLine": 330,
+                        "startOffset": 5,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVyJ",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 333,
+                        "endLine": 333,
+                        "startOffset": 14,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVx9",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 362,
+                        "endLine": 362,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5SJbnVy-HgqSyzxVx-",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 372,
+                        "endLine": 372,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                }
+            ],
+            "total": 30
+        },
+        "metrics": {
+            "accumulo-2766:test/src/main/java/org/apache/accumulo/test/functional/ManagerApiIT.java": {
+                "ncloc": "323",
+                "complexity": "43"
+            },
+            "accumulo-2766:server/manager/src/main/java/org/apache/accumulo/manager/ManagerClientServiceHandler.java": {
+                "ncloc": "486",
+                "complexity": "81"
+            }
+        }
+    }
+]

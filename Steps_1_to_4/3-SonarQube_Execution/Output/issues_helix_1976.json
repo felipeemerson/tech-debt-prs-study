@@ -1,0 +1,616 @@
+[
+    {
+        "commit_sha": "04d8df733973e1884fd47d0c5cdd251379df4024",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {}
+    },
+    {
+        "commit_sha": "c03b43a941d7a22722df581d9cc7432b82973052",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOh",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 30,
+                        "endLine": 30,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOc",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 37,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOd",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 34,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOe",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 35,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOf",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 72,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOg",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 31,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5iCGRYUxZbZg9mdkOa",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandlerFactory.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 23,
+                        "endLine": 23,
+                        "startOffset": 35,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5iCGRYUxZbZg9mdkOb",
+                    "rule": "java:S2168",
+                    "severity": "BLOCKER",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandlerFactory.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 30,
+                        "endLine": 30,
+                        "startOffset": 6,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java": {
+                "ncloc": "60",
+                "complexity": "16"
+            },
+            "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandlerFactory.java": {
+                "ncloc": "16",
+                "complexity": "4"
+            },
+            "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventListener.java": {
+                "ncloc": "5",
+                "complexity": "0"
+            }
+        }
+    },
+    {
+        "commit_sha": "c2dd35475ad0ef38256de4024414b7a27bdeb697",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5iC8w8UxZbZg9md2LX",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 35,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5iC8w8UxZbZg9md2LY",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 29,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5iC8w8UxZbZg9md2LZ",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 29,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5iC8w8UxZbZg9md2La",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 67,
+                        "endOffset": 90
+                    }
+                },
+                {
+                    "key": "AY5iC8w8UxZbZg9md2Lb",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 25,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOc",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 37,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOd",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 34,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOe",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 35,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOf",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 72,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOg",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 31,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOh",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 36,
+                        "endLine": 36,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5iCGRYUxZbZg9mdkOa",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandlerFactory.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 35,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5iCGRYUxZbZg9mdkOb",
+                    "rule": "java:S2168",
+                    "severity": "BLOCKER",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandlerFactory.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 6,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java": {
+                "ncloc": "48",
+                "complexity": "14"
+            },
+            "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandlerFactory.java": {
+                "ncloc": "16",
+                "complexity": "4"
+            },
+            "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventListener.java": {
+                "ncloc": "5",
+                "complexity": "0"
+            }
+        }
+    },
+    {
+        "commit_sha": "930797b6492dfa63681cdb8feb1ad3f16b7ade6b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5iDmK4UxZbZg9meIHY",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 39,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY5iDmK4UxZbZg9meIHZ",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 39,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5iC8w8UxZbZg9md2LY",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 29,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5iC8w8UxZbZg9md2LZ",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 29,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5iC8w8UxZbZg9md2La",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 67,
+                        "endOffset": 90
+                    }
+                },
+                {
+                    "key": "AY5iC8w8UxZbZg9md2Lb",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 25,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5iC8w8UxZbZg9md2LX",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 35,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOc",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 37,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOd",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 34,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOe",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 35,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOf",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 72,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOg",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 31,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5iCGRnUxZbZg9mdkOh",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5iCGRYUxZbZg9mdkOa",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandlerFactory.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 35,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5iCGRYUxZbZg9mdkOb",
+                    "rule": "java:S2168",
+                    "severity": "BLOCKER",
+                    "component": "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandlerFactory.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 6,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 15
+        },
+        "metrics": {
+            "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandler.java": {
+                "ncloc": "41",
+                "complexity": "14"
+            },
+            "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventHandlerFactory.java": {
+                "ncloc": "16",
+                "complexity": "4"
+            },
+            "helix-1976:helix-core/src/main/java/org/apache/helix/cloud/event/CloudEventListener.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            }
+        }
+    }
+]

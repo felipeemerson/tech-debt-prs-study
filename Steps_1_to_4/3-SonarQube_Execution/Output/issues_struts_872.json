@@ -1,0 +1,124 @@
+[
+    {
+        "commit_sha": "4aa1cbc56bf1154385acf6413c69a94976b29f61",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5tq46VR5K1tdoqiNpP",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "struts-872:plugins/rest/src/main/java/org/apache/struts2/rest/ContentTypeInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 38,
+                        "endOffset": 46
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "struts-872:plugins/rest/src/main/java/org/apache/struts2/rest/ContentTypeInterceptor.java": {
+                "ncloc": "31",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "6d6097c729dc3cf33e74fa3030b8843817b2c538",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5trq3lR5K1tdoqirtz",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-872:plugins/rest/src/test/java/org/apache/struts2/rest/ContentTypeInterceptorTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 38,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5trq3lR5K1tdoqirtw",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-872:plugins/rest/src/test/java/org/apache/struts2/rest/ContentTypeInterceptorTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 45,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5trq3lR5K1tdoqirtx",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-872:plugins/rest/src/test/java/org/apache/struts2/rest/ContentTypeInterceptorTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 45,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5trq3lR5K1tdoqirty",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-872:plugins/rest/src/test/java/org/apache/struts2/rest/ContentTypeInterceptorTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 54,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5tq46VR5K1tdoqiNpP",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "struts-872:plugins/rest/src/main/java/org/apache/struts2/rest/ContentTypeInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 38,
+                        "endOffset": 46
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "struts-872:plugins/rest/src/main/java/org/apache/struts2/rest/ContentTypeInterceptor.java": {
+                "ncloc": "32",
+                "complexity": "5"
+            },
+            "struts-872:plugins/rest/src/test/java/org/apache/struts2/rest/ContentTypeInterceptorTest.java": {
+                "ncloc": "112",
+                "complexity": "9"
+            }
+        }
+    }
+]

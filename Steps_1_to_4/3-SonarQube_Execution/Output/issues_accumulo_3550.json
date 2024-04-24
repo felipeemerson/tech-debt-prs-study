@@ -1,0 +1,233 @@
+[
+    {
+        "commit_sha": "12efe8adce368456a5a1b8e59e07c13b074e8139",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5rNgds8f47XzIb1Aj0",
+                    "rule": "java:S1215",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3550:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 11,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5rNhdJ8f47XzIb1EZ4",
+                    "rule": "java:S2583",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5rNhdJ8f47XzIb1EZ5",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java",
+                    "status": "OPEN",
+                    "debt": "7min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 316,
+                        "endLine": 316,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5rNhdJ8f47XzIb1EZ7",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 346,
+                        "endLine": 346,
+                        "startOffset": 73,
+                        "endOffset": 74
+                    }
+                },
+                {
+                    "key": "AY5rNhdJ8f47XzIb1EZ6",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 350,
+                        "endLine": 350,
+                        "startOffset": 13,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5rNhdJ8f47XzIb1EZ8",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 472,
+                        "endLine": 472,
+                        "startOffset": 24,
+                        "endOffset": 26
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3550:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java": {
+                "ncloc": "65",
+                "complexity": "7"
+            },
+            "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java": {
+                "ncloc": "416",
+                "complexity": "84"
+            }
+        }
+    },
+    {
+        "commit_sha": "8a4a728a5a11640bc8eee238f6a65a4014cc8fcd",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5rPxBy8f47XzIb1YXL",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3550:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 27,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5rNgds8f47XzIb1Aj0",
+                    "rule": "java:S1215",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3550:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 50,
+                        "endLine": 50,
+                        "startOffset": 11,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5rNhdJ8f47XzIb1EZ4",
+                    "rule": "java:S2583",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5rNhdJ8f47XzIb1EZ5",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java",
+                    "status": "OPEN",
+                    "debt": "7min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 316,
+                        "endLine": 316,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5rNhdJ8f47XzIb1EZ7",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 346,
+                        "endLine": 346,
+                        "startOffset": 73,
+                        "endOffset": 74
+                    }
+                },
+                {
+                    "key": "AY5rNhdJ8f47XzIb1EZ6",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 350,
+                        "endLine": 350,
+                        "startOffset": 13,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5rNhdJ8f47XzIb1EZ8",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 477,
+                        "endLine": 477,
+                        "startOffset": 24,
+                        "endOffset": 26
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "accumulo-3550:test/src/main/java/org/apache/accumulo/test/functional/MemoryConsumingIterator.java": {
+                "ncloc": "65",
+                "complexity": "7"
+            },
+            "accumulo-3550:server/base/src/main/java/org/apache/accumulo/server/fs/VolumeManagerImpl.java": {
+                "ncloc": "416",
+                "complexity": "85"
+            }
+        }
+    }
+]

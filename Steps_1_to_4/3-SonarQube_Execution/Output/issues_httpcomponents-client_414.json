@@ -1,0 +1,158 @@
+[
+    {
+        "commit_sha": "6295dbda7348a246d2f3f831d964c88addd007bc",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5B_MFqygGTmJJJOXt1",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/schedule/ExponentialBackOffSchedulingStrategy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 62,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY5B_MFqygGTmJJJOXt0",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/schedule/ExponentialBackOffSchedulingStrategy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 120,
+                        "endOffset": 121
+                    }
+                },
+                {
+                    "key": "AY5B_ME9ygGTmJJJOXtM",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheRevalidator.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 53,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5B_ME9ygGTmJJJOXtN",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheRevalidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 36,
+                        "endOffset": 53
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheRevalidator.java": {
+                "ncloc": "103",
+                "complexity": "18"
+            },
+            "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/schedule/ExponentialBackOffSchedulingStrategy.java": {
+                "ncloc": "54",
+                "complexity": "10"
+            }
+        }
+    },
+    {
+        "commit_sha": "e37d5f55ef545a389cd3a7d0038a0173429c7443",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5B_MFqygGTmJJJOXt1",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/schedule/ExponentialBackOffSchedulingStrategy.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 62,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY5B_MFqygGTmJJJOXt0",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/schedule/ExponentialBackOffSchedulingStrategy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 108,
+                        "endLine": 108,
+                        "startOffset": 120,
+                        "endOffset": 121
+                    }
+                },
+                {
+                    "key": "AY5B_ME9ygGTmJJJOXtN",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheRevalidator.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 36,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5B_ME9ygGTmJJJOXtM",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheRevalidator.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 53,
+                        "endOffset": 59
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/cache/DefaultAsyncCacheRevalidator.java": {
+                "ncloc": "101",
+                "complexity": "18"
+            },
+            "httpcomponents-client-414:httpclient5-cache/src/main/java/org/apache/hc/client5/http/impl/schedule/ExponentialBackOffSchedulingStrategy.java": {
+                "ncloc": "52",
+                "complexity": "10"
+            }
+        }
+    }
+]

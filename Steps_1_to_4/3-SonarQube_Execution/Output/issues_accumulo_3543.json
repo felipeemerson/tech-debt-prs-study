@@ -1,0 +1,584 @@
+[
+    {
+        "commit_sha": "05e4693ef6dd868237ad1e16ec3107f48ee89067",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a4",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 140,
+                        "endLine": 140,
+                        "startOffset": 8,
+                        "endOffset": 91
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a5",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 194,
+                        "endLine": 194,
+                        "startOffset": 78,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a2",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 196,
+                        "endLine": 196,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a3",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 219,
+                        "endLine": 219,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "37min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 223,
+                        "endLine": 223,
+                        "startOffset": 14,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a7",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 230,
+                        "endLine": 230,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a1",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 299,
+                        "endLine": 299,
+                        "startOffset": 18,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a8",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 328,
+                        "endLine": 328,
+                        "startOffset": 13,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a-",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 370,
+                        "endLine": 370,
+                        "startOffset": 56,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a9",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 370,
+                        "endLine": 370,
+                        "startOffset": 56,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a_",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "26min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 393,
+                        "endLine": 393,
+                        "startOffset": 14,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49bA",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 486,
+                        "endLine": 486,
+                        "startOffset": 26,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java": {
+                "ncloc": "407",
+                "complexity": "70"
+            }
+        }
+    },
+    {
+        "commit_sha": "db69f7786fcdd2a16fe89a452cb71ac126d09e6d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a4",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 141,
+                        "endLine": 141,
+                        "startOffset": 8,
+                        "endOffset": 91
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a5",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 200,
+                        "endLine": 200,
+                        "startOffset": 78,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a2",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 202,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a3",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "37min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 229,
+                        "endLine": 229,
+                        "startOffset": 14,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a7",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a1",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 305,
+                        "endLine": 305,
+                        "startOffset": 18,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a8",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 334,
+                        "endLine": 334,
+                        "startOffset": 13,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a-",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 376,
+                        "endLine": 376,
+                        "startOffset": 56,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a9",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 376,
+                        "endLine": 376,
+                        "startOffset": 56,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a_",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "26min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 399,
+                        "endLine": 399,
+                        "startOffset": 14,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49bA",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 492,
+                        "endLine": 492,
+                        "startOffset": 26,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java": {
+                "ncloc": "411",
+                "complexity": "71"
+            }
+        }
+    },
+    {
+        "commit_sha": "ff5f6aa53223393de977d996565a24635e3c7aac",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a4",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 141,
+                        "endLine": 141,
+                        "startOffset": 8,
+                        "endOffset": 91
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a5",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 200,
+                        "endLine": 200,
+                        "startOffset": 78,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a2",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 202,
+                        "startOffset": 10,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a3",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "37min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 229,
+                        "endLine": 229,
+                        "startOffset": 14,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a7",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a1",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 305,
+                        "endLine": 305,
+                        "startOffset": 18,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a8",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 334,
+                        "endLine": 334,
+                        "startOffset": 13,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a-",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 376,
+                        "endLine": 376,
+                        "startOffset": 56,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a9",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 376,
+                        "endLine": 376,
+                        "startOffset": 56,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49a_",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "26min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 399,
+                        "endLine": 399,
+                        "startOffset": 14,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5rjJ8e8f47XzIb49bA",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 492,
+                        "endLine": 492,
+                        "startOffset": 26,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-3543:server/gc/src/main/java/org/apache/accumulo/gc/GCRun.java": {
+                "ncloc": "412",
+                "complexity": "71"
+            }
+        }
+    }
+]

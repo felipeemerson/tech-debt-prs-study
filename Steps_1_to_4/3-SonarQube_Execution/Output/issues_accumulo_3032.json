@@ -1,0 +1,782 @@
+[
+    {
+        "commit_sha": "d12edd70d76e55647d06dc7d54c3bbc37c98b666",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58plw7SqFHuiA8EAKb",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "21min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 16,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKX",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "40min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 6,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKY",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 12,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKZ",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 118,
+                        "endLine": 118,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKc",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 16,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKa",
+                    "rule": "java:S2189",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 163,
+                        "startOffset": 8,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKW",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 284,
+                        "endLine": 284,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEH",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEI",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 229,
+                        "endLine": 229,
+                        "startOffset": 8,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEJ",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 232,
+                        "endLine": 232,
+                        "startOffset": 7,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEK",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 254,
+                        "endLine": 254,
+                        "startOffset": 23,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEL",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "42min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 318,
+                        "endLine": 318,
+                        "startOffset": 30,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEM",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 341,
+                        "endLine": 341,
+                        "startOffset": 23,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY58plPkSqFHuiA8D_v0",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/util/ShutdownUtil.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 23,
+                        "endLine": 23,
+                        "startOffset": 13,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zj",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 20,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 204,
+                        "endLine": 204,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zk",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 215,
+                        "endLine": 215,
+                        "startOffset": 32,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zl",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 248,
+                        "endLine": 248,
+                        "startOffset": 11,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zh",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 318,
+                        "endLine": 318,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zi",
+                    "rule": "java:S3516",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "4min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 344,
+                        "endLine": 344,
+                        "startOffset": 17,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY58pmerSqFHuiA8EEDs",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/Scanner.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 66,
+                        "endLine": 66,
+                        "startOffset": 19,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY58pmerSqFHuiA8EEDr",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/Scanner.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 74,
+                        "endLine": 74,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY58pmerSqFHuiA8EEDt",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/Scanner.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 76,
+                        "endLine": 76,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY58pmerSqFHuiA8EEDu",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/Scanner.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                }
+            ],
+            "total": 24
+        },
+        "metrics": {
+            "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java": {
+                "ncloc": "256",
+                "complexity": "55"
+            },
+            "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java": {
+                "ncloc": "284",
+                "complexity": "52"
+            },
+            "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/Scanner.java": {
+                "ncloc": "126",
+                "complexity": "22"
+            },
+            "accumulo-3032:core/src/main/java/org/apache/accumulo/core/util/ShutdownUtil.java": {
+                "ncloc": "25",
+                "complexity": "9"
+            },
+            "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java": {
+                "ncloc": "354",
+                "complexity": "66"
+            }
+        }
+    },
+    {
+        "commit_sha": "60ae2fde7657e85b43f2a13e93531623c61fc37b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58plw7SqFHuiA8EAKb",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "21min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 16,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKX",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "40min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 6,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKY",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 12,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKZ",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 118,
+                        "endLine": 118,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKc",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 16,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKa",
+                    "rule": "java:S2189",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 163,
+                        "startOffset": 8,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY58plw7SqFHuiA8EAKW",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 284,
+                        "endLine": 284,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEH",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEI",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 229,
+                        "endLine": 229,
+                        "startOffset": 8,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEJ",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 232,
+                        "endLine": 232,
+                        "startOffset": 7,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEK",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 254,
+                        "endLine": 254,
+                        "startOffset": 23,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEL",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "42min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 318,
+                        "endLine": 318,
+                        "startOffset": 30,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY58pmezSqFHuiA8EEEM",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 341,
+                        "endLine": 341,
+                        "startOffset": 23,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY58plPkSqFHuiA8D_v0",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/util/ShutdownUtil.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 23,
+                        "endLine": 23,
+                        "startOffset": 13,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zj",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 20,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zg",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 204,
+                        "endLine": 204,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zk",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 215,
+                        "endLine": 215,
+                        "startOffset": 32,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zl",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 248,
+                        "endLine": 248,
+                        "startOffset": 11,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zh",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 318,
+                        "endLine": 318,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY58plX1SqFHuiA8D_zi",
+                    "rule": "java:S3516",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java",
+                    "status": "OPEN",
+                    "debt": "4min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 344,
+                        "endLine": 344,
+                        "startOffset": 17,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY58pmerSqFHuiA8EEDs",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/Scanner.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 66,
+                        "endLine": 66,
+                        "startOffset": 19,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY58pmerSqFHuiA8EEDr",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/Scanner.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 74,
+                        "endLine": 74,
+                        "startOffset": 6,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY58pmerSqFHuiA8EEDt",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/Scanner.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 76,
+                        "endLine": 76,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY58pmerSqFHuiA8EEDu",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/Scanner.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                }
+            ],
+            "total": 24
+        },
+        "metrics": {
+            "accumulo-3032:core/src/main/java/org/apache/accumulo/core/iterators/Combiner.java": {
+                "ncloc": "256",
+                "complexity": "55"
+            },
+            "accumulo-3032:core/src/main/java/org/apache/accumulo/fate/Fate.java": {
+                "ncloc": "284",
+                "complexity": "52"
+            },
+            "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/Scanner.java": {
+                "ncloc": "126",
+                "complexity": "22"
+            },
+            "accumulo-3032:core/src/main/java/org/apache/accumulo/core/util/ShutdownUtil.java": {
+                "ncloc": "25",
+                "complexity": "9"
+            },
+            "accumulo-3032:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/TabletBase.java": {
+                "ncloc": "354",
+                "complexity": "66"
+            }
+        }
+    }
+]

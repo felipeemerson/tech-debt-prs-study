@@ -1,0 +1,84 @@
+[
+    {
+        "commit_sha": "ea124a4757eab49f2d12eecb715c82f206bb5340",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5xp9TnZBC6YwGx52Xy",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "struts-733:plugins/junit/src/test/java/actions/ViewAction.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "struts-733:plugins/junit/src/test/java/org/apache/struts2/junit/convention/StrutsJUnit4ConventionTestCaseTest.java": {
+                "ncloc": "19",
+                "complexity": "2"
+            },
+            "struts-733:plugins/junit/src/test/java/actions/ViewAction.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "struts-733:plugins/convention/src/test/java/actions/MessageAction.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "struts-733:plugins/convention/src/test/java/org/apache/struts2/convention/ConventionJUnit4Test.java": {
+                "ncloc": "19",
+                "complexity": "2"
+            }
+        }
+    },
+    {
+        "commit_sha": "dc43c891da38f219835ed7b77b3eb0d19a1f5c78",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5xp9TnZBC6YwGx52Xy",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "struts-733:plugins/convention/src/test/java/actions/MessageAction.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "struts-733:plugins/convention/src/test/java/org/apache/struts2/convention/ConventionJUnit4Test.java": {
+                "ncloc": "19",
+                "complexity": "2"
+            },
+            "struts-733:plugins/convention/src/test/java/actions/MessageAction.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "struts-733:plugins/junit/src/test/java/actions/ViewAction.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "struts-733:plugins/junit/src/test/java/org/apache/struts2/junit/convention/StrutsJUnit4ConventionTestCaseTest.java": {
+                "ncloc": "19",
+                "complexity": "2"
+            }
+        }
+    }
+]

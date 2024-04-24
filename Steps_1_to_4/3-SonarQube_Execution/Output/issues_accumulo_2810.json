@@ -1,0 +1,120 @@
+[
+    {
+        "commit_sha": "36dd78ce6bbc2aae8db72014b8703f94b9b92ded",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5NXRfKFhtk00z4S567",
+                    "rule": "java:S1845",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2810:server/manager/src/main/java/org/apache/accumulo/manager/metrics/fate/FateMetrics.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5NXRfKFhtk00z4S568",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-2810:server/manager/src/main/java/org/apache/accumulo/manager/metrics/fate/FateMetrics.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 123,
+                        "endLine": 123,
+                        "startOffset": 62,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY5NXRfKFhtk00z4S566",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2810:server/manager/src/main/java/org/apache/accumulo/manager/metrics/fate/FateMetrics.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 90,
+                        "endOffset": 97
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-2810:server/manager/src/main/java/org/apache/accumulo/manager/metrics/fate/FateMetrics.java": {
+                "ncloc": "126",
+                "complexity": "13"
+            }
+        }
+    },
+    {
+        "commit_sha": "73d8f6a19a837257e4f982bce2b6cc5ce79df33c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5NXRfKFhtk00z4S568",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-2810:server/manager/src/main/java/org/apache/accumulo/manager/metrics/fate/FateMetrics.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 123,
+                        "endLine": 123,
+                        "startOffset": 62,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY5NXRfKFhtk00z4S567",
+                    "rule": "java:S1845",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2810:server/manager/src/main/java/org/apache/accumulo/manager/metrics/fate/FateMetrics.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5NXRfKFhtk00z4S566",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2810:server/manager/src/main/java/org/apache/accumulo/manager/metrics/fate/FateMetrics.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 137,
+                        "endLine": 137,
+                        "startOffset": 90,
+                        "endOffset": 97
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-2810:server/manager/src/main/java/org/apache/accumulo/manager/metrics/fate/FateMetrics.java": {
+                "ncloc": "127",
+                "complexity": "13"
+            }
+        }
+    }
+]

@@ -1,0 +1,226 @@
+[
+    {
+        "commit_sha": "3e764c50512298631c00ccd9056e4ef738674c60",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5mQBKj8f47XzIbXpfa",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 78,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5mQBKj8f47XzIbXpfb",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 54,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5mQBKj8f47XzIbXpfc",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 26,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5mQBKi8f47XzIbXpfZ",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 144,
+                        "endLine": 144,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5mQBKz8f47XzIbXpfg",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/StoredTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 0,
+                        "endOffset": 72
+                    }
+                },
+                {
+                    "key": "AY5mQBKz8f47XzIbXpfh",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/StoredTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 221,
+                        "endLine": 221,
+                        "startOffset": 0,
+                        "endOffset": 90
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/AbstractTabletFile.java": {
+                "ncloc": "29",
+                "complexity": "7"
+            },
+            "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java": {
+                "ncloc": "146",
+                "complexity": "32"
+            },
+            "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/StoredTabletFile.java": {
+                "ncloc": "173",
+                "complexity": "42"
+            }
+        }
+    },
+    {
+        "commit_sha": "b1794cc7db8cfd535ac549b6bee7e6d23279f2fd",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5mQBKj8f47XzIbXpfa",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 78,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5mQBKj8f47XzIbXpfb",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 54,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5mQBKj8f47XzIbXpfc",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 26,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5mQBKi8f47XzIbXpfZ",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 143,
+                        "endLine": 143,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5mQBKz8f47XzIbXpfh",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/StoredTabletFile.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 221,
+                        "endLine": 221,
+                        "startOffset": 0,
+                        "endOffset": 90
+                    }
+                },
+                {
+                    "key": "AY5mQBKz8f47XzIbXpfg",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/StoredTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 0,
+                        "endOffset": 72
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/AbstractTabletFile.java": {
+                "ncloc": "42",
+                "complexity": "14"
+            },
+            "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java": {
+                "ncloc": "145",
+                "complexity": "32"
+            },
+            "accumulo-3621:core/src/main/java/org/apache/accumulo/core/metadata/StoredTabletFile.java": {
+                "ncloc": "159",
+                "complexity": "33"
+            }
+        }
+    }
+]

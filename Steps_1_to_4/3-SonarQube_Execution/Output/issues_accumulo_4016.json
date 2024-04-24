@@ -1,0 +1,802 @@
+[
+    {
+        "commit_sha": "effa08f46aa2de38fe6c1470658cd75526007b0f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Tb-9MAESW5py-u7vI",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/MetadataMaxFilesIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb_AFAESW5py-u75z",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/CleanWalIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb-8XAESW5py-u7s1",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/CleanTmpIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb-8cAESW5py-u7s_",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/WriteAheadLogIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb-8cAESW5py-u7s-",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/WriteAheadLogIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 72,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5Tb-95AESW5py-u7w9",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/WriteAheadLogEncryptedIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ab",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 113,
+                        "endLine": 113,
+                        "startOffset": 28,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ac",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 123,
+                        "endLine": 123,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Aa",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 141,
+                        "endLine": 141,
+                        "startOffset": 14,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ad",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 153,
+                        "endLine": 153,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ae",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Af",
+                    "rule": "java:S2696",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 157,
+                        "endLine": 157,
+                        "startOffset": 6,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8AW",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 189,
+                        "endLine": 189,
+                        "startOffset": 45,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8AY",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 317,
+                        "endLine": 317,
+                        "startOffset": 32,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ag",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 415,
+                        "endLine": 415,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8AZ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 422,
+                        "endLine": 422,
+                        "startOffset": 52,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ah",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 424,
+                        "endLine": 424,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ai",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 447,
+                        "endLine": 447,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8AX",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 490,
+                        "endLine": 490,
+                        "startOffset": 52,
+                        "endOffset": 74
+                    }
+                },
+                {
+                    "key": "AY5Tb-8rAESW5py-u7ti",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/BigRootTabletIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb-8rAESW5py-u7th",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/BigRootTabletIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 69,
+                        "endLine": 69,
+                        "startOffset": 10,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY5Tb-9pAESW5py-u7wQ",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/DeleteRowsSplitIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb-9pAESW5py-u7wP",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/DeleteRowsSplitIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 26,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5Tb-9pAESW5py-u7wO",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/DeleteRowsSplitIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 141,
+                        "endLine": 141,
+                        "startOffset": 69,
+                        "endOffset": 78
+                    }
+                }
+            ],
+            "total": 24
+        },
+        "metrics": {
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java": {
+                "ncloc": "394",
+                "complexity": "45"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/BigRootTabletIT.java": {
+                "ncloc": "45",
+                "complexity": "4"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/CleanTmpIT.java": {
+                "ncloc": "82",
+                "complexity": "3"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/CleanWalIT.java": {
+                "ncloc": "101",
+                "complexity": "8"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/DeleteRowsSplitIT.java": {
+                "ncloc": "101",
+                "complexity": "11"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/MetadataMaxFilesIT.java": {
+                "ncloc": "77",
+                "complexity": "12"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/WriteAheadLogEncryptedIT.java": {
+                "ncloc": "52",
+                "complexity": "3"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/WriteAheadLogIT.java": {
+                "ncloc": "45",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "455f2004b6d844a0a21e3d424ae59b1ff0d69741",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Tb-9MAESW5py-u7vI",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/MetadataMaxFilesIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb_AFAESW5py-u75z",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/CleanWalIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb-8XAESW5py-u7s1",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/CleanTmpIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb-8cAESW5py-u7s_",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/WriteAheadLogIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb-8cAESW5py-u7s-",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/WriteAheadLogIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 72,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5Tb-95AESW5py-u7w9",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/WriteAheadLogEncryptedIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ai",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 447,
+                        "endLine": 447,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ab",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 28,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ac",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Aa",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 142,
+                        "endLine": 142,
+                        "startOffset": 14,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ad",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 154,
+                        "endLine": 154,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ae",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 156,
+                        "endLine": 156,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Af",
+                    "rule": "java:S2696",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 158,
+                        "endLine": 158,
+                        "startOffset": 6,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8AW",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 190,
+                        "endLine": 190,
+                        "startOffset": 45,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8AY",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 318,
+                        "endLine": 318,
+                        "startOffset": 32,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ag",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 416,
+                        "endLine": 416,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8AZ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 423,
+                        "endLine": 423,
+                        "startOffset": 52,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8Ah",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 425,
+                        "endLine": 425,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5Tb_CSAESW5py-u8AX",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 492,
+                        "endLine": 492,
+                        "startOffset": 52,
+                        "endOffset": 74
+                    }
+                },
+                {
+                    "key": "AY5Tb-8rAESW5py-u7ti",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/BigRootTabletIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb-8rAESW5py-u7th",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/BigRootTabletIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 67,
+                        "endLine": 67,
+                        "startOffset": 10,
+                        "endOffset": 63
+                    }
+                },
+                {
+                    "key": "AY5Tb-9pAESW5py-u7wQ",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/DeleteRowsSplitIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5Tb-9pAESW5py-u7wP",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/DeleteRowsSplitIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 26,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5Tb-9pAESW5py-u7wO",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/DeleteRowsSplitIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 69,
+                        "endOffset": 78
+                    }
+                }
+            ],
+            "total": 24
+        },
+        "metrics": {
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/AuditMessageIT.java": {
+                "ncloc": "396",
+                "complexity": "45"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/BigRootTabletIT.java": {
+                "ncloc": "43",
+                "complexity": "4"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/CleanWalIT.java": {
+                "ncloc": "99",
+                "complexity": "8"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/DeleteRowsSplitIT.java": {
+                "ncloc": "99",
+                "complexity": "11"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/MetadataMaxFilesIT.java": {
+                "ncloc": "77",
+                "complexity": "12"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/WriteAheadLogEncryptedIT.java": {
+                "ncloc": "50",
+                "complexity": "3"
+            },
+            "accumulo-4016:test/src/main/java/org/apache/accumulo/test/functional/WriteAheadLogIT.java": {
+                "ncloc": "43",
+                "complexity": "4"
+            }
+        }
+    }
+]

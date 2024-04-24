@@ -1,0 +1,1234 @@
+---
+title: "Issues Characterization"
+author: "omitted"
+date: "2024-04-05"
+output: 
+    pdf_document:
+        number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+pct_format = scales::percent_format(accuracy = .01)
+
+library(knitr)
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(patchwork)
+library(tidyverse)
+library(kableExtra)
+
+options(kableExtra.latex.next.table.width = "0.5\\linewidth")
+options(dplyr.summarise.inform = FALSE)
+
+theme_set(theme_bw())
+
+all_data <- read.csv("../data/processed_issues.csv", encoding = "UTF-8")
+```
+
+# Data overview
+
+```{r}
+glimpse(all_data)
+```
+
+## PRs count by repo
+
+```{r echo=FALSE}
+all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(n = n()) %>%
+    group_by(repo) %>%
+    summarise(n_prs = n()) %>%
+    ggplot(aes(x=n_prs, y=repo)) +
+    geom_bar(stat="identity", width = 0.5, fill="steelblue") +
+    geom_text(
+      aes(
+        label = sprintf(
+          '%d (%s)',
+          n_prs,
+          pct_format(n_prs / sum(n_prs))
+        )
+      ),
+      position = position_identity(),
+      vjust = 0.4,
+      hjust = -0.1,
+      colour = 'black', #cornflowerblue
+      size = 4,
+      fontface = "bold"
+    ) + 
+    xlim(0, 1250) +
+    labs(
+        title = "PRs count by repo",
+        y = "repo",
+        x = "PRs count"
+    ) +
+    theme(aspect.ratio = 9/16)
+```
+
+## Issues count by repo
+```{r echo=FALSE}
+all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(n = n()) %>%
+    group_by(repo) %>%
+    summarise(n_issues = sum(n)) %>%
+    ggplot(aes(x=n_issues, y=repo)) +
+    geom_bar(stat="identity", fill="steelblue", width = 0.75) + 
+    geom_text(
+      aes(
+        label = sprintf(
+          '%d (%s)',
+          n_issues,
+          pct_format(n_issues / sum(n_issues))
+        )
+      ),
+      position = position_identity(),
+      vjust = 0.4,
+      hjust = -0.1,
+      colour = 'black',
+      size = 3,
+      fontface = "bold"
+    ) + 
+    xlim(0, 200000) +
+    theme(legend.position="none") +
+    #theme(axis.text.y=element_text(size=15)) +
+    labs(
+        title = "Issues count by repo",
+        x = "Issues count",
+        y = "Repo"
+    ) + 
+    theme(aspect.ratio = 9/32)
+```
+
+# Issues
+
+## Issues count by PR
+```{r echo=FALSE}
+all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(n_issues = n()) %>%
+    ungroup(repo) %>%
+    select(n_issues) %>%
+    summary()
+```
+
+## Distribution of issues count by PR
+```{r echo=FALSE}
+p1 <- all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(n_issues = n()) %>%
+    ungroup(repo) %>%
+    select(n_issues) %>%
+    ggplot(aes(x=n_issues)) +
+    geom_histogram(binwidth = 100, fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Histogram",
+        x = "Issues count by PR"
+    )
+
+p2 <- all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(n_issues = n()) %>%
+    ungroup(repo) %>%
+    select(n_issues) %>%
+    ggplot(aes(y=n_issues)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) + 
+    coord_cartesian(ylim = c(0, 1500)) +
+    labs(
+        title = "Boxplot",
+        y = "Issues count by PR"
+    )
+
+p3 <- all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(n_issues = n()) %>%
+    ungroup(repo) %>%
+    select(n_issues) %>%
+    ggplot(aes(y=n_issues)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) + 
+    coord_cartesian(ylim = c(0, 300)) +
+    labs(
+        title = "Boxplot (zoom)",
+        y = "Issues count by PR"
+    )
+
+design = "
+AA
+BC
+"
+
+p1 + p2 + p3 + plot_layout(design = design, heights = c(3, 4, 4)) + plot_annotation(
+  title = 'Distribution of issues count by PR'
+)
+```
+
+## Issues count by type
+
+```{r echo=FALSE}
+all_data %>%
+    group_by(type) %>%
+    summarise(n = n()) %>%
+    ggplot(aes(y=n, x=type)) +
+    geom_bar(stat="identity", fill="steelblue") +
+    geom_text(
+      aes(
+        label = sprintf(
+          '%d (%s)',
+          n,
+          pct_format(n / sum(n))
+        )
+      ),
+      position = position_identity(),
+      vjust = -0.4,
+      colour = 'black',
+      size = 4
+    ) +
+    ylim(0, 250000) +
+    theme(legend.position="none") +
+    theme(axis.text.x=element_text(size=13)) +
+    labs(
+        title = "Issues count by type",
+        x = "Type",
+        y = "Issues count",
+        fill="Tipo"
+    )
+```
+
+## Issues count by severity
+
+```{r echo=FALSE}
+all_data %>%
+    group_by(severity) %>%
+    summarise(n = n()) %>%
+    ggplot(aes(y=n, x=severity)) +
+    geom_bar(stat="identity", fill="steelblue") +
+    geom_text(
+      aes(
+        label = sprintf(
+          '%d (%s)',
+          n,
+          pct_format(n / sum(n))
+        )
+      ),
+      position = position_identity(),
+      vjust = -0.4,
+      colour = 'black',
+      size = 5
+    ) +
+    ylim(0, 120000) +
+    theme(legend.position="none") +
+    theme(axis.text.x=element_text(size=13)) +
+    labs(
+        title = "Issues count by severity",
+        x = "Severity",
+        y = "Issues count",
+        fill="Severity"
+    )
+```
+
+## TD by severity
+
+```{r echo=FALSE}
+all_data %>%
+    group_by(severity) %>%
+    summarise(debt = sum(debt)) %>%
+    ggplot(aes(y=debt, x=severity)) +
+    geom_bar(stat="identity", fill="steelblue", width = 0.6) +
+    geom_text(
+      aes(
+        label = sprintf(
+          '%d (%s)',
+          debt,
+          pct_format(debt / sum(debt))
+        )
+      ),
+      position = position_identity(),
+      vjust = -0.4,
+      colour = 'black',
+      size = 4.7
+    ) +
+    ylim(0, 1000000) +
+    theme(legend.position="none") +
+    theme(axis.text.x=element_text(size=13)) +
+    labs(
+        title = "TD by severity",
+        x = "Severity",
+        y = "TD",
+        fill="Severity"
+    )
+```
+
+## Distinct rules count
+```{r echo=FALSE}
+all_data %>%
+    distinct(rule) %>%
+    count()
+```
+264 different rules out of 622 (42.44\%) were violated across the entire database.
+
+## Distinct resolved rules count
+```{r echo=FALSE}
+all_data %>%
+    filter(status == "CLOSED") %>%
+    distinct(rule) %>%
+    count()
+```
+
+From 264 distinct rules detected, 202 types (76.51\%) have at least one instance resolved.
+
+## Most frequent issues
+```{r echo=FALSE}
+all_data %>%
+    group_by(rule) %>%
+    summarise(n = n()) %>%
+    mutate(percentage = round((n / sum(n)) * 100, 3)) %>%
+    arrange(desc(n)) %>%
+    head(10)
+```
+
+## Most frequent issues by repo
+```{r echo=FALSE}
+all_data %>%
+  group_by(repo, rule) %>%
+  summarise(n = n()) %>%
+  arrange(repo, desc(n)) %>%
+  group_by(repo) %>%
+  slice_head(n = 10)
+```
+
+The TOP 10 most frequent issues represents 54.71\% of total.
+
+```{r table, results='asis', echo=FALSE}
+data_table_1 <- data.frame(
+  Rule = character(),
+  Description = character(),
+  Type = character(),
+  Severity = character(),
+  Debt = character(),
+  stringsAsFactors = FALSE
+)
+
+data_text_1 <- c(
+  "S1192 - String literals should not be duplicated - CODE SMELL - Critical - 2min + 2min per additional instance",
+  "S117 - Local variable and method parameter names should comply with a naming convention - CODE SMELL - Minor - 2min",
+  "S2589 - Boolean expressions should not be gratuitous - CODE SMELL - Major - 10min",
+  "S116 - Field names should comply with a naming convention - CODE SMELL - Minor - 2min",
+  "S101 - Class names should comply with a naming convention - CODE SMELL - Minor - 5min",
+  "S112 - Generic exceptions should never be thrown - CODE SMELL - Major - 20min",
+  "S3776 - Cognitive Complexity of methods should not be too high - CODE SMELL - Critical - 5min + 1 min per point above threshold",
+  "S1125 - Boolean literals should not be redundant - CODE SMELL - Minor - 5min",
+  "S2293 - The diamond operator (\"<>\") should be used - CODE SMELL - Minor - 1min",
+  "S106 - Standard outputs should not be used directly to log anything - CODE SMELL - Major - 10min"
+)
+
+for (line in data_text_1) {
+  parts <- unlist(strsplit(line, " - "))
+  data_table_1 <- rbind(data_table_1, data.frame(
+    Rule = parts[1],
+    Description = parts[2],
+    Type = parts[3],
+    Severity = parts[4],
+    Debt = parts[5],
+    stringsAsFactors = FALSE
+  ))
+}
+
+data_table_1[] <- lapply(data_table_1, trimws)
+
+kable(
+        data_table_1,
+        "latex",
+        escape = FALSE,
+        booktabs = TRUE,
+        col.names = c("Rule", "Description", "Type", "Severity", "Debt"),
+        caption = "Top 10 most frequent issues"
+    ) %>%
+    kable_styling("striped", full_width = FALSE, font_size = 8) %>%
+    column_spec(2, width = "8cm") %>%
+    column_spec(5, width = "4cm")
+```
+
+
+## Less frequent issues
+
+```{r echo=FALSE}
+all_data %>%
+    group_by(rule) %>%
+    summarise(n = n()) %>%
+    mutate(percentage = round((n / sum(n)) * 100, 3)) %>%
+    arrange(n) %>%
+    head(10)
+```
+
+```{r echo=FALSE}
+data_table_2 <- data.frame(
+  Rule = character(),
+  Description = character(),
+  Type = character(),
+  Severity = character(),
+  Debt = character(),
+  stringsAsFactors = FALSE
+)
+
+data_text_2 <- c(
+  "S1217 - \"Thread.run()\" should not be called directly - BUG - Major - 20min",
+  "S1220 - The default unnamed package should not be used - CODE SMELL - Minor - 10min",
+  "S2110 - Invalid \"Date\" values should not be used - BUG - Major - 5min",
+  "S2121 - Silly String operations should not be made - BUG - Major - 5min",
+  "S2185 - Silly math should not be performed - CODE SMELL - Major - 15min",
+  "S2276 - \"wait(...)\" should be used instead of \"Thread.sleep(...)\" when a lock is held - BUG - Blocker - 5min",
+  "S2677 - \"read\" and \"readLine\" return values should be used - BUG - Major - 5min",
+  "S2885 - Non-thread-safe fields should not be static - BUG - Major - 15min",
+  "S3034 - Raw byte values should not be used in bitwise operations in combination with shifts - BUG - Major - 5min",
+  "S3923 - All branches in a conditional structure should not have exactly the same implementation - BUG - Major - 15min"
+)
+
+for (line in data_text_2) {
+  parts <- unlist(strsplit(line, " - "))
+  data_table_2 <- rbind(data_table_2, data.frame(
+    Rule = parts[1],
+    Description = parts[2],
+    Type = parts[3],
+    Severity = parts[4],
+    Debt = parts[5],
+    stringsAsFactors = FALSE
+  ))
+}
+
+data_table_2[] <- lapply(data_table_2, trimws)
+
+kable(
+        data_table_2,
+        "latex",
+        escape = FALSE,
+        booktabs = TRUE,
+        col.names = c("Rule", "Description", "Type", "Severity", "Debt"),
+        caption = "Top 10 less frequent issues"
+    ) %>%
+    kable_styling("striped", full_width = FALSE, font_size = 8) %>%
+    column_spec(2, width = "8cm") %>%
+    column_spec(5, width = "4cm")
+```
+
+## Issues by higher total TD
+```{r echo=FALSE}
+all_data %>%
+    group_by(rule) %>%
+    summarise(debt = sum(debt)) %>%
+    mutate(percentage = round((debt / sum(debt)) * 100, 3)) %>%
+    arrange(desc(debt)) %>%
+    head(10)
+```
+
+The TOP 10 of issues by higher total TD represents 60.78\% of total TD.
+
+S1874 (major, obsolete), S2142 (major, error-handling), S2157 (critical, convention) and S1119 (major, confusing) are not in TOP 10 issues by count.
+S116 (minor, convention), S117 (minor, convention), S1125 (minor, clumsy) and S2293 (minor, clumsy) are not in TOP 10 by higher total TD.
+
+The rules S101 (minor, convention), S106 (major, bad-practice), S112 (major, error-handling), S1192 (critical, design), S2589 (major, redundant) and S3776 (critical, brain-overload) are in both.
+
+## Issues by higher total TD and grouped by repo
+
+```{r, echo=FALSE}
+all_data %>%
+  group_by(repo, rule) %>%
+  summarise(debt = sum(debt)) %>%
+  mutate(percentage = round((debt / sum(debt)) * 100, 3)) %>%
+  arrange(repo, desc(debt)) %>%
+  group_by(repo) %>%
+  slice_head(n = 10)
+```
+
+```{r echo=FALSE}
+data_table_3 <- data.frame(
+  Rule = character(),
+  Description = character(),
+  Type = character(),
+  Severity = character(),
+  Debt = character(),
+  stringsAsFactors = FALSE
+)
+
+data_text_3 <- c(
+  "S1192 - String literals should not be duplicated - CODE SMELL - Critical - 2min + 2min per additional instance",
+  "S112 - Generic exceptions should never be thrown - CODE SMELL - Major - 20min",
+  "S3776 - Cognitive Complexity of methods should not be too high - CODE SMELL - Critical - 5min + 1 min per point above threshold",
+  "S2589 - Boolean expressions should not be gratuitous - CODE SMELL - Major - 10min",
+  "S1874 - \"@Deprecated\" code marked for removal should never be used - CODE SMELL - Major - 15min",
+  "S2142 - \"InterruptedException\" should not be ignored - BUG - Major - 15min",
+  "S106 - Standard outputs should not be used directly to log anything - CODE SMELL - Major - 10min",
+  "S2157 - \"Cloneables\" should implement \"clone\" - CODE SMELL - Critical - 30min",
+  "S101 - Class names should comply with a naming convention - CODE SMELL - Minor - 5min",
+  "S1119 - Labels should not be used - CODE SMELL - Major - 30min"
+)
+
+for (line in data_text_3) {
+  parts <- unlist(strsplit(line, " - "))
+  data_table_3 <- rbind(data_table_3, data.frame(
+    Rule = parts[1],
+    Description = parts[2],
+    Type = parts[3],
+    Severity = parts[4],
+    Debt = parts[5],
+    stringsAsFactors = FALSE
+  ))
+}
+
+data_table_3[] <- lapply(data_table_3, trimws)
+
+kable(
+        data_table_3,
+        "latex",
+        escape = FALSE,
+        booktabs = TRUE,
+        col.names = c("Rule", "Description", "Type", "Severity", "Debt"),
+        caption = "Top 10 issues by total TD"
+    ) %>%
+    kable_styling("striped", full_width = FALSE, font_size = 8) %>%
+    column_spec(2, width = "8cm") %>%
+    column_spec(5, width = "4cm")
+```
+
+## Issues count by origin and status
+
+```{r echo=FALSE}
+all_data %>%
+    mutate(
+        status = ifelse(status == "OPEN", "Unfixed", ifelse(status == "CLOSED", "Fixed", NA))
+    ) %>%
+    group_by(status, origin) %>%
+    summarise(n = n()) %>%
+    ggplot(aes(y=n, x=interaction(origin, status))) +
+    geom_bar(stat="identity", fill="steelblue") +
+    geom_text(
+      aes(
+        label = sprintf(
+          '%d (%s)',
+          n,
+          pct_format(n / sum(n))
+        )
+      ),
+      position = position_identity(),
+      vjust = -0.4,
+      colour = 'black',
+      size = 5
+    ) +
+    ylim(0, 230000) +
+    theme(legend.position="none") +
+    theme(axis.text.x=element_text(size=13)) +
+    labs(
+        title = "Issues count by source and status",
+        x = "Origin.Status",
+        y = "Issues count",
+        fill="Status"
+    )
+```
+## Distribution of issues count by origin and status
+
+```{r echo=FALSE}
+all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        n_issues_preexisting_unfixed=sum(origin == "PRE-EXISTING" & status == "OPEN"),
+        n_issues_new_unfixed=sum(origin == "NEW" & status == "OPEN"),
+        n_issues_preexisting_fixed=sum(origin == "PRE-EXISTING" & status == "CLOSED"),
+        n_issues_new_fixed=sum(origin == "NEW" & status == "CLOSED")
+    ) %>%
+    select(-pr_number) %>%
+    summary()
+```
+
+## Issues density (considering NCLOC from last commit)
+Note: NCLOC is defined by SonarQube as the number of physical lines that contain at least one character that is not a white space, a tab, or part of a comment. [Source](https://docs.sonarsource.com/sonarqube/9.9/user-guide/metric-definitions/).
+
+```{r echo=FALSE}
+all_data %>%
+    group_by(repo, pr_number) %>%
+    mutate(num_issues = n()) %>%
+    distinct(file, .keep_all=TRUE) %>%
+    filter(ncloc_affected_file != 0) %>%
+    reframe(ncloc = sum(ncloc_affected_file), issues_density = first(num_issues)/ncloc) %>%
+    select(issues_density) %>%
+    summary()
+```
+
+```{r echo=FALSE}
+p1 <- all_data %>%
+    group_by(repo, pr_number) %>%
+    mutate(num_issues = n()) %>%
+    distinct(file, .keep_all=TRUE) %>%
+    filter(ncloc_affected_file != 0) %>%
+    reframe(ncloc = sum(ncloc_affected_file), smell_density = first(num_issues)/ncloc) %>%
+    ggplot(aes(x=smell_density)) +
+    geom_histogram(binwidth= 0.2, fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Histogram",
+        x = "Issues density"
+    )
+
+p2 <- all_data %>%
+    group_by(repo, pr_number) %>%
+    mutate(num_issues = n()) %>%
+    distinct(file, .keep_all=TRUE) %>%
+    filter(ncloc_affected_file != 0) %>%
+    reframe(ncloc = sum(ncloc_affected_file), smell_density = first(num_issues)/ncloc) %>%
+    ggplot(aes(y=smell_density)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Boxplot",
+        y = "Issues density"
+    )
+
+p3 <- all_data %>%
+    group_by(repo, pr_number) %>%
+    mutate(num_issues = n()) %>%
+    distinct(file, .keep_all=TRUE) %>%
+    filter(ncloc_affected_file != 0) %>%
+    reframe(ncloc = sum(ncloc_affected_file), smell_density = first(num_issues)/ncloc) %>%
+    ggplot(aes(y=smell_density)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) + 
+    coord_cartesian(ylim = c(0, 0.1)) +
+    labs(
+        title = "Boxplot (zoom)",
+        y = "Issues density"
+    )
+
+design = "
+AA
+BC
+"
+
+p1 + p2 + p3 + plot_layout(design = design, heights = c(3, 4, 4)) + plot_annotation(
+  title = 'Issues density by PR'
+)
+```
+
+# Technical Debt (TD)
+
+## Statistics of the TD by issue
+
+```{r echo=FALSE}
+summary(all_data$debt)
+```
+
+## Distribution of TD by issue
+
+```{r echo=FALSE}
+p1 <- all_data %>%
+    ggplot(aes(x=debt)) +
+    geom_histogram(binwidth=5, fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Histograma",
+        x = "TD"
+    )
+
+p2 <- all_data %>%
+    ggplot(aes(y=debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) + 
+    coord_cartesian(ylim = c(0, 1500)) +
+    labs(
+        title = "Boxplot",
+        y = "TD"
+    )
+
+p3 <- all_data %>%
+    ggplot(aes(y=debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) + 
+    coord_cartesian(ylim = c(0, 40)) +
+    labs(
+        title = "Boxplot (zoom)",
+        y = "TD"
+    )
+
+design = "
+AA
+BC
+"
+
+p1 + p2 + p3 + plot_layout(design = design, heights = c(3, 4, 4)) + plot_annotation(
+  title = 'Distribution of TD by issue (in minutes)'
+)
+```
+
+## Distribution of TD by PR
+```{r echo=FALSE}
+all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(debt = sum(debt)) %>%
+    ungroup() %>%
+    select(debt) %>%
+    summary()
+```
+
+```{r echo=FALSE}
+p1 <- all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(debt = sum(debt)) %>%
+    ggplot(aes(x=debt)) +
+    geom_histogram(binwidth=5, fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Histogram",
+        x = "TD"
+    )
+
+p2 <- all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(debt = sum(debt)) %>%
+    ggplot(aes(x=debt)) +
+    geom_histogram(binwidth=5, fill=rgb(0.2,0.8,0.5,0.75)) +
+    coord_cartesian(xlim = c(0, 3000)) +
+    labs(
+        title = "Histogram (zoom)",
+        x = "TD"
+    )
+
+p3 <- all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(debt = sum(debt)) %>%
+    ggplot(aes(y=debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) + 
+    labs(
+        title = "Boxplot",
+        y = "TD"
+    )
+
+p4 <- all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(debt = sum(debt)) %>%
+    ggplot(aes(y=debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) + 
+    coord_cartesian(ylim = c(0, 3000)) +
+    labs(
+        title = "Boxplot (zoom)",
+        y = "TD"
+    )
+
+design = "
+AB
+CD
+"
+
+p1 + p2 + p3 + p4 + plot_layout(design = design, heights = c(3, 3, 4, 4)) + plot_annotation(
+  title = 'Distribution of TD by PR (in minutes)'
+)
+```
+
+
+## Distribution of pre-existing fixed TD by PR
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "CLOSED") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        preexisting_fixed_debt = sum(debt)
+    ) %>%
+    ungroup() %>%
+    select(preexisting_fixed_debt) %>%
+    summary()
+```
+
+```{r echo=FALSE}
+p1 <- all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "CLOSED") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        preexisting_fixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(x=preexisting_fixed_debt)) +
+    geom_histogram(binwidth=5, fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Histogram",
+        x = "Pre-existing fixed TD"
+    )
+
+p2 <- all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "CLOSED") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        preexisting_fixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(x=preexisting_fixed_debt)) +
+    geom_histogram(binwidth=5, fill=rgb(0.2,0.8,0.5,0.75)) +
+    coord_cartesian(xlim = c(0, 500)) +
+    labs(
+        title = "Histogram (zoom)",
+        x = "Pre-existing fixed TD"
+    )
+
+p3 <- all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "CLOSED") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        preexisting_fixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(y=preexisting_fixed_debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Boxplot",
+        y = "Pre-existing fixed TD"
+    )
+
+p4 <- all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "CLOSED") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        old_closed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(y=old_closed_debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) + 
+    coord_cartesian(ylim = c(0, 300)) +
+    labs(
+        title = "Boxplot (zoom)",
+        y = "Pre-existing fixed TD"
+    )
+
+design = "
+AB
+CD
+"
+
+p1 + p2 + p3 + p4 + plot_layout(design = design, heights = c(3, 3, 4, 4)) + plot_annotation(
+  title = 'Pre-existing fixed TD by PR (in minutes)'
+)
+```
+
+## Distribution of pre-existing unfixed TD by PR
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "OPEN") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        preexisting_unfixed_debt = sum(debt)
+    ) %>%
+    ungroup() %>%
+    select(preexisting_unfixed_debt) %>%
+    summary()
+```
+
+```{r echo=FALSE}
+p1 <- all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "OPEN") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        preexisting_unfixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(x=preexisting_unfixed_debt)) +
+    geom_histogram(binwidth=5, fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Histogram",
+        x = "Pre-existing unfixed TD"
+    )
+
+p2 <- all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "OPEN") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        preexisting_unfixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(x=preexisting_unfixed_debt)) +
+    geom_histogram(binwidth=5, fill=rgb(0.2,0.8,0.5,0.75)) +
+    coord_cartesian(xlim = c(0, 2500)) +
+    labs(
+        title = "Histogram (zoom)",
+        x = "Pre-existing unfixed TD"
+    )
+
+p3 <- all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "OPEN") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        preexisting_unfixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(y=preexisting_unfixed_debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Boxplot",
+        y = "Pre-existing unfixed TD"
+    )
+
+p4 <- all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "OPEN") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        preexisting_unfixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(y=preexisting_unfixed_debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) + 
+    coord_cartesian(ylim = c(0, 2500)) +
+    labs(
+        title = "Boxplot (zoom)",
+        y = "Pre-existing unfixed TD"
+    )
+
+design = "
+AB
+CD
+"
+
+p1 + p2 + p3 + p4 + plot_layout(design = design, heights = c(3, 3, 4, 4)) + plot_annotation(
+  title = 'Pre-existing unfixed TD by PR (in minutes)'
+)
+```
+
+## Distribution of new fixed TD by PR
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "NEW" & status == "CLOSED") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        new_fixed_debt = sum(debt)
+    ) %>%
+    ungroup() %>%
+    select(new_fixed_debt) %>%
+    summary()
+```
+
+```{r echo=FALSE}
+p1 <- all_data %>%
+    filter(origin == "NEW" & status == "CLOSED") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        new_fixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(x=new_fixed_debt)) +
+    geom_histogram(binwidth=5, fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Histogram",
+        x = "New fixed TD"
+    )
+
+p2 <- all_data %>%
+    filter(origin == "NEW" & status == "CLOSED") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        new_fixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(y=new_fixed_debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Boxplot",
+        y = "New fixed TD"
+    )
+
+p3 <- all_data %>%
+    filter(origin == "NEW" & status == "CLOSED") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        new_fixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(y=new_fixed_debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) + 
+    coord_cartesian(ylim = c(0, 100)) +
+    labs(
+        title = "Boxplot (zoom)",
+        y = "New fixed TD"
+    )
+
+design = "
+AA
+BC
+"
+
+p1 + p2 + p3 + plot_layout(design = design, heights = c(3, 4, 4)) + plot_annotation(
+  title = 'New fixed TD by PR (in minutes)'
+)
+```
+
+## Distribution of new unfixed TD by PR
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "NEW" & status == "OPEN") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        new_unfixed_debt = sum(debt)
+    ) %>%
+    ungroup() %>%
+    select(new_unfixed_debt) %>%
+    summary()
+```
+
+```{r echo=FALSE}
+p1 <- all_data %>%
+    filter(origin == "NEW" & status == "OPEN") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        new_unfixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(x=new_unfixed_debt)) +
+    geom_histogram(binwidth=5, fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Histogram",
+        x = "New unfixed TD"
+    )
+
+p2 <- all_data %>%
+    filter(origin == "NEW" & status == "OPEN") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        new_unfixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(x=new_unfixed_debt)) +
+    geom_histogram(binwidth=5, fill=rgb(0.2,0.8,0.5,0.75)) +
+    coord_cartesian(xlim = c(0, 200)) +
+    labs(
+        title = "Histogram (zoom)",
+        x = "New unfixed TD"
+    )
+
+p3 <- all_data %>%
+    filter(origin == "NEW" & status == "OPEN") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        new_unfixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(y=new_unfixed_debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) +
+    labs(
+        title = "Boxplot",
+        y = "New unfixed TD"
+    )
+
+p4 <- all_data %>%
+    filter(origin == "NEW" & status == "OPEN") %>%
+    group_by(repo, pr_number) %>%
+    summarise(
+        new_unfixed_debt = sum(debt)
+    ) %>%
+    ggplot(aes(y=new_unfixed_debt)) +
+    geom_boxplot(fill=rgb(0.2,0.8,0.5,0.75)) + 
+    coord_cartesian(ylim = c(0, 200)) +
+    labs(
+        title = "Boxplot (zoom)",
+        y = "New unfixed TD"
+    )
+
+design = "
+AB
+CD
+"
+
+p1 + p2 + p3 + p4 + plot_layout(design = design) + plot_annotation(
+  title = 'New unfixed TD by PR (in minutes)'
+)
+```
+
+# Which projects use ASATs?
+
+| **Project**           	| **ASATs**                              	|
+|-----------------------	|----------------------------------------	|
+| accumulo              	| CheckStyle, FindBugs and SpotBugs      	|
+| cayenne               	| -                                      	|
+| commons-collections   	| CheckStyle, SpotBugs and PMD           	|
+| commons-io            	| CheckStyle, FindBugs and PMD           	|
+| commons-lang          	| CheckStyle, FindBugs, Spotbugs and PMD 	|
+| helix                 	| CheckStyle                             	|
+| httpcomponents-client 	| CheckStyle                             	|
+| maven-surefire        	| CheckStyle and FindBugs                	|
+| opennlp               	| CheckStyle                             	|
+| struts                	| SonarQube                              	|
+| wicket                	| FindBugs                               	|
+| zookeeper             	| CheckStyle, FindBugs and SpotBugs      	|
+
+
+# Most common coding rules by issue types
+
+## Pre-existing unfixed issues
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "OPEN") %>%
+    group_by(rule) %>%
+    summarise(n = n(), severity=unique(severity)) %>%
+    mutate(percentage = round((n / sum(n)) * 100, 3)) %>%
+    arrange(desc(n)) %>%
+    select(rule, severity, n, percentage) %>%
+    head(10)
+```
+
+
+## Pre-existing fixed issues
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "PRE-EXISTING" & status == "CLOSED") %>%
+    group_by(rule) %>%
+    summarise(n = n(), severity=unique(severity)) %>%
+    mutate(percentage = round((n / sum(n)) * 100, 3)) %>%
+    arrange(desc(n)) %>%
+    select(rule, severity, n, percentage) %>%
+    head(10)
+```
+
+## New unfixed issues
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "NEW" & status == "OPEN") %>%
+    group_by(rule) %>%
+    summarise(n = n(), severity=unique(severity)) %>%
+    mutate(percentage = round((n / sum(n)) * 100, 3)) %>%
+    arrange(desc(n)) %>%
+    select(rule, severity, n, percentage) %>%
+    head(10)
+```
+
+## New fixed issues
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "NEW" & status == "CLOSED") %>%
+    group_by(rule) %>%
+    summarise(n = n(), severity=unique(severity)) %>%
+    mutate(percentage = round((n / sum(n)) * 100, 3)) %>%
+    arrange(desc(n)) %>%
+    select(rule, severity, n, percentage) %>%
+    head(10)
+```
+
+
+## Table with the issues description
+Legend: 
+PF: Pre-existing fixed;
+PU: Pre-existing unfixed;
+NF: New fixed;
+NU: New unfixed.
+
+```{r echo=FALSE}
+data_table_4 <- data.frame(
+  Rule = character(),
+  Description = character(),
+  Type = character(),
+  Severity = character(),
+  Debt = character(),
+  Issue_class = character(),
+  stringsAsFactors = FALSE
+)
+
+data_text_4 <- c(
+  "S100 - Method names should comply with a naming convention - CODE SMELL - Minor - 5min - PF",
+  "S101 - Class names should comply with a naming convention - CODE SMELL - Minor - 5min - PF + NU",
+  "S106 - Standard outputs should not be used directly to log anything - CODE SMELL - Major - 10 min - PU + NF",
+  "S112 - Generic exceptions should never be thrown - CODE SMELL - Major - 20min - PU + PF + NU + NF",
+  "S116 - Field names should comply with a naming convention - CODE SMELL - Minor - 2min - PU + NU + NF",
+  "S117 - Local variable and method parameter names should comply with a naming convention - CODE SMELL - Minor - 2min - PU + PF + NU",
+  "S1119 - Labels should not be used - CODE SMELL - MAJOR - 30min - PF + NU",
+  "S1125 - Boolean literals should not be redundant - CODE SMELL - Minor - 5min - PU + NU",
+  "S1135 - Track uses of \"TODO\" tags - CODE SMELL - Info - 0min - NF",
+  "S1161 - \"@Override\" should be used on overriding and implementing methods - CODE SMELL - MAJOR - 5min - PF",
+  "S1192 - String literals should not be duplicated - CODE SMELL - Critical - 2min + 2min per duplicated instance - PU + PF + NU + NF",
+  "S1874 - \"@Deprecated\" code should not be used - CODE SMELL - Minor - 15min - PF + NF",
+  "S2259 - Null pointers should not be dereferenced - BUG - Major - 10min - NF",
+  "S2293 - The diamond operator (\"<>\") should be used - CODE SMELL - Minor - 1min - PU + PF + NU + NF",
+  "S2589 - Boolean expressions should not be gratuitous - CODE SMELL - Major - 10min - PU + NU + NF",
+  "S3740 - Raw types should not be used - CODE SMELL - Major - 5min - PF",
+  "S3776 - Cognitive Complexity of methods should not be too high - CODE SMELL - Critical - 5min + 1min per point over the threshold - PU + PF + NU + NF"
+)
+
+for (line in data_text_4) {
+  parts <- unlist(strsplit(line, " - "))
+  data_table_4 <- rbind(data_table_4, data.frame(
+    Rule = parts[1],
+    Description = parts[2],
+    Type = parts[3],
+    Severity = parts[4],
+    Debt = parts[5],
+    Issue_class = parts[6],
+    stringsAsFactors = FALSE
+  ))
+}
+
+data_table_4[] <- lapply(data_table_4, trimws)
+
+kable(
+        data_table_4,
+        "latex",
+        escape = FALSE,
+        booktabs = TRUE,
+        col.names = c("Rule", "Description", "Type", "Severity", "Debt", "Issue Class."),
+        caption = "Issues description."
+    ) %>%
+    kable_styling("striped", full_width = FALSE, font_size = 8) %>%
+    column_spec(2, width = "8cm") %>%
+    column_spec(5, width = "1cm") %>%
+    column_spec(6, width = "2cm")
+```
+
+## Percentage of severity of the new unfixed issues
+```{r echo=FALSE}
+all_data %>%
+    filter(origin == "NEW" & status == "OPEN") %>%
+    group_by(severity) %>%
+    summarise(n = n()) %>%
+    mutate(percentage = round((n / sum(n)) * 100, 3)) %>%
+    arrange(desc(n))
+```
+
+# Outliers
+
+## Issues count by PR
+```{r echo=FALSE}
+all_data %>%
+    group_by(repo, pr_number) %>%
+    summarise(n_issues = n()) %>%
+    ungroup(repo) %>%
+    arrange(desc(n_issues)) %>%
+    head(3)
+```
+
+The PR 1433 of accumulo modifies 1,995 files within the PR, 2,132 files in the branch, and 55,972 lines in the branch (30,103 additions + 25,869 deletions). This large number of modified files is explained because PR modifies the license header standard, which exists in all files.
+
+## Issues density
+
+### Lower
+```{r echo=FALSE}
+all_data %>%
+    group_by(repo, pr_number) %>%
+    mutate(num_issues = n()) %>%
+    distinct(file, .keep_all=TRUE) %>%
+    filter(ncloc_affected_file != 0) %>%
+    reframe(ncloc = sum(ncloc_affected_file), smell_density = first(num_issues)/ncloc, n_issues=first(num_issues)) %>%
+    arrange(smell_density) %>%
+    head(10)
+```
+
+
+The PR 255 of httpcomponents-client has only one violation for 460 of NCLOC. It modifies only 1 file and 2 lines in the branch.
+
+### Higher
+
+```{r echo=FALSE}
+all_data %>%
+    group_by(repo, pr_number) %>%
+    mutate(num_issues = n()) %>%
+    distinct(file, .keep_all=TRUE) %>%
+    filter(ncloc_affected_file != 0) %>%
+    reframe(ncloc = sum(ncloc_affected_file), smell_density = first(num_issues)/ncloc) %>%
+    arrange(desc(smell_density)) %>%
+    head(10)
+```
+
+The PR 1975 of helix modifies one file and 9 lines (9 additions). This one file has 33 of NCLOC and it has 25 issues in this file, so 25 issues in only 33 lines. The issues violate the coding rules S1104 (8 issues, class variable fields should not have public accessibility), S1118 (1 issue, utility classes should not have public constructors), S1444 (8 issues, "public static" fields should be constant) and S3008 (8 issues, Static non-final field names should comply with a naming convention). Most issues are of MINOR severity and are related to attribute conventions, each attribute of the class in question violates rules S1104, S1444 and S3008 simultaneously.
+
+## Issues TD
+
+### Lower
+
+```{r echo=FALSE}
+all_data %>%
+    select(debt, rule) %>%
+    distinct(rule, .keep_all=TRUE) %>%
+    arrange(debt) %>%
+    head(3)
+```
+
+* S1134: Track uses of "FIXME" tags. Just a way that SonarQube uses to help track usage of FIXME tags, so it doesn't put an associated technical debt;
+* S1135: Track uses of "TODO" tags. Same motivation as before.
+
+### Higher
+
+```{r echo=FALSE}
+all_data %>%
+    select(debt, rule) %>%
+    arrange(desc(debt)) %>%
+    head(10)
+```
+
+The rules S3776, S135 and S110 are the ones that present the most TD in a single instance (up to 467 minutes). The three rules have cumulative effort that change with each instance.

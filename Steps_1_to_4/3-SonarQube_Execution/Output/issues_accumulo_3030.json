@@ -1,0 +1,180 @@
+[
+    {
+        "commit_sha": "af958faa0c67d17a32f808507ca82728a3e592a3",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58umIMSqFHuiA8E3ff",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 112,
+                        "endLine": 112,
+                        "startOffset": 41,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY58umIMSqFHuiA8E3fg",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 86,
+                        "endOffset": 93
+                    }
+                },
+                {
+                    "key": "AY58umIMSqFHuiA8E3fh",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 166,
+                        "endLine": 166,
+                        "startOffset": 7,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY58umIMSqFHuiA8E3fi",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 13,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY58umIMSqFHuiA8E3fj",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 264,
+                        "endLine": 264,
+                        "startOffset": 7,
+                        "endOffset": 66
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java": {
+                "ncloc": "276",
+                "complexity": "28"
+            }
+        }
+    },
+    {
+        "commit_sha": "097ad48369660fe19ff09e076b275fe2763db105",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58umIMSqFHuiA8E3fg",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java",
+                    "status": "CLOSED",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 86,
+                        "endOffset": 93
+                    }
+                },
+                {
+                    "key": "AY58umIMSqFHuiA8E3ff",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 112,
+                        "endLine": 112,
+                        "startOffset": 41,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY58umIMSqFHuiA8E3fh",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 158,
+                        "endLine": 158,
+                        "startOffset": 7,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY58umIMSqFHuiA8E3fi",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 175,
+                        "endLine": 175,
+                        "startOffset": 13,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY58umIMSqFHuiA8E3fj",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 259,
+                        "endLine": 259,
+                        "startOffset": 7,
+                        "endOffset": 66
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-3030:test/src/main/java/org/apache/accumulo/test/conf/store/ZooBasedConfigIT.java": {
+                "ncloc": "269",
+                "complexity": "28"
+            }
+        }
+    }
+]

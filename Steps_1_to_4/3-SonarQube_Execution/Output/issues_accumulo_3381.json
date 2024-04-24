@@ -1,0 +1,128 @@
+[
+    {
+        "commit_sha": "6559f8c6940904907bdb60758ac54b4faa4b4bdf",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5wr48r8f47XzIbxYj5",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3381:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/create/PopulateMetadata.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5wr4VM8f47XzIbxU_Z",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-3381:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 291,
+                        "endLine": 291,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5wr4VM8f47XzIbxU_a",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-3381:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 326,
+                        "endLine": 326,
+                        "startOffset": 27,
+                        "endOffset": 28
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-3381:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java": {
+                "ncloc": "170",
+                "complexity": "24"
+            },
+            "accumulo-3381:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/create/PopulateMetadata.java": {
+                "ncloc": "105",
+                "complexity": "14"
+            }
+        }
+    },
+    {
+        "commit_sha": "679df931c8dc6075537ea44e8ae21df73ec79449",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5wr48r8f47XzIbxYj5",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3381:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/create/PopulateMetadata.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5wr4VM8f47XzIbxU_Z",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-3381:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 291,
+                        "endLine": 291,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5wr4VM8f47XzIbxU_a",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-3381:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 335,
+                        "endLine": 335,
+                        "startOffset": 27,
+                        "endOffset": 28
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-3381:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java": {
+                "ncloc": "170",
+                "complexity": "24"
+            },
+            "accumulo-3381:server/manager/src/main/java/org/apache/accumulo/manager/tableOps/create/PopulateMetadata.java": {
+                "ncloc": "82",
+                "complexity": "12"
+            }
+        }
+    }
+]

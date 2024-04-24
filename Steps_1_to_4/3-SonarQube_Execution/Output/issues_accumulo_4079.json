@@ -1,0 +1,119 @@
+[
+    {
+        "commit_sha": "41d382638a2e8b776145ac831408e49c27d576f7",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5P6rGfAESW5py-PAfe",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4079:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 50,
+                        "endLine": 50,
+                        "startOffset": 0,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "accumulo-4079:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java": {
+                "ncloc": "140",
+                "complexity": "32"
+            }
+        }
+    },
+    {
+        "commit_sha": "89fa899f1d9520f1ca2979c6c2f845138e10ae1f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5P803rAESW5py-PUzI",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4079:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 165,
+                        "startOffset": 39,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5P6rGfAESW5py-PAfe",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4079:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 0,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-4079:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java": {
+                "ncloc": "145",
+                "complexity": "33"
+            }
+        }
+    },
+    {
+        "commit_sha": "674ad91c7c650aae676f82dcb3f3836ae87b8a1d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5P803rAESW5py-PUzI",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4079:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 165,
+                        "startOffset": 39,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5P6rGfAESW5py-PAfe",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4079:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 50,
+                        "endLine": 50,
+                        "startOffset": 0,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-4079:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java": {
+                "ncloc": "143",
+                "complexity": "33"
+            }
+        }
+    }
+]

@@ -1,0 +1,210 @@
+[
+    {
+        "commit_sha": "ea23ce295aa85c8f7aa555ce08d627ed674240e2",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52WtGGJsRf5fmq507l",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 27,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY52WtGGJsRf5fmq507m",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 87,
+                        "endOffset": 99
+                    }
+                },
+                {
+                    "key": "AY52WtGGJsRf5fmq507n",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 90,
+                        "endOffset": 103
+                    }
+                },
+                {
+                    "key": "AY52WtGGJsRf5fmq507o",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 87,
+                        "endOffset": 99
+                    }
+                },
+                {
+                    "key": "AY52WtGGJsRf5fmq507p",
+                    "rule": "java:S5869",
+                    "severity": "MAJOR",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 152,
+                        "endLine": 152,
+                        "startOffset": 38,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY52WtGGJsRf5fmq507k",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 154,
+                        "endLine": 154,
+                        "startOffset": 16,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java": {
+                "ncloc": "119",
+                "complexity": "24"
+            }
+        }
+    },
+    {
+        "commit_sha": "cb5e55b06c48e1cbff5ebcb19922e33ecaf19e47",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52WtGGJsRf5fmq507p",
+                    "rule": "java:S5869",
+                    "severity": "MAJOR",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 152,
+                        "endLine": 152,
+                        "startOffset": 38,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY52WtGGJsRf5fmq507l",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 27,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY52WtGGJsRf5fmq507m",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 87,
+                        "endOffset": 99
+                    }
+                },
+                {
+                    "key": "AY52WtGGJsRf5fmq507n",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 90,
+                        "endOffset": 103
+                    }
+                },
+                {
+                    "key": "AY52WtGGJsRf5fmq507o",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 87,
+                        "endOffset": 99
+                    }
+                },
+                {
+                    "key": "AY52WtGGJsRf5fmq507k",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 154,
+                        "endLine": 154,
+                        "startOffset": 16,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "struts-472:core/src/main/java/org/apache/struts2/result/PostbackResult.java": {
+                "ncloc": "119",
+                "complexity": "24"
+            }
+        }
+    }
+]

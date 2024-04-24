@@ -1,0 +1,174 @@
+[
+    {
+        "commit_sha": "9c8bb334c00637514c41f04c6abeca1ec6e20711",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5MDIb2r8bbHvnc4LH7",
+                    "rule": "java:S2129",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/NamespaceIdTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 25,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5MDIbyr8bbHvnc4LH4",
+                    "rule": "java:S2129",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/TableIdTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 21,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5MDIbyr8bbHvnc4LH5",
+                    "rule": "java:S1215",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/TableIdTest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 108,
+                        "endLine": 108,
+                        "startOffset": 11,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5MDIbyr8bbHvnc4LH6",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/TableIdTest.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "accumulo-1782:core/src/main/java/org/apache/accumulo/core/data/NamespaceId.java": {
+                "ncloc": "19",
+                "complexity": "3"
+            },
+            "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/NamespaceIdTest.java": {
+                "ncloc": "59",
+                "complexity": "4"
+            },
+            "accumulo-1782:core/src/main/java/org/apache/accumulo/core/data/TableId.java": {
+                "ncloc": "19",
+                "complexity": "3"
+            },
+            "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/TableIdTest.java": {
+                "ncloc": "76",
+                "complexity": "5"
+            }
+        }
+    },
+    {
+        "commit_sha": "e349e5aeb843ac83517872e487a64f1adf015c3e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5MDIb2r8bbHvnc4LH7",
+                    "rule": "java:S2129",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/NamespaceIdTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 25,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5MDIbyr8bbHvnc4LH4",
+                    "rule": "java:S2129",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/TableIdTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 21,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5MDIbyr8bbHvnc4LH5",
+                    "rule": "java:S1215",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/TableIdTest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 11,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5MDIbyr8bbHvnc4LH6",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/TableIdTest.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "accumulo-1782:core/src/main/java/org/apache/accumulo/core/data/NamespaceId.java": {
+                "ncloc": "19",
+                "complexity": "3"
+            },
+            "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/NamespaceIdTest.java": {
+                "ncloc": "62",
+                "complexity": "5"
+            },
+            "accumulo-1782:core/src/main/java/org/apache/accumulo/core/data/TableId.java": {
+                "ncloc": "19",
+                "complexity": "3"
+            },
+            "accumulo-1782:core/src/test/java/org/apache/accumulo/core/data/TableIdTest.java": {
+                "ncloc": "79",
+                "complexity": "6"
+            }
+        }
+    }
+]

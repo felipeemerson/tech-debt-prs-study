@@ -1,0 +1,113 @@
+[
+    {
+        "commit_sha": "92705b92cffb7c4d2d8abc08e9afae314825920c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5x7KAdZBC6YwGxIC24",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "struts-689:core/src/test/java/org/apache/struts2/url/StrutsQueryStringParserTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 31,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5x7KAdZBC6YwGxIC25",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "struts-689:core/src/test/java/org/apache/struts2/url/StrutsQueryStringParserTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 31,
+                        "endOffset": 40
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "struts-689:core/src/main/java/org/apache/struts2/url/StrutsQueryStringParser.java": {
+                "ncloc": "68",
+                "complexity": "13"
+            },
+            "struts-689:core/src/test/java/org/apache/struts2/url/StrutsQueryStringParserTest.java": {
+                "ncloc": "49",
+                "complexity": "6"
+            }
+        }
+    },
+    {
+        "commit_sha": "b97339e31e8aab08a773d35f0c3d29ed106953f9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5x7xAPZBC6YwGxIeC1",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-689:core/src/test/java/org/apache/struts2/url/StrutsQueryStringParserTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 59,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY5x7KAdZBC6YwGxIC24",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "struts-689:core/src/test/java/org/apache/struts2/url/StrutsQueryStringParserTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 31,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5x7KAdZBC6YwGxIC25",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "struts-689:core/src/test/java/org/apache/struts2/url/StrutsQueryStringParserTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 31,
+                        "endOffset": 40
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "struts-689:core/src/main/java/org/apache/struts2/url/StrutsQueryStringParser.java": {
+                "ncloc": "66",
+                "complexity": "11"
+            },
+            "struts-689:core/src/test/java/org/apache/struts2/url/StrutsQueryStringParserTest.java": {
+                "ncloc": "70",
+                "complexity": "9"
+            }
+        }
+    }
+]

@@ -1,0 +1,196 @@
+[
+    {
+        "commit_sha": "95d4e8258d04dd65a8ee85c69ee4361d4fc647d6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52_zXC1603RBiQfJOb",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "struts-299:core/src/main/java/org/apache/struts2/views/jsp/SetTag.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 66,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY52_zg71603RBiQfJqB",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-299:core/src/test/java/org/apache/struts2/views/jsp/SetTagTest.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 21,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY52_zaH1603RBiQfJUG",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "struts-299:core/src/main/java/org/apache/struts2/components/Set.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 19,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY52_zaH1603RBiQfJUH",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "struts-299:core/src/main/java/org/apache/struts2/components/Set.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY52_zaH1603RBiQfJUI",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "struts-299:core/src/main/java/org/apache/struts2/components/Set.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "struts-299:core/src/main/java/org/apache/struts2/components/Set.java": {
+                "ncloc": "57",
+                "complexity": "13"
+            },
+            "struts-299:core/src/main/java/org/apache/struts2/views/jsp/SetTag.java": {
+                "ncloc": "29",
+                "complexity": "5"
+            },
+            "struts-299:core/src/test/java/org/apache/struts2/views/jsp/SetTagTest.java": {
+                "ncloc": "78",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "6692578e12f09264c0b3b1262d615ade002b4c0a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52_zXC1603RBiQfJOb",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "struts-299:core/src/main/java/org/apache/struts2/views/jsp/SetTag.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 66,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY52_zg71603RBiQfJqB",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-299:core/src/test/java/org/apache/struts2/views/jsp/SetTagTest.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 21,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY52_zaH1603RBiQfJUG",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "struts-299:core/src/main/java/org/apache/struts2/components/Set.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 92,
+                        "startOffset": 19,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY52_zaH1603RBiQfJUH",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "struts-299:core/src/main/java/org/apache/struts2/components/Set.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY52_zaH1603RBiQfJUI",
+                    "rule": "java:S6213",
+                    "severity": "MAJOR",
+                    "component": "struts-299:core/src/main/java/org/apache/struts2/components/Set.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "struts-299:core/src/main/java/org/apache/struts2/components/Set.java": {
+                "ncloc": "62",
+                "complexity": "14"
+            },
+            "struts-299:core/src/main/java/org/apache/struts2/views/jsp/SetTag.java": {
+                "ncloc": "41",
+                "complexity": "9"
+            },
+            "struts-299:core/src/test/java/org/apache/struts2/views/jsp/SetTagTest.java": {
+                "ncloc": "111",
+                "complexity": "13"
+            }
+        }
+    }
+]

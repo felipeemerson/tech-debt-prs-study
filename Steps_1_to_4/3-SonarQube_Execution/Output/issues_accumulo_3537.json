@@ -1,0 +1,356 @@
+[
+    {
+        "commit_sha": "2fbb77990871ed705854fea6be97340869929ffe",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5r6pkc8f47XzIb9Wax",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 17,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5r6pkc8f47XzIb9Way",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5r6pkc8f47XzIb9Waw",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 143,
+                        "endLine": 143,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5r6pkc8f47XzIb9Waz",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 32,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5r6or88f47XzIb9SDT",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-3537:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 290,
+                        "endLine": 290,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5r6or88f47XzIb9SDU",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-3537:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 316,
+                        "endLine": 316,
+                        "startOffset": 27,
+                        "endOffset": 28
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java": {
+                "ncloc": "267",
+                "complexity": "40"
+            },
+            "accumulo-3537:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java": {
+                "ncloc": "162",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "2682d4b5be0fc8f28bed892504033a68da2e693c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5r8_FG8f47XzIb9svd",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 208,
+                        "endLine": 208,
+                        "startOffset": 15,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5r6pkc8f47XzIb9Waz",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "CLOSED",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 32,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5r6pkc8f47XzIb9Wax",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 17,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5r6pkc8f47XzIb9Way",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5r6pkc8f47XzIb9Waw",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 143,
+                        "endLine": 143,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5r6or88f47XzIb9SDT",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-3537:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 290,
+                        "endLine": 290,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5r6or88f47XzIb9SDU",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-3537:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 316,
+                        "endLine": 316,
+                        "startOffset": 27,
+                        "endOffset": 28
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java": {
+                "ncloc": "265",
+                "complexity": "40"
+            },
+            "accumulo-3537:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java": {
+                "ncloc": "162",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "a13c742ef7d20eccfdf1b76524820609e6513319",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5r8_FG8f47XzIb9svd",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 208,
+                        "endLine": 208,
+                        "startOffset": 15,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5r6pkc8f47XzIb9Waz",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "CLOSED",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 32,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5r6pkc8f47XzIb9Wax",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 17,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5r6pkc8f47XzIb9Way",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5r6pkc8f47XzIb9Waw",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 143,
+                        "endLine": 143,
+                        "startOffset": 6,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5r6or88f47XzIb9SDT",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-3537:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 296,
+                        "endLine": 296,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5r6or88f47XzIb9SDU",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-3537:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 322,
+                        "endLine": 322,
+                        "startOffset": 27,
+                        "endOffset": 28
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "accumulo-3537:shell/src/main/java/org/apache/accumulo/shell/commands/CreateTableCommand.java": {
+                "ncloc": "265",
+                "complexity": "40"
+            },
+            "accumulo-3537:core/src/main/java/org/apache/accumulo/core/client/admin/NewTableConfiguration.java": {
+                "ncloc": "162",
+                "complexity": "22"
+            }
+        }
+    }
+]

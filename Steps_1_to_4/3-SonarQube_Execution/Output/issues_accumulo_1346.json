@@ -1,0 +1,944 @@
+[
+    {
+        "commit_sha": "4df66ae8642f67f081e46bd9d6295e79c2af040c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5bCLIU3doAqESEFeKc",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 18,
+                        "endLine": 18,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKe",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKZ",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKd",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 222,
+                        "endLine": 222,
+                        "startOffset": 20,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKf",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 251,
+                        "endLine": 251,
+                        "startOffset": 30,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKg",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 259,
+                        "endLine": 259,
+                        "startOffset": 15,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKh",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 282,
+                        "endLine": 282,
+                        "startOffset": 10,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKi",
+                    "rule": "java:S5261",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 302,
+                        "endLine": 302,
+                        "startOffset": 8,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKj",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 314,
+                        "endLine": 314,
+                        "startOffset": 8,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKq",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 338,
+                        "endLine": 338,
+                        "startOffset": 15,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKk",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 349,
+                        "endLine": 349,
+                        "startOffset": 10,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKr",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 357,
+                        "endLine": 357,
+                        "startOffset": 44,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKl",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 363,
+                        "endLine": 363,
+                        "startOffset": 8,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKm",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 399,
+                        "endLine": 399,
+                        "startOffset": 10,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKn",
+                    "rule": "java:S1119",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 419,
+                        "endLine": 419,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKo",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 423,
+                        "endLine": 423,
+                        "startOffset": 10,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKb",
+                    "rule": "java:S1700",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 479,
+                        "endLine": 479,
+                        "startOffset": 9,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKs",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 564,
+                        "endLine": 564,
+                        "startOffset": 15,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKa",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 585,
+                        "endLine": 585,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKp",
+                    "rule": "java:S2147",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 626,
+                        "endLine": 626,
+                        "startOffset": 13,
+                        "endOffset": 25
+                    }
+                }
+            ],
+            "total": 20
+        },
+        "metrics": {
+            "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java": {
+                "ncloc": "628",
+                "complexity": "107"
+            }
+        }
+    },
+    {
+        "commit_sha": "9b82b6ac6b868742baaa2602ce1fab30c39b5108",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5bCLIU3doAqESEFeKp",
+                    "rule": "java:S2147",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 626,
+                        "endLine": 626,
+                        "startOffset": 13,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKc",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 18,
+                        "endLine": 18,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKe",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 161,
+                        "endLine": 161,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKZ",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKd",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 221,
+                        "endLine": 221,
+                        "startOffset": 20,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKf",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 250,
+                        "endLine": 250,
+                        "startOffset": 30,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKg",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 258,
+                        "endLine": 258,
+                        "startOffset": 15,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKh",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 281,
+                        "endLine": 281,
+                        "startOffset": 10,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKi",
+                    "rule": "java:S5261",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 300,
+                        "endLine": 300,
+                        "startOffset": 8,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKj",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 311,
+                        "endLine": 311,
+                        "startOffset": 8,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKq",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 332,
+                        "endLine": 332,
+                        "startOffset": 15,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKk",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 342,
+                        "endLine": 342,
+                        "startOffset": 10,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKr",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 350,
+                        "endLine": 350,
+                        "startOffset": 44,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKl",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 356,
+                        "endLine": 356,
+                        "startOffset": 8,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKm",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 390,
+                        "endLine": 390,
+                        "startOffset": 10,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKn",
+                    "rule": "java:S1119",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 410,
+                        "endLine": 410,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKo",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 414,
+                        "endLine": 414,
+                        "startOffset": 10,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKb",
+                    "rule": "java:S1700",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 469,
+                        "endLine": 469,
+                        "startOffset": 9,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKs",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 554,
+                        "endLine": 554,
+                        "startOffset": 15,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKa",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                }
+            ],
+            "total": 20
+        },
+        "metrics": {
+            "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java": {
+                "ncloc": "616",
+                "complexity": "105"
+            }
+        }
+    },
+    {
+        "commit_sha": "bce329236661a5b4ac2fcb1cf0471e6643294ad1",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5bCLIU3doAqESEFeKp",
+                    "rule": "java:S2147",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 626,
+                        "endLine": 626,
+                        "startOffset": 13,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKc",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 18,
+                        "endLine": 18,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKe",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 161,
+                        "endLine": 161,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKZ",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKd",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 221,
+                        "endLine": 221,
+                        "startOffset": 20,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKf",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 250,
+                        "endLine": 250,
+                        "startOffset": 30,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKg",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 258,
+                        "endLine": 258,
+                        "startOffset": 15,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKh",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 281,
+                        "endLine": 281,
+                        "startOffset": 10,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKi",
+                    "rule": "java:S5261",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 300,
+                        "endLine": 300,
+                        "startOffset": 8,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKj",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 311,
+                        "endLine": 311,
+                        "startOffset": 8,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKq",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 332,
+                        "endLine": 332,
+                        "startOffset": 15,
+                        "endOffset": 25
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKk",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 342,
+                        "endLine": 342,
+                        "startOffset": 10,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKr",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 350,
+                        "endLine": 350,
+                        "startOffset": 44,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKl",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 356,
+                        "endLine": 356,
+                        "startOffset": 8,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKm",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 390,
+                        "endLine": 390,
+                        "startOffset": 10,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKn",
+                    "rule": "java:S1119",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 410,
+                        "endLine": 410,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKo",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 414,
+                        "endLine": 414,
+                        "startOffset": 10,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKb",
+                    "rule": "java:S1700",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 469,
+                        "endLine": 469,
+                        "startOffset": 9,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKs",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 554,
+                        "endLine": 554,
+                        "startOffset": 15,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5bCLIU3doAqESEFeKa",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                }
+            ],
+            "total": 20
+        },
+        "metrics": {
+            "accumulo-1346:core/src/main/java/org/apache/accumulo/core/clientImpl/ConditionalWriterImpl.java": {
+                "ncloc": "616",
+                "complexity": "105"
+            }
+        }
+    }
+]

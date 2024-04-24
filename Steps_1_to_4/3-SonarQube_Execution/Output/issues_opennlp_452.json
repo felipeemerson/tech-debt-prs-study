@@ -1,0 +1,105 @@
+[
+    {
+        "commit_sha": "d6df0f0f26c831cfd416afa451bffffcb72b0e67",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY54w1Tx8dRDxxcOqDxg",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "opennlp-452:opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesTrainer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 83,
+                        "endLine": 83,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY54w1Tx8dRDxxcOqDxh",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "opennlp-452:opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesTrainer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 19,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "opennlp-452:opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesTrainer.java": {
+                "ncloc": "100",
+                "complexity": "18"
+            }
+        }
+    },
+    {
+        "commit_sha": "4b191fae0a25502c8b4a6153b3eba71face07640",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY54xVSz8dRDxxcOqX0c",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-452:opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesTrainer.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 142,
+                        "endLine": 142,
+                        "startOffset": 27,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY54w1Tx8dRDxxcOqDxg",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "opennlp-452:opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesTrainer.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 83,
+                        "endLine": 83,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY54w1Tx8dRDxxcOqDxh",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "opennlp-452:opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesTrainer.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 19,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "opennlp-452:opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesTrainer.java": {
+                "ncloc": "110",
+                "complexity": "20"
+            }
+        }
+    }
+]

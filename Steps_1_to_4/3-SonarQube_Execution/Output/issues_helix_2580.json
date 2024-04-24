@@ -1,0 +1,481 @@
+[
+    {
+        "commit_sha": "c6890faa13acee0ce9ec51a1fde70eebb3ee48e5",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5xzvVHIOI6DczPJ9PJ",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/test/java/org/apache/helix/metaclient/recipes/lock/LockClientTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 30,
+                        "endLine": 30,
+                        "startOffset": 50,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QI",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 46,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QJ",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 25,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QL",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 0,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QK",
+                    "rule": "java:S3010",
+                    "severity": "MAJOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 6,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QG",
+                    "rule": "java:S1488",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 24,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QH",
+                    "rule": "java:S5411",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5xzvVqIOI6DczPJ9P8",
+                    "rule": "java:S2160",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockInfo.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 13,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5xzvVqIOI6DczPJ9P7",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockInfo.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 21,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java": {
+                "ncloc": "93",
+                "complexity": "16"
+            },
+            "helix-2580:meta-client/src/test/java/org/apache/helix/metaclient/recipes/lock/LockClientTest.java": {
+                "ncloc": "76",
+                "complexity": "6"
+            },
+            "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockInfo.java": {
+                "ncloc": "108",
+                "complexity": "24"
+            }
+        }
+    },
+    {
+        "commit_sha": "345d8034cccf179f70d76487ea1c51083c7f5c40",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5xzvVHIOI6DczPJ9PJ",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/test/java/org/apache/helix/metaclient/recipes/lock/LockClientTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 30,
+                        "endLine": 30,
+                        "startOffset": 50,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QG",
+                    "rule": "java:S1488",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 24,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QL",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 0,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QI",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 46,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QJ",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 25,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QK",
+                    "rule": "java:S3010",
+                    "severity": "MAJOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 6,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QH",
+                    "rule": "java:S5411",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5xzvVqIOI6DczPJ9P7",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockInfo.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 21,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5xzvVqIOI6DczPJ9P8",
+                    "rule": "java:S2160",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockInfo.java",
+                    "status": "CLOSED",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 13,
+                        "endOffset": 21
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java": {
+                "ncloc": "91",
+                "complexity": "16"
+            },
+            "helix-2580:meta-client/src/test/java/org/apache/helix/metaclient/recipes/lock/LockClientTest.java": {
+                "ncloc": "99",
+                "complexity": "7"
+            },
+            "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockInfo.java": {
+                "ncloc": "106",
+                "complexity": "24"
+            },
+            "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockInfoSerializer.java": {
+                "ncloc": "10",
+                "complexity": "1"
+            }
+        }
+    },
+    {
+        "commit_sha": "958cdb511c6c50abd60f189f17ef6a7609fa0b27",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5xzvVHIOI6DczPJ9PJ",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/test/java/org/apache/helix/metaclient/recipes/lock/LockClientTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 30,
+                        "endLine": 30,
+                        "startOffset": 50,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QG",
+                    "rule": "java:S1488",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 24,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QL",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 0,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QI",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 46,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QJ",
+                    "rule": "java:S3008",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 25,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QK",
+                    "rule": "java:S3010",
+                    "severity": "MAJOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 6,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5xzvV4IOI6DczPJ9QH",
+                    "rule": "java:S5411",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5xzvVqIOI6DczPJ9P7",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockInfo.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 21,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5xzvVqIOI6DczPJ9P8",
+                    "rule": "java:S2160",
+                    "severity": "MINOR",
+                    "component": "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockInfo.java",
+                    "status": "CLOSED",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 13,
+                        "endOffset": 21
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockClient.java": {
+                "ncloc": "91",
+                "complexity": "16"
+            },
+            "helix-2580:meta-client/src/test/java/org/apache/helix/metaclient/recipes/lock/LockClientTest.java": {
+                "ncloc": "99",
+                "complexity": "7"
+            },
+            "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockInfo.java": {
+                "ncloc": "106",
+                "complexity": "24"
+            },
+            "helix-2580:meta-client/src/main/java/org/apache/helix/metaclient/recipes/lock/LockInfoSerializer.java": {
+                "ncloc": "18",
+                "complexity": "1"
+            }
+        }
+    }
+]

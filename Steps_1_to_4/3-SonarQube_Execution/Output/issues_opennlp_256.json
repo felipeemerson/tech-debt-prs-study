@@ -1,0 +1,98 @@
+[
+    {
+        "commit_sha": "bf45136e162fd72fa6b21d8c51dc7dbc967f0658",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56zjcJDVfOYCVC8_Cm",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "opennlp-256:opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluationErrorListener.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 10,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY56zjqNDVfOYCVC9AA4",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-256:opennlp-tools/src/test/java/opennlp/tools/langdetect/LanguageDetectorEvaluatorTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 8,
+                        "endOffset": 64
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "opennlp-256:opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluationErrorListener.java": {
+                "ncloc": "19",
+                "complexity": "3"
+            },
+            "opennlp-256:opennlp-tools/src/test/java/opennlp/tools/langdetect/LanguageDetectorEvaluatorTest.java": {
+                "ncloc": "36",
+                "complexity": "3"
+            }
+        }
+    },
+    {
+        "commit_sha": "6a0c723772a7cc2053f36493bc4fa45823a0a2f2",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56zjcJDVfOYCVC8_Cm",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "opennlp-256:opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluationErrorListener.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 39,
+                        "endLine": 39,
+                        "startOffset": 10,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY56zjqNDVfOYCVC9AA4",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-256:opennlp-tools/src/test/java/opennlp/tools/langdetect/LanguageDetectorEvaluatorTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 8,
+                        "endOffset": 64
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "opennlp-256:opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluationErrorListener.java": {
+                "ncloc": "26",
+                "complexity": "4"
+            },
+            "opennlp-256:opennlp-tools/src/test/java/opennlp/tools/langdetect/LanguageDetectorEvaluatorTest.java": {
+                "ncloc": "44",
+                "complexity": "3"
+            }
+        }
+    }
+]

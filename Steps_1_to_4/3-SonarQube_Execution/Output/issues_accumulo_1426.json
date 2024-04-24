@@ -1,0 +1,2421 @@
+[
+    {
+        "commit_sha": "3c37cc97c12cc3abeb27882fa2f79a64ca32a9f9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZK11X3doAqESEv7uD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK1023doAqESEv7t9",
+                    "rule": "java:S1640",
+                    "severity": "MINOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 30,
+                        "endLine": 30,
+                        "startOffset": 51,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aE",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 20,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 20,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Zz",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 44,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z0",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 32,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z1",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCache.java": {
+                "ncloc": "19",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java": {
+                "ncloc": "32",
+                "complexity": "6"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/crypto/CryptoService.java": {
+                "ncloc": "22",
+                "complexity": "4"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java": {
+                "ncloc": "53",
+                "complexity": "12"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanDispatcher.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanPrioritizer.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java": {
+                "ncloc": "22",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java": {
+                "ncloc": "429",
+                "complexity": "104"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/VisibilityFilter.java": {
+                "ncloc": "94",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "481155e56cf1cd4a040600632860a6a049628412",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZK11X3doAqESEv7uD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK1023doAqESEv7t9",
+                    "rule": "java:S1640",
+                    "severity": "MINOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 51,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aE",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 20,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 20,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5ZNP2u3doAqESEwSFd",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 29,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Zz",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 44,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z0",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 32,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z1",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCache.java": {
+                "ncloc": "19",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java": {
+                "ncloc": "32",
+                "complexity": "6"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/crypto/CryptoService.java": {
+                "ncloc": "22",
+                "complexity": "4"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java": {
+                "ncloc": "57",
+                "complexity": "13"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanDispatcher.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanPrioritizer.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java": {
+                "ncloc": "429",
+                "complexity": "104"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/VisibilityFilter.java": {
+                "ncloc": "94",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "c1f750af0d20fab410304a0146810f4a075cd11a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZK11X3doAqESEv7uD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK1023doAqESEv7t9",
+                    "rule": "java:S1640",
+                    "severity": "MINOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 51,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aE",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 20,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 20,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5ZNP2u3doAqESEwSFd",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 29,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Zz",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 44,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z0",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 32,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z1",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCache.java": {
+                "ncloc": "19",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java": {
+                "ncloc": "32",
+                "complexity": "6"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/crypto/CryptoService.java": {
+                "ncloc": "22",
+                "complexity": "4"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java": {
+                "ncloc": "57",
+                "complexity": "13"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanDispatcher.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanPrioritizer.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java": {
+                "ncloc": "429",
+                "complexity": "104"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/VisibilityFilter.java": {
+                "ncloc": "94",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "74beea12e41db48981813a6787b4e1ccdf0785bb",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZK11X3doAqESEv7uD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK1023doAqESEv7t9",
+                    "rule": "java:S1640",
+                    "severity": "MINOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 51,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aE",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 20,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 20,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5ZNP2u3doAqESEwSFd",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 29,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Zz",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 44,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z0",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 32,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z1",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCache.java": {
+                "ncloc": "19",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java": {
+                "ncloc": "32",
+                "complexity": "6"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/crypto/CryptoService.java": {
+                "ncloc": "22",
+                "complexity": "4"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java": {
+                "ncloc": "57",
+                "complexity": "13"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanDispatcher.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanPrioritizer.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java": {
+                "ncloc": "429",
+                "complexity": "104"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/VisibilityFilter.java": {
+                "ncloc": "94",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "2ec0598744b62dc65a10cf8bd7362b7f68bd5bdc",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFe",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK1023doAqESEv7t9",
+                    "rule": "java:S1640",
+                    "severity": "MINOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 51,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aE",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 20,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 20,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5ZNP2u3doAqESEwSFd",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 29,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Zz",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 44,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z0",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 32,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z1",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 72,
+                        "endLine": 72,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCache.java": {
+                "ncloc": "19",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java": {
+                "ncloc": "32",
+                "complexity": "6"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/crypto/CryptoService.java": {
+                "ncloc": "22",
+                "complexity": "4"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java": {
+                "ncloc": "58",
+                "complexity": "13"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java": {
+                "ncloc": "21",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanDispatcher.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanPrioritizer.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java": {
+                "ncloc": "429",
+                "complexity": "104"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/VisibilityFilter.java": {
+                "ncloc": "94",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "c1a9c05e1d2eebf565d60d9f30c1b720da02ded9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFe",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK1023doAqESEv7t9",
+                    "rule": "java:S1640",
+                    "severity": "MINOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 51,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aE",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 20,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 20,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5ZNP2u3doAqESEwSFd",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 29,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Zz",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 44,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z0",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 32,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z1",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 72,
+                        "endLine": 72,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCache.java": {
+                "ncloc": "19",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java": {
+                "ncloc": "32",
+                "complexity": "6"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/crypto/CryptoService.java": {
+                "ncloc": "22",
+                "complexity": "4"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java": {
+                "ncloc": "58",
+                "complexity": "13"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java": {
+                "ncloc": "21",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanDispatcher.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanPrioritizer.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java": {
+                "ncloc": "429",
+                "complexity": "104"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/VisibilityFilter.java": {
+                "ncloc": "94",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "7bb32bae1776ae841863fcdd283cd3a9309f642b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFe",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK1023doAqESEv7t9",
+                    "rule": "java:S1640",
+                    "severity": "MINOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 51,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aE",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 20,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 20,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5ZNP2u3doAqESEwSFd",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 29,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Zz",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 44,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z0",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 32,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z1",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 72,
+                        "endLine": 72,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCache.java": {
+                "ncloc": "19",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java": {
+                "ncloc": "32",
+                "complexity": "6"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/crypto/CryptoService.java": {
+                "ncloc": "22",
+                "complexity": "4"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java": {
+                "ncloc": "58",
+                "complexity": "13"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java": {
+                "ncloc": "21",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanDispatcher.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanPrioritizer.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java": {
+                "ncloc": "429",
+                "complexity": "104"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/VisibilityFilter.java": {
+                "ncloc": "94",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "ebc648e2816e637ecf1318938014976c5b8e6fc7",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFe",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK1023doAqESEv7t9",
+                    "rule": "java:S1640",
+                    "severity": "MINOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 51,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aE",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 20,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 20,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5ZNP2u3doAqESEwSFd",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 29,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Zz",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 44,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z0",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 32,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z1",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 72,
+                        "endLine": 72,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCache.java": {
+                "ncloc": "19",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java": {
+                "ncloc": "32",
+                "complexity": "6"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/crypto/CryptoService.java": {
+                "ncloc": "22",
+                "complexity": "4"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java": {
+                "ncloc": "58",
+                "complexity": "13"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java": {
+                "ncloc": "21",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanDispatcher.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanPrioritizer.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java": {
+                "ncloc": "429",
+                "complexity": "104"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/VisibilityFilter.java": {
+                "ncloc": "94",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "66c59d4881fe6bdda47175669ea7f55e6f646a92",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFe",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK1023doAqESEv7t9",
+                    "rule": "java:S1640",
+                    "severity": "MINOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 51,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aE",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 20,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 20,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5ZNP2u3doAqESEwSFd",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 29,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Zz",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 44,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z0",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 32,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z1",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 72,
+                        "endLine": 72,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCache.java": {
+                "ncloc": "19",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java": {
+                "ncloc": "32",
+                "complexity": "6"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/crypto/CryptoService.java": {
+                "ncloc": "22",
+                "complexity": "4"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java": {
+                "ncloc": "58",
+                "complexity": "13"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java": {
+                "ncloc": "21",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanDispatcher.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanPrioritizer.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java": {
+                "ncloc": "429",
+                "complexity": "104"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/VisibilityFilter.java": {
+                "ncloc": "94",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "8ce3ab4c5766c2ca4ebda613017ca6bb1cf816fa",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFe",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK1023doAqESEv7t9",
+                    "rule": "java:S1640",
+                    "severity": "MINOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 51,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aE",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 20,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 20,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5ZNP2u3doAqESEwSFd",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 29,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Zz",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 44,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z0",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 32,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z1",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 72,
+                        "endLine": 72,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCache.java": {
+                "ncloc": "19",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java": {
+                "ncloc": "32",
+                "complexity": "6"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/crypto/CryptoService.java": {
+                "ncloc": "22",
+                "complexity": "4"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java": {
+                "ncloc": "58",
+                "complexity": "13"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java": {
+                "ncloc": "21",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanDispatcher.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanPrioritizer.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java": {
+                "ncloc": "429",
+                "complexity": "104"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/VisibilityFilter.java": {
+                "ncloc": "94",
+                "complexity": "12"
+            }
+        }
+    },
+    {
+        "commit_sha": "7cf36fdf94dd6f5e4c7cbb323ffb888e72dc48cd",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFe",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZNP5e3doAqESEwSFf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 60,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5ZK11X3doAqESEv7uE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java",
+                    "status": "CLOSED",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 77,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZK1023doAqESEv7t9",
+                    "rule": "java:S1640",
+                    "severity": "MINOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "startOffset": 51,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aD",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 180,
+                        "endLine": 180,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aE",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 287,
+                        "endLine": 287,
+                        "startOffset": 20,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5ZK1vW3doAqESEv7aF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 20,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5ZNP2u3doAqESEwSFd",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 29,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Zz",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 44,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z0",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 32,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZK1uv3doAqESEv7Z1",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 72,
+                        "endLine": 72,
+                        "startOffset": 15,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCache.java": {
+                "ncloc": "19",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/cache/BlockCacheManager.java": {
+                "ncloc": "32",
+                "complexity": "6"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/crypto/CryptoService.java": {
+                "ncloc": "22",
+                "complexity": "4"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/IteratorEnvironment.java": {
+                "ncloc": "58",
+                "complexity": "13"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/package-info.java": {
+                "ncloc": "1",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/client/PluginEnvironment.java": {
+                "ncloc": "21",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanDispatcher.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/scan/ScanPrioritizer.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/spi/common/ServiceEnvironment.java": {
+                "ncloc": "9",
+                "complexity": "0"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/TransformingIterator.java": {
+                "ncloc": "429",
+                "complexity": "104"
+            },
+            "accumulo-1426:core/src/main/java/org/apache/accumulo/core/iterators/user/VisibilityFilter.java": {
+                "ncloc": "94",
+                "complexity": "12"
+            }
+        }
+    }
+]

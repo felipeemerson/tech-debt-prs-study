@@ -1,0 +1,210 @@
+[
+    {
+        "commit_sha": "05939ff5479611f67b50a528567d2f5e2c9f6429",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5677IYv_E88BfBrAHd",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "OPEN",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 228,
+                        "endLine": 228,
+                        "startOffset": 15,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5677IYv_E88BfBrAHe",
+                    "rule": "java:S3358",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 43,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5677IYv_E88BfBrAHf",
+                    "rule": "java:S3358",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 237,
+                        "endLine": 237,
+                        "startOffset": 43,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5677IYv_E88BfBrAHc",
+                    "rule": "java:S2583",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 260,
+                        "endLine": 260,
+                        "startOffset": 28,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5677IYv_E88BfBrAHb",
+                    "rule": "java:S2583",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 289,
+                        "endLine": 289,
+                        "startOffset": 20,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5677IYv_E88BfBrAHg",
+                    "rule": "java:S1764",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 294,
+                        "endLine": 294,
+                        "startOffset": 24,
+                        "endOffset": 75
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java": {
+                "ncloc": "119",
+                "complexity": "41"
+            }
+        }
+    },
+    {
+        "commit_sha": "896334a1e3f2627040a0240debc0ebd4593df916",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5677IYv_E88BfBrAHc",
+                    "rule": "java:S2583",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 260,
+                        "endLine": 260,
+                        "startOffset": 28,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5677IYv_E88BfBrAHd",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "OPEN",
+                    "debt": "11min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 228,
+                        "endLine": 228,
+                        "startOffset": 15,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5677IYv_E88BfBrAHe",
+                    "rule": "java:S3358",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 43,
+                        "endOffset": 69
+                    }
+                },
+                {
+                    "key": "AY5677IYv_E88BfBrAHf",
+                    "rule": "java:S3358",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 237,
+                        "endLine": 237,
+                        "startOffset": 43,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5677IYv_E88BfBrAHb",
+                    "rule": "java:S2583",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 289,
+                        "endLine": 289,
+                        "startOffset": 20,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5677IYv_E88BfBrAHg",
+                    "rule": "java:S1764",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 294,
+                        "endLine": 294,
+                        "startOffset": 24,
+                        "endOffset": 75
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "commons-collections-67:src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java": {
+                "ncloc": "119",
+                "complexity": "40"
+            }
+        }
+    }
+]

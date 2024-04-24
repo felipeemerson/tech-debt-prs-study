@@ -1,0 +1,244 @@
+[
+    {
+        "commit_sha": "fc2d277d925d1bb5263186056e57b032434a42cd",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {}
+    },
+    {
+        "commit_sha": "629ce0d9aa1b95e1067aebc9d55bac686fe5cb4a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53Gl031603RBiQkt5F",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "struts-287:plugins/rest/src/test/java/org/apache/struts2/rest/handler/JuneauXmlHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 16,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY53Gl031603RBiQkt5E",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "struts-287:plugins/rest/src/test/java/org/apache/struts2/rest/handler/JuneauXmlHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 61,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY53Gl0U1603RBiQkt5C",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "struts-287:plugins/rest/src/main/java/org/apache/struts2/rest/handler/JuneauXmlHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 28,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY53Gl0U1603RBiQkt5D",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "struts-287:plugins/rest/src/main/java/org/apache/struts2/rest/handler/JuneauXmlHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 32,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "struts-287:plugins/rest/src/main/java/org/apache/struts2/rest/handler/JuneauXmlHandler.java": {
+                "ncloc": "48",
+                "complexity": "4"
+            },
+            "struts-287:plugins/rest/src/test/java/org/apache/struts2/rest/handler/JuneauXmlHandlerTest.java": {
+                "ncloc": "56",
+                "complexity": "3"
+            }
+        }
+    },
+    {
+        "commit_sha": "314dcdb78094d0a28f2219e5635817b07e723f5c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53Gl031603RBiQkt5F",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "struts-287:plugins/rest/src/test/java/org/apache/struts2/rest/handler/JuneauXmlHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 16,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY53Gl031603RBiQkt5E",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "struts-287:plugins/rest/src/test/java/org/apache/struts2/rest/handler/JuneauXmlHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 61,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY53Gl0U1603RBiQkt5C",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "struts-287:plugins/rest/src/main/java/org/apache/struts2/rest/handler/JuneauXmlHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 28,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY53Gl0U1603RBiQkt5D",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "struts-287:plugins/rest/src/main/java/org/apache/struts2/rest/handler/JuneauXmlHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 32,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "struts-287:plugins/rest/src/main/java/org/apache/struts2/rest/handler/JuneauXmlHandler.java": {
+                "ncloc": "48",
+                "complexity": "4"
+            },
+            "struts-287:plugins/rest/src/test/java/org/apache/struts2/rest/handler/JuneauXmlHandlerTest.java": {
+                "ncloc": "56",
+                "complexity": "3"
+            }
+        }
+    },
+    {
+        "commit_sha": "9d8edf5265864c4e0b858f8c764dee6a594d4f7b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53Gl031603RBiQkt5F",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "struts-287:plugins/rest/src/test/java/org/apache/struts2/rest/handler/JuneauXmlHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 16,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY53Gl031603RBiQkt5E",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "struts-287:plugins/rest/src/test/java/org/apache/struts2/rest/handler/JuneauXmlHandlerTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 61,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY53Gl0U1603RBiQkt5C",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "struts-287:plugins/rest/src/main/java/org/apache/struts2/rest/handler/JuneauXmlHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 28,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY53Gl0U1603RBiQkt5D",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "struts-287:plugins/rest/src/main/java/org/apache/struts2/rest/handler/JuneauXmlHandler.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 32,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "struts-287:plugins/rest/src/main/java/org/apache/struts2/rest/handler/JuneauXmlHandler.java": {
+                "ncloc": "48",
+                "complexity": "4"
+            },
+            "struts-287:plugins/rest/src/test/java/org/apache/struts2/rest/handler/JuneauXmlHandlerTest.java": {
+                "ncloc": "62",
+                "complexity": "3"
+            }
+        }
+    }
+]

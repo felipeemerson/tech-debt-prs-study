@@ -1,0 +1,90 @@
+[
+    {
+        "commit_sha": "a0a2ae05597e9ed146774f3746b5fb1be99cea03",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5C3sL5ygGTmJJJjK5-",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-241:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/SSLConnectionSocketFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 187,
+                        "endLine": 187,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5C3sL5ygGTmJJJjK59",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-241:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/SSLConnectionSocketFactory.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 218,
+                        "endLine": 218,
+                        "startOffset": 12,
+                        "endOffset": 15
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-241:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/SSLConnectionSocketFactory.java": {
+                "ncloc": "211",
+                "complexity": "31"
+            }
+        }
+    },
+    {
+        "commit_sha": "0f47a2aa9e95e8c5a6d52dae0c4f3e39eb637971",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5C3sL5ygGTmJJJjK5-",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-241:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/SSLConnectionSocketFactory.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 187,
+                        "endLine": 187,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5C3sL5ygGTmJJJjK59",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-241:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/SSLConnectionSocketFactory.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 215,
+                        "endLine": 215,
+                        "startOffset": 12,
+                        "endOffset": 15
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-241:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/SSLConnectionSocketFactory.java": {
+                "ncloc": "208",
+                "complexity": "29"
+            }
+        }
+    }
+]

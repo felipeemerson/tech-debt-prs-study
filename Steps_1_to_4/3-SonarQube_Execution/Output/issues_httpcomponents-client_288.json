@@ -1,0 +1,120 @@
+[
+    {
+        "commit_sha": "de5c6a237a7af88d7f3e127f8c9e41e8e38db7f6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CuacTygGTmJJJf_EI",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-288:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 17,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5CuacTygGTmJJJf_EH",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-288:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 20,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5CuacTygGTmJJJf_EG",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-288:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 28,
+                        "endOffset": 30
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "httpcomponents-client-288:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java": {
+                "ncloc": "110",
+                "complexity": "18"
+            }
+        }
+    },
+    {
+        "commit_sha": "39ff62ef4ddf3a5327c5df146510c059dd11bdfc",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CuacTygGTmJJJf_EG",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-288:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 28,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5CuacTygGTmJJJf_EI",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-288:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 17,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5CuacTygGTmJJJf_EH",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-288:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 20,
+                        "endOffset": 23
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "httpcomponents-client-288:httpclient5/src/main/java/org/apache/hc/client5/http/protocol/ResponseProcessCookies.java": {
+                "ncloc": "108",
+                "complexity": "17"
+            }
+        }
+    }
+]

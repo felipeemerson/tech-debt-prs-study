@@ -1,0 +1,254 @@
+[
+    {
+        "commit_sha": "ea3ba246e380985b17f6b955e3323dc9b00b263a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5pe6ncTNX9f26ZW7Lg",
+                    "rule": "java:S2094",
+                    "severity": "MINOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/OpResult.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 25,
+                        "endLine": 25,
+                        "startOffset": 13,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5pe6naTNX9f26ZW7Le",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 13,
+                        "endOffset": 15
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java": {
+                "ncloc": "11",
+                "complexity": "0"
+            },
+            "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/OpResult.java": {
+                "ncloc": "3",
+                "complexity": "0"
+            }
+        }
+    },
+    {
+        "commit_sha": "69812fd52451172e625372afff6d813f9cd73ba7",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5pe6ncTNX9f26ZW7Lg",
+                    "rule": "java:S2094",
+                    "severity": "MINOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/OpResult.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 25,
+                        "endLine": 25,
+                        "startOffset": 13,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5pe6naTNX9f26ZW7Le",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 13,
+                        "endOffset": 15
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java": {
+                "ncloc": "76",
+                "complexity": "19"
+            },
+            "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/OpResult.java": {
+                "ncloc": "101",
+                "complexity": "24"
+            }
+        }
+    },
+    {
+        "commit_sha": "387c23fdf0027fed90453e5bf41c3d01dc8413ec",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5pe6ncTNX9f26ZW7Lg",
+                    "rule": "java:S2094",
+                    "severity": "MINOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/OpResult.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 25,
+                        "endLine": 25,
+                        "startOffset": 13,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5pgYd1TNX9f26ZXdEq",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 17,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5pgYd1TNX9f26ZXdEr",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5pe6naTNX9f26ZW7Le",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 13,
+                        "endOffset": 15
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java": {
+                "ncloc": "82",
+                "complexity": "19"
+            },
+            "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/OpResult.java": {
+                "ncloc": "98",
+                "complexity": "20"
+            }
+        }
+    },
+    {
+        "commit_sha": "f1aa4fe1535fb2ee06493c1831c8c64257d49021",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5pe6ncTNX9f26ZW7Lg",
+                    "rule": "java:S2094",
+                    "severity": "MINOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/OpResult.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 25,
+                        "endLine": 25,
+                        "startOffset": 13,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5pgYd1TNX9f26ZXdEq",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 17,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5pgYd1TNX9f26ZXdEr",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5pe6naTNX9f26ZW7Le",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 26,
+                        "endLine": 26,
+                        "startOffset": 13,
+                        "endOffset": 15
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/Op.java": {
+                "ncloc": "82",
+                "complexity": "19"
+            },
+            "helix-2336:meta-client/src/main/java/org/apache/helix/metaclient/api/OpResult.java": {
+                "ncloc": "98",
+                "complexity": "20"
+            }
+        }
+    }
+]

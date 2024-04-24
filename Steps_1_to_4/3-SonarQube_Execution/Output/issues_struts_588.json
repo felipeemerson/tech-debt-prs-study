@@ -1,0 +1,75 @@
+[
+    {
+        "commit_sha": "8b359383a1e465f8ab5a3fad4c3cf2c9e726af37",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5zIQgh6Lzl_DrPpbbS",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "struts-588:core/src/main/java/org/apache/struts2/interceptor/csp/DefaultCspSettings.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 19,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "struts-588:core/src/main/java/org/apache/struts2/interceptor/csp/DefaultCspSettings.java": {
+                "ncloc": "64",
+                "complexity": "10"
+            }
+        }
+    },
+    {
+        "commit_sha": "b62e583646ad95bdb34e3d4a1eb72bad6347c65c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5zI5P26Lzl_DrPp3AD",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "struts-588:core/src/main/java/org/apache/struts2/interceptor/csp/DefaultCspSettings.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 59,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY5zIQgh6Lzl_DrPpbbS",
+                    "rule": "java:S3398",
+                    "severity": "MINOR",
+                    "component": "struts-588:core/src/main/java/org/apache/struts2/interceptor/csp/DefaultCspSettings.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 19,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "struts-588:core/src/main/java/org/apache/struts2/interceptor/csp/DefaultCspSettings.java": {
+                "ncloc": "59",
+                "complexity": "9"
+            }
+        }
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "commit_sha": "183387ab6de5c82ed23f9b236a76ea7fce669be4",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5i16UlOpZVfibNqIDa",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2014:server/manager/src/main/java/org/apache/accumulo/manager/state/SetGoalState.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5i16UlOpZVfibNqIDb",
+                    "rule": "java:S2093",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2014:server/manager/src/main/java/org/apache/accumulo/manager/state/SetGoalState.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2014:server/manager/src/main/java/org/apache/accumulo/manager/state/SetGoalState.java": {
+                "ncloc": "32",
+                "complexity": "3"
+            }
+        }
+    },
+    {
+        "commit_sha": "c6e45932ea1e78d24ba3c4174ac358e0387db1f0",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5i16UlOpZVfibNqIDa",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2014:server/manager/src/main/java/org/apache/accumulo/manager/state/SetGoalState.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 6,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5i16UlOpZVfibNqIDb",
+                    "rule": "java:S2093",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2014:server/manager/src/main/java/org/apache/accumulo/manager/state/SetGoalState.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2014:server/manager/src/main/java/org/apache/accumulo/manager/state/SetGoalState.java": {
+                "ncloc": "33",
+                "complexity": "3"
+            }
+        }
+    }
+]

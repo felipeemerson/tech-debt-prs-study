@@ -1,0 +1,98 @@
+[
+    {
+        "commit_sha": "1908f066fd066096f9e26e8e4a4a8b7494014196",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5W8gPPlT8qqnPRxVLA",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2656:core/src/main/java/org/apache/accumulo/core/trace/TraceUtil.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5W8guhlT8qqnPRxZIQ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2656:shell/src/main/java/org/apache/accumulo/shell/commands/TraceCommand.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2656:shell/src/main/java/org/apache/accumulo/shell/commands/TraceCommand.java": {
+                "ncloc": "65",
+                "complexity": "12"
+            },
+            "accumulo-2656:core/src/main/java/org/apache/accumulo/core/trace/TraceUtil.java": {
+                "ncloc": "165",
+                "complexity": "42"
+            }
+        }
+    },
+    {
+        "commit_sha": "cac275b6a138fcf0034019c24ab399b03fc81c1b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5W8gPPlT8qqnPRxVLA",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2656:core/src/main/java/org/apache/accumulo/core/trace/TraceUtil.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 13,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5W8guhlT8qqnPRxZIQ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2656:shell/src/main/java/org/apache/accumulo/shell/commands/TraceCommand.java",
+                    "status": "CLOSED",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2656:shell/src/main/java/org/apache/accumulo/shell/commands/TraceCommand.java": {
+                "ncloc": "75",
+                "complexity": "15"
+            },
+            "accumulo-2656:core/src/main/java/org/apache/accumulo/core/trace/TraceUtil.java": {
+                "ncloc": "153",
+                "complexity": "39"
+            }
+        }
+    }
+]

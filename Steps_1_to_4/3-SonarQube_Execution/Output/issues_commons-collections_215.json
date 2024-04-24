@@ -1,0 +1,127 @@
+[
+    {
+        "commit_sha": "3391af41ab093d9a1648e8cf8a814fc3282ba6cc",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {}
+    },
+    {
+        "commit_sha": "fa311b262adc3b0a31c0dc036a3eeaf3a69c5eb6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY562oZrv_E88BfBpz9h",
+                    "rule": "java:S2094",
+                    "severity": "MINOR",
+                    "component": "commons-collections-215:src/test/java/org/apache/commons/collections4/ArrayUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 3,
+                        "endLine": 3,
+                        "startOffset": 13,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "commons-collections-215:src/test/java/org/apache/commons/collections4/ArrayUtilsTest.java": {
+                "ncloc": "3",
+                "complexity": "0"
+            }
+        }
+    },
+    {
+        "commit_sha": "ddd57205f2a63937aa01c7e543d16933a3df697c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY562oZrv_E88BfBpz9h",
+                    "rule": "java:S2094",
+                    "severity": "MINOR",
+                    "component": "commons-collections-215:src/test/java/org/apache/commons/collections4/ArrayUtilsTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 3,
+                        "endLine": 3,
+                        "startOffset": 13,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "commons-collections-215:src/test/java/org/apache/commons/collections4/ArrayUtilsTest.java": {
+                "ncloc": "18",
+                "complexity": "1"
+            }
+        }
+    },
+    {
+        "commit_sha": "0f090be501fc46a2a404e09577b63ca5f4bbcd96",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY563M1Iv_E88BfBqAEJ",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "commons-collections-215:src/test/java/org/apache/commons/collections4/ArrayUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 16,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY563M1Iv_E88BfBqAEK",
+                    "rule": "java:S1206",
+                    "severity": "MINOR",
+                    "component": "commons-collections-215:src/test/java/org/apache/commons/collections4/ArrayUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 27,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY562oZrv_E88BfBpz9h",
+                    "rule": "java:S2094",
+                    "severity": "MINOR",
+                    "component": "commons-collections-215:src/test/java/org/apache/commons/collections4/ArrayUtilsTest.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 3,
+                        "endLine": 3,
+                        "startOffset": 13,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "commons-collections-215:src/test/java/org/apache/commons/collections4/ArrayUtilsTest.java": {
+                "ncloc": "45",
+                "complexity": "4"
+            }
+        }
+    }
+]

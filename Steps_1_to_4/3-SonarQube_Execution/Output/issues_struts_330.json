@@ -1,0 +1,368 @@
+[
+    {
+        "commit_sha": "f3fb36b8347e1d67b1957fe7b573bad8a1e0b484",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52uJgy1603RBiQSFYs",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 40,
+                        "endLine": 40,
+                        "startOffset": 24,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY52uJgy1603RBiQSFYt",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java",
+                    "status": "OPEN",
+                    "debt": "1h12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 20,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY52uJgy1603RBiQSFYq",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 61,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY52uJgy1603RBiQSFYr",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 72,
+                        "endLine": 72,
+                        "startOffset": 61,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKM",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 226,
+                        "endLine": 226,
+                        "startOffset": 8,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKN",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 226,
+                        "endLine": 226,
+                        "startOffset": 24,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKQ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "OPEN",
+                    "debt": "40min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 19,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKR",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 19,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKO",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 296,
+                        "endLine": 296,
+                        "startOffset": 48,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKP",
+                    "rule": "java:S1845",
+                    "severity": "BLOCKER",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 429,
+                        "endLine": 429,
+                        "startOffset": 18,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "struts-330:core/src/main/java/org/apache/struts2/components/Date.java": {
+                "ncloc": "223",
+                "complexity": "38"
+            },
+            "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java": {
+                "ncloc": "243",
+                "complexity": "19"
+            }
+        }
+    },
+    {
+        "commit_sha": "aacac5b9fc0cbf4c191fcb2e8be232e3fa736dd0",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52u48f1603RBiQSfzu",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 76,
+                        "endLine": 76,
+                        "startOffset": 61,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY52u48f1603RBiQSfzv",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 61,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY52uJgy1603RBiQSFYq",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java",
+                    "status": "CLOSED",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 61,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY52uJgy1603RBiQSFYr",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java",
+                    "status": "CLOSED",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 72,
+                        "endLine": 72,
+                        "startOffset": 61,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY52uJgy1603RBiQSFYs",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java",
+                    "status": "OPEN",
+                    "debt": "22min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 24,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY52uJgy1603RBiQSFYt",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java",
+                    "status": "OPEN",
+                    "debt": "1h24min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 49,
+                        "startOffset": 20,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKM",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 226,
+                        "endLine": 226,
+                        "startOffset": 8,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKN",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 226,
+                        "endLine": 226,
+                        "startOffset": 24,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKR",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 19,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKQ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "OPEN",
+                    "debt": "41min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 282,
+                        "endLine": 282,
+                        "startOffset": 19,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKO",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 302,
+                        "endLine": 302,
+                        "startOffset": 44,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY52uJdn1603RBiQSFKP",
+                    "rule": "java:S1845",
+                    "severity": "BLOCKER",
+                    "component": "struts-330:core/src/main/java/org/apache/struts2/components/Date.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 425,
+                        "endLine": 425,
+                        "startOffset": 18,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 12
+        },
+        "metrics": {
+            "struts-330:core/src/main/java/org/apache/struts2/components/Date.java": {
+                "ncloc": "220",
+                "complexity": "40"
+            },
+            "struts-330:core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java": {
+                "ncloc": "284",
+                "complexity": "22"
+            }
+        }
+    }
+]

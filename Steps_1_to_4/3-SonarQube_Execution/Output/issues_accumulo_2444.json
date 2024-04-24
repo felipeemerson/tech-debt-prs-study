@@ -1,0 +1,370 @@
+[
+    {
+        "commit_sha": "b0e2fd0d9e2f7c9877edea47650e8f0b6683dd36",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ISdJBbDlNcRJDyXHY",
+                    "rule": "java:S3457",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2444:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/PrintableTable.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 16,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY5ISdJBbDlNcRJDyXHZ",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2444:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/PrintableTable.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 95,
+                        "endLine": 95,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5ISdRobDlNcRJDyXZ-",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-2444:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/lib/MapReduceClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5ISdRobDlNcRJDyXZ_",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2444:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/lib/MapReduceClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 20,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5ISdRobDlNcRJDyXZ9",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2444:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/lib/MapReduceClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5ISctjbDlNcRJDyTLk",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-2444:core/src/main/java/org/apache/accumulo/core/clientImpl/CloneConfigurationImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5ISctjbDlNcRJDyTLl",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2444:core/src/main/java/org/apache/accumulo/core/clientImpl/CloneConfigurationImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 9,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5ISdAbbDlNcRJDyWrJ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2444:server/base/src/main/java/org/apache/accumulo/server/manager/state/MetaDataStateStore.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 97,
+                        "endLine": 97,
+                        "startOffset": 15,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5IScwlbDlNcRJDyTU3",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2444:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 17,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5IScwlbDlNcRJDyTU4",
+                    "rule": "java:S2176",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2444:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 17,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-2444:core/src/main/java/org/apache/accumulo/core/clientImpl/CloneConfigurationImpl.java": {
+                "ncloc": "67",
+                "complexity": "13"
+            },
+            "accumulo-2444:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java": {
+                "ncloc": "23",
+                "complexity": "1"
+            },
+            "accumulo-2444:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/lib/MapReduceClientOpts.java": {
+                "ncloc": "58",
+                "complexity": "4"
+            },
+            "accumulo-2444:server/base/src/main/java/org/apache/accumulo/server/manager/state/MetaDataStateStore.java": {
+                "ncloc": "117",
+                "complexity": "23"
+            },
+            "accumulo-2444:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/PrintableTable.java": {
+                "ncloc": "58",
+                "complexity": "11"
+            },
+            "accumulo-2444:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodec.java": {
+                "ncloc": "53",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "db5ca16ee8ad72f613a1d78707cb4ea95d7152c4",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ISdJBbDlNcRJDyXHY",
+                    "rule": "java:S3457",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2444:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/PrintableTable.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 16,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY5ISdJBbDlNcRJDyXHZ",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2444:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/PrintableTable.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 96,
+                        "endLine": 96,
+                        "startOffset": 4,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5ISdRobDlNcRJDyXZ_",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2444:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/lib/MapReduceClientOpts.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 20,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5ISdRobDlNcRJDyXZ-",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-2444:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/lib/MapReduceClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5ISdRobDlNcRJDyXZ9",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2444:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/lib/MapReduceClientOpts.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5ISctjbDlNcRJDyTLk",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-2444:core/src/main/java/org/apache/accumulo/core/clientImpl/CloneConfigurationImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5ISctjbDlNcRJDyTLl",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2444:core/src/main/java/org/apache/accumulo/core/clientImpl/CloneConfigurationImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 9,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5ISdAbbDlNcRJDyWrJ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2444:server/base/src/main/java/org/apache/accumulo/server/manager/state/MetaDataStateStore.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 15,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5IScwlbDlNcRJDyTU3",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2444:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 17,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5IScwlbDlNcRJDyTU4",
+                    "rule": "java:S2176",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2444:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 17,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-2444:core/src/main/java/org/apache/accumulo/core/clientImpl/CloneConfigurationImpl.java": {
+                "ncloc": "71",
+                "complexity": "13"
+            },
+            "accumulo-2444:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java": {
+                "ncloc": "26",
+                "complexity": "1"
+            },
+            "accumulo-2444:hadoop-mapreduce/src/main/java/org/apache/accumulo/hadoopImpl/mapreduce/lib/MapReduceClientOpts.java": {
+                "ncloc": "59",
+                "complexity": "4"
+            },
+            "accumulo-2444:server/base/src/main/java/org/apache/accumulo/server/manager/state/MetaDataStateStore.java": {
+                "ncloc": "118",
+                "complexity": "23"
+            },
+            "accumulo-2444:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/PrintableTable.java": {
+                "ncloc": "59",
+                "complexity": "11"
+            },
+            "accumulo-2444:server/base/src/main/java/org/apache/accumulo/server/conf/codec/VersionedPropGzipCodec.java": {
+                "ncloc": "54",
+                "complexity": "7"
+            }
+        }
+    }
+]

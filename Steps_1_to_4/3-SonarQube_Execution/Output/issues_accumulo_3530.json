@@ -1,0 +1,218 @@
+[
+    {
+        "commit_sha": "2fbb77990871ed705854fea6be97340869929ffe",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5sRVSv8f47XzIbBenD",
+                    "rule": "java:S2387",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/TableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5sRVSv8f47XzIbBenE",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/TableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5sRVSv8f47XzIbBenF",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/TableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 92,
+                        "startOffset": 18,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5sRVSv8f47XzIbBenG",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/TableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 111,
+                        "endLine": 111,
+                        "startOffset": 17,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5sRVSn8f47XzIbBenA",
+                    "rule": "java:S1452",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/ZooBasedConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 22,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5sRVSn8f47XzIbBenB",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/ZooBasedConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 26,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/TableConfiguration.java": {
+                "ncloc": "176",
+                "complexity": "34"
+            },
+            "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/ZooBasedConfiguration.java": {
+                "ncloc": "98",
+                "complexity": "19"
+            }
+        }
+    },
+    {
+        "commit_sha": "0ef57541a9dd2f0d4ae977d58f9da966492e3dc1",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5sRVSv8f47XzIbBenF",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/TableConfiguration.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 92,
+                        "startOffset": 18,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5sRVSv8f47XzIbBenD",
+                    "rule": "java:S2387",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/TableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5sRVSv8f47XzIbBenE",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/TableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5sRVSv8f47XzIbBenG",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/TableConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 97,
+                        "endLine": 97,
+                        "startOffset": 17,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5sRVSn8f47XzIbBenA",
+                    "rule": "java:S1452",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/ZooBasedConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 106,
+                        "endLine": 106,
+                        "startOffset": 22,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5sRVSn8f47XzIbBenB",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/ZooBasedConfiguration.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 26,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/TableConfiguration.java": {
+                "ncloc": "165",
+                "complexity": "31"
+            },
+            "accumulo-3530:server/base/src/main/java/org/apache/accumulo/server/conf/ZooBasedConfiguration.java": {
+                "ncloc": "94",
+                "complexity": "19"
+            }
+        }
+    }
+]

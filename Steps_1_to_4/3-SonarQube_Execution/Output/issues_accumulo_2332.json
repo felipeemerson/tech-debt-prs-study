@@ -1,0 +1,248 @@
+[
+    {
+        "commit_sha": "b5ca15806659efbbd6f5d158be8648cc2cd13593",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Sjf6jbYc-86yuKBmD",
+                    "rule": "java:S5803",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2332:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 37,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5Sjf6jbYc-86yuKBmE",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2332:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5Sjf6jbYc-86yuKBmF",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2332:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 130,
+                        "endLine": 130,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5Sjf6jbYc-86yuKBmG",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2332:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 137,
+                        "endLine": 137,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5SjgBubYc-86yuKB-g",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2332:core/src/main/java/org/apache/accumulo/core/util/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5SjgBubYc-86yuKB-h",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2332:core/src/main/java/org/apache/accumulo/core/util/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5SjgBubYc-86yuKB-i",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2332:core/src/main/java/org/apache/accumulo/core/util/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "accumulo-2332:core/src/main/java/org/apache/accumulo/core/util/CleanUp.java": {
+                "ncloc": "30",
+                "complexity": "6"
+            },
+            "accumulo-2332:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java": {
+                "ncloc": "110",
+                "complexity": "16"
+            }
+        }
+    },
+    {
+        "commit_sha": "7948d1f408cddce6e190574a54b55c8a1682b602",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Sjf6jbYc-86yuKBmD",
+                    "rule": "java:S5803",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2332:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 37,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5Sjf6jbYc-86yuKBmE",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2332:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5Sjf6jbYc-86yuKBmF",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2332:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 130,
+                        "endLine": 130,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5Sjf6jbYc-86yuKBmG",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2332:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 137,
+                        "endLine": 137,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5SjgBubYc-86yuKB-g",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2332:core/src/main/java/org/apache/accumulo/core/util/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5SjgBubYc-86yuKB-h",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2332:core/src/main/java/org/apache/accumulo/core/util/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5SjgBubYc-86yuKB-i",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2332:core/src/main/java/org/apache/accumulo/core/util/CleanUp.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 19,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "accumulo-2332:core/src/main/java/org/apache/accumulo/core/util/CleanUp.java": {
+                "ncloc": "36",
+                "complexity": "7"
+            },
+            "accumulo-2332:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java": {
+                "ncloc": "110",
+                "complexity": "16"
+            }
+        }
+    }
+]

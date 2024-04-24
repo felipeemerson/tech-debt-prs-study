@@ -1,0 +1,330 @@
+[
+    {
+        "commit_sha": "7f082d5fe21da65123c2e3897bb79ae48264e2cd",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldt",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 84,
+                        "endLine": 84,
+                        "startOffset": 5,
+                        "endOffset": 99
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldq",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 29,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldr",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 92,
+                        "endLine": 92,
+                        "startOffset": 29,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldo",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldp",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 138,
+                        "endLine": 138,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldu",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldx",
+                    "rule": "java:S1144",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 29,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDulds",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 151,
+                        "endLine": 151,
+                        "startOffset": 29,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldv",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 165,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldw",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 398,
+                        "endLine": 398,
+                        "startOffset": 14,
+                        "endOffset": 21
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java": {
+                "ncloc": "453",
+                "complexity": "82"
+            }
+        }
+    },
+    {
+        "commit_sha": "80059a4f27c2a25454b2c54fab1211030077ee3d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldt",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 79,
+                        "endLine": 79,
+                        "startOffset": 5,
+                        "endOffset": 99
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldq",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 29,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldr",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 29,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldo",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldp",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldu",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 140,
+                        "endLine": 140,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldx",
+                    "rule": "java:S1144",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 144,
+                        "endLine": 144,
+                        "startOffset": 29,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDulds",
+                    "rule": "java:S107",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 146,
+                        "endLine": 146,
+                        "startOffset": 29,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldv",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 160,
+                        "endLine": 160,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5IDvaYbDlNcRJDuldw",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 393,
+                        "endLine": 393,
+                        "startOffset": 14,
+                        "endOffset": 21
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "accumulo-2453:server/tserver/src/main/java/org/apache/accumulo/tserver/NativeMap.java": {
+                "ncloc": "449",
+                "complexity": "82"
+            }
+        }
+    }
+]

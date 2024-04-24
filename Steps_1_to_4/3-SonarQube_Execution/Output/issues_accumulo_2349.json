@@ -1,0 +1,3596 @@
+[
+    {
+        "commit_sha": "d2e5a1fc3b1e73b40bb5d5ac694e97415a61097a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5R9_MDbYc-86yuAznq",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 56,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznr",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 179,
+                        "endLine": 179,
+                        "startOffset": 26,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznU",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 222,
+                        "endLine": 222,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzns",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 77,
+                        "endOffset": 78
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznV",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 345,
+                        "endLine": 345,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznt",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 370,
+                        "endLine": 370,
+                        "startOffset": 21,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznW",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 401,
+                        "endLine": 401,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznu",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 416,
+                        "endLine": 416,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznX",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 419,
+                        "endLine": 419,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznY",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznv",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 584,
+                        "endLine": 584,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznZ",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 587,
+                        "endLine": 587,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznw",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 661,
+                        "endLine": 661,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznx",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 670,
+                        "endLine": 670,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzny",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 679,
+                        "endLine": 679,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznz",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 727,
+                        "endLine": 727,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzna",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 799,
+                        "endLine": 799,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznb",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 818,
+                        "endLine": 818,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznp",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 823,
+                        "endLine": 823,
+                        "startOffset": 47,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn0",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1007,
+                        "endLine": 1007,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn1",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "24min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1053,
+                        "endLine": 1053,
+                        "startOffset": 15,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznc",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1118,
+                        "endLine": 1118,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznd",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1303,
+                        "endLine": 1303,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn2",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1334,
+                        "endLine": 1334,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzne",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1355,
+                        "endLine": 1355,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1379,
+                        "endLine": 1379,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzng",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1383,
+                        "endLine": 1383,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn3",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1389,
+                        "endLine": 1389,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznh",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1396,
+                        "endLine": 1396,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn4",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1452,
+                        "endLine": 1452,
+                        "startOffset": 7,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzni",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1480,
+                        "endLine": 1480,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznj",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1496,
+                        "endLine": 1496,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1534,
+                        "endLine": 1534,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn5",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1561,
+                        "endLine": 1561,
+                        "startOffset": 15,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznl",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1600,
+                        "endLine": 1600,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznm",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1618,
+                        "endLine": 1618,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn6",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1727,
+                        "endLine": 1727,
+                        "startOffset": 11,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznn",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1750,
+                        "endLine": 1750,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzno",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1752,
+                        "endLine": 1752,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 39
+        },
+        "metrics": {
+            "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java": {
+                "ncloc": "1526",
+                "complexity": "229"
+            }
+        }
+    },
+    {
+        "commit_sha": "837fe255dd077df2b3c2d5e6be134370286923e8",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5R9_MDbYc-86yuAznq",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 56,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznr",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 179,
+                        "endLine": 179,
+                        "startOffset": 26,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznU",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 222,
+                        "endLine": 222,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzns",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 77,
+                        "endOffset": 78
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznV",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 345,
+                        "endLine": 345,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznt",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 370,
+                        "endLine": 370,
+                        "startOffset": 21,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznW",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 401,
+                        "endLine": 401,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznu",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 416,
+                        "endLine": 416,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznX",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 419,
+                        "endLine": 419,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznY",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznv",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 584,
+                        "endLine": 584,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznZ",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 587,
+                        "endLine": 587,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznw",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 661,
+                        "endLine": 661,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznx",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 670,
+                        "endLine": 670,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzny",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 679,
+                        "endLine": 679,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznz",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 727,
+                        "endLine": 727,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzna",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 799,
+                        "endLine": 799,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznb",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 818,
+                        "endLine": 818,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznp",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 823,
+                        "endLine": 823,
+                        "startOffset": 47,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn0",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1007,
+                        "endLine": 1007,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn1",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "24min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1053,
+                        "endLine": 1053,
+                        "startOffset": 15,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznc",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1118,
+                        "endLine": 1118,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznd",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1303,
+                        "endLine": 1303,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn2",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1334,
+                        "endLine": 1334,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzne",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1355,
+                        "endLine": 1355,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1379,
+                        "endLine": 1379,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzng",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1383,
+                        "endLine": 1383,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn3",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1389,
+                        "endLine": 1389,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznh",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1396,
+                        "endLine": 1396,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn4",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1451,
+                        "endLine": 1451,
+                        "startOffset": 7,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzni",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1479,
+                        "endLine": 1479,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznj",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1495,
+                        "endLine": 1495,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1533,
+                        "endLine": 1533,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn5",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1560,
+                        "endLine": 1560,
+                        "startOffset": 15,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznl",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1599,
+                        "endLine": 1599,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznm",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1617,
+                        "endLine": 1617,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn6",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1726,
+                        "endLine": 1726,
+                        "startOffset": 11,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznn",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1749,
+                        "endLine": 1749,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzno",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1751,
+                        "endLine": 1751,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 39
+        },
+        "metrics": {
+            "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java": {
+                "ncloc": "1525",
+                "complexity": "229"
+            }
+        }
+    },
+    {
+        "commit_sha": "733898f85a812e88d03db4c9d6ac4cd4cbe4d64e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5R9_MDbYc-86yuAznq",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 56,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznr",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 179,
+                        "endLine": 179,
+                        "startOffset": 26,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznU",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 222,
+                        "endLine": 222,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzns",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 77,
+                        "endOffset": 78
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznV",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 345,
+                        "endLine": 345,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznt",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 370,
+                        "endLine": 370,
+                        "startOffset": 21,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznW",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 401,
+                        "endLine": 401,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznu",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 416,
+                        "endLine": 416,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznX",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 419,
+                        "endLine": 419,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznY",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznv",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 584,
+                        "endLine": 584,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznZ",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 587,
+                        "endLine": 587,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznw",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 661,
+                        "endLine": 661,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznx",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 670,
+                        "endLine": 670,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzny",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 679,
+                        "endLine": 679,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznz",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 727,
+                        "endLine": 727,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzna",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 799,
+                        "endLine": 799,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznb",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 818,
+                        "endLine": 818,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznp",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 823,
+                        "endLine": 823,
+                        "startOffset": 47,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn0",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1007,
+                        "endLine": 1007,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn1",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "24min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1053,
+                        "endLine": 1053,
+                        "startOffset": 15,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznc",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1118,
+                        "endLine": 1118,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznd",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1303,
+                        "endLine": 1303,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn2",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1334,
+                        "endLine": 1334,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzne",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1355,
+                        "endLine": 1355,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1379,
+                        "endLine": 1379,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzng",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1383,
+                        "endLine": 1383,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn3",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1389,
+                        "endLine": 1389,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznh",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1396,
+                        "endLine": 1396,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn4",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1452,
+                        "endLine": 1452,
+                        "startOffset": 7,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzni",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1480,
+                        "endLine": 1480,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznj",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1496,
+                        "endLine": 1496,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1534,
+                        "endLine": 1534,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn5",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1561,
+                        "endLine": 1561,
+                        "startOffset": 15,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznl",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1600,
+                        "endLine": 1600,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznm",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1618,
+                        "endLine": 1618,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn6",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1727,
+                        "endLine": 1727,
+                        "startOffset": 11,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznn",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1750,
+                        "endLine": 1750,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzno",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1752,
+                        "endLine": 1752,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 39
+        },
+        "metrics": {
+            "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java": {
+                "ncloc": "1525",
+                "complexity": "229"
+            }
+        }
+    },
+    {
+        "commit_sha": "b3e342ffd58390fa230e24ef2700ab1bed9384eb",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5R9_MDbYc-86yuAznq",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 56,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznr",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 179,
+                        "endLine": 179,
+                        "startOffset": 26,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznU",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 222,
+                        "endLine": 222,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzns",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 77,
+                        "endOffset": 78
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznV",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 345,
+                        "endLine": 345,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznt",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 370,
+                        "endLine": 370,
+                        "startOffset": 21,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznW",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 401,
+                        "endLine": 401,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznu",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 416,
+                        "endLine": 416,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznX",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 419,
+                        "endLine": 419,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznY",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznv",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 584,
+                        "endLine": 584,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznZ",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 587,
+                        "endLine": 587,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznw",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 661,
+                        "endLine": 661,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznx",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 670,
+                        "endLine": 670,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzny",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 679,
+                        "endLine": 679,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznz",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 727,
+                        "endLine": 727,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzna",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 799,
+                        "endLine": 799,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznb",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 818,
+                        "endLine": 818,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznp",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 823,
+                        "endLine": 823,
+                        "startOffset": 47,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn0",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1007,
+                        "endLine": 1007,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn1",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "24min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1053,
+                        "endLine": 1053,
+                        "startOffset": 15,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznc",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1118,
+                        "endLine": 1118,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznd",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1303,
+                        "endLine": 1303,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn2",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1334,
+                        "endLine": 1334,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzne",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1355,
+                        "endLine": 1355,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1379,
+                        "endLine": 1379,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzng",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1383,
+                        "endLine": 1383,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn3",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1389,
+                        "endLine": 1389,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznh",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1396,
+                        "endLine": 1396,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn4",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1452,
+                        "endLine": 1452,
+                        "startOffset": 7,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzni",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1480,
+                        "endLine": 1480,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznj",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1496,
+                        "endLine": 1496,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1534,
+                        "endLine": 1534,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn5",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1561,
+                        "endLine": 1561,
+                        "startOffset": 15,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznl",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1600,
+                        "endLine": 1600,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznm",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1618,
+                        "endLine": 1618,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn6",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1727,
+                        "endLine": 1727,
+                        "startOffset": 11,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznn",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1750,
+                        "endLine": 1750,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzno",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1752,
+                        "endLine": 1752,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 39
+        },
+        "metrics": {
+            "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java": {
+                "ncloc": "1525",
+                "complexity": "229"
+            }
+        }
+    },
+    {
+        "commit_sha": "091e224c011e8ac81bb93b0bc34eb33ead80db34",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5R9_MDbYc-86yuAznq",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 56,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznr",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 179,
+                        "endLine": 179,
+                        "startOffset": 26,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznU",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 222,
+                        "endLine": 222,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzns",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 77,
+                        "endOffset": 78
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznV",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 345,
+                        "endLine": 345,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznt",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 370,
+                        "endLine": 370,
+                        "startOffset": 21,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznW",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 401,
+                        "endLine": 401,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznu",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 416,
+                        "endLine": 416,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznX",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 419,
+                        "endLine": 419,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznY",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznv",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 584,
+                        "endLine": 584,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznZ",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 587,
+                        "endLine": 587,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznw",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 661,
+                        "endLine": 661,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznx",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 670,
+                        "endLine": 670,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzny",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 679,
+                        "endLine": 679,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznz",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 727,
+                        "endLine": 727,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzna",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 799,
+                        "endLine": 799,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznb",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 818,
+                        "endLine": 818,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznp",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 823,
+                        "endLine": 823,
+                        "startOffset": 47,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn0",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1007,
+                        "endLine": 1007,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn1",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "24min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1053,
+                        "endLine": 1053,
+                        "startOffset": 15,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznc",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1118,
+                        "endLine": 1118,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznd",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1303,
+                        "endLine": 1303,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn2",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1334,
+                        "endLine": 1334,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzne",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1355,
+                        "endLine": 1355,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1379,
+                        "endLine": 1379,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzng",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1383,
+                        "endLine": 1383,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn3",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1389,
+                        "endLine": 1389,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznh",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1396,
+                        "endLine": 1396,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn4",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1451,
+                        "endLine": 1451,
+                        "startOffset": 7,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzni",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1479,
+                        "endLine": 1479,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznj",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1495,
+                        "endLine": 1495,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1533,
+                        "endLine": 1533,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn5",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1560,
+                        "endLine": 1560,
+                        "startOffset": 15,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznl",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1599,
+                        "endLine": 1599,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznm",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1617,
+                        "endLine": 1617,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn6",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1726,
+                        "endLine": 1726,
+                        "startOffset": 11,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznn",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1749,
+                        "endLine": 1749,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzno",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1751,
+                        "endLine": 1751,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 39
+        },
+        "metrics": {
+            "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java": {
+                "ncloc": "1524",
+                "complexity": "229"
+            }
+        }
+    },
+    {
+        "commit_sha": "955dd9dcad16fae28fe6d50f00ff3a7a0b37a264",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5R9_MDbYc-86yuAznq",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 56,
+                        "endOffset": 57
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznr",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 179,
+                        "endLine": 179,
+                        "startOffset": 26,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznU",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 222,
+                        "endLine": 222,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzns",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 77,
+                        "endOffset": 78
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznV",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 345,
+                        "endLine": 345,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznt",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 370,
+                        "endLine": 370,
+                        "startOffset": 21,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznW",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 401,
+                        "endLine": 401,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznu",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 416,
+                        "endLine": 416,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznX",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 419,
+                        "endLine": 419,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznY",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 575,
+                        "endLine": 575,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznv",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 584,
+                        "endLine": 584,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznZ",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 587,
+                        "endLine": 587,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznw",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 661,
+                        "endLine": 661,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznx",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 670,
+                        "endLine": 670,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzny",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 679,
+                        "endLine": 679,
+                        "startOffset": 6,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznz",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "32min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 727,
+                        "endLine": 727,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzna",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 799,
+                        "endLine": 799,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznb",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 818,
+                        "endLine": 818,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznp",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 823,
+                        "endLine": 823,
+                        "startOffset": 47,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn0",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1007,
+                        "endLine": 1007,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn1",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "24min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1053,
+                        "endLine": 1053,
+                        "startOffset": 15,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznc",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1118,
+                        "endLine": 1118,
+                        "startOffset": 20,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznd",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1303,
+                        "endLine": 1303,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn2",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1334,
+                        "endLine": 1334,
+                        "startOffset": 15,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzne",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1355,
+                        "endLine": 1355,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznf",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1379,
+                        "endLine": 1379,
+                        "startOffset": 22,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzng",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1383,
+                        "endLine": 1383,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn3",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1389,
+                        "endLine": 1389,
+                        "startOffset": 14,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznh",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1396,
+                        "endLine": 1396,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn4",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1451,
+                        "endLine": 1451,
+                        "startOffset": 7,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzni",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1479,
+                        "endLine": 1479,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznj",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1495,
+                        "endLine": 1495,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1533,
+                        "endLine": 1533,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn5",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 1560,
+                        "endLine": 1560,
+                        "startOffset": 15,
+                        "endOffset": 26
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznl",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1599,
+                        "endLine": 1599,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznm",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1617,
+                        "endLine": 1617,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzn6",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1726,
+                        "endLine": 1726,
+                        "startOffset": 11,
+                        "endOffset": 14
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAznn",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1749,
+                        "endLine": 1749,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5R9_MDbYc-86yuAzno",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1751,
+                        "endLine": 1751,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 39
+        },
+        "metrics": {
+            "accumulo-2349:server/tserver/src/main/java/org/apache/accumulo/tserver/ThriftClientHandler.java": {
+                "ncloc": "1524",
+                "complexity": "229"
+            }
+        }
+    }
+]

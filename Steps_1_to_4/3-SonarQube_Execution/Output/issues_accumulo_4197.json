@@ -1,0 +1,233 @@
+[
+    {
+        "commit_sha": "3b198250e3264a7950d534fb54b3ffc04f28c92a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5JRKW6AESW5py-Xs4o",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-4197:core/src/test/java/org/apache/accumulo/core/iterators/user/RowFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 9,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5JRKW6AESW5py-Xs4q",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-4197:core/src/test/java/org/apache/accumulo/core/iterators/user/RowFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 32,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5JRKW6AESW5py-Xs4p",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4197:core/src/test/java/org/apache/accumulo/core/iterators/user/RowFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 285,
+                        "endLine": 285,
+                        "startOffset": 15,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5JRJvLAESW5py-XpYG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4197:core/src/main/java/org/apache/accumulo/core/iterators/user/RowFilter.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 95,
+                        "endLine": 95,
+                        "startOffset": 15,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5JRJvLAESW5py-XpYF",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-4197:core/src/main/java/org/apache/accumulo/core/iterators/user/RowFilter.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 97,
+                        "endLine": 97,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5JRJvLAESW5py-XpYE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4197:core/src/main/java/org/apache/accumulo/core/iterators/user/RowFilter.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-4197:core/src/main/java/org/apache/accumulo/core/iterators/user/RowFilter.java": {
+                "ncloc": "119",
+                "complexity": "23"
+            },
+            "accumulo-4197:core/src/test/java/org/apache/accumulo/core/iterators/user/RowFilterTest.java": {
+                "ncloc": "206",
+                "complexity": "24"
+            }
+        }
+    },
+    {
+        "commit_sha": "984eaff081e157f6ed4fb9c842e0fa80610302fe",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5JUhNyAESW5py-YEYD",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4197:core/src/test/java/org/apache/accumulo/core/iterators/user/RowFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 63,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY5JRKW6AESW5py-Xs4o",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "accumulo-4197:core/src/test/java/org/apache/accumulo/core/iterators/user/RowFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 181,
+                        "endLine": 181,
+                        "startOffset": 9,
+                        "endOffset": 16
+                    }
+                },
+                {
+                    "key": "AY5JRKW6AESW5py-Xs4q",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-4197:core/src/test/java/org/apache/accumulo/core/iterators/user/RowFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 32,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5JRKW6AESW5py-Xs4p",
+                    "rule": "java:S2259",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4197:core/src/test/java/org/apache/accumulo/core/iterators/user/RowFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 307,
+                        "endLine": 307,
+                        "startOffset": 15,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5JRJvLAESW5py-XpYG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4197:core/src/main/java/org/apache/accumulo/core/iterators/user/RowFilter.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 96,
+                        "endLine": 96,
+                        "startOffset": 15,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5JRJvLAESW5py-XpYF",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-4197:core/src/main/java/org/apache/accumulo/core/iterators/user/RowFilter.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5JRJvLAESW5py-XpYE",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4197:core/src/main/java/org/apache/accumulo/core/iterators/user/RowFilter.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "accumulo-4197:core/src/main/java/org/apache/accumulo/core/iterators/user/RowFilter.java": {
+                "ncloc": "121",
+                "complexity": "23"
+            },
+            "accumulo-4197:core/src/test/java/org/apache/accumulo/core/iterators/user/RowFilterTest.java": {
+                "ncloc": "275",
+                "complexity": "40"
+            }
+        }
+    }
+]

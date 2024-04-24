@@ -1,0 +1,128 @@
+[
+    {
+        "commit_sha": "9f45983dacde5198cc847278d2db10133673e88c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5uqJPgR5K1tdoqQWIr",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "struts-793:plugins/velocity/src/main/java/org/apache/struts2/views/velocity/StrutsVelocityContext.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 11,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5uqJPgR5K1tdoqQWIs",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "struts-793:plugins/velocity/src/main/java/org/apache/struts2/views/velocity/StrutsVelocityContext.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 11,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "struts-793:plugins/velocity/src/main/java/org/apache/struts2/views/velocity/StrutsVelocityContext.java": {
+                "ncloc": "67",
+                "complexity": "17"
+            },
+            "struts-793:plugins/velocity/src/test/java/org/apache/struts2/views/velocity/StrutsVelocityContextTest.java": {
+                "ncloc": "68",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "0504e7076c3a94945e168d72e06ef3d15a98a0dc",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5uq9pcR5K1tdoqQ0Te",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "struts-793:plugins/velocity/src/test/java/org/apache/struts2/views/velocity/StrutsVelocityContextTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 31,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5uq9pcR5K1tdoqQ0Tf",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "struts-793:plugins/velocity/src/test/java/org/apache/struts2/views/velocity/StrutsVelocityContextTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 31,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5uqJPgR5K1tdoqQWIr",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "struts-793:plugins/velocity/src/main/java/org/apache/struts2/views/velocity/StrutsVelocityContext.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 51,
+                        "endLine": 51,
+                        "startOffset": 11,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5uqJPgR5K1tdoqQWIs",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "struts-793:plugins/velocity/src/main/java/org/apache/struts2/views/velocity/StrutsVelocityContext.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 11,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "struts-793:plugins/velocity/src/main/java/org/apache/struts2/views/velocity/StrutsVelocityContext.java": {
+                "ncloc": "61",
+                "complexity": "15"
+            },
+            "struts-793:plugins/velocity/src/test/java/org/apache/struts2/views/velocity/StrutsVelocityContextTest.java": {
+                "ncloc": "56",
+                "complexity": "6"
+            }
+        }
+    }
+]

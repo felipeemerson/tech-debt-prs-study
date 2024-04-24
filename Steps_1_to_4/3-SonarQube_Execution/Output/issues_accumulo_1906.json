@@ -1,0 +1,188 @@
+[
+    {
+        "commit_sha": "eb6f5efb18359af3f4e28e7ca6e3e275ca47292e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5HwBj8r8bbHvncESth",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/GrantCommand.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 2,
+                        "endOffset": 3
+                    }
+                },
+                {
+                    "key": "AY5HwBj8r8bbHvncEStg",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/GrantCommand.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 28,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5HwBitr8bbHvncESs2",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/RevokeCommand.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 2,
+                        "endOffset": 3
+                    }
+                },
+                {
+                    "key": "AY5HwBitr8bbHvncESs1",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/RevokeCommand.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 28,
+                        "endOffset": 35
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/GrantCommand.java": {
+                "ncloc": "110",
+                "complexity": "13"
+            },
+            "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/RevokeCommand.java": {
+                "ncloc": "111",
+                "complexity": "13"
+            }
+        }
+    },
+    {
+        "commit_sha": "d2e4abe5b480968253d2d46aaa21fcb98e48a7bd",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5HyBrGr8bbHvncEm4n",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/GrantCommand.java",
+                    "status": "OPEN",
+                    "debt": "7min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5HwBj8r8bbHvncESth",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/GrantCommand.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 2,
+                        "endOffset": 3
+                    }
+                },
+                {
+                    "key": "AY5HwBj8r8bbHvncEStg",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/GrantCommand.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 28,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5HyBprr8bbHvncEm4m",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/RevokeCommand.java",
+                    "status": "OPEN",
+                    "debt": "7min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5HwBitr8bbHvncESs2",
+                    "rule": "java:S1171",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/RevokeCommand.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 38,
+                        "endLine": 38,
+                        "startOffset": 2,
+                        "endOffset": 3
+                    }
+                },
+                {
+                    "key": "AY5HwBitr8bbHvncESs1",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/RevokeCommand.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 28,
+                        "endOffset": 35
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/GrantCommand.java": {
+                "ncloc": "116",
+                "complexity": "13"
+            },
+            "accumulo-1906:shell/src/main/java/org/apache/accumulo/shell/commands/RevokeCommand.java": {
+                "ncloc": "117",
+                "complexity": "13"
+            }
+        }
+    }
+]

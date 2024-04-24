@@ -1,0 +1,68 @@
+[
+    {
+        "commit_sha": "59ee896faa301e3588aad3c78b35d4e2ea803287",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DXLpqygGTmJJJsZkf",
+                    "rule": "java:S2129",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-129:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAbstractHttpClientResponseHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 39,
+                        "endOffset": 45
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "httpcomponents-client-129:httpclient5/src/main/java/org/apache/hc/client5/http/HttpResponseException.java": {
+                "ncloc": "13",
+                "complexity": "3"
+            },
+            "httpcomponents-client-129:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAbstractHttpClientResponseHandler.java": {
+                "ncloc": "71",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "4450221be7bb56737be25ee5236500be50e03964",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DXLpqygGTmJJJsZkf",
+                    "rule": "java:S2129",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-129:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAbstractHttpClientResponseHandler.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 39,
+                        "endOffset": 45
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "httpcomponents-client-129:httpclient5/src/main/java/org/apache/hc/client5/http/HttpResponseException.java": {
+                "ncloc": "19",
+                "complexity": "4"
+            },
+            "httpcomponents-client-129:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAbstractHttpClientResponseHandler.java": {
+                "ncloc": "73",
+                "complexity": "4"
+            }
+        }
+    }
+]

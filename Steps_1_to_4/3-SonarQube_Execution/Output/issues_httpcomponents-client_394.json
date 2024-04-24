@@ -1,0 +1,296 @@
+[
+    {
+        "commit_sha": "4094a4d6887bfb0a0b796ace49a8665e51ee66ed",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CBp7HygGTmJJJPaGi",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/InternalExecRuntime.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 66,
+                        "endLine": 66,
+                        "startOffset": 12,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5CBp7HygGTmJJJPaGj",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/InternalExecRuntime.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 16,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5CBp7HygGTmJJJPaGh",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/InternalExecRuntime.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 49,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5CBqDtygGTmJJJPaMA",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/auth/AuthScope.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5CBqGPygGTmJJJPaNA",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/RouteTracker.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 358,
+                        "endLine": 358,
+                        "startOffset": 18,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5CBqGyygGTmJJJPaNG",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/HttpRoute.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 321,
+                        "endLine": 321,
+                        "startOffset": 18,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5CBp9uygGTmJJJPaIb",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicAuthCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 27,
+                        "endOffset": 38
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/auth/AuthScope.java": {
+                "ncloc": "167",
+                "complexity": "46"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicAuthCache.java": {
+                "ncloc": "157",
+                "complexity": "31"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/auth/BasicUserPrincipal.java": {
+                "ncloc": "44",
+                "complexity": "7"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/HttpRoute.java": {
+                "ncloc": "165",
+                "complexity": "49"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/InternalExecRuntime.java": {
+                "ncloc": "235",
+                "complexity": "47"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/auth/NTCredentials.java": {
+                "ncloc": "106",
+                "complexity": "22"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/auth/NTUserPrincipal.java": {
+                "ncloc": "66",
+                "complexity": "13"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/RouteTracker.java": {
+                "ncloc": "190",
+                "complexity": "44"
+            }
+        }
+    },
+    {
+        "commit_sha": "bb56f82de3a02d59ebdf4244271d8485d5eb1e5f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CBp7HygGTmJJJPaGi",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/InternalExecRuntime.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 66,
+                        "endLine": 66,
+                        "startOffset": 12,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5CBp7HygGTmJJJPaGj",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/InternalExecRuntime.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 16,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5CBp7HygGTmJJJPaGh",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/InternalExecRuntime.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 49,
+                        "endOffset": 66
+                    }
+                },
+                {
+                    "key": "AY5CBqDtygGTmJJJPaMA",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/auth/AuthScope.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 15,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5CBqGPygGTmJJJPaNA",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/RouteTracker.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 358,
+                        "endLine": 358,
+                        "startOffset": 18,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5CBqGyygGTmJJJPaNG",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/HttpRoute.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 321,
+                        "endLine": 321,
+                        "startOffset": 18,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5CBp9uygGTmJJJPaIb",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicAuthCache.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 159,
+                        "endLine": 159,
+                        "startOffset": 27,
+                        "endOffset": 38
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/auth/AuthScope.java": {
+                "ncloc": "167",
+                "complexity": "46"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/auth/BasicAuthCache.java": {
+                "ncloc": "157",
+                "complexity": "31"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/auth/BasicUserPrincipal.java": {
+                "ncloc": "44",
+                "complexity": "7"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/HttpRoute.java": {
+                "ncloc": "165",
+                "complexity": "49"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/InternalExecRuntime.java": {
+                "ncloc": "238",
+                "complexity": "47"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/auth/NTCredentials.java": {
+                "ncloc": "106",
+                "complexity": "22"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/auth/NTUserPrincipal.java": {
+                "ncloc": "66",
+                "complexity": "13"
+            },
+            "httpcomponents-client-394:httpclient5/src/main/java/org/apache/hc/client5/http/RouteTracker.java": {
+                "ncloc": "190",
+                "complexity": "44"
+            }
+        }
+    }
+]

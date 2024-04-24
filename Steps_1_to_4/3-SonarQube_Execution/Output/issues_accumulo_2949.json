@@ -1,0 +1,90 @@
+[
+    {
+        "commit_sha": "c19694c7a1121786017ce2e53c72f74ec0f1b324",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Hr4CUVQIk8Wy3Ik9x",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2949:core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 105,
+                        "endLine": 105,
+                        "startOffset": 14,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5Hr4CUVQIk8Wy3Ik9y",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2949:core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 173,
+                        "endLine": 173,
+                        "startOffset": 28,
+                        "endOffset": 38
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2949:core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java": {
+                "ncloc": "288",
+                "complexity": "47"
+            }
+        }
+    },
+    {
+        "commit_sha": "65002614594feee376cad2e7bbfc7aade109b753",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Hr4CUVQIk8Wy3Ik9x",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2949:core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 14,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5Hr4CUVQIk8Wy3Ik9y",
+                    "rule": "java:S106",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2949:core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 179,
+                        "endLine": 179,
+                        "startOffset": 28,
+                        "endOffset": 38
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2949:core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java": {
+                "ncloc": "294",
+                "complexity": "47"
+            }
+        }
+    }
+]

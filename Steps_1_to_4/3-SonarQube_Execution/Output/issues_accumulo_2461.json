@@ -1,0 +1,158 @@
+[
+    {
+        "commit_sha": "ab70060bc01c78c2136a1d33091c2cce81b17545",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5H4c4YbDlNcRJDsD1c",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2461:core/src/test/java/org/apache/accumulo/core/rpc/TTimeoutTransportTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 25,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5H4c4YbDlNcRJDsD1d",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2461:core/src/test/java/org/apache/accumulo/core/rpc/TTimeoutTransportTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 83,
+                        "endLine": 83,
+                        "startOffset": 26,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5H4c4YbDlNcRJDsD1e",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2461:core/src/test/java/org/apache/accumulo/core/rpc/TTimeoutTransportTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 118,
+                        "endLine": 118,
+                        "startOffset": 26,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5H4cnfbDlNcRJDsAnw",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2461:core/src/main/java/org/apache/accumulo/core/rpc/TTimeoutTransport.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 154,
+                        "endLine": 154,
+                        "startOffset": 11,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "accumulo-2461:core/src/main/java/org/apache/accumulo/core/rpc/TTimeoutTransport.java": {
+                "ncloc": "76",
+                "complexity": "9"
+            },
+            "accumulo-2461:core/src/test/java/org/apache/accumulo/core/rpc/TTimeoutTransportTest.java": {
+                "ncloc": "86",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "d047fea909ca60ac7f92810fe1c82f0c4f20bd6b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5H4c4YbDlNcRJDsD1c",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2461:core/src/test/java/org/apache/accumulo/core/rpc/TTimeoutTransportTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 25,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY5H4c4YbDlNcRJDsD1d",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2461:core/src/test/java/org/apache/accumulo/core/rpc/TTimeoutTransportTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 83,
+                        "endLine": 83,
+                        "startOffset": 26,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5H4c4YbDlNcRJDsD1e",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-2461:core/src/test/java/org/apache/accumulo/core/rpc/TTimeoutTransportTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 118,
+                        "endLine": 118,
+                        "startOffset": 26,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5H4cnfbDlNcRJDsAnw",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2461:core/src/main/java/org/apache/accumulo/core/rpc/TTimeoutTransport.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 156,
+                        "endLine": 156,
+                        "startOffset": 11,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "accumulo-2461:core/src/main/java/org/apache/accumulo/core/rpc/TTimeoutTransport.java": {
+                "ncloc": "76",
+                "complexity": "9"
+            },
+            "accumulo-2461:core/src/test/java/org/apache/accumulo/core/rpc/TTimeoutTransportTest.java": {
+                "ncloc": "86",
+                "complexity": "4"
+            }
+        }
+    }
+]

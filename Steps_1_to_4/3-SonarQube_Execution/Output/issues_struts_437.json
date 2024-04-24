@@ -1,0 +1,315 @@
+[
+    {
+        "commit_sha": "7b1c3b0fca0a6b2ec8b134b2b789760f012b1b1d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHC",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 26,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHD",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 26,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vG_",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 12,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHE",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 31,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHA",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 192,
+                        "endLine": 192,
+                        "startOffset": 27,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "39min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 232,
+                        "endLine": 232,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHG",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 86,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHB",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 270,
+                        "endLine": 270,
+                        "startOffset": 8,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHH",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 336,
+                        "endLine": 336,
+                        "startOffset": 22,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java": {
+                "ncloc": "210",
+                "complexity": "59"
+            }
+        }
+    },
+    {
+        "commit_sha": "1efcc938cfd4674db7fa16b260d17e574b4842fc",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52attOJsRf5fmq7JfL",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 263,
+                        "endLine": 263,
+                        "startOffset": 56,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHC",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 26,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHD",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 26,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vG_",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 12,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHE",
+                    "rule": "java:S1948",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 31,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHA",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 192,
+                        "endLine": 192,
+                        "startOffset": 27,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHF",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "39min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 232,
+                        "endLine": 232,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHG",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 86,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHB",
+                    "rule": "java:S3740",
+                    "severity": "MAJOR",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 270,
+                        "endLine": 270,
+                        "startOffset": 8,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY52aKSDJsRf5fmq6vHH",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+                    "status": "OPEN",
+                    "debt": "19min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 336,
+                        "endLine": 336,
+                        "startOffset": 22,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "struts-437:core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java": {
+                "ncloc": "218",
+                "complexity": "62"
+            }
+        }
+    }
+]

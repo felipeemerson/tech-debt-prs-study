@@ -1,0 +1,1373 @@
+[
+    {
+        "commit_sha": "0d246732c5fe5af67aa5a2be129f659106370685",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5W5VYGw8OT37rkUd9m",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 30,
+                        "endLine": 30,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-A",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 12,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd96",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 42,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9_",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 14,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-B",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 24,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd98",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 154,
+                        "endLine": 154,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd99",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-C",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 181,
+                        "endLine": 181,
+                        "startOffset": 10,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9-",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd97",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 42,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9b",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 36,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9c",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 76,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9a",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 37,
+                        "endOffset": 47
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/CompactionExecutor.java": {
+                "ncloc": "16",
+                "complexity": "0"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java": {
+                "ncloc": "157",
+                "complexity": "37"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java": {
+                "ncloc": "177",
+                "complexity": "32"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java": {
+                "ncloc": "16",
+                "complexity": "2"
+            }
+        }
+    },
+    {
+        "commit_sha": "981c10743cf67be03a1c5b574ead65cb1bc19d7e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5W5VYGw8OT37rkUd9m",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-A",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 12,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd96",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 42,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9_",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 14,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-B",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 24,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd98",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 154,
+                        "endLine": 154,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd99",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-C",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 181,
+                        "endLine": 181,
+                        "startOffset": 10,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9-",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd97",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 42,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9b",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 36,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9c",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 76,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9a",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 37,
+                        "endOffset": 47
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/CompactionExecutor.java": {
+                "ncloc": "16",
+                "complexity": "0"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java": {
+                "ncloc": "157",
+                "complexity": "37"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java": {
+                "ncloc": "177",
+                "complexity": "32"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java": {
+                "ncloc": "16",
+                "complexity": "2"
+            }
+        }
+    },
+    {
+        "commit_sha": "674ce065b23ff7da967ed83be79c5eae146b960b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5W5VYGw8OT37rkUd9m",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-A",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 12,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd96",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 42,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9_",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 14,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-B",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 24,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd98",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 154,
+                        "endLine": 154,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd99",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-C",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 181,
+                        "endLine": 181,
+                        "startOffset": 10,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9-",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd97",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 42,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9b",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 36,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9c",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 76,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9a",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 37,
+                        "endOffset": 47
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/CompactionExecutor.java": {
+                "ncloc": "16",
+                "complexity": "0"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java": {
+                "ncloc": "157",
+                "complexity": "37"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java": {
+                "ncloc": "177",
+                "complexity": "32"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java": {
+                "ncloc": "16",
+                "complexity": "2"
+            }
+        }
+    },
+    {
+        "commit_sha": "e98f85c1c109f76637b8f4b1bee0d5d3fa11775c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5W5VYGw8OT37rkUd9m",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd96",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "CLOSED",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 42,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-A",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 12,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9_",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 147,
+                        "endLine": 147,
+                        "startOffset": 14,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-B",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 24,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd98",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 154,
+                        "endLine": 154,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd99",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 162,
+                        "endLine": 162,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-C",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 181,
+                        "endLine": 181,
+                        "startOffset": 10,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9-",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd97",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 42,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W92o6w8OT37rkVpEk",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 173,
+                        "endLine": 173,
+                        "startOffset": 74,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9b",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 36,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9c",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 76,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9a",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 37,
+                        "endOffset": 47
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/CompactionExecutor.java": {
+                "ncloc": "16",
+                "complexity": "0"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java": {
+                "ncloc": "157",
+                "complexity": "37"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java": {
+                "ncloc": "177",
+                "complexity": "32"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java": {
+                "ncloc": "16",
+                "complexity": "2"
+            }
+        }
+    },
+    {
+        "commit_sha": "6d5689b65d7eef2e05c7dacbfb084b777fd7aead",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5W5VYGw8OT37rkUd9m",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd96",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "CLOSED",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 42,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-A",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 12,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9_",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 14,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-B",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 152,
+                        "endLine": 152,
+                        "startOffset": 24,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd98",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 157,
+                        "endLine": 157,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd99",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 165,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-C",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 184,
+                        "endLine": 184,
+                        "startOffset": 10,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9-",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd97",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 196,
+                        "endLine": 196,
+                        "startOffset": 42,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W92o6w8OT37rkVpEk",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 74,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9b",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 97,
+                        "endLine": 97,
+                        "startOffset": 36,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9c",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 76,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9a",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 170,
+                        "startOffset": 37,
+                        "endOffset": 47
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/CompactionExecutor.java": {
+                "ncloc": "16",
+                "complexity": "0"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java": {
+                "ncloc": "157",
+                "complexity": "37"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java": {
+                "ncloc": "177",
+                "complexity": "32"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java": {
+                "ncloc": "16",
+                "complexity": "2"
+            }
+        }
+    },
+    {
+        "commit_sha": "d95d5ddb44589b2cc83519fc7b992bd55f298e13",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5W5VYGw8OT37rkUd9m",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd96",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "CLOSED",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 119,
+                        "endLine": 119,
+                        "startOffset": 42,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-A",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 12,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9_",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 150,
+                        "endLine": 150,
+                        "startOffset": 14,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-B",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 152,
+                        "endLine": 152,
+                        "startOffset": 24,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd98",
+                    "rule": "java:S135",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1h",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 157,
+                        "endLine": 157,
+                        "startOffset": 4,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd99",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 165,
+                        "endLine": 165,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd-C",
+                    "rule": "java:S3626",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 184,
+                        "endLine": 184,
+                        "startOffset": 10,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd9-",
+                    "rule": "java:S4165",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 8,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5W5VYJw8OT37rkUd97",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 196,
+                        "endLine": 196,
+                        "startOffset": 42,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5W92o6w8OT37rkVpEk",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 74,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9b",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 97,
+                        "endLine": 97,
+                        "startOffset": 36,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9c",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 76,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5W5VYCw8OT37rkUd9a",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 170,
+                        "startOffset": 37,
+                        "endOffset": 47
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/CompactionExecutor.java": {
+                "ncloc": "16",
+                "complexity": "0"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/ExternalCompactionExecutor.java": {
+                "ncloc": "157",
+                "complexity": "37"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/InternalCompactionExecutor.java": {
+                "ncloc": "177",
+                "complexity": "32"
+            },
+            "accumulo-2270:server/tserver/src/main/java/org/apache/accumulo/tserver/compactions/SubmittedJob.java": {
+                "ncloc": "16",
+                "complexity": "2"
+            }
+        }
+    }
+]

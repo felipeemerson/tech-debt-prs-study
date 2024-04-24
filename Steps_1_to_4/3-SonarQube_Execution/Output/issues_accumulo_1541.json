@@ -1,0 +1,712 @@
+[
+    {
+        "commit_sha": "20853e55fc3d556c444376ad803fe8b0a6ce4e49",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5WRIiA3doAqESES-Qe",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qf",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qg",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 33,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qh",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 314,
+                        "endLine": 314,
+                        "startOffset": 8,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H5",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 13,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 289,
+                        "endLine": 289,
+                        "startOffset": 14,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H7",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 397,
+                        "endLine": 397,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java": {
+                "ncloc": "146",
+                "complexity": "35"
+            },
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/admin/DiskUsage.java": {
+                "ncloc": "37",
+                "complexity": "13"
+            },
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java": {
+                "ncloc": "206",
+                "complexity": "65"
+            }
+        }
+    },
+    {
+        "commit_sha": "e13366be9d409e43b14947ab6ceb6a118c161da4",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5WRIiA3doAqESES-Qe",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qf",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qg",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 33,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qh",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 315,
+                        "endLine": 315,
+                        "startOffset": 8,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5WTGVq3doAqESETTr4",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 398,
+                        "endLine": 398,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H7",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 397,
+                        "endLine": 397,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H5",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 49,
+                        "startOffset": 13,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 290,
+                        "endLine": 290,
+                        "startOffset": 14,
+                        "endOffset": 19
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java": {
+                "ncloc": "147",
+                "complexity": "33"
+            },
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/admin/DiskUsage.java": {
+                "ncloc": "38",
+                "complexity": "11"
+            },
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java": {
+                "ncloc": "206",
+                "complexity": "61"
+            }
+        }
+    },
+    {
+        "commit_sha": "315524d3098a5d30f0edf9893c9e0e0219b92cce",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5WRIiA3doAqESES-Qe",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qf",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qg",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 33,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qh",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 315,
+                        "endLine": 315,
+                        "startOffset": 8,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5WTGVq3doAqESETTr4",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 398,
+                        "endLine": 398,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H7",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 397,
+                        "endLine": 397,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H5",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 49,
+                        "startOffset": 13,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 290,
+                        "endLine": 290,
+                        "startOffset": 14,
+                        "endOffset": 19
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java": {
+                "ncloc": "147",
+                "complexity": "33"
+            },
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/admin/DiskUsage.java": {
+                "ncloc": "34",
+                "complexity": "9"
+            },
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java": {
+                "ncloc": "206",
+                "complexity": "61"
+            }
+        }
+    },
+    {
+        "commit_sha": "6db154a88535ef0a75db052c9f218d1aa33202b5",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5WRIiA3doAqESES-Qh",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 315,
+                        "endLine": 315,
+                        "startOffset": 8,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qe",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qf",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qg",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 33,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5WTGVq3doAqESETTr4",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 398,
+                        "endLine": 398,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H7",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 397,
+                        "endLine": 397,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H5",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 49,
+                        "startOffset": 13,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 290,
+                        "endLine": 290,
+                        "startOffset": 14,
+                        "endOffset": 19
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java": {
+                "ncloc": "127",
+                "complexity": "31"
+            },
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/admin/DiskUsage.java": {
+                "ncloc": "34",
+                "complexity": "9"
+            },
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java": {
+                "ncloc": "187",
+                "complexity": "52"
+            }
+        }
+    },
+    {
+        "commit_sha": "fcb4ef91637737ca6492591b9080001bf2a5b6ad",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5WYllI3doAqESEUd68",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 314,
+                        "endLine": 314,
+                        "startOffset": 8,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qh",
+                    "rule": "java:S4201",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 315,
+                        "endLine": 315,
+                        "startOffset": 8,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qe",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qf",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5WRIiA3doAqESES-Qg",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 33,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5WTGVq3doAqESETTr4",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 398,
+                        "endLine": 398,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H7",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 397,
+                        "endLine": 397,
+                        "startOffset": 4,
+                        "endOffset": 6
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H5",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 49,
+                        "startOffset": 13,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5WRIaa3doAqESES-H6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 290,
+                        "endLine": 290,
+                        "startOffset": 14,
+                        "endOffset": 19
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/data/Condition.java": {
+                "ncloc": "127",
+                "complexity": "31"
+            },
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/admin/DiskUsage.java": {
+                "ncloc": "34",
+                "complexity": "9"
+            },
+            "accumulo-1541:core/src/main/java/org/apache/accumulo/core/client/mapreduce/InputTableConfig.java": {
+                "ncloc": "187",
+                "complexity": "52"
+            }
+        }
+    }
+]

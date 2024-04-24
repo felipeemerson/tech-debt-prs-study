@@ -1,0 +1,522 @@
+[
+    {
+        "commit_sha": "e4a19bcbecdf07171aa48aa4bd495c0341e954a0",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3K",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 9,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3L",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 124,
+                        "endLine": 124,
+                        "startOffset": 44,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2396:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "89",
+                "complexity": "5"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java": {
+                "ncloc": "205",
+                "complexity": "33"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/metrics/TabletServerScanMetrics.java": {
+                "ncloc": "28",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "8550e158be7101cd2bdddbc10401380062110225",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3K",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 9,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3L",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 44,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2396:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "90",
+                "complexity": "5"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java": {
+                "ncloc": "209",
+                "complexity": "33"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/metrics/TabletServerScanMetrics.java": {
+                "ncloc": "39",
+                "complexity": "6"
+            }
+        }
+    },
+    {
+        "commit_sha": "f718b3a857ab274beebb4b7d2fff284ce0a8f3d7",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3K",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 9,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3L",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 44,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2396:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "90",
+                "complexity": "5"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java": {
+                "ncloc": "209",
+                "complexity": "33"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/metrics/TabletServerScanMetrics.java": {
+                "ncloc": "39",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "600f6dee6c6edefbf34f1db5ba2f1de02df3179b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3K",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 9,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3L",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 44,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2396:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "90",
+                "complexity": "5"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java": {
+                "ncloc": "209",
+                "complexity": "33"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/metrics/TabletServerScanMetrics.java": {
+                "ncloc": "39",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "4b0db48ca656b1e3bc356a4342d3e6ff71ad9de9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3K",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 9,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3L",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 44,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2396:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "90",
+                "complexity": "5"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java": {
+                "ncloc": "209",
+                "complexity": "33"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/metrics/TabletServerScanMetrics.java": {
+                "ncloc": "41",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "fb7e05df5da89b2b9f0ccd8a91215361ad88013c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3K",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 9,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3L",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 44,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2396:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "90",
+                "complexity": "5"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java": {
+                "ncloc": "209",
+                "complexity": "33"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/metrics/TabletServerScanMetrics.java": {
+                "ncloc": "41",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "b1fb539beba9c1bd75b10df543d79c589392f69b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3K",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 9,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3L",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 44,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2396:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "90",
+                "complexity": "5"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java": {
+                "ncloc": "209",
+                "complexity": "33"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/metrics/TabletServerScanMetrics.java": {
+                "ncloc": "40",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "d64354f66e94a285102ac3139007ca83544cadf6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3K",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 9,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3L",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 44,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2396:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "90",
+                "complexity": "5"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java": {
+                "ncloc": "209",
+                "complexity": "33"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/metrics/TabletServerScanMetrics.java": {
+                "ncloc": "40",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "ba12510f7e7a0354171955014d36368154192273",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3K",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 9,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3L",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 44,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2396:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "90",
+                "complexity": "5"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java": {
+                "ncloc": "209",
+                "complexity": "33"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/metrics/TabletServerScanMetrics.java": {
+                "ncloc": "40",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "bd2c5c1163293350133a19fedacfc1de1804be2f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3K",
+                    "rule": "java:S125",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 9,
+                        "endOffset": 59
+                    }
+                },
+                {
+                    "key": "AY5KHEyMbDlNcRJDOa3L",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 44,
+                        "endOffset": 58
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-2396:core/src/main/java/org/apache/accumulo/core/metrics/MetricsProducer.java": {
+                "ncloc": "90",
+                "complexity": "5"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/ScanDataSource.java": {
+                "ncloc": "209",
+                "complexity": "33"
+            },
+            "accumulo-2396:server/tserver/src/main/java/org/apache/accumulo/tserver/metrics/TabletServerScanMetrics.java": {
+                "ncloc": "39",
+                "complexity": "7"
+            }
+        }
+    }
+]

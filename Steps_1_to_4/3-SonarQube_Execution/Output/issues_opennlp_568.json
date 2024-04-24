@@ -1,0 +1,670 @@
+[
+    {
+        "commit_sha": "7d2722e0fac463725238baf7cfd946dacea5c23a",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "91",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "7da0a39f934c76952e477beece52b348354235ad",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "91",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "9e9e82ae488e4624ad70d56155e020d561b8453a",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "89",
+                "complexity": "21"
+            }
+        }
+    },
+    {
+        "commit_sha": "5ac9da38ee9b8829225d84bd65889cd2d365849d",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "89",
+                "complexity": "21"
+            }
+        }
+    },
+    {
+        "commit_sha": "c038db1a572a2b2b43fdf463f08364ca381a6137",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "89",
+                "complexity": "21"
+            }
+        }
+    },
+    {
+        "commit_sha": "c1acc8cccfa731feaa27c9da37a9069f430be26e",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "89",
+                "complexity": "21"
+            }
+        }
+    },
+    {
+        "commit_sha": "92ea0fc69716edb279cc0c82bd88a2040d61ae64",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53oCsD1603RBiQ0ebm",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringDeduplicationBenchmark.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY53oCi91603RBiQ0ea6",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 13,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53oCi91603RBiQ0ea5",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53oCsF1603RBiQ0ebn",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/jmh/ExecutionPlan.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 36,
+                        "endLine": 36,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/BenchmarkRunner.java": {
+                "ncloc": "6",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/CHMStringDeduplicator.java": {
+                "ncloc": "27",
+                "complexity": "5"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/CHMStringInterner.java": {
+                "ncloc": "18",
+                "complexity": "3"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/jmh/ExecutionPlan.java": {
+                "ncloc": "30",
+                "complexity": "4"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/HMStringInterner.java": {
+                "ncloc": "16",
+                "complexity": "3"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/JvmStringInterner.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/NoOpStringInterner.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringDeduplicationBenchmark.java": {
+                "ncloc": "55",
+                "complexity": "11"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterner.java": {
+                "ncloc": "4",
+                "complexity": "0"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java": {
+                "ncloc": "27",
+                "complexity": "2"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "92",
+                "complexity": "22"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringListBenchmark.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            }
+        }
+    },
+    {
+        "commit_sha": "91811f6d229743d8d2e5d71781b468ec37cf41eb",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53oCsD1603RBiQ0ebm",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringDeduplicationBenchmark.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY53oCi91603RBiQ0ea6",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 13,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53oCi91603RBiQ0ea5",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53oCsF1603RBiQ0ebn",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/jmh/ExecutionPlan.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 36,
+                        "endLine": 36,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/BenchmarkRunner.java": {
+                "ncloc": "6",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/CHMStringDeduplicator.java": {
+                "ncloc": "27",
+                "complexity": "5"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/CHMStringInterner.java": {
+                "ncloc": "18",
+                "complexity": "3"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/jmh/ExecutionPlan.java": {
+                "ncloc": "30",
+                "complexity": "4"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/HMStringInterner.java": {
+                "ncloc": "16",
+                "complexity": "3"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/JvmStringInterner.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/NoOpStringInterner.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringDeduplicationBenchmark.java": {
+                "ncloc": "55",
+                "complexity": "11"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterner.java": {
+                "ncloc": "4",
+                "complexity": "0"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java": {
+                "ncloc": "27",
+                "complexity": "2"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "92",
+                "complexity": "22"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringListBenchmark.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            }
+        }
+    },
+    {
+        "commit_sha": "a3d7d385d154ef8c60c190f229d40566f6b91c34",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53oCsD1603RBiQ0ebm",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringDeduplicationBenchmark.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY53oCi91603RBiQ0ea6",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 13,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53oCi91603RBiQ0ea5",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53oCsF1603RBiQ0ebn",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/jmh/ExecutionPlan.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/BenchmarkRunner.java": {
+                "ncloc": "6",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/CHMStringDeduplicator.java": {
+                "ncloc": "27",
+                "complexity": "5"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/CHMStringInterner.java": {
+                "ncloc": "18",
+                "complexity": "3"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/jmh/ExecutionPlan.java": {
+                "ncloc": "37",
+                "complexity": "4"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/HMStringInterner.java": {
+                "ncloc": "16",
+                "complexity": "3"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/JvmStringInterner.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/NoOpStringInterner.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringDeduplicationBenchmark.java": {
+                "ncloc": "55",
+                "complexity": "11"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterner.java": {
+                "ncloc": "4",
+                "complexity": "0"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java": {
+                "ncloc": "27",
+                "complexity": "2"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "92",
+                "complexity": "22"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringListBenchmark.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            }
+        }
+    },
+    {
+        "commit_sha": "7c9f991289175d2c0afff251996cc4963a84a93f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53oCsD1603RBiQ0ebm",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringDeduplicationBenchmark.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY53oCi91603RBiQ0ea6",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 13,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53oCi91603RBiQ0ea5",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53oCsF1603RBiQ0ebn",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/jmh/ExecutionPlan.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/BenchmarkRunner.java": {
+                "ncloc": "6",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/CHMStringDeduplicator.java": {
+                "ncloc": "27",
+                "complexity": "5"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/CHMStringInterner.java": {
+                "ncloc": "18",
+                "complexity": "3"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/jmh/ExecutionPlan.java": {
+                "ncloc": "37",
+                "complexity": "4"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/HMStringInterner.java": {
+                "ncloc": "16",
+                "complexity": "3"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/JvmStringInterner.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/NoOpStringInterner.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringDeduplicationBenchmark.java": {
+                "ncloc": "55",
+                "complexity": "11"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterner.java": {
+                "ncloc": "4",
+                "complexity": "0"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java": {
+                "ncloc": "27",
+                "complexity": "2"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "92",
+                "complexity": "22"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringListBenchmark.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            }
+        }
+    },
+    {
+        "commit_sha": "488e227958939e95ea53cdb4cf0d82985a2acd6f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53oCsD1603RBiQ0ebm",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringDeduplicationBenchmark.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY53oCi91603RBiQ0ea6",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 32,
+                        "endLine": 32,
+                        "startOffset": 13,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53oCi91603RBiQ0ea5",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY53oCsF1603RBiQ0ebn",
+                    "rule": "java:S1104",
+                    "severity": "MINOR",
+                    "component": "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/jmh/ExecutionPlan.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 18,
+                        "endOffset": 25
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/BenchmarkRunner.java": {
+                "ncloc": "6",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/CHMStringDeduplicator.java": {
+                "ncloc": "27",
+                "complexity": "5"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/CHMStringInterner.java": {
+                "ncloc": "18",
+                "complexity": "3"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/jmh/ExecutionPlan.java": {
+                "ncloc": "37",
+                "complexity": "4"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/HMStringInterner.java": {
+                "ncloc": "16",
+                "complexity": "3"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/JvmStringInterner.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/NoOpStringInterner.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringDeduplicationBenchmark.java": {
+                "ncloc": "55",
+                "complexity": "11"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterner.java": {
+                "ncloc": "4",
+                "complexity": "0"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/jvm/StringInterners.java": {
+                "ncloc": "27",
+                "complexity": "2"
+            },
+            "opennlp-568:opennlp-tools/src/main/java/opennlp/tools/util/StringList.java": {
+                "ncloc": "92",
+                "complexity": "22"
+            },
+            "opennlp-568:opennlp-tools/src/jmh/java/opennlp/tools/util/jvm/StringListBenchmark.java": {
+                "ncloc": "11",
+                "complexity": "1"
+            }
+        }
+    }
+]

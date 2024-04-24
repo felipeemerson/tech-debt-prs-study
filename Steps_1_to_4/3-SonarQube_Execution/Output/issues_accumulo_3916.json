@@ -1,0 +1,188 @@
+[
+    {
+        "commit_sha": "b0a2a423a1a71cab62c830851339fa766d36831c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5YVZ5TIu3RmwhOfek3",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3916:test/src/main/java/org/apache/accumulo/test/functional/DeletedTablesDontFlushIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 28,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5YVaEFIu3RmwhOfeyq",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3916:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 66,
+                        "endLine": 66,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5YVaEFIu3RmwhOfeyr",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3916:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5YVaEFIu3RmwhOfeyt",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3916:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5YVaEFIu3RmwhOfeys",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3916:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 36,
+                        "endOffset": 43
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-3916:test/src/main/java/org/apache/accumulo/test/functional/DeletedTablesDontFlushIT.java": {
+                "ncloc": "48",
+                "complexity": "5"
+            },
+            "accumulo-3916:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java": {
+                "ncloc": "150",
+                "complexity": "21"
+            }
+        }
+    },
+    {
+        "commit_sha": "fbf84dc25b7e873a331403de40f4f376d9f71723",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5YVZ5TIu3RmwhOfek3",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3916:test/src/main/java/org/apache/accumulo/test/functional/DeletedTablesDontFlushIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 28,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5YVaEFIu3RmwhOfeyq",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3916:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 66,
+                        "endLine": 66,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5YVaEFIu3RmwhOfeyr",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3916:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5YVaEFIu3RmwhOfeyt",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3916:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 36,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5YVaEFIu3RmwhOfeys",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3916:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 36,
+                        "endOffset": 43
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-3916:test/src/main/java/org/apache/accumulo/test/functional/DeletedTablesDontFlushIT.java": {
+                "ncloc": "48",
+                "complexity": "5"
+            },
+            "accumulo-3916:test/src/main/java/org/apache/accumulo/test/metrics/MetricsIT.java": {
+                "ncloc": "149",
+                "complexity": "21"
+            }
+        }
+    }
+]

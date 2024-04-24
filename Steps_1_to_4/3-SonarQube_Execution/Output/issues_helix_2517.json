@@ -1,0 +1,39 @@
+[
+    {
+        "commit_sha": "7aafc9d55fc447d392692995e3bdb58415a1b86c",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {}
+    },
+    {
+        "commit_sha": "035394be49cf1f5458c090145886090d667fa46b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ojq87ReJPhpYCHUCn",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "helix-2517:meta-client/src/test/java/org/apache/helix/metaclient/impl/zk/TestStressZkClient.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 23,
+                        "endLine": 23,
+                        "startOffset": 0,
+                        "endOffset": 20
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "helix-2517:meta-client/src/test/java/org/apache/helix/metaclient/impl/zk/TestStressZkClient.java": {
+                "ncloc": "3",
+                "complexity": "0"
+            }
+        }
+    }
+]

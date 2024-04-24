@@ -1,0 +1,914 @@
+[
+    {
+        "commit_sha": "6af856b38bb57f49418547a8b9c262c66a1fe31e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5JArF6r8bbHvncSoTq",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/BulkImportCacheCleaner.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 13,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojT",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojU",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojM",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 59,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojN",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 62,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojV",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 62,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojW",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 49,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojQ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 85,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojX",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 62,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojY",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 49,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojP",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 134,
+                        "endLine": 134,
+                        "startOffset": 43,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojO",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 153,
+                        "endLine": 153,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojS",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 173,
+                        "endLine": 173,
+                        "startOffset": 26,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojR",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 175,
+                        "endLine": 175,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-1890:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/BulkImportCacheCleaner.java": {
+                "ncloc": "33",
+                "complexity": "4"
+            },
+            "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java": {
+                "ncloc": "146",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "16a3740c2a31cbf06bf0a25e73e5e8f9de2bb73e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5JArF6r8bbHvncSoTq",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/BulkImportCacheCleaner.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 13,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojT",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojU",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojM",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 59,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojN",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 62,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojV",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 62,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojW",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 49,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojQ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 85,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojX",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 62,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojY",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 49,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojP",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 43,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojO",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojS",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 175,
+                        "endLine": 175,
+                        "startOffset": 26,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojR",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-1890:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/BulkImportCacheCleaner.java": {
+                "ncloc": "33",
+                "complexity": "4"
+            },
+            "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java": {
+                "ncloc": "148",
+                "complexity": "23"
+            }
+        }
+    },
+    {
+        "commit_sha": "6511c465f50823e4bfadcc43f6b221531a481e61",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5JArF6r8bbHvncSoTq",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/BulkImportCacheCleaner.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 13,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojT",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojU",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojM",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 59,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojN",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 62,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojV",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 62,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojW",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 49,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojQ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 85,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojX",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 49,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojY",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 62,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojP",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 43,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojO",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojS",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 175,
+                        "endLine": 175,
+                        "startOffset": 26,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojR",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-1890:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/BulkImportCacheCleaner.java": {
+                "ncloc": "36",
+                "complexity": "4"
+            },
+            "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java": {
+                "ncloc": "148",
+                "complexity": "23"
+            }
+        }
+    },
+    {
+        "commit_sha": "307bef2fe6a8b2b7152eabaf9b16950cff72729a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5JArF6r8bbHvncSoTq",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/BulkImportCacheCleaner.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 13,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojT",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojU",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 42,
+                        "endLine": 42,
+                        "startOffset": 8,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojM",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 59,
+                        "endOffset": 68
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojN",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 62,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojV",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 62,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojW",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 49,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojQ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 85,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojX",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 62,
+                        "endOffset": 65
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojY",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 49,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojP",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 136,
+                        "endLine": 136,
+                        "startOffset": 43,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojO",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 18,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojS",
+                    "rule": "java:S3824",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 175,
+                        "endLine": 175,
+                        "startOffset": 26,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5JArXYr8bbHvncSojR",
+                    "rule": "java:S1121",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 28,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-1890:server/tserver/src/main/java/org/apache/accumulo/tserver/tablet/BulkImportCacheCleaner.java": {
+                "ncloc": "36",
+                "complexity": "4"
+            },
+            "accumulo-1890:server/base/src/main/java/org/apache/accumulo/server/zookeeper/TransactionWatcher.java": {
+                "ncloc": "148",
+                "complexity": "23"
+            }
+        }
+    }
+]

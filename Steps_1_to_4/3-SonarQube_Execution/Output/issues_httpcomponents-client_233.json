@@ -1,0 +1,90 @@
+[
+    {
+        "commit_sha": "85a20612e79a8923c4bf9f8382067fa4198d1529",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5C6DN3ygGTmJJJj0pk",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-233:httpclient5/src/main/java/org/apache/hc/client5/http/entity/mime/MultipartEntityBuilder.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 18,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5C6DN3ygGTmJJJj0pm",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-233:httpclient5/src/main/java/org/apache/hc/client5/http/entity/mime/MultipartEntityBuilder.java",
+                    "status": "OPEN",
+                    "debt": "19min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 187,
+                        "endLine": 187,
+                        "startOffset": 24,
+                        "endOffset": 35
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-233:httpclient5/src/main/java/org/apache/hc/client5/http/entity/mime/MultipartEntityBuilder.java": {
+                "ncloc": "180",
+                "complexity": "43"
+            }
+        }
+    },
+    {
+        "commit_sha": "d6523221ea607e1a57821ef9c366f575dff343fe",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5C6DN3ygGTmJJJj0pk",
+                    "rule": "java:S1124",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-233:httpclient5/src/main/java/org/apache/hc/client5/http/entity/mime/MultipartEntityBuilder.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 18,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5C6DN3ygGTmJJJj0pm",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-233:httpclient5/src/main/java/org/apache/hc/client5/http/entity/mime/MultipartEntityBuilder.java",
+                    "status": "OPEN",
+                    "debt": "19min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 187,
+                        "endLine": 187,
+                        "startOffset": 24,
+                        "endOffset": 35
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-233:httpclient5/src/main/java/org/apache/hc/client5/http/entity/mime/MultipartEntityBuilder.java": {
+                "ncloc": "180",
+                "complexity": "43"
+            }
+        }
+    }
+]

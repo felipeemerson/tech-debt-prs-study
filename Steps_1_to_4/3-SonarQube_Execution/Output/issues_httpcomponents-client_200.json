@@ -1,0 +1,514 @@
+[
+    {
+        "commit_sha": "82a993244664f40b0a21bcddce3b31e67ecef661",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DJUgeygGTmJJJoN4m",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/TlsSessionValidator.java",
+                    "status": "OPEN",
+                    "debt": "37min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 9,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5DJUgeygGTmJJJoN4n",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/TlsSessionValidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 45,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5DJUgeygGTmJJJoN4o",
+                    "rule": "java:S1134",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/TlsSessionValidator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 108,
+                        "endLine": 108,
+                        "startOffset": 0,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5DJUiuygGTmJJJoN45",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/psl/PublicSuffixMatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 31,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5DJUiuygGTmJJJoN46",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/psl/PublicSuffixMatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5DJUiuygGTmJJJoN47",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/psl/PublicSuffixMatcher.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 143,
+                        "endLine": 143,
+                        "startOffset": 18,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5DJUiuygGTmJJJoN44",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/psl/PublicSuffixMatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 16,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5DJUeFygGTmJJJoN3y",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/impl/routing/DefaultRoutePlanner.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 91,
+                        "endLine": 91,
+                        "startOffset": 27,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5DJUeFygGTmJJJoN3z",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/impl/routing/DefaultRoutePlanner.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 27,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5DJUk9ygGTmJJJoN5q",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/HttpRoute.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 335,
+                        "endLine": 335,
+                        "startOffset": 18,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5DJUk3ygGTmJJJoN5o",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/routing/RoutingSupport.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 19,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5DJUk3ygGTmJJJoN5p",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/routing/RoutingSupport.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 54,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY5DJUjGygGTmJJJoN5F",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/entity/mime/FormBodyPart.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 16,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5DJUkUygGTmJJJoN5b",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ConnectExceptionSupport.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 19,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ConnectExceptionSupport.java": {
+                "ncloc": "49",
+                "complexity": "16"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/ConscryptClientTlsStrategy.java": {
+                "ncloc": "74",
+                "complexity": "10"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/entity/DecompressingEntity.java": {
+                "ncloc": "51",
+                "complexity": "9"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/impl/routing/DefaultRoutePlanner.java": {
+                "ncloc": "55",
+                "complexity": "9"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/entity/mime/FormBodyPart.java": {
+                "ncloc": "18",
+                "complexity": "3"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/HttpRoute.java": {
+                "ncloc": "179",
+                "complexity": "51"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/psl/PublicSuffixMatcher.java": {
+                "ncloc": "115",
+                "complexity": "32"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/routing/RoutingSupport.java": {
+                "ncloc": "51",
+                "complexity": "11"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/TlsSessionValidator.java": {
+                "ncloc": "97",
+                "complexity": "16"
+            }
+        }
+    },
+    {
+        "commit_sha": "b7da19fde83d398a557042f04782886a8af8de9a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DJUgeygGTmJJJoN4m",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/TlsSessionValidator.java",
+                    "status": "OPEN",
+                    "debt": "36min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 9,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5DJUgeygGTmJJJoN4n",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/TlsSessionValidator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 98,
+                        "endLine": 98,
+                        "startOffset": 45,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5DJUgeygGTmJJJoN4o",
+                    "rule": "java:S1134",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/TlsSessionValidator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 108,
+                        "endLine": 108,
+                        "startOffset": 0,
+                        "endOffset": 45
+                    }
+                },
+                {
+                    "key": "AY5DJUiuygGTmJJJoN45",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/psl/PublicSuffixMatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 89,
+                        "endLine": 89,
+                        "startOffset": 31,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5DJUiuygGTmJJJoN46",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/psl/PublicSuffixMatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5DJUiuygGTmJJJoN47",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/psl/PublicSuffixMatcher.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 142,
+                        "endLine": 142,
+                        "startOffset": 18,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5DJUiuygGTmJJJoN44",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/psl/PublicSuffixMatcher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 166,
+                        "endLine": 166,
+                        "startOffset": 16,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5DJUeFygGTmJJJoN3y",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/impl/routing/DefaultRoutePlanner.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 27,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5DJUeFygGTmJJJoN3z",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/impl/routing/DefaultRoutePlanner.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 27,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5DJUk9ygGTmJJJoN5q",
+                    "rule": "java:S2975",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/HttpRoute.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 334,
+                        "endLine": 334,
+                        "startOffset": 18,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5DJUk3ygGTmJJJoN5o",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/routing/RoutingSupport.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 41,
+                        "endLine": 41,
+                        "startOffset": 19,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5DJUk3ygGTmJJJoN5p",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/routing/RoutingSupport.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 50,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5DJUjGygGTmJJJoN5F",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/entity/mime/FormBodyPart.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 16,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5DJUkUygGTmJJJoN5b",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ConnectExceptionSupport.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 19,
+                        "endOffset": 42
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ConnectExceptionSupport.java": {
+                "ncloc": "48",
+                "complexity": "16"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/ConscryptClientTlsStrategy.java": {
+                "ncloc": "73",
+                "complexity": "10"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/entity/DecompressingEntity.java": {
+                "ncloc": "50",
+                "complexity": "9"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/impl/routing/DefaultRoutePlanner.java": {
+                "ncloc": "54",
+                "complexity": "9"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/entity/mime/FormBodyPart.java": {
+                "ncloc": "19",
+                "complexity": "3"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/HttpRoute.java": {
+                "ncloc": "178",
+                "complexity": "51"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/psl/PublicSuffixMatcher.java": {
+                "ncloc": "114",
+                "complexity": "32"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/routing/RoutingSupport.java": {
+                "ncloc": "50",
+                "complexity": "11"
+            },
+            "httpcomponents-client-200:httpclient5/src/main/java/org/apache/hc/client5/http/ssl/TlsSessionValidator.java": {
+                "ncloc": "96",
+                "complexity": "16"
+            }
+        }
+    }
+]

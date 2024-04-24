@@ -1,0 +1,182 @@
+[
+    {
+        "commit_sha": "6b1cd2a494bb4d6fbfafe34ab6c72d563be769e7",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {}
+    },
+    {
+        "commit_sha": "bde5c9713fb2ddf475631ffd27568e344cc850f6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5t1QQdRz3v4LOqwByR",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/CDOReflexiveRelICustomSorterIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5t1QQdRz3v4LOqwByQ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/CDOReflexiveRelICustomSorterIT.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5t1QQdRz3v4LOqwByS",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/CDOReflexiveRelICustomSorterIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 29,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5t1QQdRz3v4LOqwByT",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/CDOReflexiveRelICustomSorterIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 83,
+                        "endLine": 83,
+                        "startOffset": 29,
+                        "endOffset": 38
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/CDOReflexiveRelICustomSorterIT.java": {
+                "ncloc": "138",
+                "complexity": "9"
+            },
+            "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/unit/util/CustomSorterServerRuntimeProvider.java": {
+                "ncloc": "27",
+                "complexity": "3"
+            },
+            "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/access/DataContextEntityWithMeaningfulPKAndCustomDbRowOpSorterIT.java": {
+                "ncloc": "46",
+                "complexity": "2"
+            },
+            "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/unit/di/server/ServerCaseCustomSorter.java": {
+                "ncloc": "35",
+                "complexity": "3"
+            }
+        }
+    },
+    {
+        "commit_sha": "1738a73aa850b8df00690454f8386db4af0cc686",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5t1QQdRz3v4LOqwByR",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/CDOReflexiveRelICustomSorterIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5t1QQdRz3v4LOqwByQ",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/CDOReflexiveRelICustomSorterIT.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 28,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5t1QQdRz3v4LOqwByS",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/CDOReflexiveRelICustomSorterIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 81,
+                        "endLine": 81,
+                        "startOffset": 29,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5t1QQdRz3v4LOqwByT",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/CDOReflexiveRelICustomSorterIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 83,
+                        "endLine": 83,
+                        "startOffset": 29,
+                        "endOffset": 38
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/CDOReflexiveRelICustomSorterIT.java": {
+                "ncloc": "136",
+                "complexity": "9"
+            },
+            "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/unit/util/CustomSorterServerRuntimeProvider.java": {
+                "ncloc": "27",
+                "complexity": "3"
+            },
+            "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/access/DataContextEntityWithMeaningfulPKAndCustomDbRowOpSorterIT.java": {
+                "ncloc": "46",
+                "complexity": "2"
+            },
+            "cayenne-558:cayenne-server/src/test/java/org/apache/cayenne/unit/di/server/ServerCaseCustomSorter.java": {
+                "ncloc": "35",
+                "complexity": "3"
+            }
+        }
+    }
+]

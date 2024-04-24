@@ -1,0 +1,2839 @@
+[
+    {
+        "commit_sha": "73344781c30d63d4b19e4c84b835af2942db8fee",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5SQazLAESW5py-jAVd",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashDefaultIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-FAESW5py-jAo7",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-FAESW5py-jAo6",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 29,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAco",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcm",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 199,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcp",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 309,
+                        "endLine": 309,
+                        "startOffset": 14,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcq",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 326,
+                        "endLine": 326,
+                        "startOffset": 8,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcn",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 375,
+                        "endLine": 375,
+                        "startOffset": 16,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcr",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 424,
+                        "endLine": 424,
+                        "startOffset": 35,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcs",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 466,
+                        "endLine": 466,
+                        "startOffset": 84,
+                        "endOffset": 88
+                    }
+                },
+                {
+                    "key": "AY5SQaz9AESW5py-jAWg",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-o",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 0,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-m",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 178,
+                        "endLine": 178,
+                        "startOffset": 36,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-p",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-q",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 53,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-r",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 315,
+                        "endLine": 315,
+                        "startOffset": 0,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-l",
+                    "rule": "java:S5411",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 320,
+                        "endLine": 320,
+                        "startOffset": 12,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-s",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 326,
+                        "endLine": 326,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-n",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 365,
+                        "endLine": 365,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-t",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 449,
+                        "endLine": 449,
+                        "startOffset": 0,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-k",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 498,
+                        "endLine": 498,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-u",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 597,
+                        "endLine": 597,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-h",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 598,
+                        "endLine": 598,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-v",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 648,
+                        "endLine": 648,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-i",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 649,
+                        "endLine": 649,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-w",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 772,
+                        "endLine": 772,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-x",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 850,
+                        "endLine": 850,
+                        "startOffset": 0,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-z",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 953,
+                        "endLine": 953,
+                        "startOffset": 0,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-0",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 958,
+                        "endLine": 958,
+                        "startOffset": 0,
+                        "endOffset": 94
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-y",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 970,
+                        "endLine": 970,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-j",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 971,
+                        "endLine": 971,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-1",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 979,
+                        "endLine": 979,
+                        "startOffset": 83,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-2",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 981,
+                        "endLine": 981,
+                        "startOffset": 0,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-3",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 993,
+                        "endLine": 993,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-4",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1009,
+                        "endLine": 1009,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-5",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1015,
+                        "endLine": 1015,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "49min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1054,
+                        "endLine": 1054,
+                        "startOffset": 7,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-7",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1116,
+                        "endLine": 1116,
+                        "startOffset": 74,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-8",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1116,
+                        "endLine": 1116,
+                        "startOffset": 84,
+                        "endOffset": 85
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-9",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1326,
+                        "endLine": 1326,
+                        "startOffset": 45,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA--",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1335,
+                        "endLine": 1335,
+                        "startOffset": 61,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-_",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1335,
+                        "endLine": 1335,
+                        "startOffset": 47,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5SQayBAESW5py-jATV",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledWithCustomPolicyIT.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-gAESW5py-jApX",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GCRunIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                }
+            ],
+            "total": 44
+        },
+        "metrics": {
+            "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java": {
+                "ncloc": "922",
+                "complexity": "158"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java": {
+                "ncloc": "404",
+                "complexity": "41"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashDefaultIT.java": {
+                "ncloc": "52",
+                "complexity": "3"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledIT.java": {
+                "ncloc": "52",
+                "complexity": "3"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledWithCustomPolicyIT.java": {
+                "ncloc": "78",
+                "complexity": "9"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java": {
+                "ncloc": "67",
+                "complexity": "7"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GCRunIT.java": {
+                "ncloc": "133",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "21a31923c0798bf064cde03238fd04400af4c82f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5SQazLAESW5py-jAVd",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashDefaultIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-FAESW5py-jAo7",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-FAESW5py-jAo6",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 29,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAco",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcm",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 197,
+                        "endLine": 197,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcp",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 307,
+                        "endLine": 307,
+                        "startOffset": 14,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcq",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 324,
+                        "endLine": 324,
+                        "startOffset": 8,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcn",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 373,
+                        "endLine": 373,
+                        "startOffset": 16,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcr",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 422,
+                        "endLine": 422,
+                        "startOffset": 35,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcs",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 464,
+                        "endLine": 464,
+                        "startOffset": 84,
+                        "endOffset": 88
+                    }
+                },
+                {
+                    "key": "AY5SQaz9AESW5py-jAWg",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-o",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 0,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-m",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 178,
+                        "endLine": 178,
+                        "startOffset": 36,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-p",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-q",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 53,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-r",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 315,
+                        "endLine": 315,
+                        "startOffset": 0,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-l",
+                    "rule": "java:S5411",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 320,
+                        "endLine": 320,
+                        "startOffset": 12,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-s",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 326,
+                        "endLine": 326,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-n",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 365,
+                        "endLine": 365,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-t",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 449,
+                        "endLine": 449,
+                        "startOffset": 0,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-k",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 498,
+                        "endLine": 498,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-u",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 597,
+                        "endLine": 597,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-h",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 598,
+                        "endLine": 598,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-v",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 648,
+                        "endLine": 648,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-i",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 649,
+                        "endLine": 649,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-w",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 772,
+                        "endLine": 772,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-x",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 850,
+                        "endLine": 850,
+                        "startOffset": 0,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-z",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 953,
+                        "endLine": 953,
+                        "startOffset": 0,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-0",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 958,
+                        "endLine": 958,
+                        "startOffset": 0,
+                        "endOffset": 94
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-y",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 971,
+                        "endLine": 971,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-j",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 972,
+                        "endLine": 972,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-1",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 980,
+                        "endLine": 980,
+                        "startOffset": 83,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-2",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 982,
+                        "endLine": 982,
+                        "startOffset": 0,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-3",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 994,
+                        "endLine": 994,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-4",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1010,
+                        "endLine": 1010,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-5",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1016,
+                        "endLine": 1016,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "49min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1055,
+                        "endLine": 1055,
+                        "startOffset": 7,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-7",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1117,
+                        "endLine": 1117,
+                        "startOffset": 74,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-8",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1117,
+                        "endLine": 1117,
+                        "startOffset": 84,
+                        "endOffset": 85
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-9",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1327,
+                        "endLine": 1327,
+                        "startOffset": 45,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA--",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1336,
+                        "endLine": 1336,
+                        "startOffset": 61,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-_",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1336,
+                        "endLine": 1336,
+                        "startOffset": 47,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5SQayBAESW5py-jATV",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledWithCustomPolicyIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-gAESW5py-jApX",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GCRunIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                }
+            ],
+            "total": 44
+        },
+        "metrics": {
+            "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java": {
+                "ncloc": "923",
+                "complexity": "158"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java": {
+                "ncloc": "402",
+                "complexity": "41"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashDefaultIT.java": {
+                "ncloc": "50",
+                "complexity": "3"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledIT.java": {
+                "ncloc": "50",
+                "complexity": "3"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledWithCustomPolicyIT.java": {
+                "ncloc": "76",
+                "complexity": "9"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java": {
+                "ncloc": "65",
+                "complexity": "7"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GCRunIT.java": {
+                "ncloc": "133",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "e6452c00fb31231d1a9a3c215eb1700d227d1352",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5SQazLAESW5py-jAVd",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashDefaultIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-FAESW5py-jAo7",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-FAESW5py-jAo6",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 29,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAco",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcm",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 197,
+                        "endLine": 197,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcp",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 307,
+                        "endLine": 307,
+                        "startOffset": 14,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcq",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 324,
+                        "endLine": 324,
+                        "startOffset": 8,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcn",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 373,
+                        "endLine": 373,
+                        "startOffset": 16,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcr",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 422,
+                        "endLine": 422,
+                        "startOffset": 35,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcs",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 464,
+                        "endLine": 464,
+                        "startOffset": 84,
+                        "endOffset": 88
+                    }
+                },
+                {
+                    "key": "AY5SQaz9AESW5py-jAWg",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SVMkxAESW5py-junK",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 962,
+                        "endLine": 962,
+                        "startOffset": 0,
+                        "endOffset": 113
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-o",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 0,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-m",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 178,
+                        "endLine": 178,
+                        "startOffset": 36,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-p",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-q",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 53,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-r",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 315,
+                        "endLine": 315,
+                        "startOffset": 0,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-l",
+                    "rule": "java:S5411",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 320,
+                        "endLine": 320,
+                        "startOffset": 12,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-s",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 326,
+                        "endLine": 326,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-n",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 365,
+                        "endLine": 365,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-t",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 449,
+                        "endLine": 449,
+                        "startOffset": 0,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-k",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 498,
+                        "endLine": 498,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-u",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 597,
+                        "endLine": 597,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-h",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 598,
+                        "endLine": 598,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-v",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 648,
+                        "endLine": 648,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-i",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 649,
+                        "endLine": 649,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-w",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 772,
+                        "endLine": 772,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-x",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 850,
+                        "endLine": 850,
+                        "startOffset": 0,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-z",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 953,
+                        "endLine": 953,
+                        "startOffset": 0,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-0",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 958,
+                        "endLine": 958,
+                        "startOffset": 0,
+                        "endOffset": 94
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-y",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 976,
+                        "endLine": 976,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-j",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 977,
+                        "endLine": 977,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-1",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 985,
+                        "endLine": 985,
+                        "startOffset": 83,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-2",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 987,
+                        "endLine": 987,
+                        "startOffset": 0,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-3",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 999,
+                        "endLine": 999,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-4",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1015,
+                        "endLine": 1015,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-5",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1021,
+                        "endLine": 1021,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "49min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1060,
+                        "endLine": 1060,
+                        "startOffset": 7,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-7",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1122,
+                        "endLine": 1122,
+                        "startOffset": 74,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-8",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1122,
+                        "endLine": 1122,
+                        "startOffset": 84,
+                        "endOffset": 85
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-9",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1332,
+                        "endLine": 1332,
+                        "startOffset": 45,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA--",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1341,
+                        "endLine": 1341,
+                        "startOffset": 61,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-_",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1341,
+                        "endLine": 1341,
+                        "startOffset": 47,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5SQayBAESW5py-jATV",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledWithCustomPolicyIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-gAESW5py-jApX",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GCRunIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                }
+            ],
+            "total": 45
+        },
+        "metrics": {
+            "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java": {
+                "ncloc": "923",
+                "complexity": "158"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java": {
+                "ncloc": "402",
+                "complexity": "41"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashDefaultIT.java": {
+                "ncloc": "50",
+                "complexity": "3"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledIT.java": {
+                "ncloc": "50",
+                "complexity": "3"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledWithCustomPolicyIT.java": {
+                "ncloc": "76",
+                "complexity": "9"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java": {
+                "ncloc": "65",
+                "complexity": "7"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GCRunIT.java": {
+                "ncloc": "133",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "727398e3d16aedf53df7c78dd093b8f871b41c60",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5SQazLAESW5py-jAVd",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashDefaultIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-FAESW5py-jAo7",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-FAESW5py-jAo6",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 29,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAco",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcm",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 197,
+                        "endLine": 197,
+                        "startOffset": 37,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcp",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 307,
+                        "endLine": 307,
+                        "startOffset": 14,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcq",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 324,
+                        "endLine": 324,
+                        "startOffset": 8,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcn",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 373,
+                        "endLine": 373,
+                        "startOffset": 16,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcr",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 422,
+                        "endLine": 422,
+                        "startOffset": 35,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5SQa4NAESW5py-jAcs",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 464,
+                        "endLine": 464,
+                        "startOffset": 84,
+                        "endOffset": 88
+                    }
+                },
+                {
+                    "key": "AY5SQaz9AESW5py-jAWg",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SYnozAESW5py-kH7y",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 963,
+                        "endLine": 963,
+                        "startOffset": 0,
+                        "endOffset": 97
+                    }
+                },
+                {
+                    "key": "AY5SVMkxAESW5py-junK",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 962,
+                        "endLine": 962,
+                        "startOffset": 0,
+                        "endOffset": 113
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-o",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 163,
+                        "endLine": 163,
+                        "startOffset": 0,
+                        "endOffset": 77
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-m",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 178,
+                        "endLine": 178,
+                        "startOffset": 36,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-p",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 191,
+                        "endLine": 191,
+                        "startOffset": 8,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-q",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 53,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-r",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 315,
+                        "endLine": 315,
+                        "startOffset": 0,
+                        "endOffset": 95
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-l",
+                    "rule": "java:S5411",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 320,
+                        "endLine": 320,
+                        "startOffset": 12,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-s",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 326,
+                        "endLine": 326,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-n",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 365,
+                        "endLine": 365,
+                        "startOffset": 14,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-t",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 449,
+                        "endLine": 449,
+                        "startOffset": 0,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-k",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 498,
+                        "endLine": 498,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-u",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 597,
+                        "endLine": 597,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-h",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 598,
+                        "endLine": 598,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-v",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 648,
+                        "endLine": 648,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-i",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 649,
+                        "endLine": 649,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-w",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 772,
+                        "endLine": 772,
+                        "startOffset": 0,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-x",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 850,
+                        "endLine": 850,
+                        "startOffset": 0,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-z",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 953,
+                        "endLine": 953,
+                        "startOffset": 0,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-0",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 958,
+                        "endLine": 958,
+                        "startOffset": 0,
+                        "endOffset": 94
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-y",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 977,
+                        "endLine": 977,
+                        "startOffset": 15,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-j",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 978,
+                        "endLine": 978,
+                        "startOffset": 18,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-1",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 986,
+                        "endLine": 986,
+                        "startOffset": 83,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-2",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 988,
+                        "endLine": 988,
+                        "startOffset": 0,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-3",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1000,
+                        "endLine": 1000,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-4",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1016,
+                        "endLine": 1016,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-5",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1022,
+                        "endLine": 1022,
+                        "startOffset": 0,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-6",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "49min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1061,
+                        "endLine": 1061,
+                        "startOffset": 7,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-7",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1123,
+                        "endLine": 1123,
+                        "startOffset": 74,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-8",
+                    "rule": "java:S1602",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1123,
+                        "endLine": 1123,
+                        "startOffset": 84,
+                        "endOffset": 85
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-9",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1333,
+                        "endLine": 1333,
+                        "startOffset": 45,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA--",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1342,
+                        "endLine": 1342,
+                        "startOffset": 61,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5SQbRXAESW5py-jA-_",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 1342,
+                        "endLine": 1342,
+                        "startOffset": 47,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5SQayBAESW5py-jATV",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledWithCustomPolicyIT.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 0,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY5SQa-gAESW5py-jApX",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GCRunIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 155,
+                        "endLine": 155,
+                        "startOffset": 14,
+                        "endOffset": 37
+                    }
+                }
+            ],
+            "total": 46
+        },
+        "metrics": {
+            "accumulo-4031:server/manager/src/main/java/org/apache/accumulo/manager/compaction/coordinator/CompactionCoordinator.java": {
+                "ncloc": "923",
+                "complexity": "158"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorIT.java": {
+                "ncloc": "402",
+                "complexity": "41"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashDefaultIT.java": {
+                "ncloc": "50",
+                "complexity": "3"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledIT.java": {
+                "ncloc": "50",
+                "complexity": "3"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/functional/GarbageCollectorTrashEnabledWithCustomPolicyIT.java": {
+                "ncloc": "76",
+                "complexity": "9"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GarbageCollectWALIT.java": {
+                "ncloc": "65",
+                "complexity": "7"
+            },
+            "accumulo-4031:test/src/main/java/org/apache/accumulo/test/GCRunIT.java": {
+                "ncloc": "133",
+                "complexity": "11"
+            }
+        }
+    }
+]

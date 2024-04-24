@@ -1,0 +1,371 @@
+[
+    {
+        "commit_sha": "bcbea94152555a20de6d990b55fcd2677c7188fd",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5tAjJYtDWU0bSsGQ8d",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-588:cayenne-server/src/test/java/org/apache/cayenne/access/sqlbuilder/SelectBuilderTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 42,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5tAj50tDWU0bSsGRuv",
+                    "rule": "java:S1871",
+                    "severity": "MAJOR",
+                    "component": "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 195,
+                        "endLine": 198,
+                        "startOffset": 103,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5tAj50tDWU0bSsGRuu",
+                    "rule": "java:S1871",
+                    "severity": "MAJOR",
+                    "component": "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 198,
+                        "endLine": 201,
+                        "startOffset": 51,
+                        "endOffset": 13
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "cayenne-588:cayenne-server/src/test/java/org/apache/cayenne/access/sqlbuilder/SelectBuilderTest.java": {
+                "ncloc": "107",
+                "complexity": "8"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java": {
+                "ncloc": "141",
+                "complexity": "45"
+            }
+        }
+    },
+    {
+        "commit_sha": "82a4f7fce7f8627534c24541072810b11846e45d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5tD6DRtDWU0bSsG5eN",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-588:cayenne-server/src/test/java/org/apache/cayenne/access/sqlbuilder/SelectBuilderTest.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 108,
+                        "endLine": 108,
+                        "startOffset": 76,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5tAjJYtDWU0bSsGQ8d",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-588:cayenne-server/src/test/java/org/apache/cayenne/access/sqlbuilder/SelectBuilderTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 142,
+                        "endLine": 142,
+                        "startOffset": 42,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5tAj50tDWU0bSsGRuv",
+                    "rule": "java:S1871",
+                    "severity": "MAJOR",
+                    "component": "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 202,
+                        "startOffset": 103,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5tAj50tDWU0bSsGRuu",
+                    "rule": "java:S1871",
+                    "severity": "MAJOR",
+                    "component": "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 205,
+                        "startOffset": 51,
+                        "endOffset": 13
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/CaseNode.java": {
+                "ncloc": "18",
+                "complexity": "4"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/CaseWhenBuilder.java": {
+                "ncloc": "43",
+                "complexity": "8"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/ElseNode.java": {
+                "ncloc": "17",
+                "complexity": "3"
+            },
+            "cayenne-588:cayenne-server/src/test/java/org/apache/cayenne/access/sqlbuilder/SelectBuilderTest.java": {
+                "ncloc": "138",
+                "complexity": "10"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java": {
+                "ncloc": "144",
+                "complexity": "46"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/ThenNode.java": {
+                "ncloc": "17",
+                "complexity": "3"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/WhenBuilder.java": {
+                "ncloc": "23",
+                "complexity": "4"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/WhenNode.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            }
+        }
+    },
+    {
+        "commit_sha": "4cd9fa751c33a7f863026bd8893557352e1a1d17",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5tD6DRtDWU0bSsG5eN",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-588:cayenne-server/src/test/java/org/apache/cayenne/access/sqlbuilder/SelectBuilderTest.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 76,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5tAjJYtDWU0bSsGQ8d",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-588:cayenne-server/src/test/java/org/apache/cayenne/access/sqlbuilder/SelectBuilderTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 42,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5tAj50tDWU0bSsGRuv",
+                    "rule": "java:S1871",
+                    "severity": "MAJOR",
+                    "component": "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 202,
+                        "startOffset": 103,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5tAj50tDWU0bSsGRuu",
+                    "rule": "java:S1871",
+                    "severity": "MAJOR",
+                    "component": "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 205,
+                        "startOffset": 51,
+                        "endOffset": 13
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/CaseNode.java": {
+                "ncloc": "18",
+                "complexity": "4"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/CaseWhenBuilder.java": {
+                "ncloc": "49",
+                "complexity": "10"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/ElseNode.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "cayenne-588:cayenne-server/src/test/java/org/apache/cayenne/access/sqlbuilder/SelectBuilderTest.java": {
+                "ncloc": "136",
+                "complexity": "10"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java": {
+                "ncloc": "144",
+                "complexity": "46"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/ThenNode.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/WhenBuilder.java": {
+                "ncloc": "25",
+                "complexity": "4"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/WhenNode.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            }
+        }
+    },
+    {
+        "commit_sha": "3a5afb00e74189ff9d4746e395099b41c19f9de2",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5tD6DRtDWU0bSsG5eN",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-588:cayenne-server/src/test/java/org/apache/cayenne/access/sqlbuilder/SelectBuilderTest.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 76,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5tAjJYtDWU0bSsGQ8d",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-588:cayenne-server/src/test/java/org/apache/cayenne/access/sqlbuilder/SelectBuilderTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 42,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5tAj50tDWU0bSsGRuv",
+                    "rule": "java:S1871",
+                    "severity": "MAJOR",
+                    "component": "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 199,
+                        "endLine": 202,
+                        "startOffset": 103,
+                        "endOffset": 13
+                    }
+                },
+                {
+                    "key": "AY5tAj50tDWU0bSsGRuu",
+                    "rule": "java:S1871",
+                    "severity": "MAJOR",
+                    "component": "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 202,
+                        "endLine": 205,
+                        "startOffset": 51,
+                        "endOffset": 13
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/CaseNode.java": {
+                "ncloc": "18",
+                "complexity": "4"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/CaseWhenBuilder.java": {
+                "ncloc": "49",
+                "complexity": "10"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/ElseNode.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "cayenne-588:cayenne-server/src/test/java/org/apache/cayenne/access/sqlbuilder/SelectBuilderTest.java": {
+                "ncloc": "136",
+                "complexity": "10"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/SQLBuilder.java": {
+                "ncloc": "144",
+                "complexity": "46"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/ThenNode.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/WhenBuilder.java": {
+                "ncloc": "25",
+                "complexity": "4"
+            },
+            "cayenne-588:cayenne-server/src/main/java/org/apache/cayenne/access/sqlbuilder/sqltree/WhenNode.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            }
+        }
+    }
+]

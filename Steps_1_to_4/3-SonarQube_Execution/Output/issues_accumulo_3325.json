@@ -1,0 +1,416 @@
+[
+    {
+        "commit_sha": "f8258479b75a7b8c7228d32e99126b668b51cf7c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVS",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 70,
+                        "endLine": 70,
+                        "startOffset": 73,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVT",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 21,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVU",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 142,
+                        "endLine": 142,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVV",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 142,
+                        "endLine": 142,
+                        "startOffset": 26,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVR",
+                    "rule": "java:S117",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 183,
+                        "endLine": 183,
+                        "startOffset": 10,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5yP6a_8f47XzIbAUU9",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 53,
+                        "endLine": 53,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5yP6a_8f47XzIbAUU-",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 23,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5yP6a_8f47XzIbAUU_",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 13,
+                        "endOffset": 68
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java": {
+                "ncloc": "152",
+                "complexity": "16"
+            },
+            "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java": {
+                "ncloc": "134",
+                "complexity": "6"
+            }
+        }
+    },
+    {
+        "commit_sha": "c2a6a118df4d16a148ad88b252a4a8c261e3c925",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVS",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 72,
+                        "endLine": 72,
+                        "startOffset": 73,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVT",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 79,
+                        "endLine": 79,
+                        "startOffset": 21,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVU",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 144,
+                        "endLine": 144,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVV",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 144,
+                        "endLine": 144,
+                        "startOffset": 26,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVR",
+                    "rule": "java:S117",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 185,
+                        "endLine": 185,
+                        "startOffset": 10,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5yP6a_8f47XzIbAUU9",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5yP6a_8f47XzIbAUU-",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 23,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5yP6a_8f47XzIbAUU_",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 86,
+                        "endLine": 86,
+                        "startOffset": 13,
+                        "endOffset": 68
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java": {
+                "ncloc": "155",
+                "complexity": "16"
+            },
+            "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java": {
+                "ncloc": "137",
+                "complexity": "6"
+            }
+        }
+    },
+    {
+        "commit_sha": "6b54067a540fe37380585fc2dc46064744f0e387",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVS",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 73,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVT",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 21,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVU",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 26,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVV",
+                    "rule": "java:S1130",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 145,
+                        "endLine": 145,
+                        "startOffset": 13,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5yP6bL8f47XzIbAUVR",
+                    "rule": "java:S117",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 186,
+                        "endLine": 186,
+                        "startOffset": 10,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY5yP6a_8f47XzIbAUU9",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 23,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5yP6a_8f47XzIbAUU-",
+                    "rule": "java:S116",
+                    "severity": "MINOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 23,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5yP6a_8f47XzIbAUU_",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 13,
+                        "endOffset": 68
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/FileSystemInitializer.java": {
+                "ncloc": "156",
+                "complexity": "16"
+            },
+            "accumulo-3325:server/base/src/main/java/org/apache/accumulo/server/init/ZooKeeperInitializer.java": {
+                "ncloc": "138",
+                "complexity": "6"
+            }
+        }
+    }
+]

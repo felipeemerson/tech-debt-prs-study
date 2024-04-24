@@ -1,0 +1,488 @@
+[
+    {
+        "commit_sha": "8603a61b555a4b7e92d04e11cd0a825aaf7d2f0d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DTkcZygGTmJJJrVmx",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 276,
+                        "endLine": 276,
+                        "startOffset": 34,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVmy",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 300,
+                        "endLine": 300,
+                        "startOffset": 32,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm2",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 576,
+                        "endLine": 576,
+                        "startOffset": 19,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm3",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "1h1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 595,
+                        "endLine": 595,
+                        "startOffset": 36,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm4",
+                    "rule": "java:S131",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 736,
+                        "endLine": 736,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm1",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 817,
+                        "endLine": 818,
+                        "startOffset": 60,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVmz",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 847,
+                        "endLine": 847,
+                        "startOffset": 49,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm0",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 860,
+                        "endLine": 860,
+                        "startOffset": 98,
+                        "endOffset": 106
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm5",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 870,
+                        "endLine": 870,
+                        "startOffset": 49,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVln",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 368,
+                        "endLine": 368,
+                        "startOffset": 34,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVlo",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 416,
+                        "endLine": 416,
+                        "startOffset": 32,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVlq",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 632,
+                        "endLine": 632,
+                        "startOffset": 18,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVlr",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 717,
+                        "endLine": 717,
+                        "startOffset": 19,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVls",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "1h33min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 736,
+                        "endLine": 736,
+                        "startOffset": 31,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVlp",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 996,
+                        "endLine": 996,
+                        "startOffset": 16,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 15
+        },
+        "metrics": {
+            "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java": {
+                "ncloc": "606",
+                "complexity": "112"
+            },
+            "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java": {
+                "ncloc": "671",
+                "complexity": "125"
+            }
+        }
+    },
+    {
+        "commit_sha": "2d06b8e4ecbb3b93c7e1dc5042ff08d166143501",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DTkcZygGTmJJJrVmx",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 276,
+                        "endLine": 276,
+                        "startOffset": 34,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVmy",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 300,
+                        "endLine": 300,
+                        "startOffset": 32,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm2",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 576,
+                        "endLine": 576,
+                        "startOffset": 19,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm3",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "1h1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 595,
+                        "endLine": 595,
+                        "startOffset": 36,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm4",
+                    "rule": "java:S131",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 736,
+                        "endLine": 736,
+                        "startOffset": 16,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm1",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 817,
+                        "endLine": 818,
+                        "startOffset": 60,
+                        "endOffset": 81
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVmz",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 847,
+                        "endLine": 847,
+                        "startOffset": 49,
+                        "endOffset": 73
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm0",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 860,
+                        "endLine": 860,
+                        "startOffset": 98,
+                        "endOffset": 106
+                    }
+                },
+                {
+                    "key": "AY5DTkcZygGTmJJJrVm5",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 870,
+                        "endLine": 870,
+                        "startOffset": 49,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVln",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 368,
+                        "endLine": 368,
+                        "startOffset": 34,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVlo",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 416,
+                        "endLine": 416,
+                        "startOffset": 32,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVlq",
+                    "rule": "java:S1319",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 632,
+                        "endLine": 632,
+                        "startOffset": 18,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVlr",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 717,
+                        "endLine": 717,
+                        "startOffset": 19,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVls",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "1h33min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 736,
+                        "endLine": 736,
+                        "startOffset": 31,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5DTkZxygGTmJJJrVlp",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 996,
+                        "endLine": 996,
+                        "startOffset": 16,
+                        "endOffset": 18
+                    }
+                }
+            ],
+            "total": 15
+        },
+        "metrics": {
+            "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/Http2AsyncClientBuilder.java": {
+                "ncloc": "606",
+                "complexity": "112"
+            },
+            "httpcomponents-client-154:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpClientBuilder.java": {
+                "ncloc": "671",
+                "complexity": "125"
+            }
+        }
+    }
+]

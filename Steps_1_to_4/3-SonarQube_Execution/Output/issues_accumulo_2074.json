@@ -1,0 +1,173 @@
+[
+    {
+        "commit_sha": "77782030dbe674accf2c7d221b193e9593ae31b0",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5h22D3f2jzD4y1jWUc",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2074:core/src/test/java/org/apache/accumulo/core/constraints/DeprecatedConstraintExtendTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 32,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5h21uUf2jzD4y1jTYH",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2074:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 17,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5h21uUf2jzD4y1jTYI",
+                    "rule": "java:S2176",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2074:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 17,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-2074:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java": {
+                "ncloc": "18",
+                "complexity": "0"
+            },
+            "accumulo-2074:core/src/test/java/org/apache/accumulo/core/constraints/DeprecatedConstraintExtendTest.java": {
+                "ncloc": "52",
+                "complexity": "5"
+            }
+        }
+    },
+    {
+        "commit_sha": "d377a6298743638bff3813cc01ad14028422ef67",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5h4UPRf2jzD4y1jrMr",
+                    "rule": "java:S1301",
+                    "severity": "MINOR",
+                    "component": "accumulo-2074:core/src/test/java/org/apache/accumulo/core/constraints/DeprecatedConstraintExtendTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 6,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5h4UPRf2jzD4y1jrMs",
+                    "rule": "java:S131",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2074:core/src/test/java/org/apache/accumulo/core/constraints/DeprecatedConstraintExtendTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 6,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5h4UPRf2jzD4y1jrMt",
+                    "rule": "java:S1168",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2074:core/src/test/java/org/apache/accumulo/core/constraints/DeprecatedConstraintExtendTest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 13,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5h22D3f2jzD4y1jWUc",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2074:core/src/test/java/org/apache/accumulo/core/constraints/DeprecatedConstraintExtendTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 32,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5h21uUf2jzD4y1jTYH",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-2074:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 17,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5h21uUf2jzD4y1jTYI",
+                    "rule": "java:S2176",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2074:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 37,
+                        "endLine": 37,
+                        "startOffset": 17,
+                        "endOffset": 27
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-2074:core/src/main/java/org/apache/accumulo/core/constraints/Constraint.java": {
+                "ncloc": "23",
+                "complexity": "1"
+            },
+            "accumulo-2074:core/src/test/java/org/apache/accumulo/core/constraints/DeprecatedConstraintExtendTest.java": {
+                "ncloc": "77",
+                "complexity": "10"
+            }
+        }
+    }
+]

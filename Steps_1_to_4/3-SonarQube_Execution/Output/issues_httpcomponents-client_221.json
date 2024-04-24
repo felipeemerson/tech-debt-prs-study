@@ -1,0 +1,68 @@
+[
+    {
+        "commit_sha": "a93d5c0c1d9f1b98b2816eaac359bb34deea1f71",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DBnIRygGTmJJJl8IH",
+                    "rule": "java:S1700",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-221:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Request.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 37,
+                        "endOffset": 44
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "httpcomponents-client-221:httpclient5-fluent/src/test/java/org/apache/hc/client5/http/examples/fluent/FluentRequests.java": {
+                "ncloc": "25",
+                "complexity": "1"
+            },
+            "httpcomponents-client-221:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Request.java": {
+                "ncloc": "267",
+                "complexity": "64"
+            }
+        }
+    },
+    {
+        "commit_sha": "210f60daf83c12650dfc15a3e0c52da232bac48f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DBnIRygGTmJJJl8IH",
+                    "rule": "java:S1700",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-221:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Request.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 37,
+                        "endOffset": 44
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "httpcomponents-client-221:httpclient5-fluent/src/test/java/org/apache/hc/client5/http/examples/fluent/FluentRequests.java": {
+                "ncloc": "26",
+                "complexity": "1"
+            },
+            "httpcomponents-client-221:httpclient5-fluent/src/main/java/org/apache/hc/client5/http/fluent/Request.java": {
+                "ncloc": "275",
+                "complexity": "66"
+            }
+        }
+    }
+]

@@ -1,0 +1,395 @@
+[
+    {
+        "commit_sha": "c395aad5adb4e9ee312559937c08382ea8215e7c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CJMXuygGTmJJJStQQ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "50min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 31,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5CJMXuygGTmJJJStQP",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 24,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5CJMk-ygGTmJJJStY9",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 44,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5CJMk-ygGTmJJJStY8",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 230,
+                        "endLine": 230,
+                        "startOffset": 42,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5CJMaXygGTmJJJStSJ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "31min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 17,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncHttpRequestRetryExec.java": {
+                "ncloc": "126",
+                "complexity": "22"
+            },
+            "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpRequestRetryExec.java": {
+                "ncloc": "120",
+                "complexity": "20"
+            },
+            "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/HttpRequestRetryStrategy.java": {
+                "ncloc": "14",
+                "complexity": "0"
+            },
+            "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java": {
+                "ncloc": "234",
+                "complexity": "15"
+            }
+        }
+    },
+    {
+        "commit_sha": "3c93f8cfeddaf390cb08257dc9cbe647dde94c91",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CJMXuygGTmJJJStQQ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "1h10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 31,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5CJMXuygGTmJJJStQP",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 24,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5CJcxJygGTmJJJSzwk",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 43,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5CJcxJygGTmJJJSzwl",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 34,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5CJcxJygGTmJJJSzwj",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 118,
+                        "endLine": 118,
+                        "startOffset": 58,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5CJMk-ygGTmJJJStY8",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "CLOSED",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 230,
+                        "endLine": 230,
+                        "startOffset": 42,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5CJMk-ygGTmJJJStY9",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 44,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5CJMaXygGTmJJJStSJ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "31min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 17,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncHttpRequestRetryExec.java": {
+                "ncloc": "127",
+                "complexity": "22"
+            },
+            "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpRequestRetryExec.java": {
+                "ncloc": "137",
+                "complexity": "24"
+            },
+            "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/HttpRequestRetryStrategy.java": {
+                "ncloc": "17",
+                "complexity": "1"
+            },
+            "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java": {
+                "ncloc": "264",
+                "complexity": "16"
+            }
+        }
+    },
+    {
+        "commit_sha": "f2c853c196e8a9d0149ffed33638f204f23f1b53",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CJMXuygGTmJJJStQQ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "1h4min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 31,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY5CJMXuygGTmJJJStQP",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 161,
+                        "endLine": 161,
+                        "startOffset": 24,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5CJcxJygGTmJJJSzwk",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 43,
+                        "endOffset": 84
+                    }
+                },
+                {
+                    "key": "AY5CJcxJygGTmJJJSzwl",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 34,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5CJcxJygGTmJJJSzwj",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 118,
+                        "endLine": 118,
+                        "startOffset": 58,
+                        "endOffset": 67
+                    }
+                },
+                {
+                    "key": "AY5CJMk-ygGTmJJJStY8",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "CLOSED",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 230,
+                        "endLine": 230,
+                        "startOffset": 42,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5CJMk-ygGTmJJJStY9",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 44,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5CJMaXygGTmJJJStSJ",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncHttpRequestRetryExec.java",
+                    "status": "OPEN",
+                    "debt": "31min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 17,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncHttpRequestRetryExec.java": {
+                "ncloc": "127",
+                "complexity": "22"
+            },
+            "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/HttpRequestRetryExec.java": {
+                "ncloc": "132",
+                "complexity": "22"
+            },
+            "httpcomponents-client-356:httpclient5/src/main/java/org/apache/hc/client5/http/HttpRequestRetryStrategy.java": {
+                "ncloc": "17",
+                "complexity": "1"
+            },
+            "httpcomponents-client-356:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestHttpRequestRetryExec.java": {
+                "ncloc": "264",
+                "complexity": "16"
+            }
+        }
+    }
+]

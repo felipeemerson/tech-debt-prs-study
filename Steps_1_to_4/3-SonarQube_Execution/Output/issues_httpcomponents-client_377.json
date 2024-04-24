@@ -1,0 +1,218 @@
+[
+    {
+        "commit_sha": "f7e54d9183a6cdb4c5f3826bf5708994bd379ee6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CCzsqygGTmJJJP3up",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 16,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5CCzsqygGTmJJJP3uq",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java",
+                    "status": "OPEN",
+                    "debt": "39min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 17,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5CCzsqygGTmJJJP3ur",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 376,
+                        "endLine": 376,
+                        "startOffset": 43,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5CCzsqygGTmJJJP3us",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 376,
+                        "endLine": 376,
+                        "startOffset": 31,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5CCzsqygGTmJJJP3ut",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 419,
+                        "endLine": 419,
+                        "startOffset": 24,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5CCzvuygGTmJJJP3xn",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/DefaultAuthenticationStrategy.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 28,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java": {
+                "ncloc": "360",
+                "complexity": "61"
+            },
+            "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/DefaultAuthenticationStrategy.java": {
+                "ncloc": "82",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "df01c8cc7ba30c80ed18df54c09c2806edf4cd5a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CCzsqygGTmJJJP3ur",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 376,
+                        "endLine": 376,
+                        "startOffset": 43,
+                        "endOffset": 62
+                    }
+                },
+                {
+                    "key": "AY5CCzsqygGTmJJJP3us",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 376,
+                        "endLine": 376,
+                        "startOffset": 31,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5CCzsqygGTmJJJP3up",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 16,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5CCzsqygGTmJJJP3uq",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java",
+                    "status": "OPEN",
+                    "debt": "39min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 182,
+                        "endLine": 182,
+                        "startOffset": 17,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5CCzsqygGTmJJJP3ut",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 418,
+                        "endLine": 418,
+                        "startOffset": 24,
+                        "endOffset": 49
+                    }
+                },
+                {
+                    "key": "AY5CCzvuygGTmJJJP3xn",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/DefaultAuthenticationStrategy.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 28,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/AsyncConnectExec.java": {
+                "ncloc": "359",
+                "complexity": "61"
+            },
+            "httpcomponents-client-377:httpclient5/src/main/java/org/apache/hc/client5/http/impl/DefaultAuthenticationStrategy.java": {
+                "ncloc": "82",
+                "complexity": "11"
+            }
+        }
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "commit_sha": "6a1431b773c49f422e109268dccd460661d5e02f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5sx_-i8f47XzIbHdpO",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 74,
+                        "endLine": 74,
+                        "startOffset": 58,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY5sx_-i8f47XzIbHdpN",
+                    "rule": "java:S4144",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 16,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/AbstractTabletFile.java": {
+                "ncloc": "21",
+                "complexity": "3"
+            },
+            "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java": {
+                "ncloc": "78",
+                "complexity": "15"
+            },
+            "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/StoredTabletFile.java": {
+                "ncloc": "65",
+                "complexity": "17"
+            },
+            "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/UnreferencedTabletFile.java": {
+                "ncloc": "45",
+                "complexity": "10"
+            }
+        }
+    },
+    {
+        "commit_sha": "9990e158891ac11e076ba80d7831cc0098d81905",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5sx_-i8f47XzIbHdpO",
+                    "rule": "java:S1075",
+                    "severity": "MINOR",
+                    "component": "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 58,
+                        "endOffset": 61
+                    }
+                },
+                {
+                    "key": "AY5sx_-i8f47XzIbHdpN",
+                    "rule": "java:S4144",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 16,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/AbstractTabletFile.java": {
+                "ncloc": "20",
+                "complexity": "3"
+            },
+            "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/ReferencedTabletFile.java": {
+                "ncloc": "79",
+                "complexity": "15"
+            },
+            "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/StoredTabletFile.java": {
+                "ncloc": "67",
+                "complexity": "18"
+            },
+            "accumulo-3502:core/src/main/java/org/apache/accumulo/core/metadata/UnreferencedTabletFile.java": {
+                "ncloc": "46",
+                "complexity": "10"
+            }
+        }
+    }
+]

@@ -1,0 +1,248 @@
+[
+    {
+        "commit_sha": "777b1a4b44f716f76748aa47a46f2c4f1fc3f474",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5B1CfBygGTmJJJJ593",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 43,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5B1CfBygGTmJJJJ595",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 153,
+                        "endLine": 153,
+                        "startOffset": 23,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5B1CfBygGTmJJJJ596",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 153,
+                        "endLine": 153,
+                        "startOffset": 19,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5B1CfBygGTmJJJJ594",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 170,
+                        "startOffset": 50,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5B1CfBygGTmJJJJ598",
+                    "rule": "java:S2119",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 170,
+                        "endLine": 170,
+                        "startOffset": 28,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5B1CfOygGTmJJJJ5-N",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestLinearBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 35,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5B1CfOygGTmJJJJ5-O",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestLinearBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 87,
+                        "endLine": 87,
+                        "startOffset": 35,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java": {
+                "ncloc": "160",
+                "complexity": "23"
+            },
+            "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestLinearBackoffManager.java": {
+                "ncloc": "107",
+                "complexity": "13"
+            }
+        }
+    },
+    {
+        "commit_sha": "a46d5a8f44150e7283b385684eedbbe76abb5d48",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5B1CfBygGTmJJJJ595",
+                    "rule": "java:S1854",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java",
+                    "status": "CLOSED",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 153,
+                        "endLine": 153,
+                        "startOffset": 23,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5B1CfBygGTmJJJJ596",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 153,
+                        "endLine": 153,
+                        "startOffset": 19,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5B1CfBygGTmJJJJ593",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 43,
+                        "endOffset": 54
+                    }
+                },
+                {
+                    "key": "AY5B1CfBygGTmJJJJ594",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 50,
+                        "endOffset": 51
+                    }
+                },
+                {
+                    "key": "AY5B1CfBygGTmJJJJ598",
+                    "rule": "java:S2119",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 28,
+                        "endOffset": 34
+                    }
+                },
+                {
+                    "key": "AY5B1CfOygGTmJJJJ5-N",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestLinearBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 35,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5B1CfOygGTmJJJJ5-O",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestLinearBackoffManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 93,
+                        "endLine": 93,
+                        "startOffset": 35,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestAIMDBackoffManager.java": {
+                "ncloc": "169",
+                "complexity": "21"
+            },
+            "httpcomponents-client-494:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestLinearBackoffManager.java": {
+                "ncloc": "111",
+                "complexity": "11"
+            }
+        }
+    }
+]

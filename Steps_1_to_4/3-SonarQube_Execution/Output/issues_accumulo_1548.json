@@ -1,0 +1,690 @@
+[
+    {
+        "commit_sha": "39391e9de6815fbcb609c29bd59741c949bb3ac0",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5V6kId3doAqESEOU_D",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_C",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 31,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_B",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 20,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_G",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 99,
+                        "endLine": 99,
+                        "startOffset": 21,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_H",
+                    "rule": "java:S5803",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 28,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_I",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 149,
+                        "endLine": 149,
+                        "startOffset": 10,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_J",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 10,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_K",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 193,
+                        "endLine": 193,
+                        "startOffset": 10,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_L",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 222,
+                        "endLine": 222,
+                        "startOffset": 10,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_E",
+                    "rule": "java:S2222",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 232,
+                        "endLine": 232,
+                        "startOffset": 8,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_F",
+                    "rule": "java:S2222",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 271,
+                        "endLine": 271,
+                        "startOffset": 6,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_M",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 333,
+                        "endLine": 333,
+                        "startOffset": 26,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_N",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 334,
+                        "endLine": 334,
+                        "startOffset": 42,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_O",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 404,
+                        "endLine": 404,
+                        "startOffset": 49,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_P",
+                    "rule": "java:S5803",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 648,
+                        "endLine": 648,
+                        "startOffset": 38,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_Q",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 664,
+                        "endLine": 664,
+                        "startOffset": 33,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_R",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 677,
+                        "endLine": 677,
+                        "startOffset": 10,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_S",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 695,
+                        "endLine": 695,
+                        "startOffset": 11,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_T",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 752,
+                        "endLine": 752,
+                        "startOffset": 22,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_U",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 876,
+                        "endLine": 876,
+                        "startOffset": 31,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_V",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 883,
+                        "endLine": 883,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_A",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 884,
+                        "endLine": 884,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 22
+        },
+        "metrics": {
+            "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java": {
+                "ncloc": "632",
+                "complexity": "116"
+            }
+        }
+    },
+    {
+        "commit_sha": "67273a5f12256859af06a6e14d0faaa15eb4f06e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5V6kId3doAqESEOU_D",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_C",
+                    "rule": "java:S2184",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 31,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_B",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 20,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_G",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 21,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_H",
+                    "rule": "java:S5803",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 28,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_I",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 166,
+                        "endLine": 166,
+                        "startOffset": 10,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_J",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 188,
+                        "endLine": 188,
+                        "startOffset": 10,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_K",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 10,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_L",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 239,
+                        "endLine": 239,
+                        "startOffset": 10,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_E",
+                    "rule": "java:S2222",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 249,
+                        "endLine": 249,
+                        "startOffset": 8,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_F",
+                    "rule": "java:S2222",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 288,
+                        "endLine": 288,
+                        "startOffset": 6,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_M",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 350,
+                        "endLine": 350,
+                        "startOffset": 26,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_N",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 351,
+                        "endLine": 351,
+                        "startOffset": 42,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_O",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 421,
+                        "endLine": 421,
+                        "startOffset": 49,
+                        "endOffset": 50
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_P",
+                    "rule": "java:S5803",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 665,
+                        "endLine": 665,
+                        "startOffset": 38,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_Q",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "9min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 681,
+                        "endLine": 681,
+                        "startOffset": 33,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_R",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 694,
+                        "endLine": 694,
+                        "startOffset": 10,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_S",
+                    "rule": "java:S1155",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 712,
+                        "endLine": 712,
+                        "startOffset": 11,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_T",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 769,
+                        "endLine": 769,
+                        "startOffset": 22,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_U",
+                    "rule": "java:S1611",
+                    "severity": "MINOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 893,
+                        "endLine": 893,
+                        "startOffset": 31,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_V",
+                    "rule": "java:S2142",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 900,
+                        "endLine": 900,
+                        "startOffset": 13,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5V6kId3doAqESEOU_A",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 901,
+                        "endLine": 901,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 22
+        },
+        "metrics": {
+            "accumulo-1548:core/src/main/java/org/apache/accumulo/core/clientImpl/ThriftTransportPool.java": {
+                "ncloc": "632",
+                "complexity": "116"
+            }
+        }
+    }
+]

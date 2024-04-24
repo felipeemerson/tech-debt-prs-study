@@ -1,0 +1,286 @@
+[
+    {
+        "commit_sha": "18614737b35635b35bb704b503effd07f8ebfe11",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5MGloor8bbHvnc4-uT",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-1780:core/src/main/java/org/apache/accumulo/core/util/ThriftMessageUtil.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 47,
+                        "endLine": 47,
+                        "startOffset": 0,
+                        "endOffset": 94
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PB",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PC",
+                    "rule": "java:S1845",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 23,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PD",
+                    "rule": "java:S1845",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PF",
+                    "rule": "java:S128",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 96,
+                        "endLine": 96,
+                        "startOffset": 6,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PG",
+                    "rule": "java:S5164",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 108,
+                        "endLine": 108,
+                        "startOffset": 10,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PE",
+                    "rule": "java:S128",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 110,
+                        "endLine": 110,
+                        "startOffset": 6,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PH",
+                    "rule": "java:S5164",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 10,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-1780:core/src/main/java/org/apache/accumulo/core/util/ThriftMessageUtil.java": {
+                "ncloc": "46",
+                "complexity": "5"
+            },
+            "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/TimedProcessor.java": {
+                "ncloc": "42",
+                "complexity": "3"
+            },
+            "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java": {
+                "ncloc": "74",
+                "complexity": "8"
+            }
+        }
+    },
+    {
+        "commit_sha": "7bcf1a74b73f741c74772a879a8e84b1a5b710af",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5MGloor8bbHvnc4-uT",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-1780:core/src/main/java/org/apache/accumulo/core/util/ThriftMessageUtil.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 49,
+                        "endLine": 49,
+                        "startOffset": 0,
+                        "endOffset": 94
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PE",
+                    "rule": "java:S128",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 110,
+                        "endLine": 110,
+                        "startOffset": 6,
+                        "endOffset": 22
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PF",
+                    "rule": "java:S128",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 96,
+                        "endLine": 96,
+                        "startOffset": 6,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PB",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 16,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PC",
+                    "rule": "java:S1845",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 65,
+                        "endLine": 65,
+                        "startOffset": 23,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PD",
+                    "rule": "java:S1845",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 73,
+                        "endLine": 73,
+                        "startOffset": 30,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PG",
+                    "rule": "java:S5164",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 10,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5MGkhFr8bbHvnc48PH",
+                    "rule": "java:S5164",
+                    "severity": "MAJOR",
+                    "component": "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 120,
+                        "endLine": 120,
+                        "startOffset": 10,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-1780:core/src/main/java/org/apache/accumulo/core/util/ThriftMessageUtil.java": {
+                "ncloc": "48",
+                "complexity": "5"
+            },
+            "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/TimedProcessor.java": {
+                "ncloc": "42",
+                "complexity": "3"
+            },
+            "accumulo-1780:server/base/src/main/java/org/apache/accumulo/server/rpc/UGIAssumingProcessor.java": {
+                "ncloc": "76",
+                "complexity": "8"
+            }
+        }
+    }
+]

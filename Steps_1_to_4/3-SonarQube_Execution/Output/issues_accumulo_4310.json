@@ -1,0 +1,338 @@
+[
+    {
+        "commit_sha": "f9d79650fcbc5bf430c573242e43de7e05b2dbe9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5EVGy-AESW5py-cwQ1",
+                    "rule": "java:S2696",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueueTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 270,
+                        "endLine": 270,
+                        "startOffset": 53,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5EVGyBAESW5py-cwPC",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueues.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 0,
+                        "endOffset": 21
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java": {
+                "ncloc": "152",
+                "complexity": "36"
+            },
+            "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueueTest.java": {
+                "ncloc": "226",
+                "complexity": "10"
+            },
+            "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueues.java": {
+                "ncloc": "109",
+                "complexity": "34"
+            }
+        }
+    },
+    {
+        "commit_sha": "8b1d20febb889c8482a5a6cee16bd8ce5ec4b761",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5EVGy-AESW5py-cwQ1",
+                    "rule": "java:S2696",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueueTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 270,
+                        "endLine": 270,
+                        "startOffset": 53,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5EXCcSAESW5py-dE2C",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueuesTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 57,
+                        "endLine": 57,
+                        "startOffset": 15,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5EVGyBAESW5py-cwPC",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueues.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 0,
+                        "endOffset": 21
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java": {
+                "ncloc": "155",
+                "complexity": "37"
+            },
+            "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueueTest.java": {
+                "ncloc": "226",
+                "complexity": "10"
+            },
+            "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueues.java": {
+                "ncloc": "111",
+                "complexity": "33"
+            },
+            "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueuesTest.java": {
+                "ncloc": "67",
+                "complexity": "10"
+            }
+        }
+    },
+    {
+        "commit_sha": "9c7a28731fc3d09b6d9324e1b0caa705e5be73e7",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5EVGy-AESW5py-cwQ1",
+                    "rule": "java:S2696",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueueTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 270,
+                        "endLine": 270,
+                        "startOffset": 53,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5EXCcSAESW5py-dE2C",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueuesTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 15,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5EVGyBAESW5py-cwPC",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueues.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 0,
+                        "endOffset": 21
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java": {
+                "ncloc": "155",
+                "complexity": "37"
+            },
+            "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueueTest.java": {
+                "ncloc": "226",
+                "complexity": "10"
+            },
+            "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueues.java": {
+                "ncloc": "111",
+                "complexity": "33"
+            },
+            "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueuesTest.java": {
+                "ncloc": "67",
+                "complexity": "10"
+            }
+        }
+    },
+    {
+        "commit_sha": "630c9ce21d2de8cd31df2dab6ea9ca90a896bb79",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5EVGy-AESW5py-cwQ1",
+                    "rule": "java:S2696",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueueTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 270,
+                        "endLine": 270,
+                        "startOffset": 53,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5EXCcSAESW5py-dE2C",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueuesTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 15,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5EVGyBAESW5py-cwPC",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueues.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 0,
+                        "endOffset": 21
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java": {
+                "ncloc": "155",
+                "complexity": "37"
+            },
+            "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueueTest.java": {
+                "ncloc": "226",
+                "complexity": "10"
+            },
+            "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueues.java": {
+                "ncloc": "111",
+                "complexity": "33"
+            },
+            "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueuesTest.java": {
+                "ncloc": "67",
+                "complexity": "10"
+            }
+        }
+    },
+    {
+        "commit_sha": "c0da69d961120bb92db359ee9e0950066d70d01a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5EVGy-AESW5py-cwQ1",
+                    "rule": "java:S2696",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueueTest.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 270,
+                        "endLine": 270,
+                        "startOffset": 53,
+                        "endOffset": 60
+                    }
+                },
+                {
+                    "key": "AY5EXCcSAESW5py-dE2C",
+                    "rule": "java:S1612",
+                    "severity": "MINOR",
+                    "component": "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueuesTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 15,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5EVGyBAESW5py-cwPC",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueues.java",
+                    "status": "CLOSED",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 148,
+                        "endLine": 148,
+                        "startOffset": 0,
+                        "endOffset": 21
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueue.java": {
+                "ncloc": "155",
+                "complexity": "37"
+            },
+            "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobPriorityQueueTest.java": {
+                "ncloc": "226",
+                "complexity": "10"
+            },
+            "accumulo-4310:server/manager/src/main/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueues.java": {
+                "ncloc": "111",
+                "complexity": "33"
+            },
+            "accumulo-4310:server/manager/src/test/java/org/apache/accumulo/manager/compaction/queue/CompactionJobQueuesTest.java": {
+                "ncloc": "67",
+                "complexity": "10"
+            }
+        }
+    }
+]

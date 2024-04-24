@@ -1,0 +1,1151 @@
+[
+    {
+        "commit_sha": "a79ea005b1ec4ad228067a9c5f2e10dcfb324c5e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56rLMDv_E88BfBmYLf",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 66,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCW",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCZ",
+                    "rule": "java:S3011",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 8,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCX",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLMIv_E88BfBmYLg",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/ArrayTrackerTest.java": {
+                "ncloc": "22",
+                "complexity": "3"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/BitMapTrackerTest.java": {
+                "ncloc": "21",
+                "complexity": "1"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java": {
+                "ncloc": "63",
+                "complexity": "13"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java": {
+                "ncloc": "90",
+                "complexity": "14"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java": {
+                "ncloc": "89",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "d83704ab30de5799fc88e82bd0a1db10e152d57f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56rLMDv_E88BfBmYLf",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 66,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCW",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCZ",
+                    "rule": "java:S3011",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 99,
+                        "endLine": 99,
+                        "startOffset": 8,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCX",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLMIv_E88BfBmYLg",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/ArrayTrackerTest.java": {
+                "ncloc": "21",
+                "complexity": "3"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/BitMapTrackerTest.java": {
+                "ncloc": "20",
+                "complexity": "1"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java": {
+                "ncloc": "31",
+                "complexity": "6"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java": {
+                "ncloc": "88",
+                "complexity": "14"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java": {
+                "ncloc": "89",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "8bad223f22d01e282575e2f9cf8dcad56a4ae2eb",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56rLMDv_E88BfBmYLf",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 66,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCW",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCZ",
+                    "rule": "java:S3011",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 99,
+                        "endLine": 99,
+                        "startOffset": 8,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCX",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLMIv_E88BfBmYLg",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/ArrayTrackerTest.java": {
+                "ncloc": "21",
+                "complexity": "3"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/BitMapTrackerTest.java": {
+                "ncloc": "20",
+                "complexity": "1"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java": {
+                "ncloc": "31",
+                "complexity": "6"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java": {
+                "ncloc": "88",
+                "complexity": "14"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java": {
+                "ncloc": "89",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "788120b2493cc7121161915b986926b7bc39787b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56sErUv_E88BfBmpEP",
+                    "rule": "java:S1128",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 7,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY56rLMDv_E88BfBmYLf",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 66,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCW",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCZ",
+                    "rule": "java:S3011",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 8,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCX",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLMIv_E88BfBmYLg",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY56sErGv_E88BfBmpEO",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 62,
+                        "endOffset": 66
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/ArrayTrackerTest.java": {
+                "ncloc": "21",
+                "complexity": "3"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/BitMapTrackerTest.java": {
+                "ncloc": "20",
+                "complexity": "1"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java": {
+                "ncloc": "6",
+                "complexity": "0"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java": {
+                "ncloc": "59",
+                "complexity": "13"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java": {
+                "ncloc": "90",
+                "complexity": "14"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java": {
+                "ncloc": "89",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "750b8797bff0c23d3df5d61bada988b98bfb3f73",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56sErUv_E88BfBmpEP",
+                    "rule": "java:S1128",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 7,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY56rLMDv_E88BfBmYLf",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 66,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCW",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCZ",
+                    "rule": "java:S3011",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 8,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCX",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLMIv_E88BfBmYLg",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY56sErGv_E88BfBmpEO",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 76,
+                        "endLine": 76,
+                        "startOffset": 62,
+                        "endOffset": 66
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/ArrayTrackerTest.java": {
+                "ncloc": "21",
+                "complexity": "3"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/BitMapTrackerTest.java": {
+                "ncloc": "20",
+                "complexity": "1"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java": {
+                "ncloc": "6",
+                "complexity": "0"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java": {
+                "ncloc": "59",
+                "complexity": "13"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java": {
+                "ncloc": "90",
+                "complexity": "14"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java": {
+                "ncloc": "89",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "5390be21e56a93ca87b520a5d33fd4514ee9bc43",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56sErUv_E88BfBmpEP",
+                    "rule": "java:S1128",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 7,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY56rLMDv_E88BfBmYLf",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 66,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCW",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCZ",
+                    "rule": "java:S3011",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 8,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCX",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLMIv_E88BfBmYLg",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY56sErGv_E88BfBmpEO",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 76,
+                        "endLine": 76,
+                        "startOffset": 62,
+                        "endOffset": 66
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/ArrayTrackerTest.java": {
+                "ncloc": "21",
+                "complexity": "3"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/BitMapTrackerTest.java": {
+                "ncloc": "20",
+                "complexity": "1"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java": {
+                "ncloc": "5",
+                "complexity": "0"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java": {
+                "ncloc": "59",
+                "complexity": "13"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java": {
+                "ncloc": "90",
+                "complexity": "14"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java": {
+                "ncloc": "89",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "a89f3ec293655f2499d885715bbc8c7cbf5182a8",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56sErUv_E88BfBmpEP",
+                    "rule": "java:S1128",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 7,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY56rLMDv_E88BfBmYLf",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 66,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCW",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 45,
+                        "endLine": 45,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCZ",
+                    "rule": "java:S3011",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 8,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCX",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLMIv_E88BfBmYLg",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY56sErGv_E88BfBmpEO",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 76,
+                        "endLine": 76,
+                        "startOffset": 62,
+                        "endOffset": 66
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/ArrayTrackerTest.java": {
+                "ncloc": "21",
+                "complexity": "3"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/BitMapTrackerTest.java": {
+                "ncloc": "20",
+                "complexity": "1"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java": {
+                "ncloc": "5",
+                "complexity": "0"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java": {
+                "ncloc": "59",
+                "complexity": "13"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java": {
+                "ncloc": "89",
+                "complexity": "14"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java": {
+                "ncloc": "89",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "711ea2248804896edaebabf15eb34d7310dd4c8f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56sErUv_E88BfBmpEP",
+                    "rule": "java:S1128",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 7,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY56rLMDv_E88BfBmYLf",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 66,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCX",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "CLOSED",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCZ",
+                    "rule": "java:S3011",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "CLOSED",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 8,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCW",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 46,
+                        "endLine": 46,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLMIv_E88BfBmYLg",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY56sErGv_E88BfBmpEO",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 62,
+                        "endOffset": 66
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/ArrayTrackerTest.java": {
+                "ncloc": "21",
+                "complexity": "3"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/BitMapTrackerTest.java": {
+                "ncloc": "20",
+                "complexity": "1"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java": {
+                "ncloc": "5",
+                "complexity": "0"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java": {
+                "ncloc": "58",
+                "complexity": "13"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java": {
+                "ncloc": "61",
+                "complexity": "13"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java": {
+                "ncloc": "89",
+                "complexity": "22"
+            }
+        }
+    },
+    {
+        "commit_sha": "57b5be9cce8a30aba1d653e3627c1730a7fdb776",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY56sErUv_E88BfBmpEP",
+                    "rule": "java:S1128",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 7,
+                        "endOffset": 38
+                    }
+                },
+                {
+                    "key": "AY56rLMDv_E88BfBmYLf",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 66,
+                        "endOffset": 70
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCX",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "CLOSED",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCZ",
+                    "rule": "java:S3011",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "CLOSED",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 100,
+                        "endLine": 100,
+                        "startOffset": 8,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY56rLDWv_E88BfBmYCW",
+                    "rule": "java:S2293",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+                    "status": "OPEN",
+                    "debt": "1min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 43,
+                        "endLine": 43,
+                        "startOffset": 46,
+                        "endOffset": 55
+                    }
+                },
+                {
+                    "key": "AY56rLMIv_E88BfBmYLg",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 19,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY56sErGv_E88BfBmpEO",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 75,
+                        "endLine": 75,
+                        "startOffset": 62,
+                        "endOffset": 66
+                    }
+                }
+            ],
+            "total": 7
+        },
+        "metrics": {
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/ArrayTrackerTest.java": {
+                "ncloc": "21",
+                "complexity": "3"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/BitMapTrackerTest.java": {
+                "ncloc": "20",
+                "complexity": "1"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java": {
+                "ncloc": "5",
+                "complexity": "0"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java": {
+                "ncloc": "58",
+                "complexity": "13"
+            },
+            "commons-collections-317:src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java": {
+                "ncloc": "58",
+                "complexity": "13"
+            },
+            "commons-collections-317:src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java": {
+                "ncloc": "89",
+                "complexity": "22"
+            }
+        }
+    }
+]

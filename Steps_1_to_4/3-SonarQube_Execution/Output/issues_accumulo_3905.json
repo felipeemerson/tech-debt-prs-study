@@ -1,0 +1,1493 @@
+[
+    {
+        "commit_sha": "e6cbdb4418d50e6c3c99e166a0390e483401fded",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVH",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVI",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 66,
+                        "endLine": 66,
+                        "startOffset": 17,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVJ",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVK",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUl",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 10,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 73,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUm",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 46,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUn",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 17,
+                        "endOffset": 26
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java": {
+                "ncloc": "94",
+                "complexity": "11"
+            },
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java": {
+                "ncloc": "420",
+                "complexity": "65"
+            }
+        }
+    },
+    {
+        "commit_sha": "3df2c3596ace565348152b4b6009d0a2798abf67",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxM",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 42,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxN",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 35,
+                        "endOffset": 91
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxO",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxP",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 494,
+                        "endLine": 494,
+                        "startOffset": 30,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxQ",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 514,
+                        "endLine": 514,
+                        "startOffset": 8,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVI",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 66,
+                        "endLine": 66,
+                        "startOffset": 17,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVH",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVJ",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 313,
+                        "endLine": 313,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVK",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 313,
+                        "endLine": 313,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUl",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 71,
+                        "endLine": 71,
+                        "startOffset": 10,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 73,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUm",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 46,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUn",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 109,
+                        "endLine": 109,
+                        "startOffset": 17,
+                        "endOffset": 26
+                    }
+                }
+            ],
+            "total": 13
+        },
+        "metrics": {
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java": {
+                "ncloc": "94",
+                "complexity": "11"
+            },
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java": {
+                "ncloc": "441",
+                "complexity": "67"
+            }
+        }
+    },
+    {
+        "commit_sha": "f8fb6c883b9cab62880a5ad3889f5cd0003ff7b3",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Zn8W3Hj6MWAoV00CS",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxM",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 42,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxN",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 35,
+                        "endOffset": 91
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxO",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxP",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 494,
+                        "endLine": 494,
+                        "startOffset": 30,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxQ",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 514,
+                        "endLine": 514,
+                        "startOffset": 8,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVH",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVI",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 66,
+                        "endLine": 66,
+                        "startOffset": 17,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVJ",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 237,
+                        "endLine": 237,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVK",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 237,
+                        "endLine": 237,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUl",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 10,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 73,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUm",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 46,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUn",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 17,
+                        "endOffset": 26
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java": {
+                "ncloc": "107",
+                "complexity": "12"
+            },
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java": {
+                "ncloc": "425",
+                "complexity": "65"
+            }
+        }
+    },
+    {
+        "commit_sha": "951cca4131aad817227de4ef1dcd4c5e56eb30c4",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Zn8W3Hj6MWAoV00CS",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxM",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 42,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxN",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 35,
+                        "endOffset": 91
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxO",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxP",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 494,
+                        "endLine": 494,
+                        "startOffset": 30,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxQ",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 514,
+                        "endLine": 514,
+                        "startOffset": 8,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVH",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVI",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 67,
+                        "endLine": 67,
+                        "startOffset": 17,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVJ",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVK",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUl",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 10,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 73,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUm",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 46,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUn",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 17,
+                        "endOffset": 26
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java": {
+                "ncloc": "107",
+                "complexity": "12"
+            },
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java": {
+                "ncloc": "421",
+                "complexity": "65"
+            }
+        }
+    },
+    {
+        "commit_sha": "759dc5b1d5fe82278307a5231be192784f2ea5e5",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Zn8W3Hj6MWAoV00CS",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxM",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 42,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxN",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 35,
+                        "endOffset": 91
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxO",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxP",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 494,
+                        "endLine": 494,
+                        "startOffset": 30,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxQ",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 514,
+                        "endLine": 514,
+                        "startOffset": 8,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVH",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVI",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 67,
+                        "endLine": 67,
+                        "startOffset": 17,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVJ",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVK",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUl",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 10,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 73,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUm",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 46,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUn",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 17,
+                        "endOffset": 26
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java": {
+                "ncloc": "106",
+                "complexity": "12"
+            },
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java": {
+                "ncloc": "421",
+                "complexity": "65"
+            }
+        }
+    },
+    {
+        "commit_sha": "4607d082a45b43020365a323671753e74b21ea02",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Zn8W3Hj6MWAoV00CS",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxM",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 42,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxN",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 35,
+                        "endOffset": 91
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxO",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxP",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 494,
+                        "endLine": 494,
+                        "startOffset": 30,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxQ",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 514,
+                        "endLine": 514,
+                        "startOffset": 8,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVH",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVI",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 67,
+                        "endLine": 67,
+                        "startOffset": 17,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVJ",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVK",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUl",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 10,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 73,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUm",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 46,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUn",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 17,
+                        "endOffset": 26
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java": {
+                "ncloc": "106",
+                "complexity": "12"
+            },
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java": {
+                "ncloc": "421",
+                "complexity": "65"
+            }
+        }
+    },
+    {
+        "commit_sha": "26c77ea6e9e825780e2ada5748a14ed5717e7214",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Zn8W3Hj6MWAoV00CS",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxM",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 42,
+                        "endOffset": 53
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxN",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 176,
+                        "endLine": 176,
+                        "startOffset": 35,
+                        "endOffset": 91
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxO",
+                    "rule": "java:S1481",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 177,
+                        "endLine": 177,
+                        "startOffset": 18,
+                        "endOffset": 36
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxP",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 494,
+                        "endLine": 494,
+                        "startOffset": 30,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY5ZlgWhHj6MWAoV0XxQ",
+                    "rule": "java:S1872",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 514,
+                        "endLine": 514,
+                        "startOffset": 8,
+                        "endOffset": 64
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVH",
+                    "rule": "java:S1659",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVI",
+                    "rule": "java:S1450",
+                    "severity": "MINOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 67,
+                        "endLine": 67,
+                        "startOffset": 17,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVJ",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis15Hj6MWAoV0BVK",
+                    "rule": "java:S1123",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 236,
+                        "endLine": 236,
+                        "startOffset": 68,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUl",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 85,
+                        "endLine": 85,
+                        "startOffset": 10,
+                        "endOffset": 89
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUk",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 73,
+                        "endOffset": 82
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUm",
+                    "rule": "java:S1172",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 46,
+                        "endOffset": 48
+                    }
+                },
+                {
+                    "key": "AY5Zis1PHj6MWAoV0BUn",
+                    "rule": "java:S3252",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 121,
+                        "endLine": 121,
+                        "startOffset": 17,
+                        "endOffset": 26
+                    }
+                }
+            ],
+            "total": 14
+        },
+        "metrics": {
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/GrepCommand.java": {
+                "ncloc": "105",
+                "complexity": "12"
+            },
+            "accumulo-3905:shell/src/main/java/org/apache/accumulo/shell/commands/ScanCommand.java": {
+                "ncloc": "421",
+                "complexity": "65"
+            }
+        }
+    }
+]

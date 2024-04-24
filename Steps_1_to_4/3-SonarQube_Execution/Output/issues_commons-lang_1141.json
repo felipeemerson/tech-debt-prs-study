@@ -1,0 +1,281 @@
+[
+    {
+        "commit_sha": "c52fec6932b9f595e0a5ad22c18f561c228291a4",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52GUsgNC2_bWIEzVyZ",
+                    "rule": "java:S2440",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 26,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY52GUsgNC2_bWIEzVyX",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 231,
+                        "endLine": 231,
+                        "startOffset": 43,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY52GUsgNC2_bWIEzVyY",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 301,
+                        "endLine": 306,
+                        "startOffset": 40,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY52GUcRNC2_bWIEzVKj",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-1141:src/main/java/org/apache/commons/lang3/SerializationUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 11,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY52GUcRNC2_bWIEzVKk",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-1141:src/main/java/org/apache/commons/lang3/SerializationUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 11,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "commons-lang-1141:src/main/java/org/apache/commons/lang3/SerializationUtils.java": {
+                "ncloc": "101",
+                "complexity": "11"
+            },
+            "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java": {
+                "ncloc": "286",
+                "complexity": "42"
+            }
+        }
+    },
+    {
+        "commit_sha": "4a983a85c9bae22b1ea8aa6e73e1ff2874a9b230",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52GUsgNC2_bWIEzVyZ",
+                    "rule": "java:S2440",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 103,
+                        "endLine": 103,
+                        "startOffset": 26,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY52GUsgNC2_bWIEzVyX",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 232,
+                        "endLine": 232,
+                        "startOffset": 43,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY52GUsgNC2_bWIEzVyY",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 302,
+                        "endLine": 307,
+                        "startOffset": 40,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY52GUcRNC2_bWIEzVKj",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-1141:src/main/java/org/apache/commons/lang3/SerializationUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 11,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY52GUcRNC2_bWIEzVKk",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-1141:src/main/java/org/apache/commons/lang3/SerializationUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 11,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "commons-lang-1141:src/main/java/org/apache/commons/lang3/SerializationUtils.java": {
+                "ncloc": "101",
+                "complexity": "11"
+            },
+            "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java": {
+                "ncloc": "295",
+                "complexity": "44"
+            }
+        }
+    },
+    {
+        "commit_sha": "a46df1d5574210cc96152938ad30683c86b7d662",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52GUsgNC2_bWIEzVyZ",
+                    "rule": "java:S2440",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 102,
+                        "endLine": 102,
+                        "startOffset": 26,
+                        "endOffset": 44
+                    }
+                },
+                {
+                    "key": "AY52GUsgNC2_bWIEzVyX",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 231,
+                        "endLine": 231,
+                        "startOffset": 43,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY52GUsgNC2_bWIEzVyY",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 301,
+                        "endLine": 306,
+                        "startOffset": 40,
+                        "endOffset": 9
+                    }
+                },
+                {
+                    "key": "AY52GUcRNC2_bWIEzVKj",
+                    "rule": "java:S1186",
+                    "severity": "CRITICAL",
+                    "component": "commons-lang-1141:src/main/java/org/apache/commons/lang3/SerializationUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 11,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY52GUcRNC2_bWIEzVKk",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-1141:src/main/java/org/apache/commons/lang3/SerializationUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 278,
+                        "endLine": 278,
+                        "startOffset": 11,
+                        "endOffset": 29
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "commons-lang-1141:src/main/java/org/apache/commons/lang3/SerializationUtils.java": {
+                "ncloc": "101",
+                "complexity": "11"
+            },
+            "commons-lang-1141:src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java": {
+                "ncloc": "294",
+                "complexity": "44"
+            }
+        }
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "commit_sha": "ecaf48a8ba34009b753931e940779d5f4c203fbe",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5NBb1GFhtk00z4Mbd2",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2828:server/monitor/src/test/java/org/apache/accumulo/monitor/it/WebViewsIT.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 42,
+                        "endOffset": 68
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "accumulo-2828:server/monitor/src/test/java/org/apache/accumulo/monitor/it/WebViewsIT.java": {
+                "ncloc": "110",
+                "complexity": "11"
+            }
+        }
+    },
+    {
+        "commit_sha": "a2f9a3385486fcf113ea457b645554c8dfe5377e",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5NBb1GFhtk00z4Mbd2",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2828:server/monitor/src/test/java/org/apache/accumulo/monitor/it/WebViewsIT.java",
+                    "status": "CLOSED",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 114,
+                        "endLine": 114,
+                        "startOffset": 42,
+                        "endOffset": 68
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "accumulo-2828:server/monitor/src/test/java/org/apache/accumulo/monitor/it/WebViewsIT.java": {
+                "ncloc": "103",
+                "complexity": "10"
+            }
+        }
+    }
+]

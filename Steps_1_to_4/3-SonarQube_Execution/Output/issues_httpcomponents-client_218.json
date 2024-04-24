@@ -1,0 +1,98 @@
+[
+    {
+        "commit_sha": "b74e5202f02d57e7ba293a16376b78aedf30b0e2",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DCfC-ygGTmJJJmJsC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-218:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/MinimalHttpAsyncClient.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 245,
+                        "endLine": 245,
+                        "startOffset": 23,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5DCfC-ygGTmJJJmJsB",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-218:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/MinimalHttpAsyncClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 375,
+                        "endLine": 375,
+                        "startOffset": 48,
+                        "endOffset": 50
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-218:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/MinimalH2AsyncClient.java": {
+                "ncloc": "208",
+                "complexity": "23"
+            },
+            "httpcomponents-client-218:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/MinimalHttpAsyncClient.java": {
+                "ncloc": "395",
+                "complexity": "59"
+            }
+        }
+    },
+    {
+        "commit_sha": "a56ef4aaa2feb1c7d8875241428f0c4345dd9297",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5DCfC-ygGTmJJJmJsC",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-218:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/MinimalHttpAsyncClient.java",
+                    "status": "OPEN",
+                    "debt": "31min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 245,
+                        "endLine": 245,
+                        "startOffset": 23,
+                        "endOffset": 30
+                    }
+                },
+                {
+                    "key": "AY5DCfC-ygGTmJJJmJsB",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-218:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/MinimalHttpAsyncClient.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 375,
+                        "endLine": 375,
+                        "startOffset": 48,
+                        "endOffset": 50
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "httpcomponents-client-218:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/MinimalH2AsyncClient.java": {
+                "ncloc": "208",
+                "complexity": "24"
+            },
+            "httpcomponents-client-218:httpclient5/src/main/java/org/apache/hc/client5/http/impl/async/MinimalHttpAsyncClient.java": {
+                "ncloc": "395",
+                "complexity": "60"
+            }
+        }
+    }
+]

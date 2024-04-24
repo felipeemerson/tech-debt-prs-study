@@ -1,0 +1,529 @@
+[
+    {
+        "commit_sha": "6fde608cb0dd5866c6330f3e3dcd04f791c4ef96",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy7",
+                    "rule": "java:S2864",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 181,
+                        "endLine": 181,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy8",
+                    "rule": "java:S2864",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 196,
+                        "endLine": 196,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy9",
+                    "rule": "java:S1144",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 17,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy5",
+                    "rule": "java:S127",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 273,
+                        "endLine": 273,
+                        "startOffset": 6,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy6",
+                    "rule": "java:S3518",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 319,
+                        "endLine": 319,
+                        "startOffset": 34,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uyx",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 48,
+                        "endLine": 48,
+                        "startOffset": 8,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uyz",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "12min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 50,
+                        "endLine": 50,
+                        "startOffset": 8,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uy0",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 113,
+                        "endLine": 113,
+                        "startOffset": 74,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uyy",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 28,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 9
+        },
+        "metrics": {
+            "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java": {
+                "ncloc": "185",
+                "complexity": "34"
+            },
+            "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java": {
+                "ncloc": "182",
+                "complexity": "7"
+            }
+        }
+    },
+    {
+        "commit_sha": "1b0d12fa0215fe366fcec171ff78d35e1d00755a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53zp6x1603RBiQ9C6L",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 358,
+                        "endLine": 358,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy9",
+                    "rule": "java:S1144",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 17,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy7",
+                    "rule": "java:S2864",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 219,
+                        "endLine": 219,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy8",
+                    "rule": "java:S2864",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 234,
+                        "endLine": 234,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy5",
+                    "rule": "java:S127",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 289,
+                        "endLine": 289,
+                        "startOffset": 6,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy6",
+                    "rule": "java:S3518",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 335,
+                        "endLine": 335,
+                        "startOffset": 34,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY53zp6s1603RBiQ9C6K",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 15,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uyx",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 8,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uyz",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 8,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uy0",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 153,
+                        "endLine": 153,
+                        "startOffset": 74,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uyy",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 28,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 11
+        },
+        "metrics": {
+            "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerConfig.java": {
+                "ncloc": "11",
+                "complexity": "2"
+            },
+            "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java": {
+                "ncloc": "203",
+                "complexity": "35"
+            },
+            "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java": {
+                "ncloc": "211",
+                "complexity": "8"
+            }
+        }
+    },
+    {
+        "commit_sha": "4991f8164467a6e6567c833b6de2a38a8bdccc1a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY53zp6x1603RBiQ9C6L",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 358,
+                        "endLine": 358,
+                        "startOffset": 31,
+                        "endOffset": 41
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy9",
+                    "rule": "java:S1144",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 225,
+                        "endLine": 225,
+                        "startOffset": 17,
+                        "endOffset": 28
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy7",
+                    "rule": "java:S2864",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 219,
+                        "endLine": 219,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy8",
+                    "rule": "java:S2864",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 234,
+                        "endLine": 234,
+                        "startOffset": 4,
+                        "endOffset": 7
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy5",
+                    "rule": "java:S127",
+                    "severity": "MAJOR",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 289,
+                        "endLine": 289,
+                        "startOffset": 6,
+                        "endOffset": 11
+                    }
+                },
+                {
+                    "key": "AY53zHUJ1603RBiQ8uy6",
+                    "rule": "java:S3518",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 335,
+                        "endLine": 335,
+                        "startOffset": 34,
+                        "endOffset": 37
+                    }
+                },
+                {
+                    "key": "AY53zp6s1603RBiQ9C6K",
+                    "rule": "java:S1170",
+                    "severity": "MINOR",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 44,
+                        "endLine": 44,
+                        "startOffset": 15,
+                        "endOffset": 19
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uyx",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 8,
+                        "endOffset": 75
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uyz",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "14min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 8,
+                        "endOffset": 76
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uy0",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 153,
+                        "endLine": 153,
+                        "startOffset": 74,
+                        "endOffset": 86
+                    }
+                },
+                {
+                    "key": "AY53zHUD1603RBiQ8uyy",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 167,
+                        "endLine": 167,
+                        "startOffset": 28,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 11
+        },
+        "metrics": {
+            "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerConfig.java": {
+                "ncloc": "12",
+                "complexity": "2"
+            },
+            "opennlp-553:opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java": {
+                "ncloc": "203",
+                "complexity": "35"
+            },
+            "opennlp-553:opennlp-dl/src/test/java/opennlp/dl/doccat/DocumentCategorizerDLEval.java": {
+                "ncloc": "211",
+                "complexity": "8"
+            }
+        }
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "commit_sha": "738d27952f3c9fe89d6c2161e7ae8d6145e44bbb",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ypOhT6Lzl_DrPR13f",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "struts-620:core/src/main/java/com/opensymphony/xwork2/util/NamedVariablePatternMatcher.java",
+                    "status": "OPEN",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 27,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "struts-620:core/src/main/java/com/opensymphony/xwork2/util/NamedVariablePatternMatcher.java": {
+                "ncloc": "64",
+                "complexity": "18"
+            },
+            "struts-620:core/src/test/java/com/opensymphony/xwork2/util/NamedVariablePatternMatcherTest.java": {
+                "ncloc": "46",
+                "complexity": "4"
+            }
+        }
+    },
+    {
+        "commit_sha": "993c4c4cab21ace8970d094da03291b21547ab83",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5ypOhT6Lzl_DrPR13f",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "struts-620:core/src/main/java/com/opensymphony/xwork2/util/NamedVariablePatternMatcher.java",
+                    "status": "CLOSED",
+                    "debt": "6min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 27,
+                        "endOffset": 41
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "struts-620:core/src/main/java/com/opensymphony/xwork2/util/NamedVariablePatternMatcher.java": {
+                "ncloc": "73",
+                "complexity": "19"
+            },
+            "struts-620:core/src/test/java/com/opensymphony/xwork2/util/NamedVariablePatternMatcherTest.java": {
+                "ncloc": "58",
+                "complexity": "6"
+            }
+        }
+    }
+]

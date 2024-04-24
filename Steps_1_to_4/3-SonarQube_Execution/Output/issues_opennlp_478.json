@@ -1,0 +1,104 @@
+[
+    {
+        "commit_sha": "04028e9551f8e7c86710bc67ba7e55065d26187c",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY54be9r1603RBiQT_GE",
+                    "rule": "java:S3012",
+                    "severity": "MINOR",
+                    "component": "opennlp-478:opennlp-tools/src/main/java/opennlp/tools/util/wordvector/FloatArrayVector.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 6,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "opennlp-478:opennlp-tools/src/main/java/opennlp/tools/util/wordvector/DoubleArrayVector.java": {
+                "ncloc": "37",
+                "complexity": "8"
+            },
+            "opennlp-478:opennlp-tools/src/main/java/opennlp/tools/util/wordvector/FloatArrayVector.java": {
+                "ncloc": "37",
+                "complexity": "8"
+            },
+            "opennlp-478:opennlp-tools/src/main/java/opennlp/tools/util/wordvector/Glove.java": {
+                "ncloc": "39",
+                "complexity": "6"
+            },
+            "opennlp-478:opennlp-tools/src/main/java/opennlp/tools/util/wordvector/MapWordVectorTable.java": {
+                "ncloc": "30",
+                "complexity": "6"
+            }
+        }
+    },
+    {
+        "commit_sha": "dedef5c4a2a231260e9bde58609f83c10b64beb6",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY54be9r1603RBiQT_GE",
+                    "rule": "java:S3012",
+                    "severity": "MINOR",
+                    "component": "opennlp-478:opennlp-tools/src/main/java/opennlp/tools/util/wordvector/FloatArrayVector.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 6,
+                        "endOffset": 34
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "opennlp-478:opennlp-tools/src/test/java/opennlp/tools/util/wordvector/AbstractWordVectorTest.java": {
+                "ncloc": "9",
+                "complexity": "1"
+            },
+            "opennlp-478:opennlp-tools/src/main/java/opennlp/tools/util/wordvector/DoubleArrayVector.java": {
+                "ncloc": "37",
+                "complexity": "8"
+            },
+            "opennlp-478:opennlp-tools/src/test/java/opennlp/tools/util/wordvector/DoubleArrayVectorTest.java": {
+                "ncloc": "59",
+                "complexity": "10"
+            },
+            "opennlp-478:opennlp-tools/src/main/java/opennlp/tools/util/wordvector/FloatArrayVector.java": {
+                "ncloc": "37",
+                "complexity": "8"
+            },
+            "opennlp-478:opennlp-tools/src/test/java/opennlp/tools/util/wordvector/FloatArrayVectorTest.java": {
+                "ncloc": "59",
+                "complexity": "10"
+            },
+            "opennlp-478:opennlp-tools/src/main/java/opennlp/tools/util/wordvector/Glove.java": {
+                "ncloc": "39",
+                "complexity": "6"
+            },
+            "opennlp-478:opennlp-tools/src/test/java/opennlp/tools/util/wordvector/GloveTest.java": {
+                "ncloc": "33",
+                "complexity": "4"
+            },
+            "opennlp-478:opennlp-tools/src/main/java/opennlp/tools/util/wordvector/MapWordVectorTable.java": {
+                "ncloc": "30",
+                "complexity": "6"
+            },
+            "opennlp-478:opennlp-tools/src/test/java/opennlp/tools/util/wordvector/MapWordVectorTableTest.java": {
+                "ncloc": "63",
+                "complexity": "9"
+            }
+        }
+    }
+]

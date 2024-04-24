@@ -1,0 +1,52 @@
+[
+    {
+        "commit_sha": "87a028621f8c20704cdb50bff8f03bd17f9e2917",
+        "issues": {
+            "issues": [],
+            "total": 0
+        },
+        "metrics": {
+            "commons-collections-256:src/main/java/org/apache/commons/collections4/properties/SortedProperties.java": {
+                "ncloc": "21",
+                "complexity": "2"
+            },
+            "commons-collections-256:src/test/java/org/apache/commons/collections4/properties/SortedPropertiesTest.java": {
+                "ncloc": "17",
+                "complexity": "3"
+            }
+        }
+    },
+    {
+        "commit_sha": "3cff5a0aaba6eca43597af4394c17190c4b47b3d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5619urv_E88BfBpoVn",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "commons-collections-256:src/test/java/org/apache/commons/collections4/properties/SortedPropertiesTest.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 35,
+                        "endLine": 35,
+                        "startOffset": 53,
+                        "endOffset": 60
+                    }
+                }
+            ],
+            "total": 1
+        },
+        "metrics": {
+            "commons-collections-256:src/main/java/org/apache/commons/collections4/properties/SortedProperties.java": {
+                "ncloc": "34",
+                "complexity": "4"
+            },
+            "commons-collections-256:src/test/java/org/apache/commons/collections4/properties/SortedPropertiesTest.java": {
+                "ncloc": "34",
+                "complexity": "6"
+            }
+        }
+    }
+]

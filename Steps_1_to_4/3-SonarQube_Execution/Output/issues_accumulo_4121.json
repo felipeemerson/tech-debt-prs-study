@@ -1,0 +1,416 @@
+[
+    {
+        "commit_sha": "8960452814b161ce409908372a98c641040b02ba",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5N2MtMAESW5py-5vG5",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/accumulo/AccumuloStore.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 55,
+                        "endLine": 55,
+                        "startOffset": 27,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5N2MtMAESW5py-5vG6",
+                    "rule": "java:S2737",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/accumulo/AccumuloStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIJ",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIF",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "21min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 130,
+                        "endLine": 130,
+                        "startOffset": 24,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIH",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 156,
+                        "endLine": 156,
+                        "startOffset": 10,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vII",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 212,
+                        "endLine": 212,
+                        "startOffset": 29,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIE",
+                    "rule": "java:S4977",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 216,
+                        "endLine": 216,
+                        "startOffset": 51,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java": {
+                "ncloc": "245",
+                "complexity": "52"
+            },
+            "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/accumulo/AccumuloStore.java": {
+                "ncloc": "223",
+                "complexity": "46"
+            }
+        }
+    },
+    {
+        "commit_sha": "5dc6654e3e2acdd867266a10f9db30e1faf6a46a",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5N2MtMAESW5py-5vG6",
+                    "rule": "java:S2737",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/accumulo/AccumuloStore.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5N2MtMAESW5py-5vG5",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/accumulo/AccumuloStore.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 27,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIH",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 156,
+                        "endLine": 156,
+                        "startOffset": 10,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIJ",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIF",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 126,
+                        "endLine": 126,
+                        "startOffset": 24,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vII",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 204,
+                        "endLine": 204,
+                        "startOffset": 29,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIE",
+                    "rule": "java:S4977",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 208,
+                        "endLine": 208,
+                        "startOffset": 51,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java": {
+                "ncloc": "239",
+                "complexity": "51"
+            },
+            "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/accumulo/AccumuloStore.java": {
+                "ncloc": "216",
+                "complexity": "46"
+            }
+        }
+    },
+    {
+        "commit_sha": "23c158c23c96895112a6b8c3141c2015b56bba74",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5N2MtMAESW5py-5vG6",
+                    "rule": "java:S2737",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/accumulo/AccumuloStore.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 8,
+                        "endOffset": 18
+                    }
+                },
+                {
+                    "key": "AY5N2MtMAESW5py-5vG5",
+                    "rule": "java:S115",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/accumulo/AccumuloStore.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 54,
+                        "endLine": 54,
+                        "startOffset": 27,
+                        "endOffset": 35
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIH",
+                    "rule": "java:S1126",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "CLOSED",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 156,
+                        "endLine": 156,
+                        "startOffset": 10,
+                        "endOffset": 12
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIJ",
+                    "rule": "java:S1068",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 52,
+                        "endLine": 52,
+                        "startOffset": 30,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIF",
+                    "rule": "java:S5993",
+                    "severity": "MAJOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 63,
+                        "endLine": 63,
+                        "startOffset": 2,
+                        "endOffset": 8
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIG",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "18min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 24,
+                        "endOffset": 32
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vII",
+                    "rule": "java:S100",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 205,
+                        "endLine": 205,
+                        "startOffset": 29,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY5N2MuOAESW5py-5vIE",
+                    "rule": "java:S4977",
+                    "severity": "MINOR",
+                    "component": "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 209,
+                        "endLine": 209,
+                        "startOffset": 51,
+                        "endOffset": 52
+                    }
+                }
+            ],
+            "total": 8
+        },
+        "metrics": {
+            "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/AbstractFateStore.java": {
+                "ncloc": "239",
+                "complexity": "51"
+            },
+            "accumulo-4121:core/src/main/java/org/apache/accumulo/core/fate/accumulo/AccumuloStore.java": {
+                "ncloc": "216",
+                "complexity": "46"
+            }
+        }
+    }
+]

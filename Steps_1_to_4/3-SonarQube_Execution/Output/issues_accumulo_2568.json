@@ -1,0 +1,203 @@
+[
+    {
+        "commit_sha": "ccc0a7a815394fb958f09e143e02b194de2eadc4",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Z8xF2JWnNUe1V74uS",
+                    "rule": "java:S5803",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2568:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 37,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5Z8xF2JWnNUe1V74uR",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2568:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 21,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5Z8xfNJWnNUe1V75UY",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-2568:core/src/main/java/org/apache/accumulo/core/clientImpl/ScannerImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5Z8xfNJWnNUe1V75UZ",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2568:core/src/main/java/org/apache/accumulo/core/clientImpl/ScannerImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 13,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5Z8xfNJWnNUe1V75Ua",
+                    "rule": "java:S2201",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2568:core/src/main/java/org/apache/accumulo/core/clientImpl/ScannerImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "accumulo-2568:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java": {
+                "ncloc": "100",
+                "complexity": "17"
+            },
+            "accumulo-2568:core/src/main/java/org/apache/accumulo/core/clientImpl/ScannerImpl.java": {
+                "ncloc": "128",
+                "complexity": "21"
+            }
+        }
+    },
+    {
+        "commit_sha": "bef0e55a24f5e5c38fd4cb77a874903cc9aead4b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5Z-a8PJWnNUe1V8S5X",
+                    "rule": "java:S4087",
+                    "severity": "MINOR",
+                    "component": "accumulo-2568:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "2min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 116,
+                        "endLine": 116,
+                        "startOffset": 14,
+                        "endOffset": 21
+                    }
+                },
+                {
+                    "key": "AY5Z8xF2JWnNUe1V74uS",
+                    "rule": "java:S5803",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-2568:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 77,
+                        "endLine": 77,
+                        "startOffset": 37,
+                        "endOffset": 56
+                    }
+                },
+                {
+                    "key": "AY5Z8xF2JWnNUe1V74uR",
+                    "rule": "java:S2095",
+                    "severity": "BLOCKER",
+                    "component": "accumulo-2568:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 88,
+                        "endLine": 88,
+                        "startOffset": 21,
+                        "endOffset": 79
+                    }
+                },
+                {
+                    "key": "AY5Z8xfNJWnNUe1V75UY",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-2568:core/src/main/java/org/apache/accumulo/core/clientImpl/ScannerImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY5Z8xfNJWnNUe1V75UZ",
+                    "rule": "java:S2388",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2568:core/src/main/java/org/apache/accumulo/core/clientImpl/ScannerImpl.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 13,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY5Z8xfNJWnNUe1V75Ua",
+                    "rule": "java:S2201",
+                    "severity": "MAJOR",
+                    "component": "accumulo-2568:core/src/main/java/org/apache/accumulo/core/clientImpl/ScannerImpl.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 94,
+                        "endLine": 94,
+                        "startOffset": 14,
+                        "endOffset": 17
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-2568:test/src/main/java/org/apache/accumulo/test/functional/CleanUpIT.java": {
+                "ncloc": "101",
+                "complexity": "17"
+            },
+            "accumulo-2568:core/src/main/java/org/apache/accumulo/core/clientImpl/ScannerImpl.java": {
+                "ncloc": "128",
+                "complexity": "21"
+            }
+        }
+    }
+]

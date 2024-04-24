@@ -1,0 +1,338 @@
+[
+    {
+        "commit_sha": "ef68684cb3d49888a0b8a7c94699afb9c56f63d3",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52pMHFNC2_bWIE5kmE",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY52pMHFNC2_bWIE5kmF",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 168,
+                        "endLine": 168,
+                        "startOffset": 66,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY52pMHFNC2_bWIE5kmG",
+                    "rule": "java:S2326",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 358,
+                        "endLine": 358,
+                        "startOffset": 16,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY52pMHFNC2_bWIE5kmH",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 724,
+                        "endLine": 724,
+                        "startOffset": 40,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY52pMHFNC2_bWIE5kmI",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 769,
+                        "endLine": 769,
+                        "startOffset": 40,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY52pMHtNC2_bWIE5kpF",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 12,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY52pMHtNC2_bWIE5kpG",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 0,
+                        "endOffset": 72
+                    }
+                },
+                {
+                    "key": "AY52pMHtNC2_bWIE5kpH",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 31,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY52pMHtNC2_bWIE5kpI",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 17,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY52pMHtNC2_bWIE5kpJ",
+                    "rule": "java:S3011",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 16,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java": {
+                "ncloc": "170",
+                "complexity": "57"
+            },
+            "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java": {
+                "ncloc": "178",
+                "complexity": "45"
+            }
+        }
+    },
+    {
+        "commit_sha": "ae738d4ae998aac4d8dd799bde55d3d918dcdb68",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY52pMHFNC2_bWIE5kmF",
+                    "rule": "java:S1125",
+                    "severity": "MINOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 168,
+                        "endLine": 168,
+                        "startOffset": 66,
+                        "endOffset": 71
+                    }
+                },
+                {
+                    "key": "AY52pMHFNC2_bWIE5kmE",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 82,
+                        "endLine": 82,
+                        "startOffset": 13,
+                        "endOffset": 20
+                    }
+                },
+                {
+                    "key": "AY52pMHFNC2_bWIE5kmG",
+                    "rule": "java:S2326",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 358,
+                        "endLine": 358,
+                        "startOffset": 16,
+                        "endOffset": 17
+                    }
+                },
+                {
+                    "key": "AY52pMHFNC2_bWIE5kmH",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 724,
+                        "endLine": 724,
+                        "startOffset": 40,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY52pMHFNC2_bWIE5kmI",
+                    "rule": "java:S1133",
+                    "severity": "INFO",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 769,
+                        "endLine": 769,
+                        "startOffset": 40,
+                        "endOffset": 46
+                    }
+                },
+                {
+                    "key": "AY52pMHtNC2_bWIE5kpF",
+                    "rule": "java:S1118",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 33,
+                        "endLine": 33,
+                        "startOffset": 12,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY52pMHtNC2_bWIE5kpG",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 34,
+                        "endLine": 34,
+                        "startOffset": 0,
+                        "endOffset": 72
+                    }
+                },
+                {
+                    "key": "AY52pMHtNC2_bWIE5kpH",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 56,
+                        "endLine": 56,
+                        "startOffset": 31,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY52pMHtNC2_bWIE5kpI",
+                    "rule": "java:S1874",
+                    "severity": "MINOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+                    "status": "OPEN",
+                    "debt": "15min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 17,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY52pMHtNC2_bWIE5kpJ",
+                    "rule": "java:S3011",
+                    "severity": "MAJOR",
+                    "component": "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+                    "status": "OPEN",
+                    "debt": "30min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 62,
+                        "endLine": 62,
+                        "startOffset": 16,
+                        "endOffset": 39
+                    }
+                }
+            ],
+            "total": 10
+        },
+        "metrics": {
+            "commons-lang-941:src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java": {
+                "ncloc": "170",
+                "complexity": "56"
+            },
+            "commons-lang-941:src/main/java/org/apache/commons/lang3/stream/Streams.java": {
+                "ncloc": "178",
+                "complexity": "45"
+            }
+        }
+    }
+]

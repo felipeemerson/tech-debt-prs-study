@@ -1,0 +1,434 @@
+[
+    {
+        "commit_sha": "d46d21495175359c6d27bac93b16c5dc5fd1bd85",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVg",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVd",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVe",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 51,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVh",
+                    "rule": "java:S3958",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 10,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVf",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVi",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "23min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 137,
+                        "endLine": 137,
+                        "startOffset": 14,
+                        "endOffset": 36
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3025:shell/src/main/java/org/apache/accumulo/shell/commands/CreateNamespaceCommand.java": {
+                "ncloc": "70",
+                "complexity": "11"
+            },
+            "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java": {
+                "ncloc": "200",
+                "complexity": "49"
+            }
+        }
+    },
+    {
+        "commit_sha": "409c4c6a5f52548c662977d32430a88cb81bf634",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVg",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVd",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVe",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 51,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVh",
+                    "rule": "java:S3958",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 10,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVf",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVi",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "23min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 137,
+                        "endLine": 137,
+                        "startOffset": 14,
+                        "endOffset": 36
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3025:shell/src/main/java/org/apache/accumulo/shell/commands/CreateNamespaceCommand.java": {
+                "ncloc": "70",
+                "complexity": "11"
+            },
+            "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java": {
+                "ncloc": "200",
+                "complexity": "49"
+            }
+        }
+    },
+    {
+        "commit_sha": "20e74260f75123dc30cb9dfbfe35004b9b28e60b",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVg",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVd",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 61,
+                        "endLine": 61,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVe",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 51,
+                        "endOffset": 58
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVh",
+                    "rule": "java:S3958",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 10,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVf",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 125,
+                        "endLine": 125,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVi",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "23min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 137,
+                        "endLine": 137,
+                        "startOffset": 14,
+                        "endOffset": 36
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3025:shell/src/main/java/org/apache/accumulo/shell/commands/CreateNamespaceCommand.java": {
+                "ncloc": "70",
+                "complexity": "12"
+            },
+            "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java": {
+                "ncloc": "200",
+                "complexity": "49"
+            }
+        }
+    },
+    {
+        "commit_sha": "393ee7fc01d2cd104a610c8ff9e6f8cdcaa847c1",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVh",
+                    "rule": "java:S3958",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "CLOSED",
+                    "debt": "10min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 10,
+                        "endOffset": 98
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVg",
+                    "rule": "java:S120",
+                    "severity": "MINOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "startOffset": 8,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVd",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 60,
+                        "endLine": 60,
+                        "startOffset": 34,
+                        "endOffset": 43
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVe",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "10min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 64,
+                        "endLine": 64,
+                        "startOffset": 32,
+                        "endOffset": 39
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVf",
+                    "rule": "java:S1066",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 127,
+                        "endLine": 127,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                },
+                {
+                    "key": "AY58-fV9SqFHuiA8HfVi",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java",
+                    "status": "OPEN",
+                    "debt": "23min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 139,
+                        "endLine": 139,
+                        "startOffset": 14,
+                        "endOffset": 36
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "accumulo-3025:shell/src/main/java/org/apache/accumulo/shell/commands/CreateNamespaceCommand.java": {
+                "ncloc": "68",
+                "complexity": "12"
+            },
+            "accumulo-3025:core/src/main/java/org/apache/accumulo/core/clientImpl/NamespaceOperationsHelper.java": {
+                "ncloc": "202",
+                "complexity": "49"
+            }
+        }
+    }
+]

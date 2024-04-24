@@ -1,0 +1,180 @@
+[
+    {
+        "commit_sha": "f6da2bac6fc891db4f7da9af9158068f3dc87e3d",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5C269oygGTmJJJi8-s",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java",
+                    "status": "OPEN",
+                    "debt": "36min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 254,
+                        "endLine": 254,
+                        "startOffset": 24,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5C269oygGTmJJJi8-t",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 266,
+                        "endLine": 266,
+                        "startOffset": 20,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5C269oygGTmJJJi8-r",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 294,
+                        "endLine": 294,
+                        "startOffset": 28,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5C269oygGTmJJJi8-u",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java",
+                    "status": "OPEN",
+                    "debt": "7min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 344,
+                        "endLine": 344,
+                        "startOffset": 16,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5C269oygGTmJJJi8-q",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 345,
+                        "endLine": 345,
+                        "startOffset": 31,
+                        "endOffset": 49
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java": {
+                "ncloc": "480",
+                "complexity": "91"
+            }
+        }
+    },
+    {
+        "commit_sha": "396c7a24c900a861ba6a021d07e860babd2ad811",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5C269oygGTmJJJi8-s",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java",
+                    "status": "OPEN",
+                    "debt": "36min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 254,
+                        "endLine": 254,
+                        "startOffset": 24,
+                        "endOffset": 29
+                    }
+                },
+                {
+                    "key": "AY5C269oygGTmJJJi8-t",
+                    "rule": "java:S3077",
+                    "severity": "MINOR",
+                    "component": "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "BUG",
+                    "textRange": {
+                        "startLine": 266,
+                        "endLine": 266,
+                        "startOffset": 20,
+                        "endOffset": 47
+                    }
+                },
+                {
+                    "key": "AY5C269oygGTmJJJi8-r",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 295,
+                        "endLine": 295,
+                        "startOffset": 28,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5C269oygGTmJJJi8-u",
+                    "rule": "java:S3776",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java",
+                    "status": "OPEN",
+                    "debt": "7min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 345,
+                        "endLine": 345,
+                        "startOffset": 16,
+                        "endOffset": 23
+                    }
+                },
+                {
+                    "key": "AY5C269oygGTmJJJi8-q",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 346,
+                        "endLine": 346,
+                        "startOffset": 31,
+                        "endOffset": 49
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "httpcomponents-client-247:httpclient5/src/main/java/org/apache/hc/client5/http/impl/io/PoolingHttpClientConnectionManager.java": {
+                "ncloc": "482",
+                "complexity": "91"
+            }
+        }
+    }
+]

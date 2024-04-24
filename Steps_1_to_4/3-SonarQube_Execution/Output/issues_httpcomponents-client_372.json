@@ -1,0 +1,143 @@
+[
+    {
+        "commit_sha": "3bd017cb0a772f0c33d22dc1f8fd40012d33dab9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CEilwygGTmJJJQj4W",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-372:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/ResponseEntityProxy.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 133,
+                        "endLine": 133,
+                        "startOffset": 12,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5CEiy-ygGTmJJJQkAo",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-372:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 78,
+                        "endLine": 78,
+                        "startOffset": 32,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5CEiy-ygGTmJJJQkAp",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-372:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 99,
+                        "endLine": 99,
+                        "startOffset": 32,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 3
+        },
+        "metrics": {
+            "httpcomponents-client-372:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/ResponseEntityProxy.java": {
+                "ncloc": "141",
+                "complexity": "27"
+            },
+            "httpcomponents-client-372:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java": {
+                "ncloc": "65",
+                "complexity": "5"
+            }
+        }
+    },
+    {
+        "commit_sha": "57f37e3fbf2681c28fb3fa22b61e41cedd14f5aa",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5CEilwygGTmJJJQj4W",
+                    "rule": "java:S1141",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-372:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/ResponseEntityProxy.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 131,
+                        "endLine": 131,
+                        "startOffset": 12,
+                        "endOffset": 15
+                    }
+                },
+                {
+                    "key": "AY5CEzoLygGTmJJJQqbl",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-372:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 25,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5CEiy-ygGTmJJJQkAo",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-372:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 80,
+                        "endLine": 80,
+                        "startOffset": 32,
+                        "endOffset": 33
+                    }
+                },
+                {
+                    "key": "AY5CEiy-ygGTmJJJQkAp",
+                    "rule": "java:S108",
+                    "severity": "MAJOR",
+                    "component": "httpcomponents-client-372:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 32,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 4
+        },
+        "metrics": {
+            "httpcomponents-client-372:httpclient5/src/main/java/org/apache/hc/client5/http/impl/classic/ResponseEntityProxy.java": {
+                "ncloc": "165",
+                "complexity": "34"
+            },
+            "httpcomponents-client-372:httpclient5/src/test/java/org/apache/hc/client5/http/impl/classic/TestResponseEntityProxy.java": {
+                "ncloc": "87",
+                "complexity": "6"
+            }
+        }
+    }
+]

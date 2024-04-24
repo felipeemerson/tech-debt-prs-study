@@ -1,0 +1,211 @@
+[
+    {
+        "commit_sha": "76d31a7e1f86ac5edfb64ef445a83278abd8f180",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5wqQjJMFOsDCRtFzRY",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/editor/cgen/CustomModeController.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 267,
+                        "endLine": 267,
+                        "startOffset": 16,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5wqQXyMFOsDCRtFzDM",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplateCreator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 59,
+                        "endLine": 59,
+                        "startOffset": 25,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5wqQXyMFOsDCRtFzDL",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplateCreator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 20,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5wqQXyMFOsDCRtFzDK",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplateCreator.java",
+                    "status": "OPEN",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 20,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5wqQl2MFOsDCRtFzXi",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/CodeTemplateManager.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 178,
+                        "endLine": 178,
+                        "startOffset": 0,
+                        "endOffset": 74
+                    }
+                }
+            ],
+            "total": 5
+        },
+        "metrics": {
+            "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/CodeTemplateManager.java": {
+                "ncloc": "179",
+                "complexity": "23"
+            },
+            "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/editor/cgen/CustomModeController.java": {
+                "ncloc": "225",
+                "complexity": "40"
+            },
+            "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplateCreator.java": {
+                "ncloc": "126",
+                "complexity": "17"
+            }
+        }
+    },
+    {
+        "commit_sha": "94cfc16d26619f6bae35bcf57b426abc54be6f8f",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY5wqQjJMFOsDCRtFzRY",
+                    "rule": "java:S1161",
+                    "severity": "MAJOR",
+                    "component": "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/editor/cgen/CustomModeController.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 267,
+                        "endLine": 267,
+                        "startOffset": 16,
+                        "endOffset": 24
+                    }
+                },
+                {
+                    "key": "AY5wqQXyMFOsDCRtFzDK",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplateCreator.java",
+                    "status": "CLOSED",
+                    "debt": "8min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 117,
+                        "endLine": 117,
+                        "startOffset": 20,
+                        "endOffset": 27
+                    }
+                },
+                {
+                    "key": "AY5wqQXyMFOsDCRtFzDL",
+                    "rule": "java:S1604",
+                    "severity": "MAJOR",
+                    "component": "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplateCreator.java",
+                    "status": "CLOSED",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 101,
+                        "endLine": 101,
+                        "startOffset": 20,
+                        "endOffset": 42
+                    }
+                },
+                {
+                    "key": "AY5wqQXyMFOsDCRtFzDM",
+                    "rule": "java:S1117",
+                    "severity": "MAJOR",
+                    "component": "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplateCreator.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 58,
+                        "endLine": 58,
+                        "startOffset": 25,
+                        "endOffset": 31
+                    }
+                },
+                {
+                    "key": "AY5wrOGbMFOsDCRtGd6e",
+                    "rule": "java:S6353",
+                    "severity": "MINOR",
+                    "component": "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/CodeTemplateManager.java",
+                    "status": "OPEN",
+                    "debt": "5min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 228,
+                        "endLine": 228,
+                        "startOffset": 47,
+                        "endOffset": 52
+                    }
+                },
+                {
+                    "key": "AY5wqQl2MFOsDCRtFzXi",
+                    "rule": "java:S1135",
+                    "severity": "INFO",
+                    "component": "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/CodeTemplateManager.java",
+                    "status": "OPEN",
+                    "debt": "0min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 171,
+                        "endLine": 171,
+                        "startOffset": 0,
+                        "endOffset": 74
+                    }
+                }
+            ],
+            "total": 6
+        },
+        "metrics": {
+            "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/CodeTemplateManager.java": {
+                "ncloc": "203",
+                "complexity": "28"
+            },
+            "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/editor/cgen/CustomModeController.java": {
+                "ncloc": "188",
+                "complexity": "27"
+            },
+            "cayenne-497:modeler/cayenne-modeler/src/main/java/org/apache/cayenne/modeler/dialog/pref/TemplateCreator.java": {
+                "ncloc": "119",
+                "complexity": "17"
+            }
+        }
+    }
+]

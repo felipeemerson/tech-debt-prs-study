@@ -1,0 +1,98 @@
+[
+    {
+        "commit_sha": "758191f62e1ced59ba3a7d0b8b7d4bf3e1f130b9",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY51_56kSqFHuiA8_6rY",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3186:test/src/main/java/org/apache/accumulo/test/functional/KerberosRenewalIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 131,
+                        "endLine": 131,
+                        "startOffset": 31,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY51_6GISqFHuiA8_6-h",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3186:test/src/main/java/org/apache/accumulo/test/LargeSplitRowIT.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 26,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-3186:test/src/main/java/org/apache/accumulo/test/functional/KerberosRenewalIT.java": {
+                "ncloc": "132",
+                "complexity": "14"
+            },
+            "accumulo-3186:test/src/main/java/org/apache/accumulo/test/LargeSplitRowIT.java": {
+                "ncloc": "216",
+                "complexity": "20"
+            }
+        }
+    },
+    {
+        "commit_sha": "dd786ce745e5df82dab7a620cec1bffff3204843",
+        "issues": {
+            "issues": [
+                {
+                    "key": "AY51_56kSqFHuiA8_6rY",
+                    "rule": "java:S112",
+                    "severity": "MAJOR",
+                    "component": "accumulo-3186:test/src/main/java/org/apache/accumulo/test/functional/KerberosRenewalIT.java",
+                    "status": "OPEN",
+                    "debt": "20min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 132,
+                        "endLine": 132,
+                        "startOffset": 31,
+                        "endOffset": 40
+                    }
+                },
+                {
+                    "key": "AY51_6GISqFHuiA8_6-h",
+                    "rule": "java:S1192",
+                    "severity": "CRITICAL",
+                    "component": "accumulo-3186:test/src/main/java/org/apache/accumulo/test/LargeSplitRowIT.java",
+                    "status": "OPEN",
+                    "debt": "16min",
+                    "type": "CODE_SMELL",
+                    "textRange": {
+                        "startLine": 90,
+                        "endLine": 90,
+                        "startOffset": 26,
+                        "endOffset": 33
+                    }
+                }
+            ],
+            "total": 2
+        },
+        "metrics": {
+            "accumulo-3186:test/src/main/java/org/apache/accumulo/test/functional/KerberosRenewalIT.java": {
+                "ncloc": "133",
+                "complexity": "14"
+            },
+            "accumulo-3186:test/src/main/java/org/apache/accumulo/test/LargeSplitRowIT.java": {
+                "ncloc": "215",
+                "complexity": "20"
+            }
+        }
+    }
+]
