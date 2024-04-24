@@ -1,1 +1,3 @@
-# tech-debt-prs-study
+# Replication Kit of "How does Technical Debt Evolve within Pull Requests? An Empirical Study with Apache Projects"
+
+All scripts and data from steps 1 to 4 are located in the directory `./Step_1_to_4`. Please refer to the README file in this directory for more details on these steps. Step 5, however, is located in the directory `./Step_5`, and details of this step can be found in the README file in that directory.
