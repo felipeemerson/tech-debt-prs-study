@@ -1,0 +1,279 @@
+---
+- name: Setting up SonarQube environment
+  hosts: all
+  vars:
+    db_password: your_db_password
+    sonar_scanner_version: "4.8.0.2856"
+    sonarqube_version: "10.0.0.68432"
+  become: true
+  tasks:
+    - name: Update APT cache
+      apt:
+        update_cache: yes
+
+    - name: Install python pip
+      apt:
+        name: python3-pip
+        state: present
+
+    - name: Install JAVA JDK 17
+      apt:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - openjdk-17-jdk
+        - openjdk-17-jre
+
+    - name: Install Maven
+      apt:
+        name: maven
+        state: present
+
+    - name: Create a script in /etc/profile.d/ to configure environment variables
+      copy:
+          dest: /etc/profile.d/default_env_vars.sh
+          content: |
+            #!/bin/sh
+            export JAVA_HOME="/usr/lib/jvm/java-1.17.0-openjdk-amd64"
+            export M2_HOME="/usr/share/maven"
+            export SONAR_SCANNER_HOME="/opt/sonar-scanner-cli"
+            export SONAR_SCANNER_OPTS="-Xmx2g -Xms512m"
+            export JAVA_TOOL_OPTIONS="-Xmx2g -Xms512m"
+            export PATH="$PATH:$JAVA_HOME/bin:$M2_HOME/bin:$SONAR_SCANNER_HOME/bin"
+          mode: '0755'
+      become: true
+
+    - name: Define sysctl.conf
+      lineinfile:
+        path: /etc/sysctl.conf
+        line: "{{ item }}"
+      with_items:
+        - "vm.max_map_count=262144"
+        - "fs.file-max=65536"
+
+    - name: Define limits.conf
+      lineinfile:
+        path: /etc/security/limits.conf
+        line: "{{ item }}"
+      with_items:
+        - "sonarqube   -   nofile   65536"
+        - "sonarqube   -   nproc    4096"
+
+    - name: Load the new sysctl configurations
+      command: sysctl -p
+      become: true
+
+    - name: Install PostgreSQL prerequisites
+      become: true
+      apt: name={{ item }} state=latest
+      with_items:
+        - libpq-dev
+        - python3-psycopg2
+      tags:
+        - packages
+
+    - name: Install PostgreSQL
+      apt:
+        name: postgresql
+        state: present
+        update_cache: yes
+
+    - name: Enable PostgreSQL service
+      systemd:
+        name: postgresql
+        enabled: yes
+
+    - name: Setup PostgreSQL
+      block:
+        - name: Determine the path to pg_hba.conf.
+          shell: pg_config --sysconfdir
+          register: pg_config_output
+          changed_when: false
+
+        - name: Configure pg_hba.conf to allow passwordless local connections for the postgres user
+          community.postgresql.postgresql_pg_hba:
+            dest: "{{ pg_config_output.stdout }}/pg_hba.conf"
+            contype: local
+            users: postgres
+            databases: all
+            method: trust
+            create: true
+
+        - name: Set password for the postgres user
+          become: yes
+          become_user: postgres
+          postgresql_user:
+            name: postgres
+            password: ""
+            encrypted: yes
+
+        - name: Create sonar user in PostgreSQL
+          become: yes
+          become_user: postgres
+          postgresql_user:
+            name: sonar
+            password: "{{ db_password }}"
+            encrypted: yes
+            state: present
+
+        - name: Create sonar_db database
+          become: yes
+          become_user: postgres
+          postgresql_db:
+            name: sonar_db
+            owner: sonar
+            encoding: 'UTF8'
+            lc_collate: 'en_US.UTF-8'
+            lc_ctype: 'en_US.UTF-8'
+            template: template0
+
+        - name: Grant privileges to the sonar user on the sonar_db database
+          become: yes
+          become_user: postgres
+          ansible.builtin.command:
+            cmd: psql -c "GRANT ALL PRIVILEGES ON DATABASE sonar_db TO sonar;"
+
+    - name: Create sonar group
+      group:
+        name: sonar
+        state: present
+
+    - name: Create sonar user
+      user:
+        name: sonar
+        group: sonar
+        shell: /bin/bash
+        state: present
+
+    - name: Download SonarQube
+      get_url:
+        url: "https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-{{ sonarqube_version }}.zip"
+        dest: "/tmp/sonarqube-{{ sonarqube_version }}.zip"
+
+    - name: Create directory /opt/sonarqube and extract SonarQube
+      block:
+        - name: Create directory /opt/sonarqube
+          ansible.builtin.file:
+            path: /opt/sonarqube
+            state: directory
+            owner: sonar
+            group: sonar
+            mode: '0755'
+
+        - name: Extract SonarQube
+          ansible.builtin.unarchive:
+            src: "/tmp/sonarqube-{{ sonarqube_version }}.zip"
+            dest: "/opt"
+            remote_src: yes
+            owner: sonar
+            group: sonar
+
+        - name: Move contents of sonarqube-{{ sonarqube_version }} to /opt/sonarqube
+          ansible.builtin.shell:
+            cmd: "mv /opt/sonarqube-{{ sonarqube_version }}/* /opt/sonarqube/"
+          become: yes
+
+        - name: Change group and user to sonar for the files in /opt/sonarqube
+          ansible.builtin.file:
+            path: "/opt/sonarqube"
+            state: directory
+            owner: sonar
+            group: sonar
+            recurse: yes
+          become: yes
+
+        - name: Delete the folder /opt/sonarqube-{{ sonarqube_version }}
+          ansible.builtin.file:
+            path: "/opt/sonarqube-{{ sonarqube_version }}"
+            state: absent
+          become: yes
+
+    - name: Configure SonarQube properties
+      lineinfile:
+        dest: "/opt/sonarqube/conf/sonar.properties"
+        line: "{{ item }}"
+        create: true
+      with_items:
+        - "sonar.jdbc.username=sonar"
+        - "sonar.jdbc.password={{ db_password }}"
+        - "sonar.jdbc.url=jdbc:postgresql://localhost:5432/sonar_db"
+        - "sonar.web.context=/sonarqube"
+      become: true
+      become_user: "{{ lookup('env', 'USER') }}"
+
+    - name: Create systemd service file for SonarQube
+      ansible.builtin.copy:
+        dest: /etc/systemd/system/sonar.service
+        content: |
+          [Unit]
+          Description=SonarQube service
+          After=syslog.target network.target
+
+          [Service]
+          Type=forking
+          ExecStart=/opt/sonarqube/bin/linux-x86-64/sonar.sh start
+          ExecStop=/opt/sonarqube/bin/linux-x86-64/sonar.sh stop
+          User=sonar
+          Group=sonar
+          Restart=always
+          LimitNOFILE=65536
+          LimitNPROC=4096
+
+          [Install]
+          WantedBy=multi-user.target
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: Enable and start the SonarQube service
+      ansible.builtin.systemd:
+        name: sonar.service
+        enabled: true
+        state: started
+        daemon_reload: yes
+
+    - name: Display status of the SonarQube service
+      ansible.builtin.command:
+        cmd: systemctl status sonar.service
+      become: yes
+
+    - name: Check if the file /opt/sonarqube/logs/sonar.log exists
+      ansible.builtin.stat:
+        path: /opt/sonarqube/logs/sonar.log
+      register: log_file_check
+
+    - name: Display SonarQube log
+      ansible.builtin.command:
+        cmd:  tail -f /opt/sonarqube/logs/sonar.log
+      become: yes
+      when: log_file_check.stat.exists
+
+    - name: Download SonarScanner
+      get_url:
+        url: "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-{{ sonar_scanner_version }}-linux.zip"
+        dest: "/tmp/sonar-scanner-cli-{{ sonar_scanner_version }}-linux.zip"
+
+    - name: Create directory /opt/sonar-scanner-cli
+      block:
+        - name: Create directory /opt/sonar-scanner-cli
+          ansible.builtin.file:
+            path: /opt/sonar-scanner-cli
+            state: directory
+            mode: '0755'
+
+        - name: Extract SonarScanner
+          ansible.builtin.unarchive:
+            src: "/tmp/sonar-scanner-cli-{{ sonar_scanner_version }}-linux.zip"
+            dest: "/opt"
+            remote_src: yes
+
+        - name: Move contents of sonar-scanner-{{ sonar_scanner_version }}-linux to /opt/sonar-scanner-cli
+          ansible.builtin.shell:
+            cmd: mv /opt/sonar-scanner-{{ sonar_scanner_version }}-linux/* /opt/sonar-scanner-cli/
+          become: yes
+
+        - name: Delete the folder /opt/sonar-scanner-{{ sonar_scanner_version }}-linux
+          ansible.builtin.file:
+            path: "/opt/sonar-scanner-{{ sonar_scanner_version }}-linux"
+            state: absent
+          become: yes
