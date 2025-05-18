@@ -97,6 +97,8 @@
             users: postgres
             databases: all
             method: trust
+            address: ""
+            netmask: ""
             create: true
 
         - name: Set password for the postgres user
